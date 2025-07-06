@@ -1,5 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
-    <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/SBtT.MiniSystemTest</OutputPath>
+    <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/2walker2.OWJam5</OutputPath>
+	<UnityDllsDir>C:/Users/dwalk/Outer Wilds Modding/OWJam5Root/OWJam5UnityProject/Assets/Dlls</UnityDllsDir>
   </PropertyGroup>
 </Project>
