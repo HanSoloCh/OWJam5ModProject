@@ -8,7 +8,7 @@
     "Props": {
         "details": [
             {
-                "assetBundle": "bundles/_bundle",
+                "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/Orbs/big_door.prefab",
                 "position": {
                     "x": 0,
