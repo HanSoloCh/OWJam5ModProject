@@ -8,8 +8,8 @@
     "Props": {
         "details": [
             {
-                "assetBundle": "planets/assets/_bundle",
-                "path": "Assets/_Bundle/Orbs/NomaiOrbStation.prefab",
+                "assetBundle": "bundles/_bundle",
+                "path": "Assets/_Bundle/Orbs/big_door.prefab",
                 "position": {
                     "x": 0,
                     "y": 0,
