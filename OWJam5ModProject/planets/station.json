@@ -1,0 +1,29 @@
+﻿{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Walker_Jam5_Station",
+    "starSystem": "Jam5",
+    "Base": {
+        "surfaceSize": 150
+    },
+    "Orbit": {
+        "primaryBody": "Walker_Jam5_Star",
+        "staticPosition": {
+            "y": 2200
+        },
+        "isStatic": true
+    },
+    "Props": {
+      "details": [
+        {
+          "assetBundle": "planets/assets/walker_jam5_bundle",
+          "path": "Assets/_Bundle/OrreryStation/OrreryStation.prefab",
+          "keepLoaded": true,
+          "scale": 1.0
+        }
+      ]
+    },
+    "ShipLog": {
+        "xmlFile": "planets/shiplog/WalkerJam5System.xml",
+        "spriteFolder": "planets/shiplog/sprites"
+    }
+}
