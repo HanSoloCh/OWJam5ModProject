@@ -54,19 +54,40 @@ namespace OWJam5ModProject
             InitializeFunnels();
         }
 
-        const string SAND_FUNNEL_NAME = "Walker_Jam5_Planet3Funnel_Body";
+        const string SAND_FUNNEL_PATH = "Walker_Jam5_Planet3Funnel_Body";
+        const string SAND_SOURCE_PATH = "Walker_Jam5_Planet3_Body/Sector/Sand";
+        const string SAND_TARGET_PATH = "Walker_Jam5_Planet2_Body/Sector/Sand";
+        const float SAND_DRAINED_HEIGHT = 149 * 2; // Sand sphere's scale is twice its radius
+        const float SAND_FILLED_HEIGHT = 230 * 2;
+
         const string WATER_FUNNEL_NAME = "Walker_Jam5_Planet4Funnel_Body";
+        const string WATER_SOURCE_PATH = "Walker_Jam5_Planet4_Body/Sector/Water";
+        const string WATER_TARGET_PATH = "Walker_Jam5_Planet2_Body/Sector/Water";
+        const float WATER_DRAINED_HEIGHT = 149;
+        const float WATER_FILLED_HEIGHT = 230;
+        const float WATER_FILLED_ADDITIONAL_HEIGHT = 5;
         void InitializeFunnels()
         {
             // Sand funnel
-            GameObject sandFunnel = SearchUtilities.Find(SAND_FUNNEL_NAME);
+            GameObject sandFunnel = SearchUtilities.Find(SAND_FUNNEL_PATH);
+            FunnelProximityActivator sandFunnelProximity = null;
             if (sandFunnel != null)
-                sandFunnel.AddComponent<FunnelProximityActivator>();
+            {
+                sandFunnelProximity = sandFunnel.AddComponent<FunnelProximityActivator>();
+                GameObject sandSource = SearchUtilities.Find(SAND_SOURCE_PATH);
+                GameObject sandTarget = SearchUtilities.Find(SAND_TARGET_PATH);
+                sandFunnelProximity.Initialize(sandSource, SAND_DRAINED_HEIGHT, sandTarget, SAND_FILLED_HEIGHT);
+            }
 
             // Water funnel
             GameObject waterFunnel = SearchUtilities.Find(WATER_FUNNEL_NAME);
             if (waterFunnel != null)
-                waterFunnel.AddComponent<FunnelProximityActivator>();
+            {
+                FunnelProximityActivator waterFunnelProximity = waterFunnel.AddComponent<FunnelProximityActivator>();
+                GameObject waterSource = SearchUtilities.Find(WATER_SOURCE_PATH);
+                GameObject waterTarget = SearchUtilities.Find(WATER_TARGET_PATH);
+                waterFunnelProximity.Initialize(waterSource, WATER_DRAINED_HEIGHT, waterTarget, WATER_FILLED_HEIGHT, sandFunnelProximity, WATER_FILLED_ADDITIONAL_HEIGHT);
+            }
         }
     }
 }

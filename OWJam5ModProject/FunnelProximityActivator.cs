@@ -7,10 +7,31 @@ namespace OWJam5ModProject
 {
     internal class FunnelProximityActivator : MonoBehaviour
     {
-        const float SCALE_SPEED = 0.4f;
+        const float SCALE_SPEED = 1f;
         const float SIZE = 2;
+        const float TRANSFER_DURATION = 15;
 
+        float transferProgress;
         FunnelController funnelController;
+        GameObject sourceFluid;
+        GameObject targetFluid;
+        bool funnelActive;
+        Vector2 sourceHeightRange;
+        Vector2 targetHeightRange;
+        FunnelProximityActivator additionalHeightFunnel;
+        float additionalHeight;
+
+        public void Initialize(GameObject sourceFluid, float sourceDrainedHeight, GameObject targetFluid, float targetFilledHeight, FunnelProximityActivator additionalHeightFunnel = null, float additionalHeight = 0)
+        {
+            this.sourceFluid = sourceFluid;
+            this.targetFluid = targetFluid;
+
+            sourceHeightRange = new Vector2(sourceFluid.transform.localScale.x, sourceDrainedHeight);
+            targetHeightRange = new Vector2(targetFluid.transform.localScale.x, targetFilledHeight);
+
+            this.additionalHeightFunnel = additionalHeightFunnel;
+            this.additionalHeight = additionalHeight;
+        }
 
         void Start()
         {
@@ -18,14 +39,33 @@ namespace OWJam5ModProject
             funnelController.size = 0;
         }
 
+        void Update()
+        {
+            if (funnelActive)
+            {
+                transferProgress += Time.deltaTime / TRANSFER_DURATION;
+                transferProgress = Mathf.Clamp(transferProgress, 0, 1);
+                sourceFluid.transform.localScale = Vector3.one * Mathf.Lerp(sourceHeightRange.x, sourceHeightRange.y, transferProgress);
+                targetFluid.transform.localScale = Vector3.one * Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress);
+
+                if (additionalHeightFunnel != null)
+                    targetFluid.transform.localScale = targetFluid.transform.localScale + Vector3.one * Mathf.Lerp(0, additionalHeight, additionalHeightFunnel.transferProgress);
+
+                if (transferProgress >= 1)
+                    DeactivateFunnel();
+            }
+        }
+
         void ActivateFunnel()
         {
             StartCoroutine(ScaleFunnel(SIZE));
+            funnelActive = true;
         }
 
         void DeactivateFunnel()
         {
             StartCoroutine(ScaleFunnel(0));
+            funnelActive = false;
         }
 
         IEnumerator ScaleFunnel(float targetSize)
