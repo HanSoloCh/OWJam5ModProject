@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1087464170
+CRC: 4180933771
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1f8d054dae83f92e1ece3bd9c7b626ba
+    Hash: a3e55b997e24414a86fea131b5f8b5d2
   TypeTreeHash:
     serializedVersion: 2
     Hash: ce3f4aa824ea492cf2db774a1d44bddd
@@ -71,7 +71,9 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/_Bundle/ice_raycast_detector.prefab
 - Assets/_Bundle/Orbs/big_door.prefab
 - Assets/_Bundle/Orbs/Orrery.prefab
+- Assets/_Bundle/ice_sphere.prefab
 - Assets/_Bundle/Orbs/OrbCollider.fbx
 Dependencies: []
