@@ -1,7 +1,11 @@
 ﻿using System.Reflection;
 using HarmonyLib;
+using NewHorizons;
+using NewHorizons.Components.SizeControllers;
+using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
+using UnityEngine;
 
 namespace OWJam5ModProject
 {
@@ -32,6 +36,8 @@ namespace OWJam5ModProject
             // Example of accessing game code.
             OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen
             LoadManager.OnCompleteSceneLoad += OnCompleteSceneLoad;
+
+            NewHorizons.GetStarSystemLoadedEvent().AddListener((string system) => { OnStarSystemLoaded(system); });
         }
 
         public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
@@ -39,6 +45,28 @@ namespace OWJam5ModProject
             if (newScene != OWScene.SolarSystem) return;
             ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
         }
-    }
 
+        void OnStarSystemLoaded(string system)
+        {
+            if (system != "Jam5")
+                return;
+
+            InitializeFunnels();
+        }
+
+        const string SAND_FUNNEL_NAME = "Walker_Jam5_Planet3Funnel_Body";
+        const string WATER_FUNNEL_NAME = "Walker_Jam5_Planet4Funnel_Body";
+        void InitializeFunnels()
+        {
+            // Sand funnel
+            GameObject sandFunnel = SearchUtilities.Find(SAND_FUNNEL_NAME);
+            if (sandFunnel != null)
+                sandFunnel.AddComponent<FunnelProximityActivator>();
+
+            // Water funnel
+            GameObject waterFunnel = SearchUtilities.Find(WATER_FUNNEL_NAME);
+            if (waterFunnel != null)
+                waterFunnel.AddComponent<FunnelProximityActivator>();
+        }
+    }
 }

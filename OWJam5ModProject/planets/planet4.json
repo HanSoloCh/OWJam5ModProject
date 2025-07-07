@@ -10,12 +10,16 @@
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
         "staticPosition": {
-            "z": -1450
+            "x": -2200
         },
         "isStatic": true
     },
-    "Sand": {
+    "Water": {
         "size": 155
+    },
+    "Funnel": {
+        "target": "Walker_Jam5_Planet2",
+        "type": "water"
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
