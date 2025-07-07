@@ -22,15 +22,24 @@
         "type": "water"
     },
     "Props": {
-        "warpReceivers": [
-            {
-                "position": {
-                    "x": -150
-                },
-                "frequency": "WalkerJam5",
-                "alignRadial": true
-            }
-        ]
+      "warpReceivers": [
+        {
+          "position": {
+            "x": -150
+          },
+          "frequency": "WalkerJam5",
+          "alignRadial": true
+        }
+      ],
+      "details": [
+        {
+          "assetBundle": "planets/assets/walker_jam5_bundle",
+          "path": "Assets/_Bundle/ice_sphere.prefab",
+          "rename": "icesphere",
+          "keepLoaded": true,
+          "scale": 148
+        }
+      ]
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
