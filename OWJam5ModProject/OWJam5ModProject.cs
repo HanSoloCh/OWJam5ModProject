@@ -56,7 +56,7 @@ namespace OWJam5ModProject
                 return;
 
             InitializeFunnels();
-            ReparentPlanets();
+            //ReparentPlanets();
         }
 
         /// <summary>
