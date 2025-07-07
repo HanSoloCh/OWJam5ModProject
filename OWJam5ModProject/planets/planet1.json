@@ -14,6 +14,28 @@
         },
         "isStatic": true
     },
+    "Props": {
+        "warpTransmitters": [
+            {
+                "frequency": "WalkerJam5",
+                "position": {
+                    "x": 100
+                },
+                "alignRadial": true
+            }
+        ]
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "rename": "_WalkerPlanet1",
+                "position": {
+                    "x": 100,
+                    "y": 25
+                }
+            }
+        ]
+    },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
         "spriteFolder": "planets/shiplog/sprites"

@@ -10,7 +10,7 @@
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
         "staticPosition": {
-            "x": -2200
+            "x": 2200
         },
         "isStatic": true
     },
@@ -20,6 +20,17 @@
     "Funnel": {
         "target": "Walker_Jam5_Planet2",
         "type": "water"
+    },
+    "Props": {
+        "warpReceivers": [
+            {
+                "position": {
+                    "x": -150
+                },
+                "frequency": "WalkerJam5",
+                "alignRadial": true
+            }
+        ]
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
