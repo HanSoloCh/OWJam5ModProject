@@ -9,7 +9,7 @@ namespace OWJam5ModProject
 {
     public class IceSphere : MonoBehaviour
     {
-        private float growSpeed = 5;
+        private float growSpeed = 2;
         private Transform waterTF = null;
         public bool isFreezing = false;
 
