@@ -9,7 +9,7 @@
         "details": [
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/Orbs/big_door.prefab",
+                "path": "Assets/_Bundle/Orbs/Orrery.prefab",
                 "position": {
                     "x": 0,
                     "y": 0,
