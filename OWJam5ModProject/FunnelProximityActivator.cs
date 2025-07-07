@@ -7,9 +7,10 @@ namespace OWJam5ModProject
 {
     internal class FunnelProximityActivator : MonoBehaviour
     {
-        const float SCALE_SPEED = 1f;
+        const float SCALE_SPEED = 2f;
         const float SIZE = 2;
         const float TRANSFER_DURATION = 15;
+        const float ACTIVATION_DISTANCE = 1000;
 
         float transferProgress;
         FunnelController funnelController;
@@ -20,6 +21,7 @@ namespace OWJam5ModProject
         Vector2 targetHeightRange;
         FunnelProximityActivator additionalHeightFunnel;
         float additionalHeight;
+        Coroutine scaleCoroutine;
 
         public void Initialize(GameObject sourceFluid, float sourceDrainedHeight, GameObject targetFluid, float targetFilledHeight, FunnelProximityActivator additionalHeightFunnel = null, float additionalHeight = 0)
         {
@@ -41,6 +43,12 @@ namespace OWJam5ModProject
 
         void Update()
         {
+            float distance = (sourceFluid.transform.position - targetFluid.transform.position).magnitude;
+            if (distance < ACTIVATION_DISTANCE)
+                ActivateFunnel();
+            else
+                DeactivateFunnel();
+
             if (funnelActive)
             {
                 transferProgress += Time.deltaTime / TRANSFER_DURATION;
@@ -58,13 +66,23 @@ namespace OWJam5ModProject
 
         void ActivateFunnel()
         {
-            StartCoroutine(ScaleFunnel(SIZE));
+            if (funnelActive)
+                return;
+
+            if (scaleCoroutine != null)
+                StopCoroutine(scaleCoroutine);
+            scaleCoroutine = StartCoroutine(ScaleFunnel(SIZE));
             funnelActive = true;
         }
 
         void DeactivateFunnel()
         {
-            StartCoroutine(ScaleFunnel(0));
+            if (!funnelActive)
+                return;
+
+            if (scaleCoroutine != null)
+                StopCoroutine(scaleCoroutine);
+            scaleCoroutine = StartCoroutine(ScaleFunnel(0));
             funnelActive = false;
         }
 

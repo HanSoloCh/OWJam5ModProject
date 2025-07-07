@@ -15,10 +15,10 @@
         "isStatic": true
     },
     "Sand": {
-        "size": 224
+        "size": 223
     },
     "Water": {
-        "size": 224
+        "size": 223
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
