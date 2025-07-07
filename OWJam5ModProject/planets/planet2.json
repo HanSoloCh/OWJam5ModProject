@@ -1,0 +1,21 @@
+﻿{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Walker_Jam5_Planet2",
+    "starSystem": "Jam5",
+    "Base": {
+        "surfaceSize": 225,
+        "surfaceGravity": 30,
+        "groundSize": 225
+    },
+    "Orbit": {
+        "primaryBody": "Walker_Jam5_Star",
+        "staticPosition": {
+            "z": 700
+        },
+        "isStatic": true
+    },
+    "ShipLog": {
+        "xmlFile": "planets/shiplog/WalkerJam5System.xml",
+        "spriteFolder": "planets/shiplog/sprites"
+    }
+}

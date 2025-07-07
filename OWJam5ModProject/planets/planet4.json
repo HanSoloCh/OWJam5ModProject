@@ -1,0 +1,24 @@
+﻿{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Walker_Jam5_Planet4",
+    "starSystem": "Jam5",
+    "Base": {
+        "surfaceSize": 150,
+        "surfaceGravity": 16,
+        "groundSize": 150
+    },
+    "Orbit": {
+        "primaryBody": "Walker_Jam5_Star",
+        "staticPosition": {
+            "z": -1450
+        },
+        "isStatic": true
+    },
+    "Sand": {
+        "size": 155
+    },
+    "ShipLog": {
+        "xmlFile": "planets/shiplog/WalkerJam5System.xml",
+        "spriteFolder": "planets/shiplog/sprites"
+    }
+}
