@@ -59,6 +59,9 @@ namespace OWJam5ModProject
             ReparentPlanets();
         }
 
+        /// <summary>
+        /// Sets up funnels that activate based on planet proximity
+        /// </summary>
         const string SAND_FUNNEL_PATH = "Walker_Jam5_Planet3Funnel_Body";
         const string SAND_SOURCE_PATH = "Walker_Jam5_Planet3_Body/Sector/Sand";
         const string SAND_TARGET_PATH = "Walker_Jam5_Planet2_Body/Sector/Sand";
