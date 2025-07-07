@@ -38,9 +38,6 @@
     <None Include="systems\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="bundles\**\*.*">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="translations\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -53,10 +50,6 @@
     <None Include="title-screen.json" Condition="Exists('title-screen.json')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bundles\" />
-    <Folder Include="bundles\" />
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('$(UnityDllsDir)')">
 	  <Exec Command="xcopy /y &quot;$(TargetPath)&quot; &quot;$(UnityDllsDir)&quot;" />
