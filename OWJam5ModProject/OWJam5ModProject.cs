@@ -16,7 +16,7 @@ namespace OWJam5ModProject
     {
         public static OWJam5ModProject Instance;
         public INewHorizons NewHorizons;
-        private List<GameObject> planetPivots = new List<GameObject>();
+        private List<GameObject> planetPivots = null;
 
         public void Awake()
         {
@@ -85,6 +85,7 @@ namespace OWJam5ModProject
             Transform starTF = NewHorizons.GetPlanet("Walker_Jam5_Star").transform;
 
             //Find our planets and reparent them
+            planetPivots = new List<GameObject>();
             foreach (NHAstroObject planet in FindObjectsOfType<NHAstroObject>())
             {
                 //Exclude other mods, our star, and our platform
