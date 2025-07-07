@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 env:
-  PROJ_USERNAME: SBtT
-  PROJ_NAME: MiniSystemTest
+  PROJ_USERNAME: 2walker2
+  PROJ_NAME: OWJam5ModProject
 
 jobs:
   pre_job:

@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <Copyright>Copyright © 2025 SBtT</Copyright>
+    <Copyright>Copyright © 2025 coderCleric, Lezzlebit, 2walker2, JohnCorby</Copyright>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
@@ -23,7 +23,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MiniSystemTest.csproj.user" />
+    <Content Include="OWJam5ModProject.csproj.user" />
   </ItemGroup>
   <ItemGroup>
     <None Include="planets\**\*.*">
@@ -45,10 +45,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="planets\shiplog\" />
-  </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('$(UnityDllsDir)')">
-	<Exec Command="xcopy /y &quot;$(TargetPath)&quot; &quot;$(UnityDllsDir)&quot;" />
+	  <Exec Command="xcopy /y &quot;$(TargetPath)&quot; &quot;$(UnityDllsDir)&quot;" />
   </Target>
 </Project>
