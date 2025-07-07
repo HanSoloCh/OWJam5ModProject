@@ -7,7 +7,8 @@
         "gravityFallOff": "inverseSquared",
         "surfaceSize": 400,
         "surfaceGravity": 30,
-        "centerOfSolarSystem": true
+        "centerOfSolarSystem": true,
+        "soiOverride": 3000
     },
     "Orbit": {
         "staticPosition": {
@@ -30,6 +31,28 @@
             "g": 80,
             "b": 80
         }
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Station.prefab",
+                "position": {
+                    "y": 2500
+                },
+                "keepLoaded": true
+            }
+        ]
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "position": {
+                    "y": 2505
+                },
+                "rename": "_WalkerSun"
+            }
+        ]
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",

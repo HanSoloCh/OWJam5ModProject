@@ -4,21 +4,5 @@
     "starSystem": "Jam5",
     "extras": {
         "isPlatform": true
-    },
-    "Props": {
-        "details": [
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/Orbs/Orrery.prefab",
-                "position": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 60
-                },
-                "rotation": {
-                    "y":  180
-                }
-            }
-        ]
     }
 }
