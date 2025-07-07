@@ -1,11 +1,14 @@
-﻿using System.Reflection;
+﻿using System.Collections.Generic;
+using System.Reflection;
 using HarmonyLib;
 using NewHorizons;
+using NewHorizons.Components.Orbital;
 using NewHorizons.Components.SizeControllers;
 using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace OWJam5ModProject
 {
@@ -13,6 +16,7 @@ namespace OWJam5ModProject
     {
         public static OWJam5ModProject Instance;
         public INewHorizons NewHorizons;
+        private List<GameObject> planetPivots = null;
 
         public void Awake()
         {
@@ -52,6 +56,7 @@ namespace OWJam5ModProject
                 return;
 
             InitializeFunnels();
+            ReparentPlanets();
         }
 
         const string SAND_FUNNEL_PATH = "Walker_Jam5_Planet3Funnel_Body";
@@ -88,6 +93,54 @@ namespace OWJam5ModProject
                 GameObject waterTarget = SearchUtilities.Find(WATER_TARGET_PATH);
                 waterFunnelProximity.Initialize(waterSource, WATER_DRAINED_HEIGHT, waterTarget, WATER_FILLED_HEIGHT, sandFunnelProximity, WATER_FILLED_ADDITIONAL_HEIGHT);
             }
+        }
+
+        /**
+         * Makes our planets all children of the sun
+         * 
+         * (should be fine since they're kinematic)
+         */
+        private void ReparentPlanets()
+        {
+            //Get the star transform
+            Transform starTF = NewHorizons.GetPlanet("Walker_Jam5_Star").transform;
+
+            //Find our planets and reparent them
+            planetPivots = new List<GameObject>();
+            foreach (NHAstroObject planet in FindObjectsOfType<NHAstroObject>())
+            {
+                //Exclude other mods, our star, and our platform
+                if (planet.modUniqueName.Equals("2walker2.OWJam5ModProject") && planet.transform != starTF 
+                    && !planet._customName.Equals("Walker_Jam5_Platform"))
+                {
+                    DebugLog("Found planet " + planet.name);
+                    GameObject pivot = new GameObject(planet._customName + "_pivot");
+                    pivot.transform.parent = starTF;
+                    pivot.transform.localPosition = Vector3.zero;
+                    planet.transform.SetParent(pivot.transform, true);
+                    planetPivots.Add(pivot);
+                }
+            }
+        }
+
+        /**
+         * Just some debug keybinds
+         */
+        private void Update()
+        {
+            float rotSpeed = 5;
+            if (Keyboard.current[Key.L].IsPressed())
+                planetPivots[0].transform.Rotate(new Vector3(0, rotSpeed *  Time.deltaTime, 0));
+            if (Keyboard.current[Key.K].IsPressed())
+                planetPivots[0].transform.Rotate(new Vector3(0, -1 * rotSpeed * Time.deltaTime, 0));
+        }
+
+        /**
+         * Print a string to the console
+         */
+        public static void DebugLog(string msg)
+        {
+            Instance.ModHelper.Console.WriteLine(msg);
         }
     }
 }
