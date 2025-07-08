@@ -132,11 +132,11 @@ namespace OWJam5ModProject
          */
         private void Update()
         {
-            float rotSpeed = 5;
-            if (Keyboard.current[Key.L].IsPressed())
-                planetPivots[0].transform.Rotate(new Vector3(0, rotSpeed *  Time.deltaTime, 0));
             if (Keyboard.current[Key.K].IsPressed())
-                planetPivots[0].transform.Rotate(new Vector3(0, -1 * rotSpeed * Time.deltaTime, 0));
+            {
+                DebugLog((NewHorizons.GetPlanet("Walker_Jam5_Star").transform.position 
+                    - NewHorizons.GetPlanet("Walker_Jam5_Planet4").transform.position).magnitude.ToString());
+            }
         }
 
         /**

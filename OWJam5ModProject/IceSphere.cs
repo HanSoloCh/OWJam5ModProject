@@ -14,7 +14,7 @@ namespace OWJam5ModProject
         [NonSerialized] public bool isFreezing = false;
 
         private bool shouldShadeFreeze = true, shouldDistanceFreeze = true;
-        private float iceFreezeDistance = 1500;
+        private float iceFreezeDistance = 2000;
 
         /**
          * Find the water sphere
@@ -46,7 +46,7 @@ namespace OWJam5ModProject
                 }
             }
             if (shouldDistanceFreeze)
-                isFreezing |= planetToStar.magnitude > iceFreezeDistance; // also freeze if far away enough
+                isFreezing &= planetToStar.magnitude > iceFreezeDistance; // also freeze if far away enough
 
             //If we're growing the ice, grow to a bit past the water
             if (isFreezing) 
