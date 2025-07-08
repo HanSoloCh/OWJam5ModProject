@@ -11,7 +11,10 @@ namespace OWJam5ModProject
     {
         private float growSpeed = 2;
         private Transform waterTF = null;
-        public bool isFreezing = false;
+        [NonSerialized] public bool isFreezing = false;
+
+        private bool shouldShadeFreeze = true, shouldDistanceFreeze = true;
+        private float iceFreezeDistance = 1500;
 
         /**
          * Find the water sphere
@@ -28,17 +31,22 @@ namespace OWJam5ModProject
         {
             //Do a raycast towards the sun, see if it hits the other planet
             isFreezing = false;
-            Ray ray = new Ray(transform.position, 
-                OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star").transform.position - transform.position);
-            RaycastHit[] hits = Physics.RaycastAll(ray);
-            foreach(RaycastHit hit in hits)
+            var planetToStar = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star").transform.position - transform.position;
+            if (shouldShadeFreeze)
             {
-                //OWJam5ModProject.DebugLog(hit.collider.name);
-                if (hit.collider.name.Equals("ice_raycast_detector"))
+                Ray ray = new Ray(transform.position, planetToStar);
+                RaycastHit[] hits = Physics.RaycastAll(ray);
+                foreach (RaycastHit hit in hits)
                 {
-                    isFreezing = true;
+                    //OWJam5ModProject.DebugLog(hit.collider.name);
+                    if (hit.collider.name.Equals("ice_raycast_detector"))
+                    {
+                        isFreezing = true;
+                    }
                 }
             }
+            if (shouldDistanceFreeze)
+                isFreezing |= planetToStar.magnitude > iceFreezeDistance; // also freeze if far away enough
 
             //If we're growing the ice, grow to a bit past the water
             if (isFreezing) 
