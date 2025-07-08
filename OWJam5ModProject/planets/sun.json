@@ -15,7 +15,8 @@
             "x": 1000,
             "y": 2000,
             "z": 5000
-        }
+        },
+        "axialTilt": 90
     },
     "Star": {
         "stellarDeathType": "none",

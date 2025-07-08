@@ -9,7 +9,7 @@
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
         "staticPosition": {
-            "y": 2200
+            "z": -2200
         },
         "isStatic": true
     },
@@ -19,16 +19,16 @@
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/OrreryStation/OrreryStation.prefab",
                 "keepLoaded": true,
-                "scale": 1.0
+                "scale": 1.0,
+                "rotation": {
+                    "x": -90
+                }
             }
         ]
     },
     "Spawn": {
         "playerSpawnPoints": [
             {
-                "position": {
-                    "y": 5
-                },
                 "rename": "_WalkerStation"
             }
         ]
