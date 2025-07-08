@@ -5,7 +5,8 @@
     "Base": {
         "surfaceSize": 250,
         "surfaceGravity": 25,
-        "groundSize": 250
+        "groundSize": 250,
+        "soiOverride": 500
     },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
@@ -30,8 +31,17 @@
           "path": "Assets/_Bundle/ice_raycast_detector.prefab",
           "keepLoaded": true,
           "scale": 230
+        },
+        {
+            "assetBundle": "planets/assets/walker_jam5_bundle",
+            "path": "Assets/_Bundle/Structures/GravityTower.prefab",
+            "keepLoaded": true,
+            "alignRadial": true,
+            "position": {
+                "y": -250
+            }
         }
-      ]
+     ]
     },
     "Sand": {
         "size": 248
@@ -44,8 +54,8 @@
             {
                 "rename": "_WalkerPlanet2",
                 "position": {
-                    "x": -225,
-                    "y": 25
+                    "y": -250,
+                    "z": 25
                 }
             }
         ]
