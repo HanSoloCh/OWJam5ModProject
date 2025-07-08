@@ -18,30 +18,38 @@
         "isTidallyLocked": true
     },
     "Props": {
-      "details": [
-        {
-          "assetBundle": "planets/assets/walker_jam5_bundle",
-          "path": "Assets/_Bundle/ice_sphere.prefab",
-          "rename": "icesphere",
-          "keepLoaded": true,
-          "scale": 148
-        },
-        {
-          "assetBundle": "planets/assets/walker_jam5_bundle",
-          "path": "Assets/_Bundle/ice_raycast_detector.prefab",
-          "keepLoaded": true,
-          "scale": 230
-        },
-        {
-            "assetBundle": "planets/assets/walker_jam5_bundle",
-            "path": "Assets/_Bundle/Structures/GravityTower.prefab",
-            "keepLoaded": true,
-            "alignRadial": true,
-            "position": {
-                "y": -250
+        "translatorText": [
+            {
+                "parentPath": "Sector/GravityTower/GravityTowerRecorder",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/gravity_tower_recorder.xml"
             }
-        }
-     ]
+        ],
+        "details": [
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/ice_sphere.prefab",
+                "rename": "icesphere",
+                "keepLoaded": true,
+                "scale": 148
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/ice_raycast_detector.prefab",
+                "keepLoaded": true,
+                "scale": 230
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Structures/GravityTower.prefab",
+                "keepLoaded": true,
+                "alignRadial": true,
+                "position": {
+                    "y": -250
+                }
+            }
+        ]
     },
     "Sand": {
         "size": 248
