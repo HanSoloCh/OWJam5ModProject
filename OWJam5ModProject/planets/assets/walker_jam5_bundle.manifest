@@ -1,17 +1,19 @@
 ManifestFileVersion: 0
-CRC: 915198273
+CRC: 896129858
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: af028b5119befd07c591123e1e6d99d5
+    Hash: c40cbfcae683c7154d43b6fc913c7f55
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a3a3bab4fc14eec5a79039b94c72c149
+    Hash: e7b7c2975d605798b1ef136ec2933332
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
+  Script: {instanceID: 0}
+- Class: 20
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
@@ -31,7 +33,11 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
 - Class: 82
+  Script: {instanceID: 0}
+- Class: 84
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
@@ -47,6 +53,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
+- Class: 114
+  Script: {fileID: 99090010, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 97799c07190331b5ea4838ff8ff2a8e0, type: 3}
 - Class: 114
@@ -73,6 +81,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 1effb1bd669ff10873e29e11509c3d77, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7706556f6dc808b8b02646686eaf6aca, type: 3}
+- Class: 114
+  Script: {fileID: 1194511249, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 134
@@ -88,9 +98,15 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/_Bundle/OrreryStation/OrreryStation.prefab
+- Assets/_Bundle/ice_raycast_detector.prefab
+- Assets/_Bundle/DebugCamera/DebugCamera.prefab
+- Assets/_Bundle/DebugCamera/DebugCameraTexture.renderTexture
 - Assets/_Bundle/Orbs/big_door.prefab
 - Assets/_Bundle/Orbs/Orrery.prefab
+- Assets/_Bundle/ice_sphere.prefab
 - Assets/_Bundle/OrreryStation/Mats/Glass.mat
 - Assets/_Bundle/Orbs/OrbCollider.fbx
+- Assets/_Bundle/DebugCamera/DebugCameraMaterial.mat
+- Assets/_Bundle/DebugStation.prefab
 - Assets/_Bundle/OrreryStation/OrreryStation.blend
 Dependencies: []
