@@ -12,14 +12,16 @@
         "staticPosition": {
             "x": 700
         },
-        "isStatic": true
+        "isStatic": true,
+        "inclination": 90,
+        "isTidallyLocked": true
     },
     "Props": {
         "warpTransmitters": [
             {
                 "frequency": "WalkerJam5",
                 "position": {
-                    "x": 100
+                    "y": -100
                 },
                 "alignRadial": true,
                 "alignmentWindow": 15
@@ -31,8 +33,8 @@
             {
                 "rename": "_WalkerPlanet1",
                 "position": {
-                    "x": 100,
-                    "y": 25
+                    "y": 100,
+                    "x": 25
                 }
             }
         ]

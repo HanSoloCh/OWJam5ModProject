@@ -12,7 +12,9 @@
         "staticPosition": {
             "x": 2200
         },
-        "isStatic": true
+        "isStatic": true,
+        "inclination": 90,
+        "isTidallyLocked": true
     },
     "Water": {
         "size": 155
@@ -25,7 +27,7 @@
       "warpReceivers": [
         {
           "position": {
-            "x": -160
+            "y": 160
           },
           "frequency": "WalkerJam5",
           "alignRadial": true

@@ -29,7 +29,6 @@ namespace OWJam5ModProject
             relativePosition.y = 0;
             Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
             planetRB.SetPosition(planetTargetPosition);
-            planetRB.transform.right = planetRB.transform.position - sun.transform.position;
         }
 
         void FixedUpdate()
@@ -48,7 +47,6 @@ namespace OWJam5ModProject
             relativePosition.y = 0;
             Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
             planetRB.SetPosition(planetTargetPosition);
-            planetRB.transform.right = planetRB.transform.position - sun.transform.position;
         }
     }
 }
