@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using NewHorizons.Components;
+using OWML.Utils;
 using UnityEngine;
 
 namespace OWJam5ModProject;
@@ -23,11 +25,13 @@ public class NomaiWarpTransmitterSwapper : MonoBehaviour
 
 
     private List<NomaiWarpReceiver> _receivers;
+    private NomaiWarpTransmitterCooldown _cooldown;
     private NomaiWarpTransmitter _transmitter;
 
     private void Start()
     {
         _transmitter = GetComponent<NomaiWarpTransmitter>();
+        _cooldown = GetComponent<NomaiWarpTransmitterCooldown>();
         // kinda evil
         // doesnt get station if we put one there
         _receivers = FindObjectsOfType<NomaiWarpReceiver>()
@@ -38,6 +42,8 @@ public class NomaiWarpTransmitterSwapper : MonoBehaviour
 
     public void FixedUpdate()
     {
+        if (_cooldown.GetValue<bool>("_cooldownActive")) return; // dont touch anything if its cooling down
+        
         // just run transmitter finding code on all the targets until we found one that matches :P
         foreach (var receiver in _receivers)
         {
