@@ -52,7 +52,7 @@ namespace OWJam5ModProject
             if (isFreezing) 
             { 
                 float scale = Mathf.Clamp(transform.localScale.x + growSpeed * Time.deltaTime,
-                    waterTF.localScale.x - 30, waterTF.localScale.x + 5);
+                    waterTF.localScale.x - 10, waterTF.localScale.x + 5);
                 transform.localScale = new Vector3(scale, scale, scale);
             }
 
@@ -61,7 +61,7 @@ namespace OWJam5ModProject
             {
 
                 float scale = Mathf.Clamp(transform.localScale.x - growSpeed * Time.deltaTime,
-                    waterTF.localScale.x - 30, waterTF.localScale.x + 5);
+                    waterTF.localScale.x - 10, waterTF.localScale.x + 5);
                 transform.localScale = new Vector3(scale, scale, scale);
             }
         }
