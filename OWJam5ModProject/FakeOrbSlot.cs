@@ -1,7 +1,4 @@
-﻿#define DEBUG_VELOCITY
-
-using System;
-using HarmonyLib;
+﻿using HarmonyLib;
 using NewHorizons;
 using UnityEngine;
 
@@ -18,8 +15,6 @@ public class FakeOrbSlot : MonoBehaviour
     private NomaiInterfaceOrb _orb;
     private bool _wasBeingDragged;
     private Vector3 _localLockPos;
-    
-    private Vector3 _debugVelocity;
 
     private void Start()
     {
@@ -51,11 +46,6 @@ public class FakeOrbSlot : MonoBehaviour
 
         _wasBeingDragged = isBeingDragged;
 
-        _debugVelocity = _orb._orbBody.GetVelocity();
-    }
-
-    private void OnGUI()
-    {
-        GUILayout.Label($"orb {_orb} vel = {_debugVelocity}");
+        OWJam5ModProject.DebugLog($"orb {_orb} vel = {_orb._orbBody.GetVelocity()}");
     }
 }
