@@ -24,23 +24,56 @@
         "type": "sand"
     },
     "Props": {
-      "warpReceivers": [
-        {
-          "position": {
-            "y": -160
-          },
-          "frequency": "WalkerJam5",
-          "alignRadial": true
-        }
-      ],
-      "details": [
-        {
-          "assetBundle": "planets/assets/walker_jam5_bundle",
-          "path": "Assets/_Bundle/ice_raycast_detector.prefab",
-          "keepLoaded": true,
-          "scale": 120
-        }
-      ]
+        "warpReceivers": [
+            {
+                "position": {
+                    "y": -160
+                },
+                "frequency": "WalkerJam5",
+                "alignRadial": true
+            }
+        ],
+        "translatorText": [
+            {
+                "parentPath": "Sector/BuriedStructure/BuriedStructureUpperRecorder",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/buried_structure_recorder_upper.xml"
+            },
+            {
+                "parentPath": "Sector/BuriedStructure/BuriedStructureLowerRecorder",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/buried_structure_recorder_lower.xml"
+            }
+        ],
+        "details": [
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/ice_raycast_detector.prefab",
+                "keepLoaded": true,
+                "scale": 120
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Structures/BuriedStructure.prefab",
+                "alignRadial": true,
+                "keepLoaded": true,
+                "position": {
+                    "z": -150
+                }
+            }
+        ]
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "position": {
+                    "z": -160
+                },
+                "rename": "_WalkerPlanet3"
+            }
+        ]
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
