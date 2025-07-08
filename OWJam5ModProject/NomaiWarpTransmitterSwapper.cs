@@ -1,26 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 namespace OWJam5ModProject;
 
+/// <summary>
+/// allows transmitter to have multiple receivers of matching frequency
+/// </summary>
 [RequireComponent(typeof(NomaiWarpTransmitter))]
 public class NomaiWarpTransmitterSwapper : MonoBehaviour
 {
-    private static List<NomaiWarpReceiver> _receivers;
-
     public static void Apply()
     {
-        // kinda evil
-        // doesnt get station if we put one there
         var transmitters = FindObjectsOfType<NomaiWarpTransmitter>()
             .Where(x => x.GetAttachedOWRigidbody().name.StartsWith("Walker_Jam5_Planet"))
             .ToList();
-        _receivers = FindObjectsOfType<NomaiWarpReceiver>()
-            .Where(x => x.GetAttachedOWRigidbody().name.StartsWith("Walker_Jam5_Planet"))
-            .ToList();
-
         foreach (var transmitter in transmitters)
         {
             transmitter.gameObject.AddComponent<NomaiWarpTransmitterSwapper>();
@@ -28,11 +22,18 @@ public class NomaiWarpTransmitterSwapper : MonoBehaviour
     }
 
 
+    private List<NomaiWarpReceiver> _receivers;
     private NomaiWarpTransmitter _transmitter;
 
     private void Start()
     {
         _transmitter = GetComponent<NomaiWarpTransmitter>();
+        // kinda evil
+        // doesnt get station if we put one there
+        _receivers = FindObjectsOfType<NomaiWarpReceiver>()
+            .Where(x => x.GetAttachedOWRigidbody().name.StartsWith("Walker_Jam5_Planet"))
+            .Where(x => x._frequency == _transmitter._frequency)
+            .ToList();
     }
 
     public void FixedUpdate()
