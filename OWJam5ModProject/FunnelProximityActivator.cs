@@ -57,15 +57,16 @@ namespace OWJam5ModProject
             {
                 transferProgress += Time.deltaTime / TRANSFER_DURATION;
                 transferProgress = Mathf.Clamp(transferProgress, 0, 1);
-                sourceFluid.transform.localScale = Vector3.one * Mathf.Lerp(sourceHeightRange.x, sourceHeightRange.y, transferProgress);
-                targetFluid.transform.localScale = Vector3.one * Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress);
-
-                if (additionalHeightFunnel != null)
-                    targetFluid.transform.localScale = targetFluid.transform.localScale + Vector3.one * Mathf.Lerp(0, additionalHeight, additionalHeightFunnel.transferProgress);
-
+                
                 if (transferProgress >= 1)
                     DeactivateFunnel();
             }
+
+            sourceFluid.transform.localScale = Vector3.one * Mathf.Lerp(sourceHeightRange.x, sourceHeightRange.y, transferProgress);
+            targetFluid.transform.localScale = Vector3.one * Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress);
+
+            if (additionalHeightFunnel != null)
+                targetFluid.transform.localScale = targetFluid.transform.localScale + Vector3.one * Mathf.Lerp(0, additionalHeight, additionalHeightFunnel.transferProgress);
         }
 
         void ActivateFunnel()
