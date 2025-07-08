@@ -24,15 +24,23 @@
         "type": "sand"
     },
     "Props": {
-        "warpReceivers": [
-            {
-                "position": {
-                    "y": -160
-                },
-                "frequency": "WalkerJam5",
-                "alignRadial": true
-            }
-        ]
+      "warpReceivers": [
+        {
+          "position": {
+            "y": -160
+          },
+          "frequency": "WalkerJam5",
+          "alignRadial": true
+        }
+      ],
+      "details": [
+        {
+          "assetBundle": "planets/assets/walker_jam5_bundle",
+          "path": "Assets/_Bundle/ice_raycast_detector.prefab",
+          "keepLoaded": true,
+          "scale": 120
+        }
+      ]
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",

@@ -51,8 +51,8 @@ namespace OWJam5ModProject
             //If we're growing the ice, grow to a bit past the water
             if (isFreezing) 
             { 
-                float scale = Mathf.Clamp(transform.localScale.x + growSpeed * Time.deltaTime, 
-                    OWJam5ModProject.WATER_DRAINED_HEIGHT, waterTF.localScale.x + 3);
+                float scale = Mathf.Clamp(transform.localScale.x + growSpeed * Time.deltaTime,
+                    waterTF.localScale.x - 30, waterTF.localScale.x + 5);
                 transform.localScale = new Vector3(scale, scale, scale);
             }
 
@@ -61,7 +61,7 @@ namespace OWJam5ModProject
             {
 
                 float scale = Mathf.Clamp(transform.localScale.x - growSpeed * Time.deltaTime,
-                    OWJam5ModProject.WATER_DRAINED_HEIGHT, waterTF.localScale.x + 3);
+                    waterTF.localScale.x - 30, waterTF.localScale.x + 5);
                 transform.localScale = new Vector3(scale, scale, scale);
             }
         }

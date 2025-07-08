@@ -17,16 +17,24 @@
         "isTidallyLocked": true
     },
     "Props": {
-        "warpTransmitters": [
-            {
-                "frequency": "WalkerJam5",
-                "position": {
-                    "y": -100
-                },
-                "alignRadial": true,
-                "alignmentWindow": 15
-            }
-        ]
+      "warpTransmitters": [
+        {
+          "frequency": "WalkerJam5",
+          "position": {
+            "y": -100
+          },
+          "alignRadial": true,
+          "alignmentWindow": 15
+        }
+      ],
+      "details": [
+        {
+          "assetBundle": "planets/assets/walker_jam5_bundle",
+          "path": "Assets/_Bundle/ice_raycast_detector.prefab",
+          "keepLoaded": true,
+          "scale": 70
+        }
+      ]
     },
     "Spawn": {
         "playerSpawnPoints": [

@@ -17,13 +17,21 @@
         "isTidallyLocked": true
     },
     "Props": {
-        "details": [
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/ice_raycast_detector.prefab",
-                "keepLoaded": true
-            }
-        ]
+      "details": [
+        {
+          "assetBundle": "planets/assets/walker_jam5_bundle",
+          "path": "Assets/_Bundle/ice_sphere.prefab",
+          "rename": "icesphere",
+          "keepLoaded": true,
+          "scale": 148
+        },
+        {
+          "assetBundle": "planets/assets/walker_jam5_bundle",
+          "path": "Assets/_Bundle/ice_raycast_detector.prefab",
+          "keepLoaded": true,
+          "scale": 230
+        }
+      ]
     },
     "Sand": {
         "size": 248
