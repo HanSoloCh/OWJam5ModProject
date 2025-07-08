@@ -2,12 +2,15 @@
 using System.Collections;
 using UnityEngine;
 using NewHorizons.Components.SizeControllers;
+using System.Xml;
 
 namespace OWJam5ModProject
 {
     internal class FunnelProximityActivator : MonoBehaviour
     {
-        const float SCALE_SPEED = 2f;
+        const float SCALE_UP_DELAY = 5f;
+        const float SCALE_UP_SPEED = 1f;
+        const float SCALE_DOWN_SPEED = 10f;
         const float SIZE = 2;
         const float TRANSFER_DURATION = 15;
         const float ACTIVATION_DISTANCE = 1000;
@@ -18,6 +21,7 @@ namespace OWJam5ModProject
         GameObject sourceFluid;
         GameObject targetFluid;
         bool funnelActive;
+        bool transferingFluid;
         Vector2 sourceHeightRange;
         Vector2 targetHeightRange;
         FunnelProximityActivator additionalHeightFunnel;
@@ -53,7 +57,7 @@ namespace OWJam5ModProject
             else
                 DeactivateFunnel();
 
-            if (funnelActive)
+            if (transferingFluid)
             {
                 transferProgress += Time.deltaTime / TRANSFER_DURATION;
                 transferProgress = Mathf.Clamp(transferProgress, 0, 1);
@@ -93,14 +97,24 @@ namespace OWJam5ModProject
 
         IEnumerator ScaleFunnel(float targetSize)
         {
+            if (funnelController.size == 0)
+            {
+                yield return new WaitForSeconds(SCALE_UP_DELAY);
+                transferingFluid = true;
+            }
+
             float startTime = Time.time;
             float initialSize = funnelController.size;
 
             while (funnelController.size != targetSize)
             {
-                funnelController.size = Mathf.MoveTowards(funnelController.size, targetSize, SCALE_SPEED * Time.deltaTime);
+                float scaleSpeed = targetSize > funnelController.size ? SCALE_UP_SPEED : SCALE_DOWN_SPEED;
+                funnelController.size = Mathf.MoveTowards(funnelController.size, targetSize, scaleSpeed * Time.deltaTime);
                 yield return new WaitForEndOfFrame();
             }
+
+            if (targetSize == 0)
+                transferingFluid = false;
         }
     }
 }
