@@ -52,7 +52,7 @@ namespace OWJam5ModProject
         {
             float distance = (sourceFluid.transform.position - targetFluid.transform.position).magnitude;
 
-            if (distance < ACTIVATION_DISTANCE && (iceSphere == null || !iceSphere.isFreezing))
+            if (distance < ACTIVATION_DISTANCE && (iceSphere == null || !iceSphere.isFreezing) && transferProgress < 1)
                 ActivateFunnel();
             else
                 DeactivateFunnel();

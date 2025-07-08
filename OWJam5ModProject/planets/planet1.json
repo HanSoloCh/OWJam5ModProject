@@ -4,7 +4,7 @@
     "starSystem": "Jam5",
     "Base": {
         "surfaceSize": 100,
-        "surfaceGravity": 12,
+        "surfaceGravity": 15,
         "groundSize": 100
     },
     "Orbit": {

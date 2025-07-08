@@ -5,9 +5,10 @@
     "removeChildren": [ "Sector/Star/Audio_Star/SurfaceAudio_Sun" ],
     "Base": {
         "gravityFallOff": "inverseSquared",
-        "surfaceSize": 400,
+        "surfaceSize": 500,
         "surfaceGravity": 30,
-        "centerOfSolarSystem": true
+        "centerOfSolarSystem": true,
+        "soiOverride": 850
     },
     "Orbit": {
         "staticPosition": {
@@ -18,17 +19,17 @@
     },
     "Star": {
         "stellarDeathType": "none",
-        "size": 300,
-        "solarLuminosity": 1,
+        "size": 500,
+        "solarLuminosity": 0.75,
         "lightTint": {
-            "r": 255,
-            "g": 250,
-            "b": 240
+            "r": 240,
+            "g": 240,
+            "b": 255
         },
         "tint": {
-            "r": 190,
-            "g": 80,
-            "b": 80
+            "r": 166,
+            "g": 252,
+            "b": 255
         }
     },
     "ShipLog": {

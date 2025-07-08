@@ -67,13 +67,13 @@ namespace OWJam5ModProject
         const string SAND_SOURCE_PATH = "Walker_Jam5_Planet3_Body/Sector/Sand";
         const string SAND_TARGET_PATH = "Walker_Jam5_Planet2_Body/Sector/Sand";
         const float SAND_DRAINED_HEIGHT = 148 * 2; // Sand sphere's scale is twice its radius
-        const float SAND_FILLED_HEIGHT = 230 * 2;
+        const float SAND_FILLED_HEIGHT = 255 * 2;
 
         const string WATER_FUNNEL_NAME = "Walker_Jam5_Planet4Funnel_Body";
         const string WATER_SOURCE_PATH = "Walker_Jam5_Planet4_Body/Sector/Water";
         const string WATER_TARGET_PATH = "Walker_Jam5_Planet2_Body/Sector/Water";
         public const float WATER_DRAINED_HEIGHT = 145;
-        const float WATER_FILLED_HEIGHT = 230;
+        const float WATER_FILLED_HEIGHT = 255;
         const float WATER_FILLED_ADDITIONAL_HEIGHT = 5;
         void InitializeFunnels()
         {

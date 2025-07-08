@@ -3,9 +3,9 @@
     "name": "Walker_Jam5_Planet2",
     "starSystem": "Jam5",
     "Base": {
-        "surfaceSize": 225,
-        "surfaceGravity": 30,
-        "groundSize": 225
+        "surfaceSize": 250,
+        "surfaceGravity": 25,
+        "groundSize": 250
     },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
@@ -15,19 +15,30 @@
         "isStatic": true
     },
     "Props": {
-      "details": [
-        {
-          "assetBundle": "planets/assets/walker_jam5_bundle",
-          "path": "Assets/_Bundle/ice_raycast_detector.prefab",
-          "keepLoaded": true
-        }
-      ]
+        "details": [
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/ice_raycast_detector.prefab",
+                "keepLoaded": true
+            }
+        ]
     },
     "Sand": {
-        "size": 223
+        "size": 248
     },
     "Water": {
-        "size": 223
+        "size": 248
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "rename": "_WalkerPlanet2",
+                "position": {
+                    "x": -225,
+                    "y": 25
+                }
+            }
+        ]
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
