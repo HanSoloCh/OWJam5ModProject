@@ -44,16 +44,6 @@
             }
         ]
     },
-    "Spawn": {
-        "playerSpawnPoints": [
-            {
-                "position": {
-                    "y": 2505
-                },
-                "rename": "_WalkerSun"
-            }
-        ]
-    },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
         "spriteFolder": "planets/shiplog/sprites"

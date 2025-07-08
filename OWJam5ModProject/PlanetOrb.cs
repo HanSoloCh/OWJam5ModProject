@@ -30,8 +30,11 @@ namespace OWJam5ModProject
         {
             Vector3 relativeVelocity = center.InverseTransformVector(rigid.GetVelocity());
             Vector3 planetTargetVelocity = sun.transform.TransformVector(relativeVelocity * scaleFactor);
-
             planetRB.SetVelocity(planetTargetVelocity);
+
+            Vector3 relativePosition = center.InverseTransformPoint(rigid.transform.position);
+            Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
+            planetRB.SetPosition(planetTargetPosition);
         }
     }
 }

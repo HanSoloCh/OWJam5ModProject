@@ -13,14 +13,24 @@
         "isStatic": true
     },
     "Props": {
-      "details": [
-        {
-          "assetBundle": "planets/assets/walker_jam5_bundle",
-          "path": "Assets/_Bundle/OrreryStation/OrreryStation.prefab",
-          "keepLoaded": true,
-          "scale": 1.0
-        }
-      ]
+        "details": [
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/OrreryStation/OrreryStation.prefab",
+                "keepLoaded": true,
+                "scale": 1.0
+            }
+        ]
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "position": {
+                    "y": 5
+                },
+                "rename": "_WalkerStation"
+            }
+        ]
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",

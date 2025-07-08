@@ -33,7 +33,7 @@ namespace OWJam5ModProject
             RaycastHit[] hits = Physics.RaycastAll(ray);
             foreach(RaycastHit hit in hits)
             {
-                OWJam5ModProject.DebugLog(hit.collider.name);
+                //OWJam5ModProject.DebugLog(hit.collider.name);
                 if (hit.collider.name.Equals("ice_raycast_detector"))
                 {
                     isFreezing = true;
