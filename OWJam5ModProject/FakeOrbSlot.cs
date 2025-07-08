@@ -15,11 +15,13 @@ public class FakeOrbSlot : MonoBehaviour
     private NomaiInterfaceOrb _orb;
     private bool _wasBeingDragged;
     private Vector3 _localLockPos;
+    private FakeOrbSlot[] _slots;
 
     private void Start()
     {
         _orb = GetComponent<NomaiInterfaceOrb>();
         _localLockPos = _orb._orbBody.GetOrigParent().InverseTransformPoint(_orb.transform.position);
+        _slots = transform.parent.GetComponentsInChildren<FakeOrbSlot>();
     }
 
     [HarmonyPrefix, HarmonyPatch(typeof(NomaiInterfaceOrb), nameof(NomaiInterfaceOrb.FixedUpdate))]
@@ -45,6 +47,22 @@ public class FakeOrbSlot : MonoBehaviour
         }
 
         _wasBeingDragged = isBeingDragged;
+
+        //Prevent orbs from getting too close
+        foreach(FakeOrbSlot slot in _slots)
+        {
+            if(slot != this)
+            {
+                Vector3 hereToThere = slot.transform.position - this.transform.position;
+                float exclusionDist = 1.3f;
+                if(hereToThere.magnitude < exclusionDist)
+                {
+                    Vector3 toMove = (hereToThere.normalized * exclusionDist) - hereToThere;
+                    this.transform.position += toMove * -0.5f;
+                    slot.transform.position += toMove * 0.5f;
+                }
+            }
+        }
 
         // OWJam5ModProject.DebugLog($"orb {_orb} vel = {_orb._orbBody.GetVelocity()}");
     }
