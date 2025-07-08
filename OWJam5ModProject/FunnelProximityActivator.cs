@@ -44,7 +44,11 @@ namespace OWJam5ModProject
         void Update()
         {
             float distance = (sourceFluid.transform.position - targetFluid.transform.position).magnitude;
-            if (distance < ACTIVATION_DISTANCE)
+
+            //Check if the source has an ice sphere and, if it does, allow it to disable this
+            IceSphere iceSphere = sourceFluid.transform.parent.GetComponentInChildren<IceSphere>();
+
+            if (distance < ACTIVATION_DISTANCE && (iceSphere == null || !iceSphere.isFreezing))
                 ActivateFunnel();
             else
                 DeactivateFunnel();

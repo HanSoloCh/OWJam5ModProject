@@ -32,18 +32,6 @@
             "b": 80
         }
     },
-    "Props": {
-        "details": [
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/Station.prefab",
-                "position": {
-                    "y": 2500
-                },
-                "keepLoaded": true
-            }
-        ]
-    },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
         "spriteFolder": "planets/shiplog/sprites"
