@@ -26,11 +26,9 @@
     "Props": {
         "warpReceivers": [
             {
-                "position": {
-                    "y": -160
-                },
-                "frequency": "WalkerJam5",
-                "alignRadial": true
+                "parentPath": "Sector/WarpReceiverStructure/WarpReceiver",
+                "isRelativeToParent": true,
+                "frequency": "WalkerJam5"
             }
         ],
         "translatorText": [
@@ -45,6 +43,12 @@
                 "isRelativeToParent": true,
                 "type": "recorder",
                 "xmlFile": "planets/text/buried_structure_recorder_lower.xml"
+            },
+            {
+                "parentPath": "Sector/WarpReceiverStructure/WarpReceiverRecorder",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/sand_warp_receiver_recorder.xml"
             }
         ],
         "details": [
@@ -62,6 +66,15 @@
                 "position": {
                     "z": -150
                 }
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Structures/WarpReceiverStructure.prefab",
+                "alignRadial": true,
+                "keepLoaded": true,
+                "position": {
+                    "y": 155
+                }
             }
         ]
     },
@@ -69,7 +82,7 @@
         "playerSpawnPoints": [
             {
                 "position": {
-                    "z": -160
+                    "y": 160
                 },
                 "rename": "_WalkerPlanet3"
             }
