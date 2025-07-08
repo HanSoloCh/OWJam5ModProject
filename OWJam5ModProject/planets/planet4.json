@@ -25,7 +25,7 @@
       "warpReceivers": [
         {
           "position": {
-            "x": -150
+            "x": -160
           },
           "frequency": "WalkerJam5",
           "alignRadial": true

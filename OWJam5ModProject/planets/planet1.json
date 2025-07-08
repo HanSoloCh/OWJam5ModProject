@@ -21,7 +21,8 @@
                 "position": {
                     "x": 100
                 },
-                "alignRadial": true
+                "alignRadial": true,
+                "alignmentWindow": 15
             }
         ]
     },

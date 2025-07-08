@@ -21,6 +21,17 @@
         "target": "Walker_Jam5_Planet2",
         "type": "sand"
     },
+    "Props": {
+        "warpReceivers": [
+            {
+                "position": {
+                    "x": -160
+                },
+                "frequency": "WalkerJam5",
+                "alignRadial": true
+            }
+        ]
+    },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
         "spriteFolder": "planets/shiplog/sprites"
