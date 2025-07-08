@@ -3,7 +3,8 @@
     "name": "Walker_Jam5_Station",
     "starSystem": "Jam5",
     "Base": {
-        "surfaceSize": 150
+        "surfaceSize": 150,
+        "showMinimap": false
     },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",

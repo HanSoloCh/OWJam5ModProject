@@ -20,19 +20,17 @@ namespace OWJam5ModProject
             planetRB = OWJam5ModProject.Instance.NewHorizons.GetPlanet(planetName).GetComponent<OWRigidbody>();
             sun = OWJam5ModProject.Instance.NewHorizons.GetPlanet(SUN_NAME);
             rigid = GetComponent<OWRigidbody>();
-
-            Vector3 relativePosition = center.InverseTransformPoint(rigid.transform.position);
-            Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
-            planetRB.SetPosition(planetTargetPosition);
         }
 
         void FixedUpdate()
         {
             Vector3 relativeVelocity = center.InverseTransformVector(rigid.GetVelocity());
+            relativeVelocity.y = 0;
             Vector3 planetTargetVelocity = sun.transform.TransformVector(relativeVelocity * scaleFactor);
             planetRB.SetVelocity(planetTargetVelocity);
 
             Vector3 relativePosition = center.InverseTransformPoint(rigid.transform.position);
+            relativePosition.y = 0;
             Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
             planetRB.SetPosition(planetTargetPosition);
         }
