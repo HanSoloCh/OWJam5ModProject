@@ -12,7 +12,9 @@
         "staticPosition": {
             "z": -1450
         },
-        "isStatic": true
+        "isStatic": true,
+        "inclination": 90,
+        "isTidallyLocked": true
     },
     "Sand": {
         "size": 155
@@ -25,7 +27,7 @@
         "warpReceivers": [
             {
                 "position": {
-                    "x": -160
+                    "y": -160
                 },
                 "frequency": "WalkerJam5",
                 "alignRadial": true

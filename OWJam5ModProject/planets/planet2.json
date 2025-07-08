@@ -12,7 +12,9 @@
         "staticPosition": {
             "z": 1450
         },
-        "isStatic": true
+        "isStatic": true,
+        "inclination": 90,
+        "isTidallyLocked": true
     },
     "Props": {
         "details": [

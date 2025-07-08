@@ -10,28 +10,31 @@ namespace OWJam5ModProject
         [SerializeField] string planetName;
         [SerializeField] Transform center;
         [SerializeField] float scaleFactor;
+        [SerializeField] float freezeRadius = 100;
 
         GameObject sun;
         OWRigidbody planetRB;
         NomaiInterfaceOrb orb;
+        GameObject player;
 
         void Start()
         {
             planetRB = OWJam5ModProject.Instance.NewHorizons.GetPlanet(planetName).GetComponent<OWRigidbody>();
             sun = OWJam5ModProject.Instance.NewHorizons.GetPlanet(SUN_NAME);
             orb = GetComponent<NomaiInterfaceOrb>();
+            player = Locator.GetPlayerBody().gameObject;
 
             // override initial position
             Vector3 relativePosition = center.InverseTransformPoint(orb._orbBody.GetPosition());
             relativePosition.y = 0;
             Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
             planetRB.SetPosition(planetTargetPosition);
-            planetRB.transform.right = planetRB.transform.position - sun.transform.position;
         }
 
         void FixedUpdate()
         {
-            if (!orb._sector.ContainsOccupant(DynamicOccupant.Player)) return;
+            if ((player.transform.position - center.transform.position).sqrMagnitude > freezeRadius * freezeRadius)
+                return;
             
             /*
             Vector3 relativeVelocity = center.InverseTransformVector(orb._orbBody.GetVelocity());
@@ -44,7 +47,6 @@ namespace OWJam5ModProject
             relativePosition.y = 0;
             Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
             planetRB.SetPosition(planetTargetPosition);
-            planetRB.transform.right = planetRB.transform.position - sun.transform.position;
         }
     }
 }

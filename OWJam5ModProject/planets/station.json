@@ -4,7 +4,8 @@
     "starSystem": "Jam5",
     "Base": {
         "surfaceSize": 150,
-        "showMinimap": false
+        "showMinimap": false,
+        "soiOverride": 2500
     },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
@@ -18,7 +19,7 @@
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/OrreryStation/OrreryStation.prefab",
-                "keepLoaded": true,
+                //"keepLoaded": true,
                 "scale": 1.0,
                 "rotation": {
                     "x": -90
