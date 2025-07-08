@@ -7,8 +7,7 @@
         "gravityFallOff": "inverseSquared",
         "surfaceSize": 400,
         "surfaceGravity": 30,
-        "centerOfSolarSystem": true,
-        "soiOverride": 3000
+        "centerOfSolarSystem": true
     },
     "Orbit": {
         "staticPosition": {
