@@ -20,6 +20,13 @@ namespace OWJam5ModProject
             planetRB = OWJam5ModProject.Instance.NewHorizons.GetPlanet(planetName).GetComponent<OWRigidbody>();
             sun = OWJam5ModProject.Instance.NewHorizons.GetPlanet(SUN_NAME);
             orb = GetComponent<NomaiInterfaceOrb>();
+
+            // override initial position
+            Vector3 relativePosition = center.InverseTransformPoint(orb._orbBody.GetPosition());
+            relativePosition.y = 0;
+            Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
+            planetRB.SetPosition(planetTargetPosition);
+            planetRB.transform.right = planetRB.transform.position - sun.transform.position;
         }
 
         void FixedUpdate()
