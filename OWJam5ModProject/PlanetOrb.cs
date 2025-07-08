@@ -47,6 +47,11 @@ namespace OWJam5ModProject
             relativePosition.y = 0;
             Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
             planetRB.SetPosition(planetTargetPosition);
+
+            //North pole : -z
+            //To sun : -y
+            planetRB.transform.forward = sun.transform.up * -1;
+            planetRB.transform.up = (planetRB.transform.position - sun.transform.position).normalized;
         }
     }
 }
