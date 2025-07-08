@@ -13,23 +13,27 @@ namespace OWJam5ModProject
 
         GameObject sun;
         OWRigidbody planetRB;
-        OWRigidbody rigid;
+        NomaiInterfaceOrb orb;
 
         void Start()
         {
             planetRB = OWJam5ModProject.Instance.NewHorizons.GetPlanet(planetName).GetComponent<OWRigidbody>();
             sun = OWJam5ModProject.Instance.NewHorizons.GetPlanet(SUN_NAME);
-            rigid = GetComponent<OWRigidbody>();
+            orb = GetComponent<NomaiInterfaceOrb>();
         }
 
         void FixedUpdate()
         {
-            Vector3 relativeVelocity = center.InverseTransformVector(rigid.GetVelocity());
+            if (!orb._sector.ContainsOccupant(DynamicOccupant.Player)) return;
+            
+            /*
+            Vector3 relativeVelocity = center.InverseTransformVector(orb._orbBody.GetVelocity());
             relativeVelocity.y = 0;
             Vector3 planetTargetVelocity = sun.transform.TransformVector(relativeVelocity * scaleFactor);
             planetRB.SetVelocity(planetTargetVelocity);
+            */
 
-            Vector3 relativePosition = center.InverseTransformPoint(rigid.transform.position);
+            Vector3 relativePosition = center.InverseTransformPoint(orb._orbBody.GetPosition());
             relativePosition.y = 0;
             Vector3 planetTargetPosition = sun.transform.TransformPoint(relativePosition * scaleFactor);
             planetRB.SetPosition(planetTargetPosition);

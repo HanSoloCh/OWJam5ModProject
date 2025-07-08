@@ -46,6 +46,6 @@ public class FakeOrbSlot : MonoBehaviour
 
         _wasBeingDragged = isBeingDragged;
 
-        OWJam5ModProject.DebugLog($"orb {_orb} vel = {_orb._orbBody.GetVelocity()}");
+        // OWJam5ModProject.DebugLog($"orb {_orb} vel = {_orb._orbBody.GetVelocity()}");
     }
 }
