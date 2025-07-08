@@ -57,6 +57,7 @@ namespace OWJam5ModProject
 
             InitializeFunnels();
             //ReparentPlanets();
+            NomaiWarpTransmitterSwapper.Apply();
         }
 
         /// <summary>
