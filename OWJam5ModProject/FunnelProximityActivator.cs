@@ -14,6 +14,7 @@ namespace OWJam5ModProject
 
         float transferProgress;
         FunnelController funnelController;
+        IceSphere iceSphere = null;
         GameObject sourceFluid;
         GameObject targetFluid;
         bool funnelActive;
@@ -33,6 +34,8 @@ namespace OWJam5ModProject
 
             this.additionalHeightFunnel = additionalHeightFunnel;
             this.additionalHeight = additionalHeight;
+
+            iceSphere = sourceFluid.transform.parent.GetComponentInChildren<IceSphere>();
         }
 
         void Start()
@@ -44,9 +47,6 @@ namespace OWJam5ModProject
         void Update()
         {
             float distance = (sourceFluid.transform.position - targetFluid.transform.position).magnitude;
-
-            //Check if the source has an ice sphere and, if it does, allow it to disable this
-            IceSphere iceSphere = sourceFluid.transform.parent.GetComponentInChildren<IceSphere>();
 
             if (distance < ACTIVATION_DISTANCE && (iceSphere == null || !iceSphere.isFreezing))
                 ActivateFunnel();

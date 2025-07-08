@@ -37,7 +37,6 @@ namespace OWJam5ModProject
                 if (hit.collider.name.Equals("ice_raycast_detector"))
                 {
                     isFreezing = true;
-                    OWJam5ModProject.DebugLog("Ice raycast hit!");
                 }
             }
 

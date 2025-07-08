@@ -57,9 +57,6 @@ namespace OWJam5ModProject
 
             InitializeFunnels();
             //ReparentPlanets();
-
-            //Set up the ice sphere
-            NewHorizons.GetPlanet("Walker_Jam5_Planet4").transform.Find("Sector/icesphere").gameObject.AddComponent<IceSphere>();
         }
 
         /// <summary>
