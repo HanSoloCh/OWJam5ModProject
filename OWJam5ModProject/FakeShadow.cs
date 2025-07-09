@@ -22,7 +22,7 @@ public class FakeShadow : MonoBehaviour
         renderer = GetComponent<Renderer>();
         if (light == null) // for testing in editor
             light = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star").GetComponentsInChildren<Light>()
-            .First(x => x.type == LightType.Directional);
+                .First(x => x.type == LightType.Directional);
 
         cmd = new CommandBuffer();
 
@@ -43,6 +43,18 @@ public class FakeShadow : MonoBehaviour
 
     private void BuildCmd(Camera cam)
     {
+        // put some geometry in front of the camera so shadows are forced to render
+        if (cam.transform.Cast<Transform>().All(x => x.name != "shadow hack"))
+        {
+            var quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            Destroy(quad.GetComponent<Collider>());
+            quad.name = "shadow hack";
+            quad.transform.SetParent(cam.transform, false);
+            quad.transform.localPosition = Vector3.forward;
+            quad.transform.localScale = Vector3.zero;
+            Debug.Log("placed quad");
+        }
+
         // set matrices back to regular camera stuff
         cmd.SetViewProjectionMatrices(cam.worldToCameraMatrix, cam.projectionMatrix);
         // draw our decal like a normal renderer into screen space shadow mask
