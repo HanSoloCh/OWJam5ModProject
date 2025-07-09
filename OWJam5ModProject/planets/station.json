@@ -15,6 +15,13 @@
         "isStatic": true
     },
     "Props": {
+        "warpReceivers": [
+            {
+                "parentPath": "Sector/OrreryStation/WarpReceiver",
+                "isRelativeToParent": true,
+                "frequency": "WalkerJam5Orrery"
+            }
+        ],
         "details": [
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
