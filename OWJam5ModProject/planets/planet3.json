@@ -82,7 +82,7 @@
                 "alignRadial": true,
                 "keepLoaded": true,
                 "position": {
-                    "y": 155
+                    "y": -155
                 }
             }
         ]
