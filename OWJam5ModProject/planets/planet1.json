@@ -41,7 +41,7 @@
                 "isRelativeToParent": true,
                 "frequency": "WalkerJam5Orrery",
                 "alignRadial": true,
-                "alignmentWindow": 90
+                "alignmentWindow": 180
             }
         ],
         "signals": [

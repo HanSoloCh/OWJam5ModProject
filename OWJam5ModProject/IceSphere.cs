@@ -19,9 +19,9 @@ namespace OWJam5ModProject
         /**
          * Find the water sphere
          */
-        private void Awake()
+        private void Start()
         {
-            waterTF = transform.parent.Find("Water");
+            waterTF = transform.root.Find("Sector/Water");
         }
 
         /**

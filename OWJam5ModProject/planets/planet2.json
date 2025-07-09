@@ -30,6 +30,15 @@
         "isTidallyLocked": true
     },
     "Props": {
+        "warpTransmitters": [
+            {
+                "parentPath": "Sector/SupermassivePlanet/OrreryWarpTransmitter/WarpTransmitter",
+                "isRelativeToParent": true,
+                "frequency": "WalkerJam5Orrery",
+                "alignRadial": true,
+                "alignmentWindow": 180
+            }
+        ],
         "translatorText": [
             {
                 "parentPath": "Sector/GravityTower/GravityTowerRecorder",
