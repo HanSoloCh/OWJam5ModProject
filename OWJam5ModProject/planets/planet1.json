@@ -7,6 +7,17 @@
         "surfaceGravity": 15,
         "groundSize": 100
     },
+    "Atmosphere": {
+        "size": 170,
+        "atmosphereTint": {"r": 50, "g": 0, "b": 125}
+    },
+    "AmbientLights": [
+        {
+            "outerRadius": 170,
+            "innerRadius": 100,
+            "intensity": 0.8
+        }
+    ],
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
         "staticPosition": {
@@ -21,7 +32,7 @@
             {
                 "frequency": "WalkerJam5",
                 "position": {
-                    "y": 100
+                    "y": 100.2
                 },
                 "alignRadial": true,
                 "alignmentWindow": 15
@@ -39,6 +50,12 @@
             }
         ],
         "details": [
+            {
+            "assetBundle": "planets/assets/walker_jam5_bundle",
+            "path": "Assets/_Bundle/planets/CrystalPlanet.prefab",
+            "keepLoaded": true,
+            "scale": 1.0
+            },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/ice_raycast_detector.prefab",
