@@ -5,7 +5,6 @@
     "Base": {
         "surfaceSize": 100,
         "surfaceGravity": 15,
-        "groundSize": 100
     },
     "Atmosphere": {
         "size": 170,
@@ -30,17 +29,16 @@
     "Props": {
         "warpTransmitters": [
             {
+                "parentPath": "Sector/CrystalPlanet/Planet/WarpTransmitter",
+                "isRelativeToParent": true,
                 "frequency": "WalkerJam5",
-                "position": {
-                    "y": 100.2
-                },
                 "alignRadial": true,
                 "alignmentWindow": 15
             }
         ],
         "signals": [
             {
-                "parentPath": "Sector/HarmonicDetector/SignalEmitter",
+                "parentPath": "Sector/CrystalPlanet/HarmonicDetector/SignalEmitter",
                 "isRelativeToParent": true,
                 "frequency": "Walker_Jam5_Harmonic",
                 "name": "Walker_Jam5_Planet1_Signal",
@@ -55,21 +53,6 @@
             "path": "Assets/_Bundle/planets/CrystalPlanet.prefab",
             "keepLoaded": true,
             "scale": 1.0
-            },
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/ice_raycast_detector.prefab",
-                "keepLoaded": true,
-                "scale": 70
-            },
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/Structures/HarmonicDetector.prefab",
-                "keepLoaded": true,
-                "alignRadial": true,
-                "position": {
-                    "y": -100
-                }
             }
         ]
     },
