@@ -5,18 +5,19 @@
     "Base": {
         "surfaceSize": 250,
         "surfaceGravity": 25,
-        "groundSize": 250,
+        "groundSize": 1,
         "soiOverride": 500
     },
     "Atmosphere": {
-        "size": 350,
+        "size": 380,
         "atmosphereTint": {"r": 217, "g": 189, "b": 130}
     },
     "AmbientLights": [
         {
-            "outerRadius": 350,
-            "innerRadius": 100,
-            "intensity": 3.0
+            "outerRadius": 320,
+            "innerRadius": 250,
+            "intensity": 1.0,
+            "isShell": true
         }
     ],
     "Orbit": {
@@ -72,7 +73,7 @@
                 "keepLoaded": true,
                 "alignRadial": true,
                 "position": {
-                    "y": -333.2
+                    "y": -250
                 }
             }
         ]
