@@ -44,13 +44,11 @@
         ],
         "signals": [
             {
-                "parentPath": "Sector/CrystalPlanet/HarmonicDetector/SignalEmitter",
-                "isRelativeToParent": true,
                 "frequency": "Walker_Jam5_Harmonic",
                 "name": "Walker_Jam5_Planet1_Signal",
                 "onlyAudibleToScope": true,
                 "identificationRadius": 1000,
-                "detectionRadius": 150
+                "detectionRadius": 170
             }
         ],
         "details": [
