@@ -8,6 +8,17 @@
         "groundSize": 250,
         "soiOverride": 500
     },
+    "Atmosphere": {
+        "size": 350,
+        "atmosphereTint": {"r": 217, "g": 189, "b": 130}
+    },
+    "AmbientLights": [
+        {
+            "outerRadius": 350,
+            "innerRadius": 100,
+            "intensity": 3.0
+        }
+    ],
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
         "staticPosition": {
@@ -45,6 +56,12 @@
             },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Planets/SupermassivePlanet.prefab",
+                "keepLoaded": true,
+                "scale": 1
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/ice_raycast_detector.prefab",
                 "keepLoaded": true,
                 "scale": 230
@@ -55,7 +72,7 @@
                 "keepLoaded": true,
                 "alignRadial": true,
                 "position": {
-                    "y": -250
+                    "y": -333.2
                 }
             }
         ]
