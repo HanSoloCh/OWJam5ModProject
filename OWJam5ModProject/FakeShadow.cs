@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -8,10 +7,11 @@ namespace OWJam5ModProject;
 /// <summary>
 /// draws extra stuff into the screen space shadow mask
 /// </summary>
+[ExecuteInEditMode]
 [RequireComponent(typeof(Renderer))]
 public class FakeShadow : MonoBehaviour
 {
-    private Light light;
+    public Light light;
     private Renderer renderer;
 
     private CommandBuffer cmd;
@@ -20,7 +20,8 @@ public class FakeShadow : MonoBehaviour
     {
         // grab the stuff we need
         renderer = GetComponent<Renderer>();
-        light = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star").GetComponentsInChildren<Light>()
+        if (light == null) // for testing in editor
+            light = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star").GetComponentsInChildren<Light>()
             .First(x => x.type == LightType.Directional);
 
         cmd = new CommandBuffer();
