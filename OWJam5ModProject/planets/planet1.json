@@ -4,7 +4,8 @@
     "starSystem": "Jam5",
     "Base": {
         "surfaceSize": 100,
-        "surfaceGravity": 15,
+        "surfaceGravity": 10,
+        "gravityAlignmentRadiusOverride": 200
     },
     "Atmosphere": {
         "size": 170,
