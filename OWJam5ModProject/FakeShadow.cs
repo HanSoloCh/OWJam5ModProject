@@ -20,6 +20,7 @@ public class FakeShadow : MonoBehaviour
     {
         // grab the stuff we need
         renderer = GetComponent<Renderer>();
+        renderer.enabled = false;
         if (light == null) // for testing in editor
             light = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star").GetComponentsInChildren<Light>()
                 .First(x => x.type == LightType.Directional);
