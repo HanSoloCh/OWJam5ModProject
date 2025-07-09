@@ -46,6 +46,16 @@
             "b": 255
         }
     },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/OrbitLines.prefab",
+                "keepLoaded": true,
+                "scale": 350.0
+            }
+        ]
+    },
     "ShipLog": {
         "xmlFile": "planets/shiplog/WalkerJam5System.xml",
         "spriteFolder": "planets/shiplog/sprites"
