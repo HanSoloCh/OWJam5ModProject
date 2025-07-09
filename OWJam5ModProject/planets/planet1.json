@@ -23,9 +23,7 @@
         "staticPosition": {
             "x": 700
         },
-        "isStatic": true,
-        "inclination": 90,
-        "isTidallyLocked": true
+        "isStatic": true
     },
     "Props": {
         "warpTransmitters": [

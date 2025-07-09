@@ -11,9 +11,7 @@
         "staticPosition": {
             "x": 2200
         },
-        "isStatic": true,
-        "inclination": 90,
-        "isTidallyLocked": true
+        "isStatic": true
     },
     "Water": {
         "size": 155,
