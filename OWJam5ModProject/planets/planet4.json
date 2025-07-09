@@ -49,26 +49,6 @@
                 "detectionRadius": 200
             }
         ],
-        "socketQuantumGroups": [
-            {
-                "details": [
-                    {
-                        "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Interactables_NorthUnderground/QuantumEntanglementRock/Rocks_HCT_QuantumEntanglement_v2",
-                        "randomizeYRotation": false
-                    }
-                ],
-                "sockets": [
-                    {
-                        "parentPath": "Sector/WaterPlanet/QuantumRock",
-                        "isRelativeToParent": true
-                    },
-                    {
-                        "parentPath": "Sector/WaterPlanet/QuantumRock2",
-                        "isRelativeToParent": true
-                    }
-                ]
-            }
-        ],
         "details": [
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
@@ -81,7 +61,7 @@
         "playerSpawnPoints": [
             {
                 "position": {
-                    "z": -160,
+                    "z": 160,
                     "x": 25
                 },
                 "rename": "_WalkerPlanet4"
