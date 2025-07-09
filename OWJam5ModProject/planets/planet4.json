@@ -16,7 +16,8 @@
         "isTidallyLocked": true
     },
     "Water": {
-        "size": 155
+        "size": 155,
+        "buoyancy": 0.8
     },
     "Funnel": {
         "target": "Walker_Jam5_Planet2",
