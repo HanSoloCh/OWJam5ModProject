@@ -15,6 +15,13 @@ namespace OWJam5ModProject
         private Transform outerTF = null;
         private float iceFreezeDistance = 2000;
         private float iceMeltDistance = 1200;
+        private float waterInnerIceOffset = -0.5f;
+
+        [SerializeField] Light light;
+        [SerializeField] bool startsFrozen;
+
+        private Material waterMaterial;
+        private Color waterTint;
 
         /**
          * Find the water sphere
@@ -25,6 +32,10 @@ namespace OWJam5ModProject
             innerTF = transform.Find("inner_ice");
             outerTF = transform.Find("outer_ice");
 
+            waterMaterial = waterTF.Find("OceanFog").GetComponent<MeshRenderer>().material;
+            waterTint = waterMaterial.color;
+            if (startsFrozen)
+                waterMaterial.color = Color.black;
         }
 
         /**
@@ -65,12 +76,18 @@ namespace OWJam5ModProject
             if (isCold && isShadowed) 
             {
                 scale = scale + growSpeed * Time.deltaTime;
+                if (light != null)
+                    light.intensity = 0;
+                waterMaterial.color = Color.black;
             }
 
             //If hot and unshadowed, ice should shrink
             else if(isHot && !isShadowed)
             {
                 scale = scale - growSpeed * Time.deltaTime;
+                if (light != null)
+                    light.intensity = 1;
+                waterMaterial.color = waterTint;
             }
 
             //Make sure that the scale is in bounds 
@@ -78,7 +95,7 @@ namespace OWJam5ModProject
 
             //Apply the scale to the outer ice and adjust the inner ice
             outerTF.localScale = new Vector3(scale, scale, scale);
-            float innerScale = Mathf.Min(waterTF.localScale.x, scale);
+            float innerScale = Mathf.Min(waterTF.localScale.x + waterInnerIceOffset, scale);
             innerTF.localScale = new Vector3(innerScale, innerScale, innerScale);
         }
     }
