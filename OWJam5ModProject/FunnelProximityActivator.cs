@@ -85,8 +85,11 @@ namespace OWJam5ModProject
                     DeactivateFunnel();
             }
 
-            ScaleFluid(sourceFluid, sourceFluidSizeController, Mathf.Lerp(sourceHeightRange.x, sourceHeightRange.y, transferProgress));
-            ScaleFluid(targetFluid, targetFluidSizeController, Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress));
+            if (Time.timeScale > 0)
+            {
+                ScaleFluid(sourceFluid, sourceFluidSizeController, Mathf.Lerp(sourceHeightRange.x, sourceHeightRange.y, transferProgress));
+                ScaleFluid(targetFluid, targetFluidSizeController, Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress));
+            }
 
             if (additionalHeightFunnel != null)
                 targetFluid.transform.localScale = targetFluid.transform.localScale + Vector3.one * Mathf.Lerp(0, additionalHeight, additionalHeightFunnel.transferProgress);
