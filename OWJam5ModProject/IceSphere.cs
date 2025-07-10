@@ -34,8 +34,8 @@ namespace OWJam5ModProject
             var planetToStar = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star").transform.position - transform.position;
             if (shouldShadeFreeze)
             {
-                Ray ray = new Ray(transform.position, planetToStar);
-                RaycastHit[] hits = Physics.RaycastAll(ray);
+                Ray ray = new Ray(transform.position, planetToStar.normalized);
+                RaycastHit[] hits = Physics.RaycastAll(ray, planetToStar.magnitude);
                 foreach (RaycastHit hit in hits)
                 {
                     //OWJam5ModProject.DebugLog(hit.collider.name);
