@@ -11,10 +11,10 @@ namespace OWJam5ModProject
     {
         private float growSpeed = 2;
         private Transform waterTF = null;
-        [NonSerialized] public bool isFreezing = false;
-
-        private bool shouldShadeFreeze = true, shouldDistanceFreeze = true;
+        private Transform innerTF = null;
+        private Transform outerTF = null;
         private float iceFreezeDistance = 2000;
+        private float iceMeltDistance = 1200;
 
         /**
          * Find the water sphere
@@ -22,6 +22,17 @@ namespace OWJam5ModProject
         private void Start()
         {
             waterTF = transform.root.Find("Sector/Water");
+            innerTF = transform.Find("inner_ice");
+            outerTF = transform.Find("outer_ice");
+
+        }
+
+        /**
+         * Get whether or no it's too frozen to drain water
+         */
+        public bool CanDrain()
+        {
+            return waterTF.localScale.x > transform.localScale.x;
         }
 
         /**
@@ -30,40 +41,45 @@ namespace OWJam5ModProject
         private void FixedUpdate()
         {
             //Do a raycast towards the sun, see if it hits the other planet
-            isFreezing = false;
+            bool isShadowed = false;
+            bool isCold = false;
+            bool isHot = false;
             var planetToStar = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star").transform.position - transform.position;
-            if (shouldShadeFreeze)
+            Ray ray = new Ray(transform.position, planetToStar.normalized);
+            RaycastHit[] hits = Physics.RaycastAll(ray, planetToStar.magnitude);
+            foreach (RaycastHit hit in hits)
             {
-                Ray ray = new Ray(transform.position, planetToStar.normalized);
-                RaycastHit[] hits = Physics.RaycastAll(ray, planetToStar.magnitude);
-                foreach (RaycastHit hit in hits)
+                //OWJam5ModProject.DebugLog(hit.collider.name);
+                if (hit.collider.name.Equals("ice_raycast_detector"))
                 {
-                    //OWJam5ModProject.DebugLog(hit.collider.name);
-                    if (hit.collider.name.Equals("ice_raycast_detector"))
-                    {
-                        isFreezing = true;
-                    }
+                    isShadowed = true;
                 }
             }
-            if (shouldDistanceFreeze)
-                isFreezing &= planetToStar.magnitude > iceFreezeDistance; // also freeze if far away enough
 
-            //If we're growing the ice, grow to a bit past the water
-            if (isFreezing) 
-            { 
-                float scale = Mathf.Clamp(transform.localScale.x + growSpeed * Time.deltaTime,
-                    waterTF.localScale.x - 10, waterTF.localScale.x + 5);
-                transform.localScale = new Vector3(scale, scale, scale);
-            }
+            //See where the planet is relative to the star, and what that means for it freezing
+            isCold = planetToStar.magnitude > iceFreezeDistance;
+            isHot = planetToStar.magnitude < iceMeltDistance;
 
-            //Otherwise, shrink down to the lowest water level
-            else
+            //If far enough and shadowed, should grow a bit past the water
+            float scale = outerTF.localScale.x;
+            if (isCold && isShadowed) 
             {
-
-                float scale = Mathf.Clamp(transform.localScale.x - growSpeed * Time.deltaTime,
-                    waterTF.localScale.x - 10, waterTF.localScale.x + 5);
-                transform.localScale = new Vector3(scale, scale, scale);
+                scale = scale + growSpeed * Time.deltaTime;
             }
+
+            //If hot and unshadowed, ice should shrink
+            else if(isHot && !isShadowed)
+            {
+                scale = scale - growSpeed * Time.deltaTime;
+            }
+
+            //Make sure that the scale is in bounds 
+            scale = Mathf.Clamp(scale, waterTF.localScale.x - 10, waterTF.localScale.x + 5);
+
+            //Apply the scale to the outer ice and adjust the inner ice
+            outerTF.localScale = new Vector3(scale, scale, scale);
+            float innerScale = Mathf.Min(waterTF.localScale.x, scale);
+            innerTF.localScale = new Vector3(innerScale, innerScale, innerScale);
         }
     }
 }

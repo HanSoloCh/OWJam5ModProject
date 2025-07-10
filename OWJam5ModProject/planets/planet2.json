@@ -59,22 +59,9 @@
         "details": [
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/ice_sphere.prefab",
-                "rename": "icesphere",
-                "keepLoaded": true,
-                "scale": 148
-            },
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/Planets/SupermassivePlanet.prefab",
                 "keepLoaded": true,
                 "scale": 1
-            },
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/ice_raycast_detector.prefab",
-                "keepLoaded": true,
-                "scale": 230
             },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
@@ -91,7 +78,7 @@
         "size": 248
     },
     "Water": {
-        "size": 245
+        "size": 225
     },
     "Spawn": {
         "playerSpawnPoints": [
