@@ -50,6 +50,7 @@
             {
                 "frequency": "Walker_Jam5_Harmonic",
                 "name": "Walker_Jam5_Planet2_Signal",
+                "audio": "planets/assets/signals/signalguy_b.ogg",
                 "onlyAudibleToScope": true,
                 "identificationRadius": 1000,
                 "detectionRadius": 300

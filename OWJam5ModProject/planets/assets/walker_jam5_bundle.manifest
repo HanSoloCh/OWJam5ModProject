@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1110461032
+CRC: 1259611476
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 954bbab48c867482ad9c29ba909189f8
+    Hash: 4ebc5b308a5a26edb6224dbaa8a2bf4e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2cfd59f30b50f02af9b509cf458a8073
+    Hash: 22a644ad4395aa594b15653cee097c0f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -31,6 +31,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
 - Class: 81
   Script: {instanceID: 0}
 - Class: 82
@@ -40,25 +42,49 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 80818142ed7b755f9ecef4a391e63964, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: a00a4b529366e7a35af5046cca370e8e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 725636d2cf94ec21363f979e5d251158, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31bd9164073070d2ce3b96fff1a310c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
 - Class: 114
   Script: {fileID: 1194511249, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
+  Script: {fileID: 412187067, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 1392665902, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
   Script: {fileID: 2028392025, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 99090010, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 6cd941772c39872be9d9611da76f777c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 53fe1f971c08db1945e16add52db7b68, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 892a6b987a18588fe03a5937388e4a4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
 - Class: 114
@@ -72,7 +98,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 7731bc3d30c8b009ac33fba6df6e72ae, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 60948f8d385ea5748a516b813d91f332, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 1effb1bd669ff10873e29e11509c3d77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1ff8988f7de275713f88e3eab04ecc18, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 134
@@ -87,18 +117,92 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/_Bundle/Planets/Ice/Ice Desaturated.png
+- Assets/_Bundle/Planets/Supermassive/GradientMap.png
+- Assets/_Bundle/Icons/symbol_crystal.png
+- Assets/_Bundle/Planets/Crystal/CrystalGround.png
+- Assets/_Bundle/Planets/3D/Supermassive.blend
+- Assets/_Bundle/Planets/Supermassive/Rocks.mat
+- Assets/_Bundle/Planets/Sand/GDRocks.tif
+- Assets/_Bundle/Materials/HarmonicConvergencePlatform.mat
 - Assets/_Bundle/OrreryStation/OrreryStation.prefab
+- Assets/_Bundle/FakeShadow/shadow.png
+- Assets/_Bundle/Planets/Sand/Sand.mat
+- Assets/_Bundle/Planets/Crystal/Terrain_BH_RockTop_d.png
 - Assets/_Bundle/ice_raycast_detector.prefab
+- Assets/_Bundle/Planets/Supermassive/scratchy.png
+- Assets/_Bundle/Planets/Crystal/Terrain_BH_Faceted_n.png
+- Assets/_Bundle/Planets/Supermassive/Terrain_HT_Ash_d.png
+- Assets/_Bundle/OrreryStation/Orrery Ring.prefab
+- Assets/_Bundle/Structures/HarmonicDetector.prefab
+- Assets/_Bundle/Planets/Sand/Sand.blend
+- Assets/_Bundle/Planets/SandPlanet.prefab
+- Assets/_Bundle/Structures/BuriedStructure.prefab
 - Assets/_Bundle/DebugCamera/DebugCamera.prefab
+- Assets/_Bundle/Planets/Supermassive/Terrain_THM_MoonRocks2_d.png
+- Assets/_Bundle/Planets/Supermassive/Terrain_THM_MoonRocks_d.png
+- Assets/_Bundle/Planets/Ice/Terrain_BH_Ice_v2_n.png
+- Assets/_Bundle/Planets/Crystal/Crystal.mat
+- Assets/_Bundle/Icons/symbol_icy.png
 - Assets/_Bundle/DebugCamera/DebugCameraTexture.renderTexture
+- Assets/_Bundle/Planets/Ice/Ice.mat
+- Assets/_Bundle/OrbitLines.prefab
+- Assets/_Bundle/Icons/NomIcons.blend
+- Assets/_Bundle/FakeShadow/UnlitDynamicDecal.mat
+- Assets/_Bundle/Planets/3D/CheeseGuy.tif
+- Assets/_Bundle/Planets/Crystal/BRDF.mat
+- Assets/_Bundle/Planets/Sand/btwgradient.png
+- Assets/_Bundle/Planets/Supermassive/Ground.mat
+- Assets/_Bundle/Planets/WaterPlanet.prefab
+- Assets/_Bundle/Planets/3D/InvertedSphere.fbx
+- Assets/_Bundle/Planets/Sand/Sand 1.mat
+- Assets/_Bundle/Structures/OrreryWarpTransmitter.prefab
+- Assets/_Bundle/Planets/Supermassive/Rocks.fbx
+- Assets/_Bundle/Planets/Ice/Terrain_BH_Ice_v2_d.png
 - Assets/_Bundle/OrreryStation/Mats/Orb Track.mat
+- Assets/_Bundle/Structures/GravityTower.prefab
+- Assets/_Bundle/Planets/Ice/Terrain_BH_Ice_v2_s.png
+- Assets/_Bundle/FakeShadow/FakeShadow.prefab
+- Assets/_Bundle/Planets/Sand/Terrain_GD_RockDetail_n.png
 - Assets/_Bundle/OrreryStation/Mats/Structure_NOM_OrbTrack_v2_n.png
+- Assets/_Bundle/Planets/Supermassive/LezGradient.mat
+- Assets/_Bundle/Planets/3D/NormalGuy.tif
+- Assets/_Bundle/Structures/GravityTower.fbx
+- Assets/_Bundle/Planets/Supermassive/Terrain_CO_DirtShale_n.png
+- Assets/_Bundle/Structures/WarpReceiverStructure.prefab
+- Assets/_Bundle/Materials/RealOrbitLines.mat
+- Assets/_Bundle/Planets/Sand/SandRocks2.png
 - Assets/_Bundle/Orbs/Orrery.prefab
 - Assets/_Bundle/ice_sphere.prefab
+- Assets/_Bundle/Planets/Supermassive/Terrain_THM_MoonRocks_n.png
 - Assets/_Bundle/OrreryStation/Mats/Glass.mat
+- Assets/_Bundle/Planets/3D/Crystal.blend
+- Assets/_Bundle/Planets/Ice/ice2.tif
+- Assets/_Bundle/Planets/Supermassive/Terrain_CO_DirtShale_d.png
 - Assets/_Bundle/Orbs/OrbCollider.fbx
+- Assets/_Bundle/Planets/CrystalPlanet.prefab
 - Assets/_Bundle/DebugCamera/DebugCameraMaterial.mat
+- Assets/_Bundle/nom_fuel_tank.prefab
+- Assets/_Bundle/QuantumEntanglementRock.prefab
+- Assets/_Bundle/Structures/WarpReceiver.fbx
+- Assets/_Bundle/Planets/Supermassive/GrainTest1.png
+- Assets/_Bundle/Planets/3D/DoubleSidedSphere.fbx
+- Assets/_Bundle/Materials/HarmonicConvergenceLamp.mat
+- Assets/_Bundle/Structures/HarmonicDetector.fbx
+- Assets/_Bundle/Structures/BuriedStructure.fbx
 - Assets/_Bundle/OrreryStation/Mats/Structure_NOM_OrbTrack_v2_d.png
+- Assets/_Bundle/Planets/Crystal/Terrain_HT_Obsidian_n.png
+- Assets/_Bundle/Icons/symbol_desert.png
+- Assets/_Bundle/Planets/Supermassive/Rock.prefab
+- Assets/_Bundle/Icons/symbol_supermassive.png
 - Assets/_Bundle/DebugStation.prefab
+- Assets/_Bundle/FakeShadow/UnlitDynamicDecal.shader
+- Assets/_Bundle/Planets/Ice/Ice.blend
+- Assets/_Bundle/Planets/Sand/SandRocks.png
+- Assets/_Bundle/Planets/SupermassivePlanet.prefab
+- Assets/_Bundle/Planets/Supermassive/Gradient2.png
+- Assets/_Bundle/Planets/Crystal/Terrain_BH_RockTop_n.png
+- Assets/_Bundle/Structure_NOM_WarpReceiver_TimberHearth_Rocks.prefab
 - Assets/_Bundle/OrreryStation/OrreryStation.blend
+- Assets/_Bundle/Structures/HarmonicDetectorPillar.prefab
 Dependencies: []
