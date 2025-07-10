@@ -17,7 +17,7 @@
         "audioVolumes": [
             {
                 "audio": "planets/assets/audio/orrerystation.ogg",
-                "radius": 50,
+                "radius": 100,
                 "track": "music",
                 "fadeSeconds": 5,
                 "loop": true

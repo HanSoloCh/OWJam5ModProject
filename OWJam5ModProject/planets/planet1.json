@@ -61,7 +61,164 @@
                 "parentPath": "Sector/CrystalPlanet/HarmonicDetector/Computer",
                 "isRelativeToParent": true,
                 "type": "computer",
-                "xmlFile": "planets/text/hint/double_sand_req_computer.xml"
+                "xmlFile": "planets/text/reqs/double_sand_req_computer.xml"
+            },
+            {
+                "parentPath": "Sector/CrystalPlanet/HarmonicDetector/Props_NOM_Whiteboard/text_anchor",
+                "rename": "convergence_hint_text",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/hints/convergence_explanation.xml",
+                "seed": 471543,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 0.01821136
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.2534499,
+                            "y": 0.6768861
+                        },
+                        "zRotation": 335.5724
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.5246225,
+                            "y": 1.14725
+                        },
+                        "zRotation": 346.618
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.7747126,
+                            "y": 1.562284
+                        },
+                        "zRotation": 18.36557
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.0795738,
+                            "y": 2.013457
+                        },
+                        "zRotation": 63.35276
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -1.132444,
+                            "y": 1.888964
+                        },
+                        "zRotation": 24.69106
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.532336,
+                            "y": 2.364892
+                        },
+                        "zRotation": 358.8387
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.4632292,
+                            "y": 1.981476
+                        },
+                        "zRotation": 13.08312
+                    }
+                ]
+            },
+            {
+                "parentPath": "Sector/CrystalPlanet/Normal Size/Props_NOM_Whiteboard/text_anchor",
+                "rename": "multi_receiver_text",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/hints/multi_receiver_hint.xml",
+                "seed": 58926,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 355.2506
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.05285464,
+                            "y": 0.3390119
+                        },
+                        "zRotation": 300.1808
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.202632,
+                            "y": 0.5691099
+                        },
+                        "zRotation": 329.2
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.9769139,
+                            "y": 0.7442458
+                        },
+                        "zRotation": 334.514
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.745265,
+                            "y": 1.21187
+                        },
+                        "zRotation": 346.8355
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.965018,
+                            "y": 2.136396
+                        },
+                        "zRotation": 5.95771
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.5332135,
+                            "y": 0.8860341
+                        },
+                        "zRotation": 309.0073
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 1.525081,
+                            "y": 2.036926
+                        },
+                        "zRotation": 27.08523
+                    }
+                ]
             }
         ],
         "details": [

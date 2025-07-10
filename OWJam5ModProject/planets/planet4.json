@@ -9,7 +9,7 @@
     "AmbientLights": [
         {
             "outerRadius": 230,
-            "innerRadius": 150,
+            "innerRadius": 160,
             "intensity": 0.5
         }
     ],
@@ -22,7 +22,7 @@
       "isTidallyLocked": true
     },
     "Water": {
-        "size": 155,
+        "size": 160,
         "buoyancy": 0.8
     },
     "Funnel": {
