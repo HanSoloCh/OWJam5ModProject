@@ -1,0 +1,72 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ALNUS: I thought that the size of this planet deserved a monument of fitting stature, so I constructed this tower here!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			BETULA: This is lovely Alnus! I look forward to seeing the top chamber of the tower once you put in a tractor beam to get up there!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ALNUS: Tractor beam? We don’t have any means by which to make a tractor beam, we weren’t given the right materials.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			BETULA: Oh? Then what means do you intend us to use to get up there? The gravity of this planet is far too high for a thrustpack to give the necessary height.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ALNUS: ...I left my lunch up there…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			DAUCUS: There’s probably some easy way to get up there. If gravity is the issue, maybe we can find a way to weaken it.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			DAUCUS: I’ll admit that this is pretty impressive, especially considering how strong the gravity of this planet is.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			ADONSONIA: Ha! Intentional or not, that’s a good prank. I don’t know if I could have done better myself!
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

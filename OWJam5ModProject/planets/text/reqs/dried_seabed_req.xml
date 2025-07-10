@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			BETULA: I hope you all don’t mind, but I sent Oryza the requirement that we would have a dried-out seabed on one of our planets. To help with this, I placed an ocean on one of the planets (which I have now named WATER_PLANET_NAME) so that it will have time to form a proper seabed.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ALNUS: Is our star hot enough to boil the water off of the planet once the seabed forms?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			BETULA: ...It appears that it may not be. My apologies, I hope that I did not just give us an impossible requirement.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			ADONSONIA: If we can’t boil the water off, perhaps there’s some way for us to move it somewhere else...
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ADONSONIA: An interesting idea! Dried seabeds are fairly common in real star systems, so that should work well for this project.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			DAUCUS: A requirement that fulfills itself with time, good idea.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

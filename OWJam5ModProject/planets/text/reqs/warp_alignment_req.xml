@@ -1,0 +1,64 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			DAUCUS: A fairly simple requirement would be to have our transmitter line up with one of our receivers.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ALNUS: I’m not clear on how that demonstrates an understanding of star systems.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			DAUCUS: We’ve already placed a number of different buildings on these planets, so it’s already not a representation of a fully natural system. Given that, lining up the warp pads would demonstrate that we’re considering how transport would work in the system.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			DAUCUS: Given that we only have the one transmitter, I think we can get away with lining up with either warp pad is most convenient.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ALNUS: That is actually a very fair justification, I’ll let our teacher know that we’ll have an aligned transmitter-receiver pair.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ADONSONIA: That’s not a terribly natural requirement, Daucus, I’m surprised to hear you going against the grain like that. I like it!
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			BETULA: I was skeptical at first, but I do like your reasoning. I vote that we make this a requirement.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

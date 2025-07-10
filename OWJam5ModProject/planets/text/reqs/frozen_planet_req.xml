@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ADONSONIA: An interesting idea for a requirement could be that one of the planets must have solid ice on it.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			BETULA: That could be a good one! Star systems do tend to have a wide range of climates, and that would be fairly easy to implement since WATER_PLANET_NAME has a bunch of water on it.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ADONSONIA: Alright! I’ve gone ahead and let Oryza know that we will include a planet with ice.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			ALNUS: Wait! Don’t send that message yet! I was experimenting with WATER_PLANET_NAME earlier and there doesn’t seem to be a way to freeze it! Our star is too hot to freeze the water, even at the maximum distance from the star.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ADONSONIA: Urgh, I’ve already sent the message with the requirement. I’m sure that we can figure out some way to re-freeze the water, we just need to stop the brunt of the star’s heat from reaching the planet.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			DAUCUS: Would it not be wise to wait for more people to give input before sending that message?
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

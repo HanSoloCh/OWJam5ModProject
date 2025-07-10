@@ -1,0 +1,72 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ADONSONIA: I’m really sorry everyone, but I may have accidentally dropped the materials for the other transmitter into the star during transport.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ALNUS: Adonsonia! That was our last warp core! I don’t know why you feel the need to constantly sabotage us! Do you just dislike us all?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ADONSONIA: I didn’t mean to drop it, it just happened! I know I do more pranks than you would like, but I’d never purposefully cause actual harm to the project!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			ALNUS: Even if we choose to believe that, it doesn’t change the fact that we’re now out of warp cores. Without another one we can’t make any more transmitters, which means we can only use one of the receivers. We’ll have to pick between the one on SAND_PLANET_NAME and the one on WATER_PLANET_NAME!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			DAUCUS: Don’t worry about that. I’ve gone ahead and hacked the transmitter to work with either receiver, depending on which one lines up. That way we won’t need a second transmitter.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			ADONSONIA: Thanks a ton Daucus! I am really sorry about incinerating those components, but I’m glad you were able to clean up my mess a bit.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			BETULA: We know Adonsonia, Alnus is just upset. Everyone makes mistakes.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			ALNUS: Really? That’s very helpful Daucus! We were really relying on those warp pads, so it’s good to have them all usable.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>
