@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using NewHorizons.Components.SizeControllers;
 using System.Xml;
+using NewHorizons.Utility;
 
 namespace OWJam5ModProject
 {
@@ -20,6 +21,8 @@ namespace OWJam5ModProject
         IceSphere iceSphere = null;
         GameObject sourceFluid;
         GameObject targetFluid;
+        SizeController sourceFluidSizeController;
+        SizeController targetFluidSizeController;
         bool funnelActive;
         bool transferingFluid;
         Vector2 sourceHeightRange;
@@ -31,7 +34,9 @@ namespace OWJam5ModProject
         public void Initialize(GameObject sourceFluid, float sourceDrainedHeight, GameObject targetFluid, float targetFilledHeight, FunnelProximityActivator additionalHeightFunnel = null, float additionalHeight = 0)
         {
             this.sourceFluid = sourceFluid;
+            sourceFluidSizeController = AddSizeController(sourceFluid);
             this.targetFluid = targetFluid;
+            targetFluidSizeController = AddSizeController(targetFluid);
 
             sourceHeightRange = new Vector2(sourceFluid.transform.localScale.x, sourceDrainedHeight);
             targetHeightRange = new Vector2(targetFluid.transform.localScale.x, targetFilledHeight);
@@ -40,6 +45,20 @@ namespace OWJam5ModProject
             this.additionalHeight = additionalHeight;
 
             iceSphere = sourceFluid.transform.parent.GetComponentInChildren<IceSphere>();
+        }
+
+        SizeController AddSizeController(GameObject fluid)
+        {
+            if (fluid.name == "Water")
+            {
+                WaterSizeController waterSizeController = fluid.AddComponent<WaterSizeController>();
+                waterSizeController.oceanFogMaterial = fluid.FindChild("OceanFog").GetComponent<MeshRenderer>().material;
+                waterSizeController.fluidVolume = fluid.FindChild("WaterVolume").GetComponent<RadialFluidVolume>();
+                
+                return waterSizeController;
+            }
+
+            return null;
         }
 
         void Start()
@@ -66,11 +85,19 @@ namespace OWJam5ModProject
                     DeactivateFunnel();
             }
 
-            sourceFluid.transform.localScale = Vector3.one * Mathf.Lerp(sourceHeightRange.x, sourceHeightRange.y, transferProgress);
-            targetFluid.transform.localScale = Vector3.one * Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress);
+            ScaleFluid(sourceFluid, sourceFluidSizeController, Mathf.Lerp(sourceHeightRange.x, sourceHeightRange.y, transferProgress));
+            ScaleFluid(targetFluid, targetFluidSizeController, Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress));
 
             if (additionalHeightFunnel != null)
                 targetFluid.transform.localScale = targetFluid.transform.localScale + Vector3.one * Mathf.Lerp(0, additionalHeight, additionalHeightFunnel.transferProgress);
+        }
+
+        void ScaleFluid(GameObject fluid, SizeController fluidSizeController, float scale)
+        {
+            if (fluidSizeController != null)
+                fluidSizeController.size = scale;
+            else
+                fluid.transform.localScale = Vector3.one * scale;
         }
 
         void ActivateFunnel()
