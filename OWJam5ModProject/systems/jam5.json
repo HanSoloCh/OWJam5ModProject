@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
   "name": "Jam5",
+  "GlobalMusic": {
+    "travelAudio": "planets/assets/audio/jam5space.ogg" // will be put on base jam mod at some point
+  },
   "initialReveal": [
     "WALKER_JAM5_SYSTEM_EXPLORE_FACT"
   ],
