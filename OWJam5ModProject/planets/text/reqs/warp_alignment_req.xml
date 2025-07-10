@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ALNUS: I’m not clear on how that demonstrates an understanding of star systems.
+			ALNUS: I'm not clear on how that demonstrates an understanding of star systems.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			DAUCUS: We’ve already placed a number of different buildings on these planets, so it’s already not a representation of a fully natural system. Given that, lining up the warp pads would demonstrate that we’re considering how transport would work in the system.
+			DAUCUS: We've already placed a number of different buildings on these planets, so it's already not a representation of a fully natural system. Given that, lining up the warp pads would demonstrate that we're considering how transport would work in the system.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ALNUS: That is actually a very fair justification, I’ll let our teacher know that we’ll have an aligned transmitter-receiver pair.
+			ALNUS: That is actually a very fair justification, I'll let our teacher know that we'll have an aligned transmitter-receiver pair.
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>101</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: That’s not a terribly natural requirement, Daucus, I’m surprised to hear you going against the grain like that. I like it!
+			ADONSONIA: That's not a terribly natural requirement, Daucus, I'm surprised to hear you going against the grain like that. I like it!
 		</Text>
 	</TextBlock>
 

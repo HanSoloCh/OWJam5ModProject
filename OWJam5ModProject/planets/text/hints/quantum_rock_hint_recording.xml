@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ALNUS: Our teacher said that there’s something we should see at the core of this planet.
+			ALNUS: Our teacher said that there's something we should see at the core of this planet.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ALNUS: Something about us “riding�? this rock here.
+			ALNUS: Something about us "riding" this rock here.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			DAUCUS: What do you mean by “riding�?? The rock is only present here half of the times we look and, when it is here, it doesn’t move in the slightest.
+			DAUCUS: What do you mean by "riding"? The rock is only present here half of the times we look and, when it is here, it doesn't move in the slightest.
 		</Text>
 	</TextBlock>
 

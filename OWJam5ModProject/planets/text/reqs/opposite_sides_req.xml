@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			BETULA: A concern that just occurred to me is the fact that, while we only have three possible orbits for planets to occupy, we have four total planets. Isn’t that a bit unrealistic?
+			BETULA: A concern that just occurred to me is the fact that, while we only have three possible orbits for planets to occupy, we have four total planets. Isn't that a bit unrealistic?
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: I believe that should work. I’ll let our teacher know that one of our requirements will be that any planets in the same orbit must be on opposite sides of the star.
+			ALNUS: I believe that should work. I'll let our teacher know that one of our requirements will be that any planets in the same orbit must be on opposite sides of the star.
 		</Text>
 	</TextBlock>
 

@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ORYZA: We’ve decided to focus on education for this festival, which is where you all are going to come in! This entire star system is actually an educational device made to help students like yourselves understand how such a system works.
+			ORYZA: We've decided to focus on education for this festival, which is where you all are going to come in! This entire star system is actually an educational device made to help students like yourselves understand how such a system works.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ORYZA: That may be a bit confusing, but I’ll leave it to you all to discover what I mean by that! To make navigation easier in this system, we’ve placed warp transmitters on the north pole of each planet that will bring you to and from this station.
+			ORYZA: That may be a bit confusing, but I'll leave it to you all to discover what I mean by that! To make navigation easier in this system, we've placed warp transmitters on the north pole of each planet that will bring you to and from this station.
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			ORYZA: Oh, and one last thing. Since this is meant to demonstrate your understanding of star systems, I’ll need you to tell me REQUIREMENT_NUMBER different requirements that your system will meet to be similar to a real star system. This is a graded project after all. Have fun little ones!
+			ORYZA: Oh, and one last thing. Since this is meant to demonstrate your understanding of star systems, I'll need you to tell me REQUIREMENT_NUMBER different requirements that your system will meet to be similar to a real star system. This is a graded project after all. Have fun little ones!
 		</Text>
 	</TextBlock>
 

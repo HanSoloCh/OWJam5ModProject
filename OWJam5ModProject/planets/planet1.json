@@ -61,7 +61,7 @@
                 "parentPath": "Sector/CrystalPlanet/HarmonicDetector/Computer",
                 "isRelativeToParent": true,
                 "type": "computer",
-                "xmlFile": "planets/text/hint/convergence_explanation.xml"
+                "xmlFile": "planets/text/hint/double_sand_req_computer.xml"
             }
         ],
         "details": [

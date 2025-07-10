@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ADONSONIA: I’m really sorry everyone, but I may have accidentally dropped the materials for the other transmitter into the star during transport.
+			ADONSONIA: I'm really sorry everyone, but I may have accidentally dropped the materials for the other transmitter into the star during transport.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ALNUS: Adonsonia! That was our last warp core! I don’t know why you feel the need to constantly sabotage us! Do you just dislike us all?
+			ALNUS: Adonsonia! That was our last warp core! I don't know why you feel the need to constantly sabotage us! Do you just dislike us all?
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: I didn’t mean to drop it, it just happened! I know I do more pranks than you would like, but I’d never purposefully cause actual harm to the project!
+			ADONSONIA: I didn't mean to drop it, it just happened! I know I do more pranks than you would like, but I'd never purposefully cause actual harm to the project!
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: Even if we choose to believe that, it doesn’t change the fact that we’re now out of warp cores. Without another one we can’t make any more transmitters, which means we can only use one of the receivers. We’ll have to pick between the one on SAND_PLANET_NAME and the one on WATER_PLANET_NAME!
+			ALNUS: Even if we choose to believe that, it doesn't change the fact that we're now out of warp cores. Without another one we can't make any more transmitters, which means we can only use one of the receivers. We'll have to pick between the one on SAND_PLANET_NAME and the one on WATER_PLANET_NAME!
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			DAUCUS: Don’t worry about that. I’ve gone ahead and hacked the transmitter to work with either receiver, depending on which one lines up. That way we won’t need a second transmitter.
+			DAUCUS: Don't worry about that. I've gone ahead and hacked the transmitter to work with either receiver, depending on which one lines up. That way we won't need a second transmitter.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			ADONSONIA: Thanks a ton Daucus! I am really sorry about incinerating those components, but I’m glad you were able to clean up my mess a bit.
+			ADONSONIA: Thanks a ton Daucus! I am really sorry about incinerating those components, but I'm glad you were able to clean up my mess a bit.
 		</Text>
 	</TextBlock>
 
@@ -64,7 +64,7 @@
 		<ID>201</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			ALNUS: Really? That’s very helpful Daucus! We were really relying on those warp pads, so it’s good to have them all usable.
+			ALNUS: Really? That's very helpful Daucus! We were really relying on those warp pads, so it's good to have them all usable.
 		</Text>
 	</TextBlock>
 

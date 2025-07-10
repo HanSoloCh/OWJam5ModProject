@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			BETULA: I hope you all don’t mind, but I sent Oryza the requirement that we would have a dried-out seabed on one of our planets. To help with this, I placed an ocean on one of the planets (which I have now named WATER_PLANET_NAME) so that it will have time to form a proper seabed.
+			BETULA: I hope you all don't mind, but I sent Oryza the requirement that we would have a dried-out seabed on one of our planets. To help with this, I placed an ocean on one of the planets (which I have now named WATER_PLANET_NAME) so that it will have time to form a proper seabed.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ADONSONIA: If we can’t boil the water off, perhaps there’s some way for us to move it somewhere else...
+			ADONSONIA: If we can't boil the water off, perhaps there's some way for us to move it somewhere else...
 		</Text>
 	</TextBlock>
 

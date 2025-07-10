@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: Alnus, I doubt that our project being imperfect will affect the reputation of our clan. Everyone understands that we’re still students, after all.
+			ADONSONIA: Alnus, I doubt that our project being imperfect will affect the reputation of our clan. Everyone understands that we're still students, after all.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			BETULA: Well, regardless of what stakes may or may not exist, we won’t be able to do anything until we get down onto the planets and survey them, so I think that should be our next course of action.
+			BETULA: Well, regardless of what stakes may or may not exist, we won't be able to do anything until we get down onto the planets and survey them, so I think that should be our next course of action.
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>101</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			DAUCUS: Ah, I see that it’s going to be that kind of project. In that case just let me know what you need me to do and I’ll (maybe) do it.
+			DAUCUS: Ah, I see that it's going to be that kind of project. In that case just let me know what you need me to do and I'll (maybe) do it.
 		</Text>
 	</TextBlock>
 

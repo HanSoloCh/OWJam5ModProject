@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ALNUS: Who constructed this building around the warp receiver? I know we wanted one, but I can’t seem to locate the door.
+			ALNUS: Who constructed this building around the warp receiver? I know we wanted one, but I can't seem to locate the door.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ADONSONIA: Who can say? Maybe there’s no way into the building at all. I suppose you’ll just need to figure it out.
+			ADONSONIA: Who can say? Maybe there's no way into the building at all. I suppose you'll just need to figure it out.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ALNUS: Do you really expect me to believe that you don’t know any way inside when I can see your sap-treat wrappers inside? Wrappers which, I might remind you, are VERY RUDE to leave on the floor!
+			ALNUS: Do you really expect me to believe that you don't know any way inside when I can see your sap-treat wrappers inside? Wrappers which, I might remind you, are VERY RUDE to leave on the floor!
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>101</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			BETULA: Alnus, I’m sure that there’s some way to get into the building, don’t worry.
+			BETULA: Alnus, I'm sure that there's some way to get into the building, don't worry.
 		</Text>
 	</TextBlock>
 

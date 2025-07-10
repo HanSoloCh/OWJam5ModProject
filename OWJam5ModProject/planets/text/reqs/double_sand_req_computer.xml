@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ADONSONIA: If you’re reading this, that means that you solved my signal puzzle. Well done!
+			ADONSONIA: If you're reading this, that means that you solved my signal puzzle. Well done!
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: If you’re wondering about the requirement that I sent to Oryza, then don’t worry, it’s just that we need to have two different planets with some sand on them.
+			ADONSONIA: If you're wondering about the requirement that I sent to Oryza, then don't worry, it's just that we need to have two different planets with some sand on them.
 		</Text>
 	</TextBlock>
 
