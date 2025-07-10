@@ -18,7 +18,9 @@ namespace OWJam5ModProject
         [SerializeField] OWTriggerVolume playerDetectorTrigger;
 
         AudioSignal[] harmonicSignals;
+        NomaiComputer computer;
         bool playerInside;
+        bool convergenceSolved;
 
         void Start()
         {
@@ -41,17 +43,29 @@ namespace OWJam5ModProject
                 }
             }
 
-            // Initialize detector
+            // Initialize player detector trigger
             playerDetectorTrigger.OnEntry += PlayerDetector_OnEntry;
             playerDetectorTrigger.OnExit += PlayerDetector_OnExit;
+
+            // Initialize computer
+            NewHorizons.Utility.OWML.Delay.FireOnNextUpdate(InitializeComputer);
+        }
+
+        void InitializeComputer()
+        {
+            computer = computerParent.GetComponentInChildren<NomaiComputer>();
+            computer.ClearAllEntries(); // Computer starts deactivated
         }
 
         void Update()
         {
-            if (playerInside)
+            if (playerInside && !convergenceSolved)
             {
                 if (CheckConvergence())
-                    OWJam5ModProject.Instance.ModHelper.Console.WriteLine("Converged!!!");
+                {
+                    convergenceSolved = true;
+                    computer.DisplayAllEntries();
+                }
             }
         }
 

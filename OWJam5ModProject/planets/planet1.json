@@ -51,6 +51,14 @@
                 "detectionRadius": 170
             }
         ],
+        "translatorText": [
+            {
+                "parentPath": "Sector/CrystalPlanet/HarmonicDetector/Computer",
+                "isRelativeToParent": true,
+                "type": "computer",
+                "xmlFile": "planets/text/harmonic_computer.xml"
+            }
+        ],
         "details": [
             {
             "assetBundle": "planets/assets/walker_jam5_bundle",
