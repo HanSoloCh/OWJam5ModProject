@@ -32,6 +32,9 @@ public static class GlobalMusicControllerPatches
         travelSource2.SetTrack(OWAudioMixer.TrackName.Music);
         go.SetActive(true);
         OWJam5ModProject.DebugLog("custom travel audio made!");
+        
+        // TEMP
+        AudioUtilities.SetAudioClip(__instance._travelSource, "planets/assets/audio/jam5space.ogg", OWJam5ModProject.Instance);
     }
 
 
