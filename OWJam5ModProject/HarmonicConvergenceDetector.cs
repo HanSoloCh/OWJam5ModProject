@@ -9,7 +9,7 @@ namespace OWJam5ModProject
     internal class HarmonicConvergenceDetector : MonoBehaviour
     {
         string HARMONIC_FREQUENCY = "Walker_Jam5_Harmonic";
-        float HARMONIC_THRESHOLD = 0.7f;
+        float HARMONIC_THRESHOLD = 0.85f;
         string EMISSION_COLOR_PROPERTY = "_EmissionColor";
         float TORCH_FADE_DURATION = 0.25f;
 
