@@ -41,7 +41,7 @@ public static class GlobalMusicControllerPatches
     [HarmonyPrefix, HarmonyPatch(nameof(GlobalMusicController.UpdateTravelMusic))]
     private static bool UpdateTravelMusic(GlobalMusicController __instance)
     {
-        bool inOurSystem = Vector3.Distance(Locator.GetPlayerTransform().position, star.transform.position) < 5000;
+        bool inOurSystem = Vector3.Distance(Locator.GetPlayerTransform().position, star.transform.position) < 2500;
 
         bool shouldPlay = PlayerState.AtFlightConsole() && !PlayerState.IsHullBreached() &&
                           Locator.GetPlayerRulesetDetector().AllowTravelMusic() && !__instance._playingFinalEndTimes;
