@@ -23,7 +23,8 @@
         "staticPosition": {
             "x": 700
         },
-        "isStatic": true
+      "isStatic": true,
+      "isTidallyLocked": true
     },
     "Props": {
         "warpTransmitters": [

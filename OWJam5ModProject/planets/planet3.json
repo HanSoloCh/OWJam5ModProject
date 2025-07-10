@@ -23,7 +23,8 @@
         "staticPosition": {
             "z": -1450
         },
-        "isStatic": true
+        "isStatic": true,
+      "isTidallyLocked": true
     },
     "Sand": {
         "size": 155
