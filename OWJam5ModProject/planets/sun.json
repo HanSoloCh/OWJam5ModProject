@@ -53,7 +53,8 @@
                 "name": "Walker_Jam5_Sun_Signal",
                 "onlyAudibleToScope": true,
                 "identificationRadius": 2500,
-                "detectionRadius": 1250
+                "detectionRadius": 1250,
+                "audio": "planets/assets/signals/signalguy_sun.ogg"
             }
         ],
         "details": [
