@@ -21,12 +21,13 @@
         }
     ],
     "Orbit": {
-        "primaryBody": "Walker_Jam5_Star",
-        "staticPosition": {
-            "z": 1450
-        },
-        "isStatic": true
-    },
+      "primaryBody": "Walker_Jam5_Star",
+      "staticPosition": {
+        "z": 1450
+      },
+      "isStatic": true,
+      "isTidallyLocked": true
+  },
     "Props": {
         "warpTransmitters": [
             {
