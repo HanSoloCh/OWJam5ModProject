@@ -36,9 +36,18 @@
     "Props": {
         "warpReceivers": [
             {
-                "parentPath": "Sector/WarpReceiverStructure/WarpReceiver",
+                "parentPath": "Sector/SandPlanet/WarpReceiverStructure/WarpReceiver",
                 "isRelativeToParent": true,
                 "frequency": "WalkerJam5"
+            }
+        ],
+        "warpTransmitters": [
+            {
+                "parentPath": "Sector/SandPlanet/OrreryWarpTransmitter/WarpTransmitter",
+                "isRelativeToParent": true,
+                "alignRadial": true,
+                "frequency": "WalkerJam5Orrery",
+                "alignmentWindow": 180
             }
         ],
         "signals": [
@@ -52,19 +61,19 @@
         ],
         "translatorText": [
             {
-                "parentPath": "Sector/BuriedStructure/BuriedStructureUpperRecorder",
+                "parentPath": "Sector/SandPlanet/BuriedStructure/BuriedStructureUpperRecorder",
                 "isRelativeToParent": true,
                 "type": "recorder",
                 "xmlFile": "planets/text/buried_structure_recorder_upper.xml"
             },
             {
-                "parentPath": "Sector/BuriedStructure/BuriedStructureLowerRecorder",
+                "parentPath": "Sector/SandPlanet/BuriedStructure/BuriedStructureLowerRecorder",
                 "isRelativeToParent": true,
                 "type": "recorder",
                 "xmlFile": "planets/text/buried_structure_recorder_lower.xml"
             },
             {
-                "parentPath": "Sector/WarpReceiverStructure/WarpReceiverRecorder",
+                "parentPath": "Sector/SandPlanet/WarpReceiverStructure/WarpReceiverRecorder",
                 "isRelativeToParent": true,
                 "type": "recorder",
                 "xmlFile": "planets/text/sand_warp_receiver_recorder.xml"
@@ -76,30 +85,6 @@
                 "path": "Assets/_Bundle/Planets/SandPlanet.prefab",
                 "keepLoaded": true,
                 "scale": 1.0
-            },
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/ice_raycast_detector.prefab",
-                "keepLoaded": true,
-                "scale": 120
-            },
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/Structures/BuriedStructure.prefab",
-                "alignRadial": true,
-                "keepLoaded": true,
-                "position": {
-                    "z": -150
-                }
-            },
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/Structures/WarpReceiverStructure.prefab",
-                "alignRadial": true,
-                "keepLoaded": true,
-                "position": {
-                    "y": -155
-                }
             }
         ]
     },
