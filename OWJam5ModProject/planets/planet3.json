@@ -4,7 +4,7 @@
     "starSystem": "Jam5",
     "Base": {
         "surfaceSize": 150,
-        "surfaceGravity": 18,
+        "surfaceGravity": 12,
         "groundSize": 0
     },
     "AmbientLights": [
@@ -27,7 +27,7 @@
       "isTidallyLocked": true
     },
     "Sand": {
-        "size": 155
+        "size": 153
     },
     "Funnel": {
         "target": "Walker_Jam5_Planet2",
@@ -60,18 +60,6 @@
             }
         ],
         "translatorText": [
-            {
-                "parentPath": "Sector/SandPlanet/BuriedStructure/BuriedStructureUpperRecorder",
-                "isRelativeToParent": true,
-                "type": "recorder",
-                "xmlFile": "planets/text/buried_structure_recorder_upper.xml"
-            },
-            {
-                "parentPath": "Sector/SandPlanet/BuriedStructure/BuriedStructureLowerRecorder",
-                "isRelativeToParent": true,
-                "type": "recorder",
-                "xmlFile": "planets/text/buried_structure_recorder_lower.xml"
-            },
             {
                 "parentPath": "Sector/SandPlanet/WarpReceiverStructure/WarpReceiverRecorder",
                 "isRelativeToParent": true,

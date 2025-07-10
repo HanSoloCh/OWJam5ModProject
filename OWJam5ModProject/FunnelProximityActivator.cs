@@ -88,11 +88,12 @@ namespace OWJam5ModProject
             if (Time.timeScale > 0)
             {
                 ScaleFluid(sourceFluid, sourceFluidSizeController, Mathf.Lerp(sourceHeightRange.x, sourceHeightRange.y, transferProgress));
-                ScaleFluid(targetFluid, targetFluidSizeController, Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress));
-            }
 
-            if (additionalHeightFunnel != null)
-                targetFluid.transform.localScale = targetFluid.transform.localScale + Vector3.one * Mathf.Lerp(0, additionalHeight, additionalHeightFunnel.transferProgress);
+                float targetFluidScale = Mathf.Lerp(targetHeightRange.x, targetHeightRange.y, transferProgress);
+                if (additionalHeightFunnel != null)
+                    targetFluidScale += Mathf.Lerp(0, additionalHeight, additionalHeightFunnel.transferProgress);
+                ScaleFluid(targetFluid, targetFluidSizeController, targetFluidScale);
+            }
         }
 
         void ScaleFluid(GameObject fluid, SizeController fluidSizeController, float scale)
