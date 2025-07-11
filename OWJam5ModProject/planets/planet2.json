@@ -40,12 +40,6 @@
         ],
         "translatorText": [
             {
-                "parentPath": "Sector/GravityTower/GravityTowerRecorder",
-                "isRelativeToParent": true,
-                "type": "recorder",
-                "xmlFile": "planets/text/gravity_tower_recorder.xml"
-            },
-            {
                 "rename": "ghost_matter_hint_text",
                 "parentPath": "Sector/SupermassivePlanet/GhostMatterCave/Props_NOM_Whiteboard/text_anchor",
                 "isRelativeToParent": true,
