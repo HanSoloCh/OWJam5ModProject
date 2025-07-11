@@ -8,6 +8,9 @@
         "groundSize": 1,
         "soiOverride": 500
     },
+    "MapMarker": {
+        "enabled": true
+    },
     "Atmosphere": {
         "size": 380,
         "atmosphereTint": {"r": 217, "g": 189, "b": 130}

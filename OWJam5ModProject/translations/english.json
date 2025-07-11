@@ -1,3 +1,17 @@
 {
-	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json"
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"UIDictionary": {
+		"Walker_Jam5_Star": "Orrery's Heart",
+		"Walker_Jam5_Planet1": "Shattered Geode",
+		"Walker_Jam5_Planet2": "The Big One",
+		"Walker_Jam5_Planet3": "Daucus",
+		"Walker_Jam5_Planet4": "Glacial Abyss!",
+
+		"Walker_Jam5_Harmonic": "Orrery's Harmony",
+		"Walker_Jam5_Star_Signal": "Orrery's Heart",
+		"Walker_Jam5_Planet1_Signal": "Shattered Geode",
+		"Walker_Jam5_Planet2_Signal": "The Big One",
+		"Walker_Jam5_Planet3_Signal": "Daucus",
+		"Walker_Jam5_Planet4_Signal": "Glacial Abyss!"
+	}
 }

@@ -2,8 +2,8 @@
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "name": "Walker_Jam5_Star",
     "starSystem": "Jam5",
-    "removeChildren": [ 
-        "Sector/Star/Audio_Star/SurfaceAudio_Sun", 
+    "removeChildren": [
+        "Sector/Star/Audio_Star/SurfaceAudio_Sun",
         "Sector/Star/AmbientLight_Star" // nh ambient light is broken 
     ],
     "Base": {
@@ -12,6 +12,9 @@
         "surfaceGravity": 30,
         "centerOfSolarSystem": true,
         "soiOverride": 850
+    },
+    "MapMarker": {
+        "enabled": true
     },
     "Orbit": {
         "staticPosition": {
@@ -50,7 +53,7 @@
         "signals": [
             {
                 "frequency": "Walker_Jam5_Harmonic",
-                "name": "Walker_Jam5_Sun_Signal",
+                "name": "Walker_Jam5_Star_Signal",
                 "onlyAudibleToScope": true,
                 "identificationRadius": 2500,
                 "detectionRadius": 1250,
