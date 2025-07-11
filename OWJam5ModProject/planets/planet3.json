@@ -7,6 +7,9 @@
         "surfaceGravity": 12,
         "groundSize": 0
     },
+    "MapMarker": {
+        "enabled": true
+    },
     "AmbientLights": [
         {
             "outerRadius": 230,
@@ -16,7 +19,11 @@
     ],
     "Atmosphere": {
         "size": 228,
-        "atmosphereTint": {"r": 138, "g": 193, "b": 209}
+        "atmosphereTint": {
+            "r": 138,
+            "g": 193,
+            "b": 209
+        }
     },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",

@@ -6,6 +6,9 @@
         "surfaceSize": 150,
         "surfaceGravity": 18
     },
+    "MapMarker": {
+        "enabled": true
+    },
     "AmbientLights": [
         {
             "outerRadius": 230,
@@ -19,7 +22,7 @@
             "x": 2200
         },
         "isStatic": true,
-      "isTidallyLocked": true
+        "isTidallyLocked": true
     },
     "Water": {
         "size": 160,

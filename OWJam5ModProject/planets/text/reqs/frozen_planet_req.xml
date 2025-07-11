@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: Wait! Don't send that message yet! I was experimenting with WATER_PLANET_NAME earlier and there doesn't seem to be a way to freeze water in this system! Our star is too hot to freeze the water, even at the maximum distance from the star.
+			ALNUS: Wait! Don't send that message yet! I was experimenting earlier and there doesn't seem to be a way to freeze water in this system! Our star is too hot to freeze the water, even at the maximum distance from the star.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ADONSONIA: Urgh, I've already sent the message with the requirement. I'm sure that we can figure out some way to re-freeze the water, we just need to block the brunt of the star's heat from reaching the planet we want to freeze.
+			ADONSONIA: Urgh, I've already sent the message with the requirement. I'm sure that we can figure out some way to freeze the water, we just need to block the brunt of the star's heat from reaching the planet we want to freeze.
 		</Text>
 	</TextBlock>
 
