@@ -233,7 +233,7 @@
     },
     "Water": {
         "size": 195,
-        "buoyancy": 0
+        "buoyancy": 0.8
     },
     "Spawn": {
         "playerSpawnPoints": [

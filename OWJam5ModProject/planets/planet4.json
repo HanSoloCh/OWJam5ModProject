@@ -64,6 +64,15 @@
                 "path": "Assets/_Bundle/Planets/WaterPlanet.prefab",
                 "keepLoaded": true
             }
+        ],
+        "translatorText": [
+            {
+                "rename": "quantum_hint_recorder",
+                "parentPath": "Sector/WaterPlanet/QuantumRockSurroundings/recorder_anchor",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/hints/quantum_rock_hint_recording.xml"
+            }
         ]
     },
     "Spawn": {
