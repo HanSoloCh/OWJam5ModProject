@@ -11,7 +11,7 @@
         {
             "outerRadius": 230,
             "innerRadius": 150,
-            "intensity": 0.5
+            "intensity": 1
         }
     ],
     "Atmosphere": {
@@ -24,7 +24,7 @@
             "z": -1450
         },
         "isStatic": true,
-      "isTidallyLocked": true
+        "isTidallyLocked": true
     },
     "Sand": {
         "size": 153
@@ -61,6 +61,72 @@
             }
         ],
         "translatorText": [
+            {
+                "parentPath": "Sector/SandPlanet/BuriedStructure/UpperScroll",
+                "isRelativeToParent": true,
+                "type": "scroll",
+                "xmlFile": "planets/text/hints/sand_structure_hint.xml",
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 354.4834
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.04414594,
+                            "y": 0.3542739
+                        },
+                        "zRotation": 296.9041
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.6338499,
+                            "y": 0.4097
+                        },
+                        "zRotation": 335.0804
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.3361169,
+                            "y": 1.301993
+                        },
+                        "zRotation": 346.336
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.8251057,
+                            "y": -0.3458282
+                        },
+                        "zRotation": 221.7565
+                    }
+                ]
+            },
+            {
+                "parentPath": "Sector/SandPlanet/BuriedStructure/LowerScroll",
+                "isRelativeToParent": true,
+                "type": "scroll",
+                "xmlFile": "planets/text/reqs/dried_seabed_req.xml",
+                "arcInfo": [
+                    { "type": "child" },
+                    { "type": "child" },
+                    { "type": "child" },
+                    { "type": "child" },
+                    { "type": "child" },
+                    { "type": "child" }
+                ]
+            },
             {
                 "parentPath": "Sector/SandPlanet/WarpReceiverStructure/WarpReceiverRecorder",
                 "isRelativeToParent": true,
