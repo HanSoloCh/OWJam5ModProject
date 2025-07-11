@@ -4,13 +4,18 @@
 
   <Entry>
     <ID>Walker_Jam5_Planet2_Tower</ID>
-    <Name>Tower</Name>
+    <Name>Tall Tower</Name>
     <Curiosity>Walker_Jam5_ProjectRequirements</Curiosity>
 
     <ExploreFact>
       <ID>Walker_Jam5_Planet2_Tower_Hint</ID>
-      <Text>TTTTTTTTTTTTTTTTTTTTTTTTTT</Text>
+      <Text>A tall tower on the surface of the largest planet in the system. The planet's gravity is far too strong to reach the top.</Text>
     </ExploreFact>
+
+	<ExploreFact>
+		<ID>Walker_Jam5_Planet2_Tower_Solved</ID>
+		<Text>By using another astral body's gravity to help me, I was able to reach the top of the tower.</Text>
+	</ExploreFact>
 
   </Entry>
 

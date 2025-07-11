@@ -12,6 +12,11 @@
       <Text>A Nomai named Adonsonia created a puzzle involving detecting signals. She locked a requirement for a project behind solving it.</Text>
     </ExploreFact>
 
+	<ExploreFact>
+		<ID>Walker_Jam5_Planet1_Harmonic_Solved</ID>
+		<Text>Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.</Text>
+	</ExploreFact>
+
   </Entry>
 
 </AstroObjectEntry>

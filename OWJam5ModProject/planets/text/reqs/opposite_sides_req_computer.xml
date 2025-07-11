@@ -30,5 +30,9 @@
 			<FactID>Walker_Jam5_Station_ProjectRequirements_OppositeSides</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet1_Harmonic_Solved</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>
