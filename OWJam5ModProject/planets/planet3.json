@@ -181,6 +181,135 @@
                         "zRotation": 94.84277
                     }
                 ]
+            },
+            {
+                "rename": "teleporter_nodoor_hint",
+                "parentPath": "Sector/SandPlanet/WarpReceiverStructure/WarpReceiverOuterText",
+                "isRelativeToParent": true,
+                "xmlFile": "planets/text/hints/teleporter_nodoor_hint.xml",
+                "type": "wall",
+                "seed": 73819,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 356.6984
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.5608999,
+                            "y": 0.8886276
+                        },
+                        "zRotation": 349.3355
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.2569076,
+                            "y": 1.366763
+                        },
+                        "zRotation": 27.95198
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.4932584,
+                            "y": 2.153981
+                        },
+                        "zRotation": 292.0743
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.9979097,
+                            "y": 1.355411
+                        },
+                        "zRotation": 168.6084
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.3325273,
+                            "y": 2.025364
+                        },
+                        "zRotation": 68.16167
+                    }
+                ]
+            },
+            {
+                "rename": "warp_alignment_req",
+                "parentPath": "Sector/SandPlanet/WarpReceiverStructure/WarpReceiverInnerText",
+                "isRelativeToParent": true,
+                "xmlFile": "planets/text/reqs/warp_alignment_req.xml",
+                "type": "wall",
+                "seed": 91032,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 1.409992
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.6469304,
+                            "y": 0.8036518
+                        },
+                        "zRotation": 357.1372
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.206941,
+                            "y": 1.258123
+                        },
+                        "zRotation": 335.8801
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.9957289,
+                            "y": 2.156815
+                        },
+                        "zRotation": 332.2616
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 1.626959,
+                            "y": 2.497378
+                        },
+                        "zRotation": 324.2346
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.04831956,
+                            "y": 0.3783082
+                        },
+                        "zRotation": 99.03803
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.603189,
+                            "y": 1.838814
+                        },
+                        "zRotation": 175.2077
+                    }
+                ]
             }
         ],
         "details": [
