@@ -44,6 +44,160 @@
                 "isRelativeToParent": true,
                 "type": "recorder",
                 "xmlFile": "planets/text/gravity_tower_recorder.xml"
+            },
+            {
+                "rename": "ghost_matter_hint_text",
+                "parentPath": "Sector/SupermassivePlanet/GhostMatterCave/Props_NOM_Whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/hints/ghost_matter_hint.xml",
+                "seed": 98542,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 354.2433
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.6252921,
+                            "y": 0.5755819
+                        },
+                        "zRotation": 45.27877
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.779964,
+                            "y": 0.702516
+                        },
+                        "zRotation": 20.75043
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.384956,
+                            "y": 1.652142
+                        },
+                        "zRotation": 357.9677
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.03202756,
+                            "y": 0.3352005
+                        },
+                        "zRotation": 357.3643
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.431072,
+                            "y": 0.851543
+                        },
+                        "zRotation": 314.2314
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.096542,
+                            "y": 1.083189
+                        },
+                        "zRotation": 329.0123
+                    }
+                ]
+            },
+            {
+                "rename": "seabed_req_recorder",
+                "parentPath": "Sector/SupermassivePlanet/GhostMatterCave/recorder_anchor",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/reqs/dried_seabed_req_recorder.xml"
+            },
+            {
+                "rename": "ascension_hint_text",
+                "parentPath": "Sector/SupermassivePlanet/SauronsTower/Props_NOM_Whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/hints/tower_ascension_hint.xml",
+                "seed": 55639,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 2.19221
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.9231097,
+                            "y": 0.5856967
+                        },
+                        "zRotation": 306.9919
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 1.151432,
+                            "y": 0.8682889
+                        },
+                        "zRotation": 253.1681
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.698893,
+                            "y": 0.3913847
+                        },
+                        "zRotation": 287.2883
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 2.034209,
+                            "y": 1.462572
+                        },
+                        "zRotation": 330.4438
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 1.93444,
+                            "y": 2.114175
+                        },
+                        "zRotation": 9.353644
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.04331959,
+                            "y": 0.3586552
+                        },
+                        "zRotation": 68.86568
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.593351,
+                            "y": 2.179352
+                        },
+                        "zRotation": 39.32071
+                    }
+                ]
             }
         ],
         "signals": [
@@ -78,7 +232,8 @@
         "size": 248
     },
     "Water": {
-        "size": 195
+        "size": 195,
+        "buoyancy": 0
     },
     "Spawn": {
         "playerSpawnPoints": [
