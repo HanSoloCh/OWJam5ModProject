@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: Wait! Don't send that message yet! I was experimenting earlier and there doesn't seem to be a way to freeze water in this system! Our star is too hot to freeze the water, even at the maximum distance from the star.
+			ALNUS: Wait! Don't send that message yet! I was experimenting earlier and there doesn't seem to be a way to freeze water in this system! Our star is too hot to freeze the water, even in the furthest orbit.
 		</Text>
 	</TextBlock>
 
@@ -51,4 +51,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

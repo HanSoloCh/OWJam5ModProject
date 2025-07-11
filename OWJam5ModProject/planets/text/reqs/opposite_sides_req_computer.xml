@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: If you're wondering about the requirement that I sent to Oryza, don't worry, it's not too bad. I figured that it didn't make sense for planets in the same orbit to be really close, so I said that we would make any planets in the same orbit be on opposite sides of the sun.
+			ADONSONIA: If you're wondering about the requirement that I sent to Oryza, don't worry, it's not too bad. I figured that it didn't make sense for planets in the same orbit to be really close, so I said that we would place any planets in the same orbit on opposite sides of the sun.
 		</Text>
 	</TextBlock>
 
@@ -20,9 +20,15 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: Also, for the record, Daucus took part in my little prank too. Turns out that hacking all of the planet signals to make a harmony costs only a few sap-treats.
+			ADONSONIA: Also, for the record, Daucus took part in my little prank too. Turns out that hacking all of the planet signals to make a harmony only costs a few sap-treats.
 		</Text>
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_OppositeSides</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

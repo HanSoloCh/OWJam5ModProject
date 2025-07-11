@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			BETULA: This structure is very impressive, although I don't recall us ever discussing it or its construction:
+			BETULA: This structure is very impressive, although I don't recall us ever discussing it or its construction.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ALNUS: I feel that I won't like the answer, but I feel the need to ask anyway. What's on the computer?
+			ALNUS: I feel that I won't like the answer, but I need to ask anyway. What's on the computer?
 		</Text>
 	</TextBlock>
 
@@ -67,4 +67,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet1_Harmonic_Hint</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

@@ -1,0 +1,17 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>Walker_Jam5_Planet1</ID>
+
+  <Entry>
+    <ID>Walker_Jam5_Planet1_Harmonic</ID>
+    <Name>Signal Detector</Name>
+    <Curiosity>Walker_Jam5_ProjectRequirements</Curiosity>
+
+    <ExploreFact>
+      <ID>Walker_Jam5_Planet1_Harmonic_Hint</ID>
+      <Text>A Nomai named Adonsonia created a puzzle involving detecting signals. She locked a requirement for a project behind solving it.</Text>
+    </ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>
