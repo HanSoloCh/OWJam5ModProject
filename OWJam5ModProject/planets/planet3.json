@@ -61,7 +61,7 @@
             }
         ],
         "translatorText": [
-            /*{
+            {
                 "parentPath": "Sector/SandPlanet/BuriedStructure/UpperScroll",
                 "isRelativeToParent": true,
                 "type": "scroll",
@@ -112,13 +112,75 @@
                         "zRotation": 221.7565
                     }
                 ]
-            },*/
+            },
             {
-                "parentPath": "Sector/SandPlanet/BuriedStructure/LowerScroll (1)",
+                "rename": "double_sand_req_scroll",
+                "parentPath": "Sector/SandPlanet/BuriedStructure/LowerScroll",
                 "isRelativeToParent": true,
                 "xmlFile": "planets/text/reqs/double_sand_req.xml",
                 "type": "scroll",
-                "seed": 3458972
+                "seed": 3458972,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 359.8495
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.6775521,
+                            "y": 0.5248273
+                        },
+                        "zRotation": 328.3212
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.03813249,
+                            "y": 1.475542
+                        },
+                        "zRotation": 44.41919
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.3606732,
+                            "y": 1.717547
+                        },
+                        "zRotation": 349.1176
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.7735072,
+                            "y": 2.136788
+                        },
+                        "zRotation": 292.7847
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.9402002,
+                            "y": 1.101389
+                        },
+                        "zRotation": 118.4339
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.371601,
+                            "y": 0.6228
+                        },
+                        "zRotation": 94.84277
+                    }
+                ]
             }
         ],
         "details": [
