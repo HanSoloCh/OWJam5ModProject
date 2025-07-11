@@ -317,6 +317,58 @@
                         "zRotation": 175.2077
                     }
                 ]
+            },
+            {
+                "rename": "sand_name_text",
+                "parentPath": "Sector/SandPlanet/Orrery Ruins/Props_NOM_Whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/misc/sand_planet_name.xml",
+                "seed": 28562,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 354.4226
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.1319272,
+                            "y": 0.5769774
+                        },
+                        "zRotation": 331.4564
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.5643004,
+                            "y": 1.01565
+                        },
+                        "zRotation": 353.8575
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.104917,
+                            "y": 1.631265
+                        },
+                        "zRotation": 4.13498
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.7877889,
+                            "y": 2.304144
+                        },
+                        "zRotation": 346.4406
+                    }
+                ]
             }
         ],
         "details": [

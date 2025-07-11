@@ -226,6 +226,50 @@
                         "zRotation": 27.08523
                     }
                 ]
+            },
+            {
+                "rename": "crystal_name_text",
+                "parentPath": "Sector/CrystalPlanet/Orrery Ruins/Props_NOM_Whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/misc/crystal_planet_name.xml",
+                "seed": 87982,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 0.2956637
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.1530288,
+                            "y": 0.5681973
+                        },
+                        "zRotation": 305.1734
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.6852586,
+                            "y": 0.7213261
+                        },
+                        "zRotation": 337.7968
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.177725,
+                            "y": 1.248853
+                        },
+                        "zRotation": 19.83627
+                    }
+                ]
             }
         ],
         "details": [

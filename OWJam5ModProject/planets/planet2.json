@@ -239,6 +239,50 @@
                         "zRotation": 125.8338
                     }
                 ]
+            },
+            {
+                "rename": "big_name_text",
+                "parentPath": "Sector/SupermassivePlanet/Orrery Ruins/Props_NOM_Whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/misc/big_planet_name.xml",
+                "seed": 41452,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 349.3455
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.5903121,
+                            "y": 0.837153
+                        },
+                        "zRotation": 353.5862
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.181514,
+                            "y": 1.571827
+                        },
+                        "zRotation": 348.5512
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.09724544,
+                            "y": 0.5837288
+                        },
+                        "zRotation": 346.7446
+                    }
+                ]
             }
         ],
         "signals": [

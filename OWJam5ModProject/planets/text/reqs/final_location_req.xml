@@ -5,7 +5,7 @@
 		<ID>1</ID>
     <LocationB />
 		<Text>
-			ORYZA: I thought that you little ones would be interested to see this, a diagram of a planet’s layers in the core of a planet!
+			ORYZA: I thought that you little ones would be interested to see this, a diagram of a planet's layers in the core of a planet!
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<ParentID>2</ParentID>
     <LocationA />
 		<Text>
-			ALNUS: I do have a concern with this. I’m fairly certain that other requirements of ours will make it impossible for us to use the stone and gain access to the core once we are ready to submit.
+			ALNUS: I do have a concern with this. I'm fairly certain that other requirements of ours will make it impossible for us to use the stone and gain access to the core once we are ready to submit.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
     <LocationB />
 		<Text>
-			ORYZA: Hm, an interesting situation. Unfortunately I simply can’t allow you to change your requirements that you set, and you will need to be here to complete your submission. You all are very clever though, so I’m sure that you’ll think of something!
+			ORYZA: Hm, an interesting situation. Unfortunately I simply can't allow you to change your requirements that you set, and you will need to be here to complete your submission. You all are very clever though, so I'm sure that you'll think of something!
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@
 		<ParentID>1</ParentID>
     <LocationA />
 		<Text>
-			BETULA: It’s quite interesting! I’ve never been to the core of a planet before!
+			BETULA: It's quite interesting! I've never been to the core of a planet before!
 		</Text>
 	</TextBlock>
 
