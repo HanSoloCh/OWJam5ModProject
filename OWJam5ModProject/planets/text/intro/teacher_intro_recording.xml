@@ -36,8 +36,8 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ORYZA: That may be a bit confusing, but I'll leave it to you all to discover what I mean by that! To make navigation easier in this system, we've placed warp transmitters on the north pole of each planet that will bring you to and from this station.
-		</Text>
+      ORYZA: That may be a bit confusing, but I'll leave it to you all to discover what I mean by that! To make navigation easier in this system, we've placed warp transmitters on each planet (mostly on the north pole) that will bring you to and from this station.
+    </Text>
 	</TextBlock>
 
 	<TextBlock>
