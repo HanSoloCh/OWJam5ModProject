@@ -1,0 +1,52 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ALNUS: I maintain that the discussion of your idea did not require us to come... here.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ADONSONIA: Don't worry, as long as we're in the water we're fine. Which actually brings me to what I wanted to discuss; I think one of our requirements should be to have a dry seabed.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			BETULA: It is true that many star systems have planets with exposed seabeds from years past. What made you think of it?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			ADONSONIA: When I drained the water from WATER_PLANET_NAME to flood this cave, I saw how nice the seabed looks when exposed.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			DAUCUS: Sounds easy enough. Should we go ahead and send that requirement to Oryza?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			ALNUS: If it will get us out of this cave faster, then yes, certainly.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -61,7 +61,7 @@
                 "parentPath": "Sector/CrystalPlanet/HarmonicDetector/Computer",
                 "isRelativeToParent": true,
                 "type": "computer",
-                "xmlFile": "planets/text/reqs/double_sand_req_computer.xml"
+                "xmlFile": "planets/text/reqs/opposite_sides_req_computer.xml"
             },
             {
                 "parentPath": "Sector/CrystalPlanet/HarmonicDetector/Props_NOM_Whiteboard/text_anchor",
