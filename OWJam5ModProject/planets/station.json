@@ -42,6 +42,76 @@
                     "x": -90
                 }
             }
+        ],
+        "translatorText": [
+            {
+                "rename": "teacher_intro_recording",
+                "parentPath": "Sector/OrreryStation/Station/Props/recorder_anchor",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/intro/teacher_intro_recording.xml"
+            },
+            {
+                "rename": "student_intro_text",
+                "parentPath": "Sector/OrreryStation/Station/Props/Props_NOM_Whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/intro/students_intro.xml",
+                "seed": 49816,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 355.0001
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.1850877,
+                            "y": 0.7218592
+                        },
+                        "zRotation": 336.6269
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.130553,
+                            "y": 1.009249
+                        },
+                        "zRotation": 2.696705
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.645503,
+                            "y": 1.871817
+                        },
+                        "zRotation": 355.6021
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.1041728,
+                            "y": 2.136479
+                        },
+                        "zRotation": 53.56245
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.522168,
+                            "y": 0.5604939
+                        },
+                        "zRotation": 301.1121
+                    }
+                ]
+            }
         ]
     },
     "Spawn": {
