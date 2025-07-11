@@ -106,7 +106,14 @@ namespace OWJam5ModProject
         private void PlayerDetector_OnExit(GameObject hitObj)
         {
             if (hitObj == Locator.GetPlayerDetector())
+            {
                 playerInside = false;
+
+                for (int i=0; i<torchesActive.Length; i++)
+                {
+                    torchesActive[i] = false;
+                }
+            }
         }
 
         bool CheckConvergence()
