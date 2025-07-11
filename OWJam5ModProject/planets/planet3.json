@@ -61,7 +61,7 @@
             }
         ],
         "translatorText": [
-            {
+            /*{
                 "parentPath": "Sector/SandPlanet/BuriedStructure/UpperScroll",
                 "isRelativeToParent": true,
                 "type": "scroll",
@@ -112,26 +112,13 @@
                         "zRotation": 221.7565
                     }
                 ]
-            },
+            },*/
             {
-                "parentPath": "Sector/SandPlanet/BuriedStructure/LowerScroll",
+                "parentPath": "Sector/SandPlanet/BuriedStructure/LowerScroll (1)",
                 "isRelativeToParent": true,
+                "xmlFile": "planets/text/reqs/double_sand_req.xml",
                 "type": "scroll",
-                "xmlFile": "planets/text/reqs/dried_seabed_req.xml",
-                "arcInfo": [
-                    { "type": "child" },
-                    { "type": "child" },
-                    { "type": "child" },
-                    { "type": "child" },
-                    { "type": "child" },
-                    { "type": "child" }
-                ]
-            },
-            {
-                "parentPath": "Sector/SandPlanet/WarpReceiverStructure/WarpReceiverRecorder",
-                "isRelativeToParent": true,
-                "type": "recorder",
-                "xmlFile": "planets/text/sand_warp_receiver_recorder.xml"
+                "seed": 3458972
             }
         ],
         "details": [
@@ -147,7 +134,7 @@
         "playerSpawnPoints": [
             {
                 "position": {
-                    "y": 160
+                    "z": 160
                 },
                 "rename": "_WalkerPlanet3"
             }
