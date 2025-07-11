@@ -42,21 +42,5 @@
 		</Text>
 	</TextBlock>
 
-	<TextBlock>
-		<ID>102</ID>
-		<ParentID>101</ParentID>
-		<Text>
-			ADONSONIA: I believe that you mean that it's the most interesting planet. It's a shame that Daucus chose to name this planet and gave it... that name of all things.
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>103</ID>
-		<ParentID>102</ParentID>
-		<Text>
-			DAUCUS: LARGE_PLANET_NAME is a perfectly serviceable name, it informs us of exactly what we need to know.
-		</Text>
-	</TextBlock>
-
 	<!--Ship log reveals go here-->
 </NomaiObject>
