@@ -192,6 +192,67 @@
                         "zRotation": 39.32071
                     }
                 ]
+            },
+            {
+                "rename": "frozen_planet_req",
+                "parentPath": "Sector/SupermassivePlanet/SauronsTower/TopWhiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/reqs/frozen_planet_req.xml",
+                "seed": 4623734,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 7.999998
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.3241375,
+                            "y": 0.6852854
+                        },
+                        "zRotation": 21.47311
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.1938417,
+                            "y": 1.159085
+                        },
+                        "zRotation": 351.5079
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.2308499,
+                            "y": 1.606426
+                        },
+                        "zRotation": 293.4659
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.1281958,
+                            "y": 2.050472
+                        },
+                        "zRotation": 307.1416
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.080654,
+                            "y": 1.436284
+                        },
+                        "zRotation": 125.8338
+                    }
+                ]
             }
         ],
         "signals": [
@@ -210,15 +271,6 @@
                 "path": "Assets/_Bundle/Planets/SupermassivePlanet.prefab",
                 "keepLoaded": true,
                 "scale": 1
-            },
-            {
-                "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/Structures/GravityTower.prefab",
-                "keepLoaded": true,
-                "alignRadial": true,
-                "position": {
-                    "y": -250
-                }
             }
         ]
     },
