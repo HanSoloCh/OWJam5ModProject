@@ -75,6 +75,156 @@
                 "isRelativeToParent": true,
                 "type": "recorder",
                 "xmlFile": "planets/text/hints/quantum_rock_hint_recording.xml"
+            },
+            {
+                "rename": "missing_transmitter_text",
+                "parentPath": "Sector/WaterPlanet/NorthPoleRegion/missing_transmitter_whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/hints/missing_transmitter_hint.xml",
+                "seed": 54926,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 0.8825955
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.3747947,
+                            "y": 0.7428215
+                        },
+                        "zRotation": 27.00938
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.4964919,
+                            "y": 1.30233
+                        },
+                        "zRotation": 7.247651
+                    }
+                ]
+            },
+            {
+                "rename": "water_name_text",
+                "parentPath": "Sector/WaterPlanet/NorthPoleRegion/name_whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/misc/water_planet_name.xml",
+                "seed": 76826,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 354.5091
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.903818,
+                            "y": 0.6495566
+                        },
+                        "zRotation": 41.96165
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.476379,
+                            "y": 0.8707149
+                        },
+                        "zRotation": 27.94073
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.29378,
+                            "y": 1.516124
+                        },
+                        "zRotation": 336.2571
+                    }
+                ]
+            },
+            {
+                "rename": "location_req_text",
+                "parentPath": "Sector/WaterPlanet/Core/Props_NOM_Whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/reqs/final_location_req.xml",
+                "seed": 679276,
+                "location": "a",
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 358.7301
+                        
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.628576,
+                            "y": 0.3538699
+                        },
+                        "zRotation": 32.49418
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -1.194101,
+                            "y": 0.6766691
+                        },
+                        "zRotation": 2.120183
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.45572,
+                            "y": 1.191389
+                        },
+                        "zRotation": 26.27779
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.0700314,
+                            "y": 0.3285233
+                        },
+                        "zRotation": 333.8132
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.8685775,
+                            "y": 0.627877
+                        },
+                        "zRotation": 1.020883
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.05987191,
+                            "y": 1.191462
+                        },
+                        "zRotation": 348.6023
+                    }
+                ]
             }
         ]
     },

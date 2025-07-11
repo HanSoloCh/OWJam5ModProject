@@ -43,7 +43,7 @@ namespace OWJam5ModProject
          */
         public bool CanDrain()
         {
-            return waterTF.localScale.x > transform.localScale.x;
+            return waterTF.localScale.x > outerTF.localScale.x;
         }
 
         /**
