@@ -166,39 +166,38 @@
                 "arcInfo": [
                     {
                         "mirror": true,
-                        "type": "child",
+                        "type": "adult",
                         "position": {
                             "x": 0,
                             "y": 0
                         },
                         "zRotation": 358.7301
-                        
                     },
                     {
                         "mirror": true,
-                        "type": "child",
+                        "type": "adult",
                         "position": {
-                            "x": -0.628576,
-                            "y": 0.3538699
+                            "x": -0.8285758,
+                            "y": 0.6684151
                         },
                         "zRotation": 32.49418
                     },
                     {
-                        "mirror": true,
                         "type": "child",
                         "position": {
-                            "x": -1.194101,
-                            "y": 0.6766691
+                            "x": -1.463192,
+                            "y": 1.122123
                         },
-                        "zRotation": 2.120183
+                        "zRotation": 23.13835
                     },
                     {
-                        "type": "child",
+                        "mirror": true,
+                        "type": "adult",
                         "position": {
                             "x": -1.45572,
-                            "y": 1.191389
+                            "y": 1.687752
                         },
-                        "zRotation": 26.27779
+                        "zRotation": 10.45963
                     },
                     {
                         "type": "child",
@@ -211,18 +210,18 @@
                     {
                         "type": "child",
                         "position": {
-                            "x": -0.8685775,
-                            "y": 0.627877
+                            "x": -0.5376687,
+                            "y": 0.7442405
                         },
-                        "zRotation": 1.020883
+                        "zRotation": 15.29361
                     },
                     {
-                        "type": "child",
+                        "type": "adult",
                         "position": {
                             "x": -0.05987191,
-                            "y": 1.191462
+                            "y": 1.529644
                         },
-                        "zRotation": 348.6023
+                        "zRotation": 336.9289
                     }
                 ]
             }
