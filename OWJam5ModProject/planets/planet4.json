@@ -224,6 +224,59 @@
                         "zRotation": 336.9289
                     }
                 ]
+            },
+            {
+                "rename": "under_ice_hint",
+                "parentPath": "Sector/WaterPlanet/NorthPoleRegion/ice_whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/hints/under_ice_hint.xml",
+                "seed": 25467,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 2.62429
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.6898025,
+                            "y": 0.8488052
+                        },
+                        "zRotation": 326.9897
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.9506538,
+                            "y": 1.118243
+                        },
+                        "zRotation": 348.5621
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.5192939,
+                            "y": 1.713737
+                        },
+                        "zRotation": 0.5618362
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.3379832,
+                            "y": 2.445385
+                        },
+                        "zRotation": 52.54226
+                    }
+                ]
             }
         ]
     },
