@@ -62,7 +62,10 @@ namespace OWJam5ModProject
             planetRB.transform.up = (planetRB.transform.position - sun.transform.position).normalized;
 
             // move ship if landed on planet
-            if (ShipContactSensor.lastContact == planetRB)
+            var shipSectorDetector = Locator.GetShipDetector().GetComponent<SectorDetector>();
+            var inPlanetSector = shipSectorDetector._sectorList.Any(x => x.GetAttachedOWRigidbody() == planetRB);
+            var touchedPlanetLast = ShipContactSensor.lastContact == planetRB;
+            if (inPlanetSector && touchedPlanetLast)
             {
                 Locator.GetShipTransform().position = planetRB.transform.TransformPoint(relShipPos);
                 Locator.GetShipTransform().rotation = planetRB.transform.TransformRotation(relShipRot);
