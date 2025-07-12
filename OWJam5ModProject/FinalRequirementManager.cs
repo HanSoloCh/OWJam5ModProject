@@ -63,7 +63,7 @@ namespace OWJam5ModProject
          */
         public static bool CheckIceReq()
         {
-            if (bigPlanetIce == null)
+            if (!inJamSystem || bigPlanetIce == null)
                 return false;
 
             return bigPlanetIce.Find("outer_ice").localScale.x > OWJam5ModProject.WATER_FILLED_HEIGHT + 4;
@@ -74,7 +74,7 @@ namespace OWJam5ModProject
          */
         public static bool CheckDryReq()
         {
-            if(icePlanetWater == null) 
+            if(!inJamSystem || icePlanetWater == null) 
                 return false;
 
             return icePlanetWater.localScale.x < OWJam5ModProject.WATER_DRAINED_HEIGHT + 1;
@@ -85,6 +85,9 @@ namespace OWJam5ModProject
          */
         public static bool CheckWarpReq()
         {
+            if (!inJamSystem)
+                return false;
+
             return padLinedUp;
         }
 
@@ -94,7 +97,7 @@ namespace OWJam5ModProject
         public static bool CheckSandReq()
         {
             //Technically we only need to check one, since the sand can only be in one other place
-            if(sandPlanetSand == null)
+            if(!inJamSystem || sandPlanetSand == null)
                 return false;
 
             //Sand starts at 306
@@ -109,6 +112,9 @@ namespace OWJam5ModProject
          */
         public static bool CheckAngleReq()
         {
+            if (!inJamSystem)
+                return false;
+
             //Sort the bodies into different orbit levels
             //(0 is close, 1 is mid, 2 is far)
             List<Transform>[] orbits = {new List<Transform>(), new List<Transform>(), new List<Transform>()};
