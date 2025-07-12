@@ -1,42 +1,63 @@
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
-  <ID>Walker_Jam5_Station</ID>
+	<ID>Walker_Jam5_Station</ID>
 
-  <Entry>
-	<ID>Walker_Jam5_Station_ProjectRequirements</ID>
-	<Name>Project Requirements</Name>
-	<IsCuriosity/>
+	<Entry>
+		<ID>Walker_Jam5_Station_ProjectRequirements</ID>
+		<Name>Project Requirements</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<IsCuriosity/>
 
-	<ExploreFact>
-		<ID>Walker_Jam5_Station_ProjectRequirements_OppositeSides</ID>
-		<Text>Any two planets that share an orbit must be on opposite sides of the sun.</Text>
-	</ExploreFact>
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_ProjectRequirements_Count</ID>
+			<Text>A set of Nomai students were assigned a project to prepare this star system to be their clan's entry in a festival. They had to propose 6 requirements that the system would fulfill in order to demonstrate their understanding of the mechanisms of natural star systems.</Text>
+		</ExploreFact>
 
-	<ExploreFact>
-		<ID>Walker_Jam5_Station_ProjectRequirements_DoubleSand</ID>
-		<Text>Multiple planets in the system must have sand.</Text>
-	</ExploreFact>
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_ProjectRequirements_OppositeSides</ID>
+			<Text>Any two planets that share an orbit must be on opposite sides of the sun.</Text>
+		</ExploreFact>
 
-	<ExploreFact>
-		<ID>Walker_Jam5_Station_ProjectRequirements_DriedSeabed</ID>
-		<Text>The system must contain an exposed dried seabed.</Text>
-	</ExploreFact>
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_ProjectRequirements_DoubleSand</ID>
+			<Text>Multiple planets in the system must have sand.</Text>
+		</ExploreFact>
 
-	<ExploreFact>
-		<ID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet</ID>
-		<Text>Solid ice must be present on a planet in the system.</Text>
-	</ExploreFact>
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_ProjectRequirements_DriedSeabed</ID>
+			<Text>The system must contain an exposed dried seabed.</Text>
+		</ExploreFact>
 
-	<ExploreFact>
-		<ID>Walker_Jam5_Station_ProjectRequirements_WarpAlignment</ID>
-		<Text>The warp transmitter must be aligned with at least one receiver.</Text>
-	</ExploreFact>
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet</ID>
+			<Text>Solid ice must be present on a planet in the system. The system's star is too hot to allow ice to re-freeze even in the furthest orbit. A Nomai named Adonsonia proposed somehow blocking the star's heat from reaching the planet they want to freeze.</Text>
+		</ExploreFact>
 
-	<ExploreFact>
-		<ID>Walker_Jam5_Station_ProjectRequirements_FinalLocation</ID>
-		<Text>Once all 5 requirements are met, the project must be submitted in the core of "Glacial Abyss!". A Nomai named Alnus pointed out that it is impossible to reach the core using quantum entanglement while all the other project requirements are met.</Text>
-	</ExploreFact>
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_ProjectRequirements_WarpAlignment</ID>
+			<Text>The warp transmitter must be aligned with at least one receiver.</Text>
+		</ExploreFact>
 
-  </Entry>
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_ProjectRequirements_FinalLocation</ID>
+			<Text>Once all 5 requirements are met, the project must be submitted in the core of "Glacial Abyss!". A Nomai named Alnus pointed out that it is impossible to reach the core using quantum entanglement while all the other project requirements are met.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Walker_Jam5_Station_Orrery</ID>
+		<Name>Orrery Station</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_Orrery_Fact</ID>
+			<Text>The station contains an orrery of the system. A Nomai named Oryza claims the system is a scaled-up representation of the orrery.</Text>
+		</ExploreFact>
+		
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_Orrery_Warp</ID>
+			<Text>There are warp transmitters connected to the station on the north pole of most planets in the system.</Text>
+		</ExploreFact>
+	</Entry>
 
 </AstroObjectEntry>

@@ -66,5 +66,9 @@
 			<FactID>Walker_Jam5_Station_ProjectRequirements_WarpAlignment</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet3_NoDoor_Solved</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>

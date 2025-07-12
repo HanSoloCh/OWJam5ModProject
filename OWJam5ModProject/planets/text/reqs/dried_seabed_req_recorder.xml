@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: Don't worry, as long as we're in the water we're fine. Which actually brings me to what I wanted to discuss; I think one of our requirements should be to have a dry seabed.
+			ADONSONIA: Don't worry, as long as there's water we're fine. Which actually brings me to what I wanted to discuss; I think one of our requirements should be to have a dry seabed.
 		</Text>
 	</TextBlock>
 
@@ -50,6 +50,10 @@
 
 	<!--Ship log reveals go here-->
 	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet2_GhostMatter_Solved</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
 		<RevealFact>
 			<FactID>Walker_Jam5_Station_ProjectRequirements_DiredSeabed</FactID>
 			<Condition>2</Condition>

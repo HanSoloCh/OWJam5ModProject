@@ -1,22 +1,37 @@
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
-  <ID>Walker_Jam5_Planet2</ID>
+	<ID>Walker_Jam5_Planet2</ID>
 
-  <Entry>
-    <ID>Walker_Jam5_Planet2_Tower</ID>
-    <Name>Tall Tower</Name>
-    <Curiosity>Walker_Jam5_ProjectRequirements</Curiosity>
+	<Entry>
+		<ID>Walker_Jam5_Planet2_Tower</ID>
+		<Name>Tall Tower</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
 
-    <ExploreFact>
-      <ID>Walker_Jam5_Planet2_Tower_Hint</ID>
-      <Text>A tall tower on the surface of the largest planet in the system. The planet's gravity is far too strong to reach the top.</Text>
-    </ExploreFact>
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet2_Tower_Hint</ID>
+			<Text>A tall tower on the surface of the largest planet in the system. The planet's gravity is far too strong to reach the top.</Text>
+		</ExploreFact>
 
-	<ExploreFact>
-		<ID>Walker_Jam5_Planet2_Tower_Solved</ID>
-		<Text>By using another astral body's gravity to help me, I was able to reach the top of the tower.</Text>
-	</ExploreFact>
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet2_Tower_Solved</ID>
+			<Text>By using another astral body's gravity to help me, I was able to reach the top of the tower.</Text>
+		</ExploreFact>
+	</Entry>
 
-  </Entry>
+	<Entry>
+		<ID>Walker_Jam5_Planet2_GhostMatter</ID>
+		<Name>Ghost Matter Cave</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet2_GhostMatter_Hint</ID>
+			<Text>A cave on the south pole of the largest planet in the system. The cave mouth is filled with ghost matter. A Nomai named Alnus noted that ghost matter can be neutralized with water.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet2_GhostMatter_Solved</ID>
+			<Text>By flooding the planet, I was able to safely enter the cave.</Text>
+		</ExploreFact>
+	</Entry>
 
 </AstroObjectEntry>

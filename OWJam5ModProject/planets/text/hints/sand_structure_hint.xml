@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			BETULA: I apologise, I believe that may be my fault. I wanted us to have a planet approximating a desert, so I placed a large amount of sand on this one without realizing there was a structure already built.
+			BETULA: I apologize, I believe that may be my fault. I wanted us to have a planet approximating a desert, so I placed a large amount of sand on this one without realizing there was a structure already built.
 		</Text>
 	</TextBlock>
 
@@ -43,4 +43,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet3_Buried_Hint</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

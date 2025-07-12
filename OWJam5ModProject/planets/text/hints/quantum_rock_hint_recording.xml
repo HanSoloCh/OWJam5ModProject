@@ -36,9 +36,15 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ADONSONIA: Wait, I may actually have an idea. I seem to remember a story my grandfather told me about a rock like this. I think we just need to make the area around the rock dark somehow...
+			ADONSONIA: Wait, I may actually have an idea. I seem to remember a story my grandfather told me about a rock like this. I think we just need to make the area around the rock completely dark somehow...
 		</Text>
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet4_Quantum_Hint</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

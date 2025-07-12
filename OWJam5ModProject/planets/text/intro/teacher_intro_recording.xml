@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ORYZA: As you can see below you, a number of different planets have been created for you to work with. You are free to build on and reshape these planets as you see fit, in order to create a system that demonstrates your understanding. Think of yourself as... architects!
+			ORYZA: As you can see below you, a number of different planets have been prepared for you to work with. You are free to build on and reshape these planets as you see fit, in order to create a system that demonstrates your understanding. Think of yourself as... architects!
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ORYZA: At the center of this platform is the orrery, a vital tool in your shaping of this system. While an orrery is normally a miniature representation of a star system, it is more accurate in this case to say that the star system is a scaled-up representation of the orrery!
+			ORYZA: At the center of this platform is the orrery, a vital tool in your shaping of this system. While an orrery is normally a <![CDATA[<Color=orange>]]>miniature<![CDATA[</Color>]]> representation of a star system, it is more accurate in this case to say that the star system is a scaled-up representation of the orrery!
 		</Text>
 	</TextBlock>
 
@@ -52,9 +52,23 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			ORYZA: Oh, and one last thing. Since this is meant to demonstrate your understanding of star systems, I'll need you to tell me six different requirements that your system will meet to be similar to a real star system. This is a <![CDATA[<i>graded</i>]]> project after all. Have fun little ones!
+			ORYZA: Oh, and one last thing. Since this is meant to demonstrate your understanding of star systems, I'll need you to tell me six different requirements that your system will fulfill to be similar to a real star system. This is a <![CDATA[<i>graded</i>]]> project after all. Have fun little ones!
 		</Text>
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_Orrery_Fact</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_Orrery_Warp</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

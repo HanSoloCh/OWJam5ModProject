@@ -1,22 +1,32 @@
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
-  <ID>Walker_Jam5_Planet1</ID>
+    <ID>Walker_Jam5_Planet1</ID>
 
-  <Entry>
-    <ID>Walker_Jam5_Planet1_Harmonic</ID>
-    <Name>Signal Detector</Name>
-    <Curiosity>Walker_Jam5_ProjectRequirements</Curiosity>
+    <Entry>
+        <ID>Walker_Jam5_Planet1_Harmonic</ID>
+        <Name>Signal Detector</Name>
+        <Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
 
-    <ExploreFact>
-      <ID>Walker_Jam5_Planet1_Harmonic_Hint</ID>
-      <Text>A Nomai named Adonsonia created a puzzle involving detecting signals. She locked a requirement for a project behind solving it.</Text>
-    </ExploreFact>
+        <ExploreFact>
+            <ID>Walker_Jam5_Planet1_Harmonic_Hint</ID>
+            <Text>A Nomai named Adonsonia created a puzzle involving detecting signals. She locked a requirement for a project behind solving it.</Text>
+        </ExploreFact>
 
-	<ExploreFact>
-		<ID>Walker_Jam5_Planet1_Harmonic_Solved</ID>
-		<Text>Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.</Text>
-	</ExploreFact>
+	    <ExploreFact>
+		    <ID>Walker_Jam5_Planet1_Harmonic_Solved</ID>
+		    <Text>Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.</Text>
+	    </ExploreFact>
+    </Entry>
 
-  </Entry>
+	<Entry>
+		<ID>Walker_Jam5_Planet1_Warp</ID>
+		<Name>Warp Transmitter</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet1_Warp_Hint</ID>
+			<Text>A warp transmitter on the equator of Shattered Geode. A Nomai named Daucus modified it to link with both receivers on the other planets in the system.</Text>
+		</ExploreFact>
+	</Entry>
 
 </AstroObjectEntry>

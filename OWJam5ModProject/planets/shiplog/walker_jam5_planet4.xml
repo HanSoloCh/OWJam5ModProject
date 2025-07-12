@@ -1,17 +1,37 @@
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
-  <ID>Walker_Jam5_Planet4</ID>
+    <ID>Walker_Jam5_Planet4</ID>
 
-  <Entry>
-    <ID>Walker_Jam5_Planet4_Quantum</ID>
-    <Name>Quantum Rock</Name>
-    <Curiosity>Walker_Jam5_ProjectRequirements</Curiosity>
+    <Entry>
+        <ID>Walker_Jam5_Planet4_Quantum</ID>
+        <Name>Quantum Rock</Name>
+        <Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
 
-    <ExploreFact>
-      <ID>Walker_Jam5_Planet4_Quantum_Hint</ID>
-      <Text>QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ</Text>
-    </ExploreFact>
+        <ExploreFact>
+            <ID>Walker_Jam5_Planet4_Quantum_Hint</ID>
+            <Text>There is a quantum rock on the south pole of "Glacial Abyss!". Nomai students were told their teacher had something to show them at the core of the planet and that they should ride the rock to get there. A Nomai named Adonsonia recalled that they needed to make the area around the rock completely dark.</Text>
+        </ExploreFact>
 
-  </Entry>
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Quantum_Solved</ID>
+			<Text>By standing on the rock in the darkness under the planet's ice layer, I was able to reach the core.</Text>
+		</ExploreFact>
+    </Entry>
 
+	<Entry>
+		<ID>Walker_Jam5_Planet4_MissingWarp</ID>
+		<Name>Core Orrery Warp Transmitter</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<RumorFact>
+			<ID>Walker_Jam5_Planet4_MissingWarp_Rumor</ID>
+			<RumorName>Missing Orrery Warp Transmitter</RumorName>
+			<Text>The warp transmitter from "Glacial Abyss!" to the orrery station isn't on the north pole.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_MissingWarp_Fact</ID>
+			<Text>The warp transmitter from "Glacial Abyss!" to the orrery station is in the core of the planet.</Text>
+		</ExploreFact>
+	</Entry>
 </AstroObjectEntry>
