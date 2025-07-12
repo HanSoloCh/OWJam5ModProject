@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			BETULA: This is lovely Alnus! I look forward to seeing the top chamber of the tower once you install a tractor beam to get up there!
+			BETULA: This is lovely, Alnus! I look forward to seeing the top chamber of the tower once you install a tractor beam to get up there.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ALNUS: Tractor beam? We don't have any means by which to make a tractor beam, we weren't given the right materials.
+			ALNUS: A tractor beam? We don't have any means by which to make a tractor beam. We weren't given the right materials.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			BETULA: Oh? Then how do you intend for us to get up there? The gravity of this planet is far too strong for a thrustpack to give the necessary height.
+			BETULA: Then how do you intend for us to get up there? The gravity of this planet is far too strong for a thrustpack to give the necessary height.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			DAUCUS: There's probably some easy way to get up there. If gravity is the issue, maybe we can find a way to weaken it.
+			DAUCUS: There's probably some easy way to get up there. If gravity is the issue, then maybe we can find a way to weaken it.
 		</Text>
 	</TextBlock>
 

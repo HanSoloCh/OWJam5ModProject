@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			BETULA: Unburying this structure has me thinking, isn't it a little strange for only one planet in this system to have sand?
+			BETULA: Unburying this structure has me thinking: isn't it strange for only one planet in this system to have sand?
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ALNUS: Agreed. We'll notify our teacher of that requirement then.
+			ALNUS: Agreed. We'll notify our teacher of that requirement, then.
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>101</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ADONSONIA: If it keeps sand off this planet and away from my pyramid, I'm all for it.
+			ADONSONIA: If it keeps sand off of this planet and away from my pyramid, I'm all for it.
 		</Text>
 	</TextBlock>
 

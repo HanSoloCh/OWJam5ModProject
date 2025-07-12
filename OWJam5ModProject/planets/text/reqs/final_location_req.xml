@@ -5,7 +5,7 @@
 		<ID>1</ID>
     <LocationB />
 		<Text>
-			ORYZA: I thought that you little ones would be interested to see this, a safe way to view the layers of the planet's core!
+			ORYZA: I thought that you little ones would be interested to see this: a safe way to view the layers of the planet's core!
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
     <LocationB />
 		<Text>
-			ORYZA: An interesting situation. Unfortunately I simply cannot allow you to change your requirements at this stage of the project, and you will need to be here to submit your project. You all are very clever though, so I'm sure that you'll think of something!
+			ORYZA: That is an interesting situation. Unfortunately, I simply cannot allow you to change your requirements at this stage of the project, and you will need to be here to submit your project. You all are very clever though, so I'm sure that you'll think of something!
 		</Text>
 	</TextBlock>
 

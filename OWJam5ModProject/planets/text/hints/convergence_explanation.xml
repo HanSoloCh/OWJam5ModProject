@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: It's just a little puzzle that I made in my spare time, it uses those old radios that Oryza gave us for detecting signals. If anyone manages to solve it, the computer over there will activate and display its information.
+			ADONSONIA: It's just a little puzzle that I made in my spare time. It uses those old radios that Oryza gave us for detecting signals. If anyone manages to solve it, the computer over there will activate and display its information.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ALNUS: Adonsonia, we don't have time for games like this, please just tell us the solution so that we can know the new requirement.
+			ALNUS: Adonsonia, we don't have time for games like this. Please just tell us the solution so that we can know the new requirement.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-      ADONSONIA: Sorry, I would respond, but I'm really quite busy with a project on <![CDATA[<color=orange>Glacial Abyss!</color>]]>, I'm sure that you understand.
+      ADONSONIA: Sorry. I would respond, but I'm really quite busy with a project on <![CDATA[<color=orange>Glacial Abyss!</color>]]>. I'm sure that you understand!
 		</Text>
 	</TextBlock>
 
@@ -62,7 +62,7 @@
 		<ID>101</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			DAUCUS: If you committed us to some very difficult requirement you aren't going to live to see this system presented at the festival.
+			DAUCUS: If you committed us to some very difficult requirement, you aren't going to live to see this system presented at the festival.
 		</Text>
 	</TextBlock>
 

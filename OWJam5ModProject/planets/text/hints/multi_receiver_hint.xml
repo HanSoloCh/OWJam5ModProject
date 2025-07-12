@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			DAUCUS: Don't worry about that. I've gone ahead and hacked the transmitter to work with either receiver, depending on which one lines up. That way we won't need a second transmitter.
+			DAUCUS: Don't worry about that. I've gone ahead and hacked the transmitter to work with either receiver, depending on which one lines up. That way, we won't need a second transmitter.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			ADONSONIA: Thanks a ton Daucus! I am really sorry about incinerating those components, but I'm glad you were able to clean up my mess a bit.
+			ADONSONIA: Thank you, Daucus! I am really sorry about incinerating those components, but I'm glad you were able to clean up my mess a bit.
 		</Text>
 	</TextBlock>
 
@@ -54,7 +54,7 @@
 		<ID>101</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			BETULA: We know Adonsonia, Alnus is just upset. Everyone makes mistakes.
+			BETULA: We know, Adonsonia. Alnus is just upset. Everyone makes mistakes.
 		</Text>
 	</TextBlock>
 
@@ -64,7 +64,7 @@
 		<ID>201</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			ALNUS: Really? That's very helpful Daucus! We were really relying on those warp pads, so it's good to have them all usable.
+			ALNUS: Really? That's very helpful, Daucus! We were really relying on those warp pads, so it's good to have them all usable.
 		</Text>
 	</TextBlock>
 

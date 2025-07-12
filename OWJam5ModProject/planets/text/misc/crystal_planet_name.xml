@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			BETULA: Wow! That's quite an impressive name Alnus!
+			BETULA: That's an impressive name, Alnus!
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ALNUS: This crystalline body is quite majestic, it only makes sense that it would receive a name of equal beauty.
+			ALNUS: This crystalline body is quite majestic. It only makes sense that it would receive a name of equal beauty!
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ADONSONIA: Truly you possess <![CDATA[<i>great great</i>]]> humility, it is such a relief that you are in <![CDATA[<i>no way</i>]]> being strange about the name of this planet.
+			ADONSONIA: Truly, you possess <![CDATA[<i>incredible</i>]]> humility. It is such a relief that you are in <![CDATA[<i>no way</i>]]> being strange about the name of this planet.
 		</Text>
 	</TextBlock>
 

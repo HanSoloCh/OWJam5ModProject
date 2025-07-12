@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ADONSONIA: An interesting idea for a requirement could be that one of the planets must havea large amount of solid ice on it.
+			ADONSONIA: An interesting idea for a requirement could be that one of the planets must have a large amount of solid ice on it.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: Wait! Don't send that message yet! I was experimenting earlier and there doesn't seem to be a way to re-freeze water in this system! Our star is too hot to allow water to re-freeze, even in the furthest orbit.
+			ALNUS: Wait, don't send that message yet! I was experimenting earlier, and there doesn't seem to be a way to re-freeze water in this system! Our star is too hot to allow water to re-freeze, even in the furthest orbit.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ADONSONIA: Urgh, I've already sent the message with the requirement. I'm sure that we can figure out some way to freeze the water, we just need to block the brunt of the star's heat from reaching the planet we want to freeze.
+			ADONSONIA: That's inconvenient — I've already sent the message with the requirement. I'm sure that we can figure out some way to freeze the water, we just need to block the brunt of the star's heat from reaching the planet we want to freeze.
 		</Text>
 	</TextBlock>
 

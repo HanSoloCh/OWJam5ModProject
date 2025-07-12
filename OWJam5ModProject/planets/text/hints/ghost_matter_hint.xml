@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ALNUS: I wanted to warn everyone that, according to our teacher, a highly hazardous and invisible substance has been spilled in this cave, so please avoid it
+			ALNUS: I wanted to warn everyone that, according to our teacher, a highly hazardous and invisible substance has been spilled in this cave. Please avoid it!
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ALNUS: Fortunately, it seems that the substance can be temporarily neutralized with water, so if anyone accidentally touches it we can use that to our advantage.
+			ALNUS: Fortunately, it seems that the substance can be temporarily neutralized with water. If anyone accidentally touches it, we can use that to our advantage.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: What an interesting property, I wonder if we can use that to somehow gain access to this cave...
+			ADONSONIA: What an interesting property! I wonder if we can use that to somehow gain access to this cave.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			BETULA: I don't believe that to be advisable Adonsonia, somebody could be seriously hurt trying to do that.
+			BETULA: I don't believe that to be advisable, Adonsonia. Someone could be seriously hurt trying to do that.
 		</Text>
 	</TextBlock>
 
@@ -38,7 +38,7 @@
 		<ID>101</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			BETULA: With this material and the gravity, <![CDATA[<color=orange>The Big One</color>]]> may be the most dangerous planet in this system!
+			BETULA: With this substance and this planet's gravity, <![CDATA[<color=orange>The Big One</color>]]> may be the most dangerous planet in this system!
 		</Text>
 	</TextBlock>
 
