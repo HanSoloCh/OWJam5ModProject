@@ -18,7 +18,7 @@ namespace OWJam5ModProject
         OWRigidbody planetRB;
         NomaiInterfaceOrb orb;
         GameObject player;
-
+        
         void Start()
         {
             planetRB = OWJam5ModProject.Instance.NewHorizons.GetPlanet(planetName).GetComponent<OWRigidbody>();
@@ -61,10 +61,8 @@ namespace OWJam5ModProject
             planetRB.transform.forward = sun.transform.up * -1;
             planetRB.transform.up = (planetRB.transform.position - sun.transform.position).normalized;
 
-            // move ship if on planet
-            var shipSectorDetector = Locator.GetShipDetector().GetComponent<SectorDetector>();
-            var inOurSector = shipSectorDetector._sectorList.Any(x => x.GetAttachedOWRigidbody() == planetRB);
-            if (inOurSector)
+            // move ship if landed on planet
+            if (ShipContactSensor.lastContact == planetRB)
             {
                 Locator.GetShipTransform().position = planetRB.transform.TransformPoint(relShipPos);
                 Locator.GetShipTransform().rotation = planetRB.transform.TransformRotation(relShipRot);
