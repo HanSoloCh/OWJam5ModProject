@@ -55,7 +55,7 @@
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Walker_Jam5_Station_ProjectRequirements_DiredSeabed</FactID>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_DriedSeabed</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>
