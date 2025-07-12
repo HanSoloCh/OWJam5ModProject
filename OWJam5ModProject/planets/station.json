@@ -13,6 +13,11 @@
         },
         "isStatic": true
     },
+    "ReferenceFrame": {
+        "hideInMap": true,
+        "maxTargetDistance": 2500,
+        "bracketRadius": 50
+    },
     "Volumes": {
         "audioVolumes": [
             {
@@ -54,9 +59,9 @@
             },
             {
                 "rename": "student_intro_text",
-                "parentPath": "Sector/OrreryStation/Station/Props/Props_NOM_Whiteboard/text_anchor",
+                "parentPath": "Sector/OrreryStation/Station/Props/scroll_anchor",
                 "isRelativeToParent": true,
-                "type": "wall",
+                "type": "scroll",
                 "xmlFile": "planets/text/intro/students_intro.xml",
                 "seed": 49816,
                 "arcInfo": [
