@@ -37,7 +37,7 @@
                 "parentPath": "Sector/SupermassivePlanet/OrreryWarpTransmitter/WarpTransmitter",
                 "isRelativeToParent": true,
                 "frequency": "WalkerJam5Orrery",
-                "alignRadial": true,
+                "alignRadial": false,
                 "alignmentWindow": 180
             }
         ],

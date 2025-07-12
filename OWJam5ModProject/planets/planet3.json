@@ -52,7 +52,7 @@
             {
                 "parentPath": "Sector/SandPlanet/OrreryWarpTransmitter/WarpTransmitter",
                 "isRelativeToParent": true,
-                "alignRadial": true,
+                "alignRadial": false,
                 "frequency": "WalkerJam5Orrery",
                 "alignmentWindow": 180
             }

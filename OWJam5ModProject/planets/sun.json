@@ -4,6 +4,7 @@
     "starSystem": "Jam5",
     "removeChildren": [
         "Sector/Star/Audio_Star/SurfaceAudio_Sun",
+        "Sector/Star/Surface",
         "Sector/Star/AmbientLight_Star" // nh ambient light is broken 
     ],
     "Base": {
