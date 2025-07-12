@@ -44,7 +44,7 @@
         ],
         "warpTransmitters": [
             {
-                "parentPath": "Sector/WaterPlanet/OrreryWarpTransmitter/WarpTransmitter",
+                "parentPath": "Sector/WaterPlanet/Core/OrreryWarpTransmitter/WarpTransmitter",
                 "isRelativeToParent": true,
                 "frequency": "WalkerJam5Orrery",
                 "alignRadial": false,
@@ -283,7 +283,7 @@
     "Volumes": {
         "revealVolumes": [
             {
-                "parentPath": "Sector/WaterPlanet/OrreryWarpTransmitter/WarpTransmitter",
+                "parentPath": "Sector/WaterPlanet/Core/OrreryWarpTransmitter/WarpTransmitter",
                 "isRelativeToParent": true,
                 "radius": 25,
                 "revealOn": "enter",
