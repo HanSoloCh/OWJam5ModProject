@@ -40,7 +40,8 @@
                 "scale": 1.0,
                 "rotation": {
                     "x": -90
-                }
+                },
+                "ignoreSun": true // prevent weird shadows from main station :P
             }
         ],
         "translatorText": [

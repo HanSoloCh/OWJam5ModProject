@@ -7,7 +7,6 @@ namespace OWJam5ModProject;
 /// <summary>
 /// keep the orb in place when not being dragged, acting like a slot
 /// </summary>
-[UsedInUnityProject]
 [RequireComponent(typeof(NomaiInterfaceOrb))]
 [HarmonyPatch]
 public class FakeOrbSlot : MonoBehaviour

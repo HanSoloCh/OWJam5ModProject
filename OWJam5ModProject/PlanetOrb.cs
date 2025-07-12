@@ -5,6 +5,8 @@ namespace OWJam5ModProject
 {
     internal class PlanetOrb : MonoBehaviour
     {
+        public static bool OrbsActivated;
+        
         const string SUN_NAME = "Walker_Jam5_Star";
 
         [SerializeField] string planetName;
@@ -29,9 +31,13 @@ namespace OWJam5ModProject
 
         void FixedUpdate()
         {
+            OrbsActivated = false;
+            
             // radius check
             if ((player.transform.position - center.transform.position).sqrMagnitude > freezeRadius * freezeRadius)
                 return;
+
+            OrbsActivated = true;
 
             UpdateLocation();
         }
