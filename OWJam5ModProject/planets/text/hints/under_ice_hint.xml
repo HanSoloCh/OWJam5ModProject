@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ADONSONIA: I'm disappointed that this planet is so unremarkable. We can't even make it more interesting ourselves, since the ice is simply too unstable to build on.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			BETULA: I must agree, there really isn't much on this planet that we can work with.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ALNUS: Subsurface scans indicate that there is a more solid surface under the ice, as well as a subsurface ocean. If we could gain access to that surface, we may be able to create structures.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			DAUCUS: The ice is quite thick, and would be very difficult to get through. Additionally, we'd have no guarantee that what we build wouldn't be covered with more ice after construction.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ADONSONIA: Perhaps there's some way that the ice can be cleared away, if we have enough creativity.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>
