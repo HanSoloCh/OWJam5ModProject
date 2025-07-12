@@ -59,4 +59,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_DoubleSand</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			BETULA: This is lovely Alnus! I look forward to seeing the top chamber of the tower once you put in a tractor beam to get up there!
+			BETULA: This is lovely Alnus! I look forward to seeing the top chamber of the tower once you install a tractor beam to get up there!
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			BETULA: Oh? Then what means do you intend us to use to get up there? The gravity of this planet is far too high for a thrustpack to give the necessary height.
+			BETULA: Oh? Then how do you intend for us to get up there? The gravity of this planet is far too strong for a thrustpack to give the necessary height.
 		</Text>
 	</TextBlock>
 
@@ -69,4 +69,9 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet2_Tower_Hint</FactID>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

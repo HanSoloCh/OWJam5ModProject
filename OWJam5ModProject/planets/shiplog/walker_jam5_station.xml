@@ -1,0 +1,42 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>Walker_Jam5_Station</ID>
+
+  <Entry>
+	<ID>Walker_Jam5_Station_ProjectRequirements</ID>
+	<Name>Project Requirements</Name>
+	<IsCuriosity/>
+
+	<ExploreFact>
+		<ID>Walker_Jam5_Station_ProjectRequirements_OppositeSides</ID>
+		<Text>Any two planets that share an orbit must be on opposite sides of the sun.</Text>
+	</ExploreFact>
+
+	<ExploreFact>
+		<ID>Walker_Jam5_Station_ProjectRequirements_DoubleSand</ID>
+		<Text>Multiple planets in the system must have sand.</Text>
+	</ExploreFact>
+
+	<ExploreFact>
+		<ID>Walker_Jam5_Station_ProjectRequirements_DriedSeabed</ID>
+		<Text>The system must contain an exposed dried seabed.</Text>
+	</ExploreFact>
+
+	<ExploreFact>
+		<ID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet</ID>
+		<Text>Solid ice must be present on a planet in the system.</Text>
+	</ExploreFact>
+
+	<ExploreFact>
+		<ID>Walker_Jam5_Station_ProjectRequirements_WarpAlignment</ID>
+		<Text>The warp transmitter must be aligned with at least one receiver.</Text>
+	</ExploreFact>
+
+	<ExploreFact>
+		<ID>Walker_Jam5_Station_ProjectRequirements_FinalLocation</ID>
+		<Text>Once all 5 requirements are met, the project must be submitted in the core of "Glacial Abyss!". A Nomai named Alnus pointed out that it is impossible to reach the core using quantum entanglement while all the other project requirements are met.</Text>
+	</ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>

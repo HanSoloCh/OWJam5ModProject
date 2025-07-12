@@ -391,7 +391,7 @@
         ]
     },
     "ShipLog": {
-        "xmlFile": "planets/shiplog/WalkerJam5System.xml",
+        "xmlFile": "planets/shiplog/walker_jam5_planet3.xml",
         "spriteFolder": "planets/shiplog/sprites"
     }
 }

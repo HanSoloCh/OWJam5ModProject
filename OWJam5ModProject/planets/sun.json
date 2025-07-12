@@ -68,9 +68,5 @@
                 "scale": 350.0
             }
         ]
-    },
-    "ShipLog": {
-        "xmlFile": "planets/shiplog/WalkerJam5System.xml",
-        "spriteFolder": "planets/shiplog/sprites"
     }
 }

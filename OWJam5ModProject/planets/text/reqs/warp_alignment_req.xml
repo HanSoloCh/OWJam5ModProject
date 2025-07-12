@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			DAUCUS: We've already placed a number of different buildings on these planets, so it's already not a representation of a fully natural system. Given that, lining up the warp pads would demonstrate that we're considering how transport would work in the system.
+			DAUCUS: We've placed a number of different buildings on these planets, so it's already not a representation of a fully natural system. Given that, lining up the warp pads would demonstrate that we're considering how transport would work in the system.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			DAUCUS: Given that we only have the one transmitter, I think we can get away with lining up with either warp pad is most convenient.
+			DAUCUS: Given that we only have the one transmitter, I think we can get away with lining up with whichever warp pad is most convenient.
 		</Text>
 	</TextBlock>
 
@@ -61,4 +61,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_WarpAlignment</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>
