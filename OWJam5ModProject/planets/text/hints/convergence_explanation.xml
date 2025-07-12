@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			BETULA: This structure is very impressive, although I don't recall us ever discussing it or its construction.
+			BETULA: This structure is <![CDATA[<i>very</i>]]> impressive, although I don't recall us ever discussing it or its construction.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			ADONSONIA: Sorry, I would respond, but I'm really quite busy with a project on WATER_PLANET_NAME, I'm sure that you understand.
+      ADONSONIA: Sorry, I would respond, but I'm really quite busy with a project on <![CDATA[<color=orange>Glacial Abyss!</color>]]>, I'm sure that you understand.
 		</Text>
 	</TextBlock>
 

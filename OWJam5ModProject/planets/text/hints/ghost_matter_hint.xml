@@ -38,7 +38,7 @@
 		<ID>101</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			BETULA: With this material and the gravity, LARGE_PLANET_NAME may be the most dangerous planet in this system.
+			BETULA: With this material and the gravity, <![CDATA[<color=orange>The Big One</color>]]> may be the most dangerous planet in this system.
 		</Text>
 	</TextBlock>
 

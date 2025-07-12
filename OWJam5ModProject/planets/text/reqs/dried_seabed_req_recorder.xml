@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ADONSONIA: When I drained the water from WATER_PLANET_NAME to flood this cave, I saw how nice the seabed looks when exposed.
+			ADONSONIA: When I drained the water from <![CDATA[<color=orange>Glacial Abyss!</color>]]> to flood this cave, I saw how nice the seabed looks when exposed.
 		</Text>
 	</TextBlock>
 

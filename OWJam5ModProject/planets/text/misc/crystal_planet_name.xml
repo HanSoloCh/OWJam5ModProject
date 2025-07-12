@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ALNUS: I have decided that the name of this planet shall be... CRYSTAL_PLANET_NAME!
+			ALNUS: I have decided that the name of this planet shall be... <![CDATA[<color=orange>Shattered Geode</color>]]>!
 		</Text>
 	</TextBlock>
 

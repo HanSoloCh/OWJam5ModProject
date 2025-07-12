@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			DAUCUS: Daucus.
+			DAUCUS: <![CDATA[<color=orange>Daucus</color>]]>.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ALNUS: ...I suppose that calling the planet Daucus works as well as anything.
+			ALNUS: ...I suppose that calling the planet <![CDATA[<color=orange>Daucus</color>]]> works as well as anything.
 		</Text>
 	</TextBlock>
 

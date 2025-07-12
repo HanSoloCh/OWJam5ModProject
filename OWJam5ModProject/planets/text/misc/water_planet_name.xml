@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			BETULA: I've decided to name this planet WATER_PLANET_NAME!
+			BETULA: I've decided to name this planet <![CDATA[<color=orange>Glacial Abyss!</color>]]>!
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			BETULA: Oh, I should clarify. The first exclamation is actually part of the name, WATER_PLANET_NAME.
+			BETULA: Oh, I should clarify. The first exclamation is actually part of the name, <![CDATA[<color=orange>Glacial Abyss!</color>]]>.
 		</Text>
 	</TextBlock>
 

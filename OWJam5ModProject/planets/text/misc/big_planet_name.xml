@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ADONSONIA: This massive sphere shall be known as... BIG_PLANET_NAME!
+			ADONSONIA: This massive sphere shall be known as... <![CDATA[<color=orange>The Big One</color>]]>!
 		</Text>
 	</TextBlock>
 

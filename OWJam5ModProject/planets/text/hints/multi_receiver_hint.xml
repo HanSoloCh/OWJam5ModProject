@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: Even if we choose to believe that, it doesn't change the fact that we're now out of warp cores. Without another one we can't make any more transmitters, which means we can only use one of the receivers. We'll have to pick between the one on SAND_PLANET_NAME and the one on WATER_PLANET_NAME!
+			ALNUS: Even if we choose to believe that, it doesn't change the fact that we're now out of warp cores. Without another one we can't make any more transmitters, which means we can only use one of the receivers. We'll have to pick between the one on <![CDATA[<color=orange>Daucus</color>]]> and the one on <![CDATA[<color=orange>Glacial Abyss!</color>]]>!
 		</Text>
 	</TextBlock>
 
