@@ -59,6 +59,14 @@ namespace OWJam5ModProject
         }
 
         /**
+         * Checks to see if all five requirements are met
+         */
+        public static bool CheckAllReqs()
+        {
+            return CheckIceReq() && CheckAngleReq() && CheckDryReq() && CheckSandReq() && CheckWarpReq();
+        }
+
+        /**
          * Checks whether or not the large planet has enough ice
          */
         public static bool CheckIceReq()
