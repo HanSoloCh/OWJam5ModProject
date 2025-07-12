@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: I know you like easy solutions, but won't it be a bit easy to mix up you and the planet?
+			ADONSONIA: I know you like easy solutions, but won't it be a <![CDATA[<i>bit</i>]]> easy to mix up you and the planet?
 		</Text>
 	</TextBlock>
 

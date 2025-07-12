@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ALNUS: I maintain that the discussion of your idea did not require us to come... here.
+			ALNUS: I maintain that the discussion of your idea did not require us to come... <![CDATA[<i>here</i>]]>.
 		</Text>
 	</TextBlock>
 

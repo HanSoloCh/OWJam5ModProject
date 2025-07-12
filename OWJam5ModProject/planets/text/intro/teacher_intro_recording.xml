@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			ORYZA: Oh, and one last thing. Since this is meant to demonstrate your understanding of star systems, I'll need you to tell me REQUIREMENT_NUMBER different requirements that your system will meet to be similar to a real star system. This is a graded project after all. Have fun little ones!
+			ORYZA: Oh, and one last thing. Since this is meant to demonstrate your understanding of star systems, I'll need you to tell me six different requirements that your system will meet to be similar to a real star system. This is a <![CDATA[<i>graded</i>]]> project after all. Have fun little ones!
 		</Text>
 	</TextBlock>
 

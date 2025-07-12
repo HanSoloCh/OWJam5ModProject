@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: Would you look at that? It seems that I unintentionally forgot to put a door on the building. 100% accidental, I can assure you.
+			ADONSONIA: Would you look at that? It seems that I <![CDATA[<i>unintentionally forgot</i>]]> to put a door on the building. <![CDATA[<i>100% accidental</i>]]>, I can assure you.
 		</Text>
 	</TextBlock>
 
