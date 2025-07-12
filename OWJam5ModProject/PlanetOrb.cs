@@ -1,12 +1,12 @@
 ﻿using System;
+using System.Linq;
+using NewHorizons.Utility;
 using UnityEngine;
 
 namespace OWJam5ModProject
 {
     internal class PlanetOrb : MonoBehaviour
     {
-        public static bool OrbsActivated;
-        
         const string SUN_NAME = "Walker_Jam5_Star";
 
         [SerializeField] string planetName;
@@ -25,25 +25,25 @@ namespace OWJam5ModProject
             sun = OWJam5ModProject.Instance.NewHorizons.GetPlanet(SUN_NAME);
             orb = GetComponent<NomaiInterfaceOrb>();
             player = Locator.GetPlayerBody().gameObject;
-            
+
             UpdateLocation(); // do initial
         }
 
         void FixedUpdate()
         {
-            OrbsActivated = false;
-            
             // radius check
             if ((player.transform.position - center.transform.position).sqrMagnitude > freezeRadius * freezeRadius)
                 return;
-
-            OrbsActivated = true;
 
             UpdateLocation();
         }
 
         private void UpdateLocation()
         {
+            // qsb does the same thing for occasional sync :D
+            var relShipPos = planetRB.transform.InverseTransformPoint(Locator.GetShipTransform().position);
+            var relShipRot = planetRB.transform.InverseTransformRotation(Locator.GetShipTransform().rotation);
+
             /*
             Vector3 relativeVelocity = center.InverseTransformVector(orb._orbBody.GetVelocity());
             relativeVelocity.y = 0;
@@ -60,6 +60,15 @@ namespace OWJam5ModProject
             //To sun : -y
             planetRB.transform.forward = sun.transform.up * -1;
             planetRB.transform.up = (planetRB.transform.position - sun.transform.position).normalized;
+
+            // move ship if on planet
+            var shipSectorDetector = Locator.GetShipDetector().GetComponent<SectorDetector>();
+            var inOurSector = shipSectorDetector._sectorList.Any(x => x.GetAttachedOWRigidbody() == planetRB);
+            if (inOurSector)
+            {
+                Locator.GetShipTransform().position = planetRB.transform.TransformPoint(relShipPos);
+                Locator.GetShipTransform().rotation = planetRB.transform.TransformRotation(relShipRot);
+            }
         }
     }
 }

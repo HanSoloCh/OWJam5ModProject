@@ -63,7 +63,6 @@ namespace OWJam5ModProject
             //ReparentPlanets();
             NomaiWarpTransmitterSwapper.Apply();
             FinalRequirementManager.Initialize();
-            new GameObject("ship mover").AddComponent<ShipMover>();
         }
 
         /// <summary>
