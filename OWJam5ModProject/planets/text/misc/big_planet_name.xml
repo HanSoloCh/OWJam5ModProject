@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: Alnus, aren't you always telling me to be more practical? This is just my (totally, entirely earnest) attempt to appease you.
+			ADONSONIA: Alnus, aren't you always telling me to be more practical? This is just my (totally, <![CDATA[<i>entirely</i>]]> earnest) attempt to appease you.
 		</Text>
 	</TextBlock>
 
