@@ -22,7 +22,12 @@
         {
             "outerRadius": 170,
             "innerRadius": 100,
-            "intensity": 0.8
+            "intensity": 0.4,
+            "tint": {
+                "r": 50,
+                "g": 10,
+                "b": 133
+            }
         }
     ],
     "Orbit": {
@@ -149,7 +154,7 @@
                 ]
             },
             {
-                "parentPath": "Sector/CrystalPlanet/Normal Size/Props_NOM_Whiteboard/text_anchor",
+                "parentPath": "Sector/CrystalPlanet/Warp Tower/Prefab/Props_NOM_Whiteboard/text_anchor",
                 "rename": "multi_receiver_text",
                 "isRelativeToParent": true,
                 "type": "wall",
