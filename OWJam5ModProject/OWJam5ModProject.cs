@@ -80,7 +80,7 @@ namespace OWJam5ModProject
         const string WATER_SOURCE_PATH = "Walker_Jam5_Planet4_Body/Sector/Water";
         const string WATER_TARGET_PATH = "Walker_Jam5_Planet2_Body/Sector/Water";
         public const float WATER_DRAINED_HEIGHT = 120;
-        public const float WATER_FILLED_HEIGHT = 255;
+        public const float WATER_FILLED_HEIGHT = 259;
         const float WATER_FILLED_ADDITIONAL_HEIGHT = 10;
         void InitializeFunnels()
         {
