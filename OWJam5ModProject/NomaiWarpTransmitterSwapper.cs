@@ -42,22 +42,25 @@ public class NomaiWarpTransmitterSwapper : MonoBehaviour
 
     public void FixedUpdate()
     {
+        FinalRequirementManager.padLinedUp = false;
         if (_cooldown.GetValue<bool>("_cooldownActive")) return; // dont touch anything if its cooling down
         
         // just run transmitter finding code on all the targets until we found one that matches :P
         foreach (var receiver in _receivers)
         {
             _transmitter._targetReceiver = receiver; // try this receiver
-
-            if (_transmitter._objectsOnPlatform.Count > 0 && !_transmitter.IsBlackHoleOpen() &&
-                _transmitter._targetReceiver != null && _transmitter._targetReceiver.gameObject.activeInHierarchy)
+            
+            float viewAngleToTarget = _transmitter.GetViewAngleToTarget();
+            float num = 0.5f * ((TimeLoop.GetSecondsRemaining() < 30f) ? 5f : _transmitter._alignmentWindow);
+            if (viewAngleToTarget <= num)
             {
-                float viewAngleToTarget = _transmitter.GetViewAngleToTarget();
-                float num = 0.5f * ((TimeLoop.GetSecondsRemaining() < 30f) ? 5f : _transmitter._alignmentWindow);
-                if (viewAngleToTarget <= num)
+                FinalRequirementManager.padLinedUp = true;
+                if (_transmitter._objectsOnPlatform.Count > 0 && !_transmitter.IsBlackHoleOpen() &&
+                _transmitter._targetReceiver != null && _transmitter._targetReceiver.gameObject.activeInHierarchy)
                 {
                     return; // we found the one we will use
                 }
+
             }
         }
     }
