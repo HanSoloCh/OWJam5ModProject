@@ -37,6 +37,9 @@ namespace OWJam5ModProject
             waterTint = waterMaterial.color;
             if (startsFrozen)
                 waterMaterial.color = Color.black;
+
+            //This being negative will make the ice always drainable
+            iceGrowAmount = Mathf.Max(0, iceGrowAmount);
         }
 
         /**
