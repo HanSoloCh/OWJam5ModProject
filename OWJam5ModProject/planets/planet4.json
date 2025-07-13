@@ -35,9 +35,8 @@
     "Props": {
         "warpReceivers": [
             {
-                "position": {
-                    "y": -151
-                },
+                "parentPath": "Sector/WaterPlanet/WarpReceiverArea/ReceiverAnchor",
+                "isRelativeToParent": true,
                 "frequency": "WalkerJam5",
                 "alignRadial": true
             }
@@ -268,6 +267,76 @@
                             "y": 2.445385
                         },
                         "zRotation": 52.54226
+                    }
+                ]
+            },
+            {
+                "rename": "geyser_hint_text",
+                "parentPath": "Sector/WaterPlanet/WarpReceiverArea/Props_NOM_Whiteboard/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/hints/geyser_hint.xml",
+                "seed": 52864,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 354.6459
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.07000558,
+                            "y": 0.488563
+                        },
+                        "zRotation": 297.4306
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.7447557,
+                            "y": 0.5169958
+                        },
+                        "zRotation": 328.8717
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.1343598,
+                            "y": 1.67671
+                        },
+                        "zRotation": 51.08715
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.6449242,
+                            "y": 1.876886
+                        },
+                        "zRotation": 31.34087
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0.8926381,
+                            "y": 1.247537
+                        },
+                        "zRotation": 284.2948
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 1.596999,
+                            "y": 1.141296
+                        },
+                        "zRotation": 321.6434
                     }
                 ]
             }

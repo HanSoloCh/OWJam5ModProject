@@ -1,0 +1,62 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			BETULA: With access to the planet's true surface, I noticed some interesting looking geysers located near the north pole.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ALNUS: Our teacher actually mentioned those. Apparently the tunnels lead all the way to the hollow core of this planet. She says that there's something down there that she wants us to see.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ADONSONIA: I've already tried jumping into one, but the flow of the water forced me back to the surface.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			ALNUS: The geyser pressure is not terribly strong. Freezing the water of this planet into ice may provide enough force to stop the geysers from erupting properly.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ADONSONIA: If that works, we'd only need to gain access to the ocean under the ice in order to make our way to the hollow core of the planet!
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			BETULA: That sounds quite dangerous! Did you sustain any injuries?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			ADONSONIA: Not to worry, Betula, I'm perfectly fine.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>
