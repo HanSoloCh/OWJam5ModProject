@@ -9,8 +9,14 @@ namespace OWJam5ModProject
 {
     public class IceSphere : MonoBehaviour
     {
+        //Assign in editor
         [SerializeField] float iceGrowAmount = 5; //configurable grow amount -jamie
         [SerializeField] float minIceHeight = 0;
+        [SerializeField] float geyserSwitchHeight = 0;
+        [SerializeField] Light light;
+        [SerializeField] bool startsFrozen;
+        [SerializeField] Transform geyserRoot = null;
+
         private float growSpeed = 4;
         private Transform waterTF = null;
         private Transform innerTF = null;
@@ -18,9 +24,6 @@ namespace OWJam5ModProject
         private float iceFreezeDistance = 2000;
         private float iceMeltDistance = 1200;
         private float waterInnerIceOffset = -0.5f;
-
-        [SerializeField] Light light;
-        [SerializeField] bool startsFrozen;
 
         private Material waterMaterial;
         private Color waterTint;
@@ -105,6 +108,22 @@ namespace OWJam5ModProject
             outerTF.localScale = new Vector3(scale, scale, scale);
             float innerScale = Mathf.Min(waterTF.localScale.x + waterInnerIceOffset, scale);
             innerTF.localScale = new Vector3(innerScale, innerScale, innerScale);
+
+            //Hide or show based on vanish height
+            if(scale < geyserSwitchHeight)
+            {
+                innerTF.gameObject.SetActive(false);
+                outerTF.gameObject.SetActive(false);
+                if(geyserRoot != null)
+                    geyserRoot.gameObject.SetActive(true);
+            }
+            else
+            {
+                innerTF.gameObject.SetActive(true);
+                outerTF.gameObject.SetActive(true);
+                if (geyserRoot != null)
+                    geyserRoot.gameObject.SetActive(false);
+            }
         }
     }
 }
