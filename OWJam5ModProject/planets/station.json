@@ -52,14 +52,14 @@
         "translatorText": [
             {
                 "rename": "teacher_intro_recording",
-                "parentPath": "Sector/OrreryStation/Station/Props/recorder_anchor",
+                "parentPath": "Sector/OrreryStation/Station/Detail Sector/Props/recorder_anchor",
                 "isRelativeToParent": true,
                 "type": "recorder",
                 "xmlFile": "planets/text/intro/teacher_intro_recording.xml"
             },
             {
                 "rename": "student_intro_text",
-                "parentPath": "Sector/OrreryStation/Station/Props/scroll_anchor",
+                "parentPath": "Sector/OrreryStation/Station/Detail Sector/Props/scroll_anchor",
                 "isRelativeToParent": true,
                 "type": "scroll",
                 "xmlFile": "planets/text/intro/students_intro.xml",
