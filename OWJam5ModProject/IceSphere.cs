@@ -13,7 +13,6 @@ namespace OWJam5ModProject
         [SerializeField] float iceGrowAmount = 5; //configurable grow amount -jamie
         [SerializeField] float minIceHeight = 0;
         [SerializeField] float geyserSwitchHeight = 0;
-        [SerializeField] Light light;
         [SerializeField] bool startsFrozen;
         [SerializeField] Transform geyserRoot = null;
 
@@ -88,8 +87,6 @@ namespace OWJam5ModProject
             if (isCold && isShadowed) 
             {
                 scale = scale + growSpeed * Time.deltaTime;
-                if (light != null)
-                    light.intensity = 0;
                 waterMaterial.color = Color.black;
             }
 
@@ -97,8 +94,6 @@ namespace OWJam5ModProject
             else if(isHot && !isShadowed)
             {
                 scale = scale - growSpeed * Time.deltaTime;
-                if (light != null)
-                    light.intensity = 1;
                 waterMaterial.color = waterTint;
             }
 

@@ -70,13 +70,6 @@
         ],
         "translatorText": [
             {
-                "rename": "quantum_hint_recorder",
-                "parentPath": "Sector/WaterPlanet/QuantumRockSurroundings/recorder_anchor",
-                "isRelativeToParent": true,
-                "type": "recorder",
-                "xmlFile": "planets/text/hints/quantum_rock_hint_recording.xml"
-            },
-            {
                 "rename": "missing_transmitter_text",
                 "parentPath": "Sector/WaterPlanet/NorthPoleRegion/missing_transmitter_whiteboard/text_anchor",
                 "isRelativeToParent": true,
