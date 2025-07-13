@@ -52,6 +52,10 @@ namespace OWJam5ModProject
          */
         private void FixedUpdate()
         {
+            //If the water seems really low, that means we're bugged and shouldn't do anything with the ice this frame
+            if (waterTF.localScale.x < 10)
+                return;
+
             //Do a raycast towards the sun, see if it hits the other planet
             bool isShadowed = false;
             bool isCold = false;
@@ -93,8 +97,6 @@ namespace OWJam5ModProject
 
             //Make sure that the scale is in bounds 
             scale = Mathf.Clamp(scale, waterTF.localScale.x - 36, waterTF.localScale.x + iceGrowAmount);
-
-            //Apply the scale to the outer ice and adjust the inner ice
             outerTF.localScale = new Vector3(scale, scale, scale);
             float innerScale = Mathf.Min(waterTF.localScale.x + waterInnerIceOffset, scale);
             innerTF.localScale = new Vector3(innerScale, innerScale, innerScale);
