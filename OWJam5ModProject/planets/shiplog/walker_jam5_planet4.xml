@@ -34,4 +34,15 @@
 			<Text>The warp transmitter from "Glacial Abyss!" to the orrery station is in the core of the planet.</Text>
 		</ExploreFact>
 	</Entry>
+
+	<Entry>
+		<ID>Walker_Jam5_Planet4_Ice</ID>
+		<Name>Subsurface Ocean</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Ice_Fact</ID>
+			<Text>"Glacial Abyss!" has a subsurface ocean. A Nomai named Adonsonia theorized about the possibility of removing the ice.</Text>
+		</ExploreFact>
+	</Entry>
 </AstroObjectEntry>
