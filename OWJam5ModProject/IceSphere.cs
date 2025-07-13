@@ -10,6 +10,7 @@ namespace OWJam5ModProject
     public class IceSphere : MonoBehaviour
     {
         [SerializeField] float iceGrowAmount = 5; //configurable grow amount -jamie
+        [SerializeField] float minIceHeight = 0;
         private float growSpeed = 4;
         private Transform waterTF = null;
         private Transform innerTF = null;
@@ -100,6 +101,7 @@ namespace OWJam5ModProject
 
             //Make sure that the scale is in bounds 
             scale = Mathf.Clamp(scale, waterTF.localScale.x - 36, waterTF.localScale.x + iceGrowAmount);
+            scale = Mathf.Max(scale, minIceHeight);
             outerTF.localScale = new Vector3(scale, scale, scale);
             float innerScale = Mathf.Min(waterTF.localScale.x + waterInnerIceOffset, scale);
             innerTF.localScale = new Vector3(innerScale, innerScale, innerScale);
