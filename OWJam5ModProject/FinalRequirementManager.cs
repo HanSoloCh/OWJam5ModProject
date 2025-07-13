@@ -11,13 +11,14 @@ namespace OWJam5ModProject
     public static class FinalRequirementManager
     {
         /**
-         * Five requirements:
+         * Six requirements:
          * 
          * 1. Large planet has a max-size ice sphere
          * 2. Water planet has minimum water
          * 3. At least one receiver is lined up
          * 4. Two different planets need to have sand
          * 5. Any planets in the same orbit are on opposite sides of the sun
+         * 6. The big planet has to be in the middle orbit
          */
 
         public static bool inJamSystem = false;
@@ -63,7 +64,7 @@ namespace OWJam5ModProject
          */
         public static bool CheckAllReqs()
         {
-            return CheckIceReq() && CheckAngleReq() && CheckDryReq() && CheckSandReq() && CheckWarpReq();
+            return CheckIceReq() && CheckAngleReq() && CheckDryReq() && CheckSandReq() && CheckWarpReq() && CheckLargePlanetOrbit();
         }
 
         /**
@@ -153,6 +154,15 @@ namespace OWJam5ModProject
             }
 
             return true;
+        }
+
+        /**
+         * Checks whether or not the large planet is in the correct orbit
+         */
+        public static bool CheckLargePlanetOrbit()
+        {
+            float dist = (planetTFs[1].position - starTF.position).magnitude;
+            return dist > CLOSE_ORBIT_DIST && dist < FAR_ORBIT_DIST;
         }
     }
 }
