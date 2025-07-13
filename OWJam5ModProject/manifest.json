@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
   "filename": "OWJam5ModProject.dll",
   "author": "coderCleric, Lezzlebit, 2walker2, JohnCorby",
-  "name": "Mod Jam 5 Test",
+  "name": "Heliostudy",
   "uniqueName": "2walker2.OWJam5ModProject",
   "version": "0.1.0",
   "owmlVersion": "2.15.1",
