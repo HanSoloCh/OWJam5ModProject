@@ -10,18 +10,38 @@ namespace OWJam5ModProject
     public class QuantumEclipseChecker : MonoBehaviour
     {
         [SerializeField] private Transform[] rayOrigins = null;
-        [SerializeField] private Light light = null;
+        [SerializeField] private GameObject[] disableOnEclipse = null;
+        [SerializeField] private Light quantumLight = null;
 
+        private bool objectsActive = true;
         private float lightIntensity = 0;
 
         /**
-         * Grab the initial info on the light
+         * Grab the light intensity on start
          */
         private void Start()
         {
-            lightIntensity = light.intensity;
+            lightIntensity = quantumLight.intensity;
         }
 
+        /**
+         * Toggles all of the disableable objects
+         */
+        private void ToggleObjects(bool active)
+        {
+            if (active == objectsActive)
+                return;
+
+            objectsActive = active;
+            foreach(GameObject obj in disableOnEclipse)
+                obj.SetActive(active);
+
+            if(active)
+                quantumLight.intensity = lightIntensity;
+            else
+                quantumLight.intensity = 0;
+        }
+        
         /**
          * Do a bunch of raycasts to see if the sun is fully gone
          */
@@ -50,11 +70,11 @@ namespace OWJam5ModProject
 
             //If it's the right number, turn off the light
             if (hitCount >= rayOrigins.Length)
-                light.intensity = 0;
+                ToggleObjects(false);
 
             //Otherwise, turn it on
             else
-                light.intensity = lightIntensity;
+                ToggleObjects(true);
         }
     }
 }
