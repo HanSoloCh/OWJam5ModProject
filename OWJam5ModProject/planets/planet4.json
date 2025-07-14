@@ -258,15 +258,6 @@
                             "y": 1.713737
                         },
                         "zRotation": 0.5618362
-                    },
-                    {
-                        "mirror": true,
-                        "type": "child",
-                        "position": {
-                            "x": -0.3379832,
-                            "y": 2.445385
-                        },
-                        "zRotation": 52.54226
                     }
                 ]
             },
@@ -350,7 +341,33 @@
                 "radius": 25,
                 "revealOn": "enter",
                 "reveals": [
-                    "Walker_Jam5_Planet4_MissingWarp_Fact"
+                    "Walker_Jam5_Planet4_MissingWarp_Fact",
+                    "Walker_Jam5_Planet4_Core_Warp"
+                ]
+            },
+            {
+                "radius": 155,
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [
+                    "Walker_Jam5_Planet4_Ice_Fact"
+                ]
+            },
+            {
+                "radius": 120,
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [
+                    "Walker_Jam5_Planet4_Core_Fact"
+                ]
+            },
+            {
+                "parentPath": "Sector/WaterPlanet/WarpReceiverArea/ReceiverAnchor",
+                "isRelativeToParent": true,
+                "radius": 8,
+                "revealOn": "enter",
+                "reveals": [
+                    "Walker_Jam5_Planet4_Warp_Fact"
                 ]
             }
         ]

@@ -2,22 +2,6 @@
                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
     <ID>Walker_Jam5_Planet4</ID>
 
-    <Entry>
-        <ID>Walker_Jam5_Planet4_Quantum</ID>
-        <Name>Quantum Rock</Name>
-        <Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
-
-        <ExploreFact>
-            <ID>Walker_Jam5_Planet4_Quantum_Hint</ID>
-            <Text>There is a quantum rock on the south pole of "Glacial Abyss!". Nomai students were told their teacher had something to show them at the core of the planet and that they should ride the rock to get there. A Nomai named Adonsonia recalled that they needed to make the area around the rock completely dark.</Text>
-        </ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Planet4_Quantum_Solved</ID>
-			<Text>By standing on the rock in the darkness under the planet's ice layer, I was able to reach the core.</Text>
-		</ExploreFact>
-    </Entry>
-
 	<Entry>
 		<ID>Walker_Jam5_Planet4_MissingWarp</ID>
 		<Name>Core Orrery Warp Transmitter</Name>
@@ -40,9 +24,69 @@
 		<Name>Subsurface Ocean</Name>
 		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
 
+		<RumorFact>
+			<ID>Walker_Jam5_Planet4_Ice_Rumor</ID>
+			<RumorName>Subsurface Ocean</RumorName>
+			<Text>The ice on "Glacial Abyss!" is hollow and there is a subsurface ocean below it. A Nomai named Adonsonia theorized about the possibility of removing the ice.</Text>
+		</RumorFact>
+
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Ice_Fact</ID>
-			<Text>"Glacial Abyss!" has a subsurface ocean. A Nomai named Adonsonia theorized about the possibility of removing the ice.</Text>
+			<Text>The ice on "Glacial Abyss!" is hollow and I was able to reach the subsurface ocean below it.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Walker_Jam5_Planet4_Warp</ID>
+		<Name>"Glacial Abyss!" Warp Receiver</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Warp_Fact</ID>
+			<Text>There is a warp receiver on the equator of "Glacial Abyss!" under the ice.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Walker_Jam5_Planet4_Geysers</ID>
+		<Name>Geysers</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Geysers_Hint</ID>
+			<Text>Geysers are located beneath the ice on the surface of "Glacial Abyss!" near the north pole. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Geysers_Solved</ID>
+			<Text>By accessing the geysers while the planet was frozen, I was able to descend to the planet's core.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>Walker_Jam5_Planet4_Core</ID>
+		<Name>Core Display</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<RumorFact>
+			<ID>Walker_Jam5_Planet4_Core_Rumor</ID>
+			<RumorName>Abyssal Core</RumorName>
+			<Text>"Glacial Abyss!" has a hollow core connected to the geysers near the north pole. A Nomai teacher wanted her students to see something in the core.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Core_Fact</ID>
+			<Text>"Glacial Abyss!" has a hollow core connected to the geysers near the north pole. It contains a viewing area for safely observing the layers of the planet.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Core_Warp</ID>
+			<Text>The warp transmitter from "Glacial Abyss!" to the orrery station is in the core of the planet.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Core_Door</ID>
+			<Text>The core of "Glacial Abyss!" contains a door that is locked unless the system meets all project requirements.</Text>
 		</ExploreFact>
 	</Entry>
 </AstroObjectEntry>

@@ -59,4 +59,14 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet4_Geysers_Hint</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet4_Core_Rumor</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

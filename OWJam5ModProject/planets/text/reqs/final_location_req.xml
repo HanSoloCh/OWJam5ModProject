@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
     <LocationB />
 		<Text>
-			ORYZA: Additionally, this core is the final location that you will need to visit in order to submit your assignment. Think of it as your sixth requirement.
+			ORYZA: Additionally, this door is the final location that you will need to visit in order to submit your assignment. Think of it as your sixth requirement.
 		</Text>
 	</TextBlock>
 
@@ -70,11 +70,11 @@
 	<!--Ship log reveals go here-->
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Walker_Jam5_Planet4_Quantum_Solved</FactID>
-			<Condition>1</Condition>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_FinalLocation</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Walker_Jam5_Station_ProjectRequirements_FinalLocation</FactID>
+			<FactID>Walker_Jam5_Planet4_Core_Door</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>
