@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace OWJam5ModProject
 {
@@ -16,6 +17,10 @@ namespace OWJam5ModProject
         public GameObject[] enabledLights;
         public GameObject[] disabledLights;
         FinalDoorAnimator[] animators;
+        public Material completedMat;
+        public Material defaultMat;
+        public MeshRenderer swapMat;
+        public UnityEvent onPlay;
 
         public void Start()
         {
@@ -34,6 +39,14 @@ namespace OWJam5ModProject
             SetOrbOn(3, FinalRequirementManager.CheckSandReq());
             SetOrbOn(4, FinalRequirementManager.CheckAngleReq());
             SetOrbOn(5, FinalRequirementManager.CheckLargePlanetOrbit());
+
+            if (FinalRequirementManager.CheckAllReqs())
+            {
+                swapMat.materials[0] = completedMat;
+            } else
+            {
+                swapMat.materials[0] = defaultMat;
+            }
         }
 
         public void SetOrbOn(int Orb, bool IsOn)
@@ -65,8 +78,12 @@ namespace OWJam5ModProject
 
         public void Play()
         {
-            enabled = true;
-            PlayAll(true);
+            if (t == 0)
+            {
+                onPlay.Invoke();
+                enabled = true;
+                PlayAll(true);
+            }
         }
 
         public void Stop()
