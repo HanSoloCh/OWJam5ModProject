@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: The geyser pressure is not terribly strong. Freezing the water of this planet into ice may provide enough force to stop the geysers from erupting properly.
+			ALNUS: The geyser pressure is not terribly strong. Finding some way to limit the expansion of the water may be enough to stop the geysers from erupting properly.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ADONSONIA: If that works, we'd only need to gain access to the ocean under the ice in order to make our way to the hollow core of the planet!
+			ADONSONIA: Once we find a way to do that, we'll be free to go down the geysers and explore the core!
 		</Text>
 	</TextBlock>
 
@@ -54,7 +54,15 @@
 		<ID>102</ID>
 		<ParentID>101</ParentID>
 		<Text>
-			ADONSONIA: Not to worry, Betula, I'm perfectly fine.
+			ADONSONIA: Not to worry, Betula, I... wait... OH NO! THE FLESH PARASITES FROM THE CORE! THEY'RE TAKING CONTROL!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>103</ID>
+		<ParentID>102</ParentID>
+		<Text>
+			BETULA: Good to hear that you're alright.
 		</Text>
 	</TextBlock>
 
