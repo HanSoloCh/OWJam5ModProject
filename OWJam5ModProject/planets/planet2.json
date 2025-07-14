@@ -324,6 +324,9 @@
     },
     "ShipLog": {
         "xmlFile": "planets/shiplog/walker_jam5_planet2.xml",
-        "spriteFolder": "planets/shiplog/sprites"
+        "spriteFolder": "planets/shiplog/sprites",
+        "mapMode": {
+            "revealedSprite": "planets/shiplog/sprites/Planet2_Map.png"
+        }
     }
 }

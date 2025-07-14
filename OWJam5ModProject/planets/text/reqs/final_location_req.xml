@@ -5,7 +5,7 @@
 		<ID>1</ID>
     <LocationB />
 		<Text>
-			ORYZA: I thought that you little ones would be interested to see this; a safe way to view the layers of the planet's core!
+			ORYZA: I thought that you little ones would be interested to see this: directly above us lies a safe way to view the layers of the planet's core!
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
     <LocationB />
 		<Text>
-			ORYZA: Additionally, this door is the final location that you will need to visit in order to submit your assignment. Think of it as your sixth requirement.
+			ORYZA: Additionally, that door (at the end of the path behind you) is the final location that you will need to visit in order to submit your assignment. Think of it as your sixth requirement.
 		</Text>
 	</TextBlock>
 
