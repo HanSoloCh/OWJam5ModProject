@@ -16,6 +16,10 @@
             "intensity": 0.5
         }
     ],
+    "Atmosphere": {
+        "fogDensity": 0.01,
+        "fogSize": 0.01
+    },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
         "staticPosition": {
