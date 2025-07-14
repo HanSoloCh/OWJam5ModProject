@@ -75,7 +75,7 @@ namespace OWJam5ModProject
             if (!inJamSystem || bigPlanetIce == null)
                 return false;
 
-            return bigPlanetIce.Find("outer_ice").localScale.x > OWJam5ModProject.WATER_FILLED_HEIGHT + 4;
+            return bigPlanetIce.Find("outer_ice").localScale.x > OWJam5ModProject.WATER_FILLED_HEIGHT - 1;
         }
 
         /**
@@ -112,7 +112,7 @@ namespace OWJam5ModProject
             //Sand starts at 306
             //Ends at 260
             float sandScale = sandPlanetSand.localScale.x;
-            return sandScale < 305 && sandScale > 261;
+            return sandScale < 305 && sandScale > OWJam5ModProject.SAND_DRAINED_HEIGHT + 1;
 
         }
 

@@ -10,7 +10,7 @@ namespace OWJam5ModProject
     public class IceSphere : MonoBehaviour
     {
         //Assign in editor
-        [SerializeField] float iceGrowAmount = 5; //configurable grow amount -jamie
+        [SerializeField] float iceGrowAmount = 0; //configurable grow amount -jamie
         [SerializeField] float minIceHeight = 0;
         [SerializeField] float geyserSwitchHeight = 0;
         [SerializeField] bool startsFrozen;
