@@ -16,11 +16,13 @@
             "r": 50,
             "g": 0,
             "b": 125
-        }
+        },
+        "fogDensity": 0.01,
+        "fogSize": 170
     },
     "AmbientLights": [
         {
-            "outerRadius": 170,
+            "outerRadius": 200,
             "innerRadius": 100,
             "intensity": 0.4,
             "tint": {
