@@ -20,7 +20,7 @@ public class FakeOrbSlot : MonoBehaviour
     {
         _orb = GetComponent<NomaiInterfaceOrb>();
         _localLockPos = _orb._orbBody.GetOrigParent().InverseTransformPoint(_orb.transform.position);
-        _slots = transform.parent.GetComponentsInChildren<FakeOrbSlot>();
+        _slots = _orb._orbBody.GetOrigParent().GetComponentsInChildren<FakeOrbSlot>();
     }
 
     [HarmonyPrefix, HarmonyPatch(typeof(NomaiInterfaceOrb), nameof(NomaiInterfaceOrb.FixedUpdate))]
