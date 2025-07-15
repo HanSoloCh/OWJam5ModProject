@@ -22,6 +22,7 @@ namespace OWJam5ModProject
         public MeshRenderer swapMat;
         public UnityEvent onPlay;
         [SerializeField] Transform computerParent;
+        [SerializeField] RequirementsScreenPrompt screenPromptsVolume;
 
         NomaiComputer computer;
 
@@ -33,8 +34,6 @@ namespace OWJam5ModProject
             _triggerVolume = base.gameObject.GetAddComponent<OWTriggerVolume>();
             _triggerVolume.OnEntry += OnEntry;
             computer = computerParent.GetComponentInChildren<NomaiComputer>();
-
-            NewHorizons.Utility.OWML.Delay.FireOnNextUpdate(() => { computer.ClearAllEntries(); });
         }
 
         public void UpdateOrbs()
@@ -52,18 +51,21 @@ namespace OWJam5ModProject
 
                 if (t == 0)
                 {
-                    computer.ClearEntry(1);
-                    computer.DisplayEntry(0);
+                    computer.ClearAllEntries();
                 }
+
+                screenPromptsVolume.gameObject.SetActive(false);
             } else
             {
                 swapMat.materials[0] = defaultMat;
 
                 if (t == 0)
                 {
-                    computer.ClearEntry(0);
-                    computer.DisplayEntry(1);
+                    computer.ClearAllEntries();
+                    computer.DisplayAllEntries();
                 }
+
+                screenPromptsVolume.gameObject.SetActive(true);
             }
         }
 

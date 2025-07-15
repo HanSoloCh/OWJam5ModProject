@@ -4,15 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			Project status: Not all requirements are met.
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>2</ID>
-		<ParentID>1</ParentID>
-		<Text>
-			Project status: All requirements have been met.
+			Project status: Requirements not met.
 		</Text>
 	</TextBlock>
 
