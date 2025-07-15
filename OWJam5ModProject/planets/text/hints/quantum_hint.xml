@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			BETULA: That is quite an interesting trait!
+			BETULA: That is quite an interesting trait! Do you have any idea where it may go when it's not here?
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ADONSONIA: It gets better. Supposedly it is possible to ride one of these stones to other locations, provided you can get that location to be in absolute darkness. If anyone else would like to join me, I might see if I can find some way to trigger this behavior.
+			ADONSONIA: I'm not sure, to be honest. I don't believe I've seen it anywhere besides here.
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>101</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: I would accuse you of lying, if the stone didn't just appear behind me and nearly cause cardiac arrest.
+			ALNUS: I would accuse you of lying, if the stone didn't just appear behind me and nearly cause cardiac arrest. Unfortunately, it took a recording of mine with it and doesn't seem to have brought it back.
 		</Text>
 	</TextBlock>
 

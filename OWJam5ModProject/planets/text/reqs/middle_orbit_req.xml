@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			DAUCUS: Interesting. This rock provides a convenient form of travel, even to areas that are otherwise closed off entirely.
+			DAUCUS: Has anyone had any ideas for our last requirement? We are approaching the deadline, so we should keep it simple.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: Exactly! Supposedly this is due to the fact that the rock has a chance to appear in each location.
+			ADONSONIA: We haven't put any orbital restrictions on specific planets yet. Perhaps we could do something along those lines.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ALNUS: The mention of chance reminds me, I thought of another requirement for our project. I believe that the large planet should not be placed in the farthest orbit, since mass in a star system should tend towards the center.
+			ALNUS: It seems sensible to say that mass would gather towards the center of a naturally-occurring star system. Based on that, we could avoid leaving the largest planet in the farthest orbit.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			BETULA: That is a fair idea! I'll inform Oryza that we will avoid placing the largest planet in the farthest orbit.
+			BETULA: That is a fair idea! I'll inform Oryza of that being our final requirement.
 		</Text>
 	</TextBlock>
 
