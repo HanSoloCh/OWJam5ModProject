@@ -58,6 +58,7 @@ namespace OWJam5ModProject
                 return;
             }
 
+            RotateSystem();
             FinalRequirementManager.inJamSystem = true;
             InitializeFunnels();
             //ReparentPlanets();
@@ -104,6 +105,43 @@ namespace OWJam5ModProject
                 GameObject waterSource = SearchUtilities.Find(WATER_SOURCE_PATH);
                 GameObject waterTarget = SearchUtilities.Find(WATER_TARGET_PATH);
                 waterFunnelProximity.Initialize(waterSource, WATER_DRAINED_HEIGHT, waterTarget, WATER_FILLED_HEIGHT, sandFunnelProximity, WATER_FILLED_ADDITIONAL_HEIGHT);
+            }
+        }
+
+        /// <summary>
+        /// rotate our system to face towards the station always, to catch the eye
+        /// </summary>
+        void RotateSystem()
+        {
+            // evil code. i dont care. its fast
+
+            var stationTf = GameObject.Find("CentralStation_Body").transform;
+            
+            //Get the star transform
+            Transform starTF = NewHorizons.GetPlanet("Walker_Jam5_Star").transform;
+
+            foreach (NHAstroObject planet in FindObjectsOfType<NHAstroObject>())
+            {
+                //Exclude other mods, our star, and our platform
+                if (planet.modUniqueName.Equals("2walker2.OWJam5ModProject")
+                    && planet.transform != starTF 
+                    && !planet._customName.Equals("Walker_Jam5_Platform"))
+                {
+                    planet.transform.parent = starTF; // parent
+                }
+            }
+            
+            starTF.up = stationTf.position - starTF.position; // rotate
+            
+            foreach (NHAstroObject planet in FindObjectsOfType<NHAstroObject>())
+            {
+                //Exclude other mods, our star, and our platform
+                if (planet.modUniqueName.Equals("2walker2.OWJam5ModProject")
+                    && planet.transform != starTF 
+                    && !planet._customName.Equals("Walker_Jam5_Platform"))
+                {
+                    planet.transform.parent = null; // unparent
+                }
             }
         }
 
