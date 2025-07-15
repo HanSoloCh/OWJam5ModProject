@@ -13,6 +13,7 @@ using NewHorizons.External;
 using Newtonsoft.Json.Linq;
 using NewHorizons.Utility;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 namespace OWJam5ModProject
 {
@@ -26,6 +27,7 @@ namespace OWJam5ModProject
         public Transform orbParent;
         public Transform alignParent;
         Transform player;
+        public UnityEvent onEnable;
 
 
         PlayerSpacesuit suit;
@@ -47,28 +49,49 @@ namespace OWJam5ModProject
             suit = Locator._playerSuit;
             player = Locator.GetPlayerBody().transform;
             Apply(Main.BodyDict[systemName]);
-            foreach(SystemAndBodies s in systems)
-            {
-                spinRoot.Rotate(0, 15, 0);
-                GameObject newOrb = instantiateOrb.InstantiateInactive();
-                orbSpawnRoot.transform.localPosition = new Vector3(UnityEngine.Random.Range(3.5f, 6.5f), 0, 0);
-                newOrb.transform.position = orbSpawnRoot.transform.position;
-                newOrb.transform.parent = orbParent;
+            PlaceOrbs();
+        }
 
+        public void PlaceOrbs()
+        {
+            foreach (SystemAndBodies s in systems)
+            {
+                GameObject newOrb = instantiateOrb.InstantiateInactive();
+                newOrb.transform.parent = orbParent;
+                newOrb.transform.position = orbParent.transform.position;
                 GrandOrb o = newOrb.GetComponent<GrandOrb>();
                 grandOrbs.Add(o);
                 o.InitializeOrb(alignParent);
                 o.system = s;
                 o.enabled = false;
             }
+            EnableOrbs();
+            Invoke("PositionOrbs", 1);
+
+        }
+
+        public void EnableOrbs()
+        {
             foreach (GrandOrb orb in grandOrbs)
             {
                 orb.gameObject.SetActive(true);
             }
         }
 
+        public void PositionOrbs()
+        {
+            foreach(GrandOrb o in grandOrbs)
+            {
+                spinRoot.Rotate(0, UnityEngine.Random.Range(0f, 360f), 0);
+                orbSpawnRoot.transform.localPosition = new Vector3(UnityEngine.Random.Range(3f, 7f), 0, 0);
+                o.transform.position = orbSpawnRoot.transform.position;
+                o.GetComponent<FakeOrbSlot>()._localLockPos = orbParent.InverseTransformPoint(o.transform.position);
+            }
+        }
+
         public void StartGrandOrrery()
         {
+            onEnable.Invoke();
             GrandOrb[] orbs = FindObjectsOfType<GrandOrb>();
 
             GameObject centralStation = GameObject.Find("CentralStation_Body");
@@ -97,8 +120,7 @@ namespace OWJam5ModProject
                 {
                     float min = 999;
                     float max = 0;
-                    GrandOrb[] orbs = FindObjectsOfType<GrandOrb>();
-                    foreach (GrandOrb orb in orbs)
+                    foreach (GrandOrb orb in grandOrbs)
                     {
                         float dist = Vector3.Distance(orb.transform.position, alignParent.position);
                         if (dist < min) min = dist;
