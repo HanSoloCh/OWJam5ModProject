@@ -64,6 +64,7 @@ namespace OWJam5ModProject
             //ReparentPlanets();
             NomaiWarpTransmitterSwapper.Apply();
             TurnWaterOff.Apply();
+            ShadowFixer.Apply();
             FinalRequirementManager.Initialize();
 
             FindObjectOfType<ShipBody>().gameObject.AddComponent<ShipContactSensor>();
