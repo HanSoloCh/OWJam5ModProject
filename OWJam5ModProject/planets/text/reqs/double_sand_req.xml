@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			BETULA: I think it may be a good requirement that multiple planets have sand.
+			BETULA: I think it may be a good fourth requirement that multiple planets have sand.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ALNUS: Agreed. We'll notify our teacher of that requirement, then.
+			ALNUS: Agreed. We'll notify our teacher of that being our fourth requirement, then.
 		</Text>
 	</TextBlock>
 

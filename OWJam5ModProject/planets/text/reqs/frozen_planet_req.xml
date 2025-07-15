@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ADONSONIA: An interesting idea for a requirement could be that one of the planets must have a large amount of solid ice on it.
+			ADONSONIA: An interesting idea for our first requirement could be that one of the planets must have a large amount of solid ice on it.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: Alright! I've gone ahead and let Oryza know that we will include a planet with ice.
+			ADONSONIA: Alright! I've gone ahead and let Oryza know that our first requirement will be to include a planet with ice.
 		</Text>
 	</TextBlock>
 
