@@ -349,6 +349,87 @@
                 "isRelativeToParent": true,
                 "type": "computer",
                 "xmlFile": "planets/text/misc/final_door_computer.xml"
+            },
+            {
+                "rename": "teacher_outro_recorder",
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/recorder_anchor",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/outro/teacher_outro_recording.xml"
+            },
+            {
+                "rename": "alnus_name_text",
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text/alnus_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/outro/alnus_name.xml",
+                "seed": 16432,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.5763639,
+                            "y": -0.5318168
+                        },
+                        "zRotation": 347.2725
+                    }
+                ]
+            },
+            {
+                "rename": "betula_name_text",
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text/betula_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/outro/betula_name.xml",
+                "seed": 51267,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.2872726,
+                            "y": 0
+                        },
+                        "zRotation": 38.65453
+                    }
+                ]
+            },
+            {
+                "rename": "daucus_name_text",
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text/daucus_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/outro/daucus_name.xml",
+                "seed": 51287,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 341.1636
+                    }
+                ]
+            },
+            {
+                "rename": "adonsonia_name_text",
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text/adonsonia_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/outro/adonsonia_name.xml",
+                "seed": 69265,
+                "arcInfo": [
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.8381816,
+                            "y": 0
+                        },
+                        "zRotation": 359.7636
+                    }
+                ]
             }
         ]
     },
