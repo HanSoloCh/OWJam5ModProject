@@ -13,6 +13,7 @@ public class TurnWaterOff : MonoBehaviour
 
     public static void Apply()
     {
+        // yes this will apply to some waters outside of the system. it shouldnt break them. if it does, ill fix it
         var waters = FindObjectsOfType<WaterSizeController>().Select(x => x.gameObject).ToArray();
         foreach (var water in waters)
         {

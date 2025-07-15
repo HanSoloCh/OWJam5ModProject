@@ -21,6 +21,8 @@ public class FakeOrbSlot : MonoBehaviour
         _orb = GetComponent<NomaiInterfaceOrb>();
         _localLockPos = _orb._orbBody.GetOrigParent().InverseTransformPoint(_orb.transform.position);
         _slots = _orb._orbBody.GetOrigParent().GetComponentsInChildren<FakeOrbSlot>();
+        
+        _orb._freezeLocalRotation = true; // so the decals dont rotate
     }
 
     [HarmonyPrefix, HarmonyPatch(typeof(NomaiInterfaceOrb), nameof(NomaiInterfaceOrb.FixedUpdate))]
