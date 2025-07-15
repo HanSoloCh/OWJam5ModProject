@@ -33,4 +33,14 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet1_Quantum_Solved</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_MiddleOrbit</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

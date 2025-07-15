@@ -29,4 +29,20 @@
 		</ExploreFact>
 	</Entry>
 
+	<Entry>
+		<ID>Walker_Jam5_Planet1_Quantum</ID>
+		<Name>Quantum Rock</Name>
+		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet1_Quantum_Hint</ID>
+			<Text>A quantum rock located in a structure facing the sun on Shattered Geode. There is a large skylight in the ceiling. A Nomai named Betula theorized about where the stone might go when it disappears. The stone took a recorder with it when it disappeared.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet1_Quantum_Solved</ID>
+			<Text>By blocking the light from the sun, I was able to quantum entangle with the rock to reach a cave below the surface.</Text>
+		</ExploreFact>
+	</Entry>
+
 </AstroObjectEntry>

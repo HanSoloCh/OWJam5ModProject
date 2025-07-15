@@ -277,6 +277,74 @@
                         "zRotation": 19.83627
                     }
                 ]
+            },
+            {
+                "rename": "quantum_hint",
+                "parentPath": "Sector/CrystalPlanet/Quantum Ruins/TextAnchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/hints/quantum_hint.xml",
+                "seed": 437832,
+                "arcInfo": [
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zRotation": 358.5872
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.178956,
+                            "y": 0.5079416
+                        },
+                        "zRotation": 46.2902
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -0.358131,
+                            "y": 0.6620559
+                        },
+                        "zRotation": 21.70132
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": -0.3508833,
+                            "y": 1.488181
+                        },
+                        "zRotation": 60.58385
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -1.16277,
+                            "y": 1.568126
+                        },
+                        "zRotation": 25.33114
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 0.5112147,
+                            "y": 1.648998
+                        },
+                        "zRotation": 304.5376
+                    }
+                ]
+            },
+            {
+                "rename": "middle_orbit_req",
+                "parentPath": "Sector/CrystalPlanet/Quantum Ruins/Cave/RecorderAnchor",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/reqs/middle_orbit_req.xml"
             }
         ],
         "details": [
