@@ -14,15 +14,11 @@ public class NomaiWarpTransmitterSwapper : MonoBehaviour
 {
     public static void Apply()
     {
-        var transmitters = FindObjectsOfType<NomaiWarpTransmitter>()
-            .Where(x => x.GetAttachedOWRigidbody().name.StartsWith("Walker_Jam5_Planet"))
-            .ToList();
-        foreach (var transmitter in transmitters)
-        {
-            transmitter.gameObject.AddComponent<NomaiWarpTransmitterSwapper>();
-        }
+        // find the one transmitter
+        var transmitter = FindObjectsOfType<NomaiWarpTransmitter>()
+            .Single(x => x._frequency == EnumUtils.Parse<NomaiWarpPlatform.Frequency>("WalkerJam5"));
+        transmitter.gameObject.AddComponent<NomaiWarpTransmitterSwapper>();
     }
-
 
     private List<NomaiWarpReceiver> _receivers;
     private NomaiWarpTransmitterCooldown _cooldown;
@@ -63,5 +59,7 @@ public class NomaiWarpTransmitterSwapper : MonoBehaviour
 
             }
         }
+        
+        // none matched. just leave it at the last one tried, as that will never align (we just checked that)
     }
 }
