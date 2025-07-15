@@ -13,7 +13,7 @@ public class FakeOrbSlot : MonoBehaviour
 {
     private NomaiInterfaceOrb _orb;
     private bool _wasBeingDragged;
-    private Vector3 _localLockPos;
+    internal Vector3 _localLockPos;
     private FakeOrbSlot[] _slots;
 
     private void Start()
