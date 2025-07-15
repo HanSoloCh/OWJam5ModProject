@@ -23,7 +23,7 @@
 		<ParentID>2</ParentID>
     <LocationA />
 		<Text>
-			ALNUS: I do have a concern with this. I'm fairly certain that other requirements of ours will make it impossible for us to use the stone and gain access to the core once we are ready to submit.
+			ALNUS: I do have a concern with this. I'm fairly certain that other requirements of ours will make it impossible for us to use the geysers and gain access to the core once we are ready to submit.
 		</Text>
 	</TextBlock>
 
@@ -74,8 +74,8 @@
 			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Walker_Jam5_Planet4_Core_Door</FactID>
-			<Condition>2</Condition>
+			<FactID>Walker_Jam5_Planet4_Core_FinalLocation</FactID>
+			<Condition>3</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>

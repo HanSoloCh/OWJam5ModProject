@@ -342,6 +342,13 @@
                         "zRotation": 297.7229
                     }
                 ]
+            },
+            {
+                "rename": "final_door_computer",
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Door/Door/DoorComputer",
+                "isRelativeToParent": true,
+                "type": "computer",
+                "xmlFile": "planets/text/misc/final_door_computer.xml"
             }
         ]
     },

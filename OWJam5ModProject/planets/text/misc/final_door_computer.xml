@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Project status: Not all requirements are met.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Project status: All requirements have been met.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet4_Core_Door</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

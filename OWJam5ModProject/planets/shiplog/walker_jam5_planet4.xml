@@ -86,7 +86,12 @@
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Core_Door</ID>
-			<Text>The core of "Glacial Abyss!" contains a door that is locked unless the system meets all project requirements.</Text>
+			<Text>The core of "Glacial Abyss!" contains a sealed door. A Nomai computer beside the door states that not all project requirements have been met.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Planet4_Core_FinalLocation</ID>
+			<Text>The core of "Glacial Abyss!" is where a project must be submitted once all of its requirements are met. A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.</Text>
 		</ExploreFact>
 	</Entry>
 </AstroObjectEntry>

@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: I've already tried jumping into one, but the flow of the water forced me back to the surface.
+			ADONSONIA: I've already tried jumping into one, but the flow of the geyser forced me back to the surface.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: The geyser pressure is not terribly strong. Finding some way to limit the expansion of the water may be enough to stop the geysers from erupting properly.
+			ALNUS: Thawing the planet seems to have dramatically increased its level of geothermal activity. We won't be able to explore the geysers until we find a way to subdue it again.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ADONSONIA: Once we find a way to do that, we'll be free to go down the geysers and explore the core!
+			ADONSONIA: Once we do that, we'll be free to go down the geysers and explore the core!
 		</Text>
 	</TextBlock>
 
