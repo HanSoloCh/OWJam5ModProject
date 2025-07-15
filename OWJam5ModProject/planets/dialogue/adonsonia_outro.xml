@@ -1,0 +1,149 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Adonsonia</NameField>
+
+  <!--First time intro-->
+  <DialogueNode>
+    <Name>INTRO</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hello there! I wondered why this old project was claiming to have been submitted again after all these years. I'm Adonsonia, one of the students who worked on this project a long time ago.</Page>
+      <Page>You don't look like a Nomai, but you must be quite clever to have gotten this system into the correct configuration after all of the time it has spent drifting.</Page>
+      <Page>Effort like that is certainly worthy of some reward. How about this, I have some free time from all of my teaching duties right now, if you ask me any questions I'll do my best to answer them.</Page>
+    </Dialogue>
+    <SetCondition>ADONSONIA_TALKED</SetCondition>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--The main hub of choices-->
+  <DialogueNode>
+    <Name>CHOICE_HUB</Name>
+    <EntryCondition>ADONSONIA_TALKED</EntryCondition>
+    <Dialogue>
+      <Page>So, was there anything you wanted to ask me about?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>How are we able to understand each other?</Text>
+        <DialogueTarget>TRANSLATOR</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>What happened to Alnus after the project?</Text>
+        <DialogueTarget>ALNUS</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>What happened to Betula after the project?</Text>
+        <DialogueTarget>BETULA</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>What happened to Daucus after the project?</Text>
+        <DialogueTarget>DAUCUS</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>What happened to you after the project?</Text>
+        <DialogueTarget>ADONSONIA</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <CancelledCondition>ORRERY_ASKED</CancelledCondition>
+        <Text>What's the deal with that big orrery back on the invitation platform?</Text>
+        <DialogueTarget>BIG_ORRERY_INTRO</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredCondition>ORRERY_ASKED</RequiredCondition>
+        <Text>Can I pretty please know how to activate the other orrery?</Text>
+        <DialogueTarget>BIG_ORRERY_COMBO</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>I don't have any more questions for now.</Text>
+        <DialogueTarget>GOODBYE</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <!--Asked about the translator-->
+  <DialogueNode>
+    <Name>TRANSLATOR</Name>
+    <Dialogue>
+      <Page>That would be due to the universal translator I have on my person. It's able to quickly discern language patterns, allowing us to understand each other with minimal issues. We have Betula to thank for that, it's actually her invention!</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--Asked about Alnus-->
+  <DialogueNode>
+    <Name>ALNUS</Name>
+    <Dialogue>
+      <Page>Ah, that fascicle of nerves. Although his anxiety is still there, he's grown much better at managing it. He's also grown more able to take a joke, much to my relief.</Page>
+      <Page>As you might imagine, he had a very good academic career after our project. After completing his education he moved on to become one of our clan's head researchers. He's used his knowledge of star systems particularly well, helping our clan identify systems likely to harbor life.</Page>
+      <Page>Through his efforts our clan has met friends of many different forms, and had quite the cultural exchange. This was quite useful in the development of the universal translator I'm using to speak to you now.</Page>
+      <Page>I believe he's currently using his skills to identify stars that are still stable enough to support our people, as well as others. He's also made himself useful to rescue efforts, identifying star systems simultaneously likely to have life and likely to be annihilated soon.</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--Asked about Betula-->
+  <DialogueNode>
+    <Name>BETULA</Name>
+    <Dialogue>
+      <Page>Betula actually went on to study alien cultures and languages. She was always more interested in social affairs than strictly academic ones, so it was a type of work that uniquely suited her.</Page>
+      <Page>She has been the first Nomai to contact a number of different alien species, and used the knowledge gained to develop the universal translator that allows us to communicate now.</Page>
+      <Page>I believe she's even caused some members of other species to join Nomai clans. Due to her efforts, approximately half of our clan is actually composed of non-Nomai species. Their insights have led to some remarkable technological breakthroughs.</Page>
+      <Page>Nowadays she uses her social skills to help people of varying cultures cooperate, which is especially important given the dwindling resources of our universe. It's a bit of a shame, I imagine she would have been quite thrilled to speak with you if she were here.</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--Asked about Daucus-->
+  <DialogueNode>
+    <Name>DAUCUS</Name>
+    <Dialogue>
+      <Page>Ha! Daucus always says he was never able to beat that lazy streak of his, although I'm honestly not convinced that he ever tried. The only thing he was ever willing to put real effort into was hacking systems.</Page>
+      <Page>Fortunately, he was able to use that to find his place refurbishing and repurposing old technology. He's been able to revive a number of machines that, by all accounts, never should have been able to work again.</Page>
+      <Page>He's actually expanded the number of ships available to our people quite substantially. This has allowed our clan to contact many more species than would otherwise be possible. I believe that other clans even bring him derelict vessels from time to time in the hopes that he can repair them.</Page>
+      <Page>I'm unsure how he feels about it, but he's recently been put in charge of a substantially sized team. With the current state of the universe, it's more important than ever to keep equipment operational for as long as possible. He's actually become quite an important member of our clan.</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--Asked about herself-->
+  <DialogueNode>
+    <Name>ADONSONIA</Name>
+    <Dialogue>
+      <Page>As you may have guessed, I never took my studies particularly seriously as a child. In school, I was much more concerned with playing pranks on Alnus and socializing with Betula.</Page>
+      <Page>It was actually the influence of our old teacher, Oryza, that led to me becoming a teacher. She was able to convince me to put more effort into my studies, something that I am now very thankful for whenever a student comes to me with questions.</Page>
+      <Page>Outside of standard teaching duties, I've also been aiding in communications between us Nomai and other species. Some other teachers and I have even created an inter-species teacher association to aid in the spread of different people's knowledge.</Page>
+      <Page>Lately things have been a bit more difficult, what with the universe coming to an end and all. The students are actually doing fairly well emotionally speaking, but you would not believe the number of them who try to make existential arguments for missing assignments!</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--Asked about the grand orrery-->
+  <DialogueNode>
+    <Name>BIG_ORRERY_INTRO</Name>
+    <Dialogue>
+      <Page>Big orrery... Oh! That old thing! It's an old prototype for the orrery used in our project. We found it lying around at some point during our work, and decided to see if we could get into some mischief with it.</Page>
+      <Page>Daucus was able to hack it to become responsive if certain conditions were met, so that we could use it without the adults becoming aware of its functional state.</Page>
+      <Page>...Unfortunately, it proved to be highly unstable and dangerous. I really shouldn't tell you how to activate it. I have learned some responsibility over the years, after all.</Page>
+    </Dialogue>
+    <SetCondition>ORRERY_ASKED</SetCondition>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--Asked about the orrery access-->
+  <DialogueNode>
+    <Name>BIG_ORRERY_COMBO</Name>
+    <Dialogue>
+      <Page>...Oh alright, but don't claim that I didn't warn you. You should exercise extreme caution around that orrery, it's quite possible for it to break things and not function entirely as expected.</Page>
+      <Page>To activate it, all of the orbs need to be placed at roughly the same distance from the center. Additionally, it won't activate unless it is approached by somebody who is not wearing any space gear.</Page>
+      <Page>As for what exactly it does... Well, I suppose I'll leave you to figure that out for yourself! Have fun! And be careful!</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--comment-->
+  <DialogueNode>
+    <Name>GOODBYE</Name>
+    <Dialogue>
+      <Page>Understood. I'll be here for some time, so feel free to come back if you change your mind.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>
