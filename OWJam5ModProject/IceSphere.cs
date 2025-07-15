@@ -110,14 +110,20 @@ namespace OWJam5ModProject
                 innerTF.gameObject.SetActive(false);
                 outerTF.gameObject.SetActive(false);
                 if(geyserRoot != null)
+                {
                     geyserRoot.gameObject.SetActive(true);
+                    FinalRequirementManager.geothermalActivity = true;
+                }
             }
             else
             {
                 innerTF.gameObject.SetActive(true);
                 outerTF.gameObject.SetActive(true);
                 if (geyserRoot != null)
+                {
                     geyserRoot.gameObject.SetActive(false);
+                    FinalRequirementManager.geothermalActivity = false;
+                }
             }
         }
     }

@@ -39,7 +39,7 @@ namespace OWJam5ModProject
         public void UpdateOrbs()
         {
             SetOrbOn(0, FinalRequirementManager.CheckIceReq());
-            SetOrbOn(1, FinalRequirementManager.CheckDryReq());
+            SetOrbOn(1, FinalRequirementManager.CheckGeyserReq());
             SetOrbOn(2, FinalRequirementManager.CheckWarpReq());
             SetOrbOn(3, FinalRequirementManager.CheckSandReq());
             SetOrbOn(4, FinalRequirementManager.CheckAngleReq());

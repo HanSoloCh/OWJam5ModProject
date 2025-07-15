@@ -19,6 +19,14 @@ namespace OWJam5ModProject
          * 4. Two different planets need to have sand
          * 5. Any planets in the same orbit are on opposite sides of the sun
          * 6. The big planet has to be in the middle orbit
+         *
+         * FROM SCREEN PROMPT:
+         * 1. A planet in the system has solid ice.
+         * 2. A planet has exposed geothermal activity.
+         * 3. At least one warp receiver is aligned.
+         * 4. More than one planet has sand.
+         * 5. Any planets in the same orbit are on opposite sides of the sun.
+         * 6. The largest planet is not in the furthest orbit.
          */
 
         public static bool inJamSystem = false;
@@ -34,7 +42,7 @@ namespace OWJam5ModProject
 
         //Track specific components and metrics needed for the requirements
         private static Transform bigPlanetIce = null;       //#1
-        private static Transform icePlanetWater = null;     //#2
+        public static bool geothermalActivity = false;      //#2
         public static bool padLinedUp = false;                //#3
         private static Transform sandPlanetSand = null;     //#4
         
@@ -55,7 +63,6 @@ namespace OWJam5ModProject
 
             //Grab a whole slew of components
             bigPlanetIce = planetTFs[1].GetComponentInChildren<IceSphere>().transform;
-            icePlanetWater = planetTFs[3].GetComponentInChildren<WaterSizeController>().transform;
             sandPlanetSand = planetTFs[2].Find("Sector/Sand");
         }
 
@@ -64,11 +71,13 @@ namespace OWJam5ModProject
          */
         public static bool CheckAllReqs()
         {
-            return CheckIceReq() && CheckAngleReq() && CheckDryReq() && CheckSandReq() && CheckWarpReq() && CheckLargePlanetOrbit();
+            return CheckIceReq() && CheckAngleReq() && CheckGeyserReq() && CheckSandReq() && CheckWarpReq() && CheckLargePlanetOrbit();
         }
 
         /**
          * Checks whether or not the large planet has enough ice
+         *
+         * TODO: this should check ANY planet has enough ice
          */
         public static bool CheckIceReq()
         {
@@ -81,12 +90,12 @@ namespace OWJam5ModProject
         /**
          * Checks whether or not the water planet has low enough water
          */
-        public static bool CheckDryReq()
+        public static bool CheckGeyserReq()
         {
-            if(!inJamSystem || icePlanetWater == null) 
+            if(!inJamSystem) 
                 return false;
 
-            return icePlanetWater.localScale.x < OWJam5ModProject.WATER_DRAINED_HEIGHT + 1;
+            return geothermalActivity;
         }
 
         /**
