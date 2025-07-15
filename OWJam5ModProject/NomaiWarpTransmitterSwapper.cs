@@ -31,7 +31,6 @@ public class NomaiWarpTransmitterSwapper : MonoBehaviour
         // kinda evil
         // doesnt get station if we put one there
         _receivers = FindObjectsOfType<NomaiWarpReceiver>()
-            .Where(x => x.GetAttachedOWRigidbody().name.StartsWith("Walker_Jam5_Planet"))
             .Where(x => x._frequency == _transmitter._frequency)
             .ToList();
     }
