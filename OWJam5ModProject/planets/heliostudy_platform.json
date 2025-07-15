@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Walker_Jam5_Platform",
+    "starSystem": "Jam5",
+    "extras": {
+        "isPlatform": true
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Platform.prefab",
+                "keepLoaded": true
+            }
+        ],
+        "translatorText": [
+            {
+                "rename": "invitation_text",
+                "parentPath": "Sector/Platform/Root/tablet/text_anchor",
+                "isRelativeToParent": true,
+                "type": "wall",
+                "xmlFile": "planets/text/intro/platform_invitation.xml",
+                "arcInfo": [{"mirror": true,"type": "adult","position": {"x": 0,"y": 0},"zRotation": 2},{"mirror": true,"type": "adult","position": {"x": -0.5264087,"y": 0.6880853},"zRotation": 353.3231}]
+            }
+        ]
+    }
+}
