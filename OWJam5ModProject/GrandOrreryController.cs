@@ -10,6 +10,7 @@ using OWML.ModHelper;
 using NewHorizons.Components.Orbital;
 using HarmonyLib;
 using NewHorizons.External;
+using Newtonsoft.Json.Linq;
 
 namespace OWJam5ModProject
 {
@@ -20,49 +21,43 @@ namespace OWJam5ModProject
 
         public class SystemAndBodies
         {
-            public NHAstroObject centerBody;
-            public NHAstroObject[] childBodies;
+            public NewHorizonsBody centerBody;
+            public List<NewHorizonsBody> childBodies = new();
         }
-        public SystemAndBodies[] systems;
+        public List<SystemAndBodies> systems = new();
 
         public void Start()
         {
-            IModHelper helper = OWJam5ModProject.Instance.ModHelper;
-
-            OWJam5ModProject.DebugLog("IT ACTUALLY GOT UPDATED!!!");
-
             Apply(Main.BodyDict[systemName]);
-
-            
-
-
-
-
-
-
-
-            foreach(SystemAndBodies s in systems)
-            {
-                OWJam5ModProject.DebugLog("found" + s.centerBody.name.ToString());
-                foreach(NHAstroObject b in s.childBodies)
-                {
-                    OWJam5ModProject.DebugLog("has child" + b.name.ToString());
-                }
-            }
-
         }
 
         public void CreateOrbs()
         {
-
+            
         }
 
-        public static void Apply(IEnumerable<NewHorizonsBody> bodies)
+        public void Apply(List<NewHorizonsBody> bodies)
         {
+            // get all the systems
             foreach(NewHorizonsBody body in bodies)
             {
-                string uniquename = body.Mod.ModHelper.Manifest.UniqueName;
+                // stolen code from jam 5 base mod
+                var dict = new Dictionary<string, object>();
+                if (body.Config.extras is JObject jObject)
+                {
+                    dict = jObject.ToObject<Dictionary<string, object>>();
+                }
+
+                if (dict.TryGetValue("isCenterOfMiniSystem", out var isCenter) && isCenter is bool isCenterBool && isCenterBool)
+                {
+                    var systemAndBodies = new SystemAndBodies();
+                    systemAndBodies.centerBody = body;
+                    systemAndBodies.childBodies = bodies.Where(x => x != body && x.Mod == body.Mod).ToList();
+                    systems.Add(systemAndBodies);
+                }
             }
+            
+            // create orbs based on their positions
         }
     }
 }
