@@ -15,6 +15,7 @@ namespace OWJam5ModProject
         [SerializeField] float geyserSwitchHeight = 0;
         [SerializeField] bool startsFrozen;
         [SerializeField] Transform geyserRoot = null;
+        [SerializeField] float requiredIceHeight = 0;
 
         private float growSpeed = 4;
         private Transform waterTF = null;
@@ -23,6 +24,7 @@ namespace OWJam5ModProject
         private float iceFreezeDistance = 2000;
         private float iceMeltDistance = 1200;
         private float waterInnerIceOffset = -0.5f;
+        private bool iceHeightMet = false;
 
         private Material waterMaterial;
         private Color waterTint;
@@ -51,6 +53,14 @@ namespace OWJam5ModProject
         public bool CanDrain()
         {
             return waterTF.localScale.x > outerTF.localScale.x;
+        }
+
+        /**
+         * Tells whether or not this ice sphere is at the height to satisfy the requirement
+         */
+        public bool ReqMet()
+        {
+            return outerTF.localScale.x >= requiredIceHeight;
         }
 
         /**
@@ -124,7 +134,7 @@ namespace OWJam5ModProject
                     geyserRoot.gameObject.SetActive(false);
                     FinalRequirementManager.geothermalActivity = false;
                 }
-            }
+            } 
         }
     }
 }

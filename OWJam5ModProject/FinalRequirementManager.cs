@@ -41,7 +41,8 @@ namespace OWJam5ModProject
         private static Transform[] planetTFs = null; //Crystal, big, sand, water
 
         //Track specific components and metrics needed for the requirements
-        private static Transform bigPlanetIce = null;       //#1
+        private static IceSphere bigPlanetIce = null;       //#1
+        private static IceSphere smallPlanetIce = null;     //#1
         public static bool geothermalActivity = false;      //#2
         public static bool padLinedUp = false;                //#3
         private static Transform sandPlanetSand = null;     //#4
@@ -62,7 +63,8 @@ namespace OWJam5ModProject
             planetTFs[3] = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Planet4").transform;
 
             //Grab a whole slew of components
-            bigPlanetIce = planetTFs[1].GetComponentInChildren<IceSphere>().transform;
+            bigPlanetIce = planetTFs[1].GetComponentInChildren<IceSphere>();
+            smallPlanetIce = planetTFs[3].GetComponentInChildren<IceSphere>();
             sandPlanetSand = planetTFs[2].Find("Sector/Sand");
         }
 
@@ -84,11 +86,11 @@ namespace OWJam5ModProject
             if (!inJamSystem || bigPlanetIce == null)
                 return false;
 
-            return bigPlanetIce.Find("outer_ice").localScale.x > OWJam5ModProject.WATER_FILLED_HEIGHT - 1;
+            return bigPlanetIce.ReqMet() || smallPlanetIce.ReqMet();
         }
 
         /**
-         * Checks whether or not the water planet has low enough water
+         * Checks whether or not the water planet has active geysers
          */
         public static bool CheckGeyserReq()
         {
@@ -170,8 +172,7 @@ namespace OWJam5ModProject
          */
         public static bool CheckLargePlanetOrbit()
         {
-            float dist = (planetTFs[1].position - starTF.position).magnitude;
-            return dist > CLOSE_ORBIT_DIST && dist < FAR_ORBIT_DIST;
+            return (planetTFs[1].position - starTF.position).magnitude < FAR_ORBIT_DIST;
         }
     }
 }
