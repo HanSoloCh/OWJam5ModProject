@@ -52,7 +52,7 @@ namespace OWJam5ModProject
                 {
                     var systemAndBodies = new SystemAndBodies();
                     systemAndBodies.centerBody = body;
-                    systemAndBodies.childBodies = bodies.Where(x => x != body && x.Mod == body.Mod).ToList();
+                    systemAndBodies.childBodies = bodies.Where(x => x != body && Vector3.Distance(x.Object.transform.position, body.Object.transform.position) < 2500).ToList();
                     systems.Add(systemAndBodies);
                 }
             }
