@@ -375,49 +375,12 @@
                 "xmlFile": "planets/text/outro/teacher_outro_recording.xml"
             },
             {
-                "rename": "alnus_name_text",
-                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text/alnus_anchor",
+                "rename": "student_names_text",
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text",
                 "isRelativeToParent": true,
                 "type": "wall",
-                "xmlFile": "planets/text/outro/alnus_name.xml",
+                "xmlFile": "planets/text/outro/student_names.xml",
                 "seed": 16432,
-                "arcInfo": [
-                    {
-                        "mirror": true,
-                        "type": "child",
-                        "position": {
-                            "x": 0.5763639,
-                            "y": -0.5318168
-                        },
-                        "zRotation": 347.2725
-                    }
-                ]
-            },
-            {
-                "rename": "betula_name_text",
-                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text/betula_anchor",
-                "isRelativeToParent": true,
-                "type": "wall",
-                "xmlFile": "planets/text/outro/betula_name.xml",
-                "seed": 51267,
-                "arcInfo": [
-                    {
-                        "type": "child",
-                        "position": {
-                            "x": -0.2872726,
-                            "y": 0
-                        },
-                        "zRotation": 38.65453
-                    }
-                ]
-            },
-            {
-                "rename": "daucus_name_text",
-                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text/daucus_anchor",
-                "isRelativeToParent": true,
-                "type": "wall",
-                "xmlFile": "planets/text/outro/daucus_name.xml",
-                "seed": 51287,
                 "arcInfo": [
                     {
                         "type": "child",
@@ -425,26 +388,41 @@
                             "x": 0,
                             "y": 0
                         },
-                        "zRotation": 341.1636
-                    }
-                ]
-            },
-            {
-                "rename": "adonsonia_name_text",
-                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/PortraitArea/Props_NOM_Whiteboard/portrait_text/adonsonia_anchor",
-                "isRelativeToParent": true,
-                "type": "wall",
-                "xmlFile": "planets/text/outro/adonsonia_name.xml",
-                "seed": 69265,
-                "arcInfo": [
+                        "zRotation": 31.03385
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": -2.667411,
+                            "y": -0.5142176
+                        },
+                        "zRotation": 23.22312
+                    },
                     {
                         "mirror": true,
                         "type": "child",
                         "position": {
-                            "x": 0.8381816,
-                            "y": 0
+                            "x": -1.989994,
+                            "y": -1.782616
                         },
-                        "zRotation": 359.7636
+                        "zRotation": 354.2072
+                    },
+                    {
+                        "type": "child",
+                        "position": {
+                            "x": 2.718272,
+                            "y": -0.5214041
+                        },
+                        "zRotation": 10.79447
+                    },
+                    {
+                        "mirror": true,
+                        "type": "child",
+                        "position": {
+                            "x": 3.159536,
+                            "y": 1.349096
+                        },
+                        "zRotation": 316.8361
                     }
                 ]
             }

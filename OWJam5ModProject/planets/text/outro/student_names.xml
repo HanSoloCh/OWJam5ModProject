@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+  <TextBlock>
+    <ID>1</ID>
+    <Text>
+      Heliostudy team members
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+		<ID>2</ID>
+    <ParentID>1</ParentID>
+		<Text>
+			Alnus
+		</Text>
+	</TextBlock>
+  
+  <TextBlock>
+    <ID>3</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      Betula
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>4</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      Daucus
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>5</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      Adonsonia
+    </Text>
+  </TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>
