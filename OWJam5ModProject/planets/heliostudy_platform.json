@@ -11,6 +11,13 @@
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/Platform.prefab",
                 "keepLoaded": true
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish",
+                "parentPath": "Sector/Platform/Root/Ernesto/Root/fish",
+                "isRelativeToParent": true,
+                "scale" : 0.02,
+                "keepLoaded": true
             }
         ],
         "translatorText": [
@@ -21,6 +28,13 @@
                 "type": "wall",
                 "xmlFile": "planets/text/intro/platform_invitation.xml",
                 "arcInfo": [{"mirror": true,"type": "adult","position": {"x": 0,"y": 0},"zRotation": 2},{"mirror": true,"type": "adult","position": {"x": -0.5264087,"y": 0.6880853},"zRotation": 353.3231}]
+            },
+            {
+                "rename": "warning_computer",
+                "parentPath": "Sector/Platform/Root/Computer",
+                "isRelativeToParent": true,
+                "type": "computer",
+                "xmlFile": "planets/text/misc/platform_computer.xml"
             }
         ]
     }

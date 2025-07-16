@@ -21,6 +21,7 @@ namespace OWJam5ModProject
         GrandOrreryController controller;
         Transform parent;
         Transform player;
+        bool IsAbsolutelyActive = false; // im just paranoid
 
         GameObject center;
         public void Start()
@@ -30,6 +31,11 @@ namespace OWJam5ModProject
             center = GameObject.Find("CentralStation_Body");
         }
 
+        public void SetIsAbsolutelyActive(bool isActive)
+        {
+            IsAbsolutelyActive = isActive;
+        }
+
         public void InitializeOrb(Transform p)
         {
             parent = p;
@@ -37,7 +43,7 @@ namespace OWJam5ModProject
 
         public void FixedUpdate()
         {
-            if (Vector3.Distance(player.transform.position, transform.position) < 20)
+            if (Vector3.Distance(player.transform.position, transform.position) < 20 && IsAbsolutelyActive)
             {
                 Vector3[] positions = new Vector3[system.childBodies.Count];
                 for (int i = 0; i < system.childBodies.Count; i++)
