@@ -60,7 +60,7 @@
 
 			<RumorFact>
 				<ID>Walker_Jam5_Station_ProjectRequirements_Count_2</ID>
-				<RumorName>First Requirement</RumorName>
+				<RumorName>Second Requirement</RumorName>
 				<Text>The second of 7 requirements that a Nomai project must meet.</Text>
 			</RumorFact>
 
@@ -84,7 +84,7 @@
 
 			<RumorFact>
 				<ID>Walker_Jam5_Station_ProjectRequirements_Count_3</ID>
-				<RumorName>First Requirement</RumorName>
+				<RumorName>Third Requirement</RumorName>
 				<Text>The third of 7 requirements that a Nomai project must meet.</Text>
 			</RumorFact>
 
@@ -108,7 +108,7 @@
 
 			<RumorFact>
 				<ID>Walker_Jam5_Station_ProjectRequirements_Count_4</ID>
-				<RumorName>First Requirement</RumorName>
+				<RumorName>Fourth Requirement</RumorName>
 				<Text>The fourth of 7 requirements that a Nomai project must meet.</Text>
 			</RumorFact>
 
@@ -132,7 +132,7 @@
 
 			<RumorFact>
 				<ID>Walker_Jam5_Station_ProjectRequirements_Count_5</ID>
-				<RumorName>First Requirement</RumorName>
+				<RumorName>Fifth Requirement</RumorName>
 				<Text>The fifth of 7 requirements that a Nomai project must meet.</Text>
 			</RumorFact>
 
@@ -156,7 +156,7 @@
 
 			<RumorFact>
 				<ID>Walker_Jam5_Station_ProjectRequirements_Count_6</ID>
-				<RumorName>First Requirement</RumorName>
+				<RumorName>Sixth Requirement</RumorName>
 				<Text>The sixth of 7 requirements that a Nomai project must meet.</Text>
 			</RumorFact>
 
@@ -180,7 +180,7 @@
 
 			<RumorFact>
 				<ID>Walker_Jam5_Station_ProjectRequirements_Count_7</ID>
-				<RumorName>First Requirement</RumorName>
+				<RumorName>Seventh Requirement</RumorName>
 				<Text>The last of 7 requirements that a Nomai project must meet.</Text>
 			</RumorFact>
 
