@@ -9,14 +9,13 @@ namespace OWJam5ModProject
 
         readonly string[] REQUIRED_SHIP_LOG_FACTS = new string[]
         {
-            "Walker_Jam5_Station_ProjectRequirements_Count",
-            "Walker_Jam5_Station_ProjectRequirements_OppositeSides",
-            "Walker_Jam5_Station_ProjectRequirements_DoubleSand",
-            "Walker_Jam5_Station_ProjectRequirements_DriedSeabed",
-            "Walker_Jam5_Station_ProjectRequirements_FrozenPlanet",
-            "Walker_Jam5_Station_ProjectRequirements_WarpAlignment",
-            "Walker_Jam5_Station_ProjectRequirements_MiddleOrbit",
-            "Walker_Jam5_Station_ProjectRequirements_FinalLocation"
+            "Walker_Jam5_Station_ProjectRequirements_OppositeSides_Fact",
+            "Walker_Jam5_Station_ProjectRequirements_DoubleSand_Fact",
+            "Walker_Jam5_Station_ProjectRequirements_Geysers_Fact",
+            "Walker_Jam5_Station_ProjectRequirements_FrozenPlanet_Fact",
+            "Walker_Jam5_Station_ProjectRequirements_WarpAlignment_Fact",
+            "Walker_Jam5_Station_ProjectRequirements_MiddleOrbit_Fact",
+            "Walker_Jam5_Station_ProjectRequirements_FinalLocation_Fact"
         };
 
         [SerializeField] OWTriggerVolume playerDetectorTrigger;

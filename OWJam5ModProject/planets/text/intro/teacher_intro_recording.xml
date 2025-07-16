@@ -67,7 +67,31 @@
 			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Walker_Jam5_Station_ProjectRequirements_Count</FactID>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count_1</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count_2</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count_3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count_4</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count_5</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count_6</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count_7</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 	</ShipLogConditions>

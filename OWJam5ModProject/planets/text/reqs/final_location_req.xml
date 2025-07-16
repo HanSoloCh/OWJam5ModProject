@@ -70,11 +70,11 @@
 	<!--Ship log reveals go here-->
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Walker_Jam5_Station_ProjectRequirements_FinalLocation</FactID>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_FinalLocation_Fact</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Walker_Jam5_Planet4_Core_FinalLocation</FactID>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_FinalLocation_Rumor</FactID>
 			<Condition>3</Condition>
 		</RevealFact>
 	</ShipLogConditions>

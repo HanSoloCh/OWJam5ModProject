@@ -53,7 +53,7 @@
 	<!--Ship log reveals go here-->
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet</FactID>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet_Fact</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>

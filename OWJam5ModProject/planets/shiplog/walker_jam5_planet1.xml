@@ -5,23 +5,18 @@
     <Entry>
         <ID>Walker_Jam5_Planet1_Harmonic</ID>
         <Name>Signal Detector</Name>
-        <Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+        <Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
         <ExploreFact>
             <ID>Walker_Jam5_Planet1_Harmonic_Hint</ID>
             <Text>A Nomai named Adonsonia created a puzzle involving detecting signals. She locked the fifth requirement for a project behind solving it.</Text>
         </ExploreFact>
-
-	    <ExploreFact>
-		    <ID>Walker_Jam5_Planet1_Harmonic_Solved</ID>
-		    <Text>Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.</Text>
-	    </ExploreFact>
     </Entry>
 
 	<Entry>
 		<ID>Walker_Jam5_Planet1_Warp</ID>
 		<Name>Warp Transmitter</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet1_Warp_Hint</ID>
@@ -32,16 +27,11 @@
 	<Entry>
 		<ID>Walker_Jam5_Planet1_Quantum</ID>
 		<Name>Quantum Rock</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet1_Quantum_Hint</ID>
 			<Text>A quantum rock located in a structure facing the sun on Shattered Geode. There is a large skylight in the ceiling. A Nomai named Betula theorized about where the stone might go when it disappears. The stone took a recorder with it when it disappeared.</Text>
-		</ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Planet1_Quantum_Solved</ID>
-			<Text>By blocking the light from the sun, I was able to quantum entangle with the rock to reach a cave below the surface.</Text>
 		</ExploreFact>
 	</Entry>
 

@@ -27,7 +27,7 @@
 	<!--Ship log reveals go here-->
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Walker_Jam5_Station_ProjectRequirements_OppositeSides</FactID>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_OppositeSides_Fact</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>

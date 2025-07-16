@@ -5,32 +5,22 @@
     <Entry>
         <ID>Walker_Jam5_Planet3_Buried</ID>
         <Name>Buried Structure</Name>
-        <Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+        <Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
         <ExploreFact>
             <ID>Walker_Jam5_Planet3_Buried_Hint</ID>
             <Text>A mostly buried structure on the equator of Daucus. A Nomai named Adonsonia theorized about whether the sand could be moved elsewhere.</Text>
         </ExploreFact>
-
-	    <ExploreFact>
-		    <ID>Walker_Jam5_Planet3_Buried_Solved</ID>
-		    <Text>By siphoning the sand off the planet using the largest planet in the system, I was able to access the rest of the structure.</Text>
-	    </ExploreFact>
     </Entry>
 
 	<Entry>
 		<ID>Walker_Jam5_Planet3_NoDoor</ID>
 		<Name>Enclosed Structure</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet3_NoDoor_Hint</ID>
 			<Text>A structure built around a warp receiver on the equator of Daucus. A Nomai named Adonsonia neglected to include a door.</Text>
-		</ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Planet3_NoDoor_Solved</ID>
-			<Text>I was able to access the rest of the structure by arriving via the warp receiver.</Text>
 		</ExploreFact>
 	</Entry>
 

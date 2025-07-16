@@ -5,7 +5,7 @@
 	<Entry>
 		<ID>Walker_Jam5_Planet4_MissingWarp</ID>
 		<Name>Core Orrery Warp Transmitter</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<RumorFact>
 			<ID>Walker_Jam5_Planet4_MissingWarp_Rumor</ID>
@@ -22,7 +22,7 @@
 	<Entry>
 		<ID>Walker_Jam5_Planet4_Ice</ID>
 		<Name>Subsurface Ocean</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<RumorFact>
 			<ID>Walker_Jam5_Planet4_Ice_Rumor</ID>
@@ -39,7 +39,7 @@
 	<Entry>
 		<ID>Walker_Jam5_Planet4_Warp</ID>
 		<Name>"Glacial Abyss!" Warp Receiver</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Warp_Fact</ID>
@@ -50,33 +50,29 @@
 	<Entry>
 		<ID>Walker_Jam5_Planet4_Geysers</ID>
 		<Name>Geysers</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Geysers_Hint</ID>
 			<Text>Geysers are located beneath the ice on the surface of "Glacial Abyss!" near the north pole. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
-		</ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Planet4_Geysers_Solved</ID>
-			<Text>By accessing the geysers while the planet was frozen, I was able to descend to the planet's core.</Text>
 		</ExploreFact>
 	</Entry>
 
 	<Entry>
 		<ID>Walker_Jam5_Planet4_Core</ID>
 		<Name>Core Display</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<RumorFact>
 			<ID>Walker_Jam5_Planet4_Core_Rumor</ID>
+			<SourceID>Walker_Jam5_Planet4_Geysers</SourceID>
 			<RumorName>Abyssal Core</RumorName>
 			<Text>"Glacial Abyss!" has a hollow core connected to the geysers near the north pole. A Nomai teacher wanted her students to see something in the core.</Text>
 		</RumorFact>
-
+		
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Core_Fact</ID>
-			<Text>"Glacial Abyss!" has a hollow core connected to the geysers near the north pole. It contains a viewing area for safely observing the layers of the planet.</Text>
+			<Text>"Glacial Abyss!" has a hollow core connected to the geysers near the north pole. I was able to reach the core by descending the geysers while the planet was frozen. It contains a viewing area for safely observing the layers of the planet.</Text>
 		</ExploreFact>
 
 		<ExploreFact>
@@ -87,11 +83,6 @@
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Core_Door</ID>
 			<Text>The core of "Glacial Abyss!" contains a sealed door. A Nomai computer beside the door states that not all project requirements have been met.</Text>
-		</ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Planet4_Core_FinalLocation</ID>
-			<Text>The core of "Glacial Abyss!" is where a project must be submitted once all of its requirements are met. A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.</Text>
 		</ExploreFact>
 	</Entry>
 </AstroObjectEntry>

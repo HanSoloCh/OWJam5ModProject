@@ -3,56 +3,10 @@
 	<ID>Walker_Jam5_Station</ID>
 
 	<Entry>
-		<ID>Walker_Jam5_Station_ProjectRequirements</ID>
-		<Name>Project Requirements</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
-		<IsCuriosity/>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Station_ProjectRequirements_Count</ID>
-			<Text>A set of Nomai students were assigned a project to prepare this star system to be their clan's entry in a festival. They had to propose 6 requirements that the system would fulfill in order to demonstrate their understanding of the mechanisms of natural star systems.</Text>
-		</ExploreFact>
-
-    <ExploreFact>
-      <ID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet</ID>
-      <Text>The first requirement is that solid ice must be present on a planet in the system. The system's star is too hot to allow ice to re-freeze even in the furthest orbit. A Nomai named Adonsonia proposed somehow blocking the star's heat from reaching the planet they want to freeze.</Text>
-    </ExploreFact>
-
-    <ExploreFact>
-      <ID>Walker_Jam5_Station_ProjectRequirements_DriedSeabed</ID>
-      <Text>The second requirement is the existince of a planet with exposed geothermal activity.</Text>
-    </ExploreFact>
-
-    <ExploreFact>
-      <ID>Walker_Jam5_Station_ProjectRequirements_WarpAlignment</ID>
-      <Text>The third requirement is for the warp transmitter that does not lead to the orrery station to be aligned with at least one receiver.</Text>
-    </ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Station_ProjectRequirements_DoubleSand</ID>
-			<Text>The fourth requirement is that multiple planets in the system must have sand.</Text>
-		</ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Station_ProjectRequirements_OppositeSides</ID>
-			<Text>The fifth requiremetn in that any two planets that share an orbit must be on opposite sides of the sun.</Text>
-		</ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Station_ProjectRequirements_MiddleOrbit</ID>
-			<Text>The sixth and final requirement is that the largest planet in the system may not be in the furthest orbit.</Text>
-		</ExploreFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Station_ProjectRequirements_FinalLocation</ID>
-			<Text>Once all six requirements are met, the project must be submitted in the core of "Glacial Abyss!". A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.</Text>
-		</ExploreFact>
-	</Entry>
-
-	<Entry>
 		<ID>Walker_Jam5_Station_Orrery</ID>
 		<Name>Orrery Station</Name>
-		<Curiosity>Walker_Jam5_Station_ProjectRequirements</Curiosity>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+		<IsCuriosity/>
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Station_Orrery_Fact</ID>
@@ -63,6 +17,179 @@
 			<ID>Walker_Jam5_Station_Orrery_Warp</ID>
 			<Text>There are warp transmitters connected to the station on the north pole of most planets in the system.</Text>
 		</ExploreFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_ProjectRequirements_Count</ID>
+			<Text>A set of Nomai students were assigned a project to prepare this star system to be their clan's entry in a festival. They had to propose 7 requirements that the system would fulfill in order to demonstrate their understanding of the mechanisms of natural star systems.</Text>
+		</ExploreFact>
+
+		<Entry>
+			<ID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet</ID>
+			<Name>Frozen Planet</Name>
+			<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_Count_1</ID>
+				<RumorName>First Requirement</RumorName>
+				<Text>The first of 7 requirements that a Nomai project must meet.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Planet2_Tower_Solved</ID>
+				<SourceID>Walker_Jam5_Planet2_Tower</SourceID>
+				<RumorName>Frozen Planet</RumorName>
+				<Text>By using another astral body's gravity to help me, I was able to reach the top of the tower.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet_Fact</ID>
+				<Text>The first requirement is that solid ice must be present on a planet in the system. The system's star is too hot to allow ice to re-freeze even in the furthest orbit. A Nomai named Adonsonia proposed somehow blocking the star's heat from reaching the planet they want to freeze.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>Walker_Jam5_Station_ProjectRequirements_Geysers</ID>
+			<Name>Geothermal Activity</Name>
+			<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_Count_2</ID>
+				<RumorName>First Requirement</RumorName>
+				<Text>The second of 7 requirements that a Nomai project must meet.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Planet2_GhostMatter_Solved</ID>
+				<SourceID>Walker_Jam5_Planet2_GhostMatter</SourceID>
+				<RumorName>Geothermal Activity</RumorName>
+				<Text>By flooding the planet, I was able to safely enter the cave.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_Geysers_Fact</ID>
+				<Text>The second requirement is that a planet must have exposed geothermal activity.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>Walker_Jam5_Station_ProjectRequirements_WarpAlignment</ID>
+			<Name>Warp Alignment</Name>
+			<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_Count_3</ID>
+				<RumorName>First Requirement</RumorName>
+				<Text>The third of 7 requirements that a Nomai project must meet.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Planet3_NoDoor_Solved</ID>
+				<SourceID>Walker_Jam5_Planet3_NoDoor</SourceID>
+				<RumorName>Warp Alignment</RumorName>
+				<Text>I was able to access the rest of the structure by arriving via the warp receiver.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_WarpAlignment_Fact</ID>
+				<Text>The third requirement is for the warp transmitter that does not lead to the orrery station to be aligned with at least one receiver.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>Walker_Jam5_Station_ProjectRequirements_DoubleSand</ID>
+			<Name>Sand Distribution</Name>
+			<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_Count_4</ID>
+				<RumorName>First Requirement</RumorName>
+				<Text>The fourth of 7 requirements that a Nomai project must meet.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Planet3_Buried_Solved</ID>
+				<SourceID>Walker_Jam5_Planet3_Buried</SourceID>
+				<RumorName>Sand Distribution</RumorName>
+				<Text>By siphoning the sand off the planet using the largest planet in the system, I was able to access the rest of the structure.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_DoubleSand_Fact</ID>
+				<Text>The fourth requirement is that multiple planets in the system must have sand.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>Walker_Jam5_Station_ProjectRequirements_OppositeSides</ID>
+			<Name>Orbit Sharing</Name>
+			<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_Count_5</ID>
+				<RumorName>First Requirement</RumorName>
+				<Text>The fifth of 7 requirements that a Nomai project must meet.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Planet1_Harmonic_Solved</ID>
+				<SourceID>Walker_Jam5_Planet1_Harmonic</SourceID>
+				<RumorName>Orbit Sharing</RumorName>
+				<Text>Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_OppositeSides_Fact</ID>
+				<Text>The fifth requirement is that any two planets that share an orbit must be on opposite sides of the sun.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>Walker_Jam5_Station_ProjectRequirements_MiddleOrbit</ID>
+			<Name>Mass Distribution</Name>
+			<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_Count_6</ID>
+				<RumorName>First Requirement</RumorName>
+				<Text>The sixth of 7 requirements that a Nomai project must meet.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Planet1_Quantum_Solved</ID>
+				<SourceID>Walker_Jam5_Planet1_Quantum</SourceID>
+				<RumorName>Mass Distribution</RumorName>
+				<Text>By blocking the light from the sun, I was able to quantum entangle with the rock to reach a cave below the surface.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_MiddleOrbit_Fact</ID>
+				<Text>The sixth and final requirement is that the largest planet in the system may not be in the furthest orbit.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>Walker_Jam5_Station_ProjectRequirements_FinalLocation</ID>
+			<Name>Final Location</Name>
+			<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_Count_7</ID>
+				<RumorName>First Requirement</RumorName>
+				<Text>The last of 7 requirements that a Nomai project must meet.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_FinalLocation_Rumor</ID>
+				<SourceID>Walker_Jam5_Planet4_Core</SourceID>
+				<RumorName>Final Location</RumorName>
+				<Text>Once all six requirements are met, the project must be submitted in the core of "Glacial Abyss!". A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>Walker_Jam5_Station_ProjectRequirements_FinalLocation_Fact</ID>
+				<Text>Once all six requirements are met, the project must be submitted in the core of "Glacial Abyss!". A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.</Text>
+			</ExploreFact>
+		</Entry>
 	</Entry>
 
 </AstroObjectEntry>
