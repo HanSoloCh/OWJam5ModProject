@@ -8,6 +8,12 @@
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 		<IsCuriosity/>
 
+		<RumorFact>
+			<ID>Walker_Jam5_Station_Orrery_Rumor</ID>
+			<RumorName>Heliostudy</RumorName>
+			<Text>The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.</Text>
+		</RumorFact>
+		
 		<ExploreFact>
 			<ID>Walker_Jam5_Station_Orrery_Fact</ID>
 			<Text>The station contains an orrery of the system. A Nomai named Oryza claims the system is a scaled-up representation of the orrery.</Text>
