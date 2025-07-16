@@ -46,14 +46,14 @@ public class ShadowFixer : MonoBehaviour
         // does NOT account for if something dynamically changes the shadows, but we dont do that anywhere so its fine
         if (shadowsOn && !sameSide)
         {
-            OWJam5ModProject.DebugLog($"{this} - shadows off");
+            // OWJam5ModProject.DebugLog($"{this} - shadows off");
             shadowsOn = false;
             foreach (var shadowRenderer in shadowRenderers)
                 if (shadowRenderer) shadowRenderer.shadowCastingMode = ShadowCastingMode.Off;
         }
         else if (!shadowsOn && sameSide)
         {
-            OWJam5ModProject.DebugLog($"{this} - shadows on");
+            // OWJam5ModProject.DebugLog($"{this} - shadows on");
             shadowsOn = true;
             foreach (var shadowRenderer in shadowRenderers)
                 if (shadowRenderer) shadowRenderer.shadowCastingMode = ShadowCastingMode.On;
