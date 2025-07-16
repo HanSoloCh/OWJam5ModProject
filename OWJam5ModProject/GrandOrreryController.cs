@@ -156,14 +156,21 @@ namespace OWJam5ModProject
                 }
                 Vector3 ourSystemPosition = Vector3.zero;
                 Vector3 avg = Vector3.zero;
+                int otherMods = 0;
                 foreach (SystemAndBodies b in systems)
                 {
                     avg += b.centerBody.Object.transform.position;
-                    if (b.modName == "2walker2.OWJam5ModProject") ourSystemPosition = b.centerBody.Object.transform.position;
+                    if (b.modName == "2walker2.OWJam5ModProject")
+                    {
+                        ourSystemPosition = b.centerBody.Object.transform.position;
+                    } else
+                    {
+                        otherMods++;
+                    }
                 }
                 avg /= systems.Count;
                 ernesto.transform.position = avg;
-                ernesto.SetActive(Vector3.Distance(ernesto.transform.position, ourSystemPosition) < 2500);
+                ernesto.SetActive(Vector3.Distance(ernesto.transform.position, ourSystemPosition) < 2500 && otherMods > 0);
                 if (ernesto.activeSelf) ernestoRefFrame._referenceFrame._localPosition = ernestoRefFrame._attachedOWRigidbody.transform.InverseTransformPoint(ernesto.transform.position);
 
             }
