@@ -18,6 +18,26 @@
                 "isRelativeToParent": true,
                 "scale" : 0.02,
                 "keepLoaded": true
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/PlatformWarpPadRoot.prefab",
+                "scale": 0.1,
+                "position": {
+                    "y": -2.254182,
+                    "z": 57.18765
+                },
+                "rotation": {
+                    "x": 270
+                }
+            }
+        ],
+        "warpTransmitters": [
+            {
+                "parentPath": "Sector/PlatformWarpPadRoot",
+                "isRelativeToParent": true,
+                "frequency": "WalkerJam5Ernesto",
+                "alignmentWindow": 45
             }
         ],
         "translatorText": [
