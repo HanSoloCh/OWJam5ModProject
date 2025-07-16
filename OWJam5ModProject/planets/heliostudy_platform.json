@@ -6,6 +6,14 @@
         "isPlatform": true
     },
     "Props": {
+        "dialogue": [
+            {
+                "parentPath": "Sector/Platform/Root/Ernesto/Root/fish",
+                "xmlFile": "planets/dialogue/ernesto.xml",
+                "isRelativeToParent": true,
+                "radius": 1.5
+            }
+        ],
         "details": [
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
