@@ -21,6 +21,7 @@ namespace OWJam5ModProject
     {
         public INewHorizons NewHorizons;
         string systemName = "Jam5";
+        public GameObject ernesto;
         public GameObject instantiateOrb;
         public Transform spinRoot;
         public Transform orbSpawnRoot;
@@ -28,10 +29,15 @@ namespace OWJam5ModProject
         public Transform alignParent;
         Transform player;
         public UnityEvent onEnable;
+        NomaiComputer computer;
+        bool CanActivate = false;
+
 
 
         PlayerSpacesuit suit;
         public float downScale = 0.0005f;
+
+        ReferenceFrameVolume ernestoRefFrame;
 
         new List<GrandOrb> grandOrbs = new();
 
@@ -39,17 +45,27 @@ namespace OWJam5ModProject
         {
             public NewHorizonsBody centerBody;
             public List<NewHorizonsBody> childBodies = new();
+            public string modName;
         }
         public List<SystemAndBodies> systems = new();
         bool Activated = false;
 
         public void Start()
         {
+            ernestoRefFrame = ernesto.GetComponent<ReferenceFrameVolume>();
+            ernesto.SetActive(false);
+            computer = GetComponentInChildren<NomaiComputer>();
             Activated = false;
             suit = Locator._playerSuit;
             player = Locator.GetPlayerBody().transform;
             Apply(Main.BodyDict[systemName]);
             PlaceOrbs();
+
+        }
+
+        public void SetCanActivate()
+        {
+            CanActivate = true;
         }
 
         public void PlaceOrbs()
@@ -66,7 +82,8 @@ namespace OWJam5ModProject
                 o.enabled = false;
             }
             EnableOrbs();
-            Invoke("PositionOrbs", 1);
+            Invoke("PositionOrbs", 1f);
+            Invoke("SetCanActivate", 5f);
 
         }
 
@@ -80,7 +97,8 @@ namespace OWJam5ModProject
 
         public void PositionOrbs()
         {
-            foreach(GrandOrb o in grandOrbs)
+            computer.ClearAllEntries();
+            foreach (GrandOrb o in grandOrbs)
             {
                 spinRoot.Rotate(0, UnityEngine.Random.Range(0f, 360f), 0);
                 orbSpawnRoot.transform.localPosition = new Vector3(UnityEngine.Random.Range(3f, 7f), 0, 0);
@@ -91,8 +109,8 @@ namespace OWJam5ModProject
 
         public void StartGrandOrrery()
         {
+            computer.DisplayEntry(1);
             onEnable.Invoke();
-            GrandOrb[] orbs = FindObjectsOfType<GrandOrb>();
 
             GameObject centralStation = GameObject.Find("CentralStation_Body");
 
@@ -100,8 +118,9 @@ namespace OWJam5ModProject
             
             
 
-            foreach (GrandOrb orb in orbs)
+            foreach (GrandOrb orb in grandOrbs)
             {
+                orb.SetIsAbsolutelyActive(true);
                 Vector3 starPos = centralStation.transform.InverseTransformPoint(orb.system.centerBody.Object.gameObject.transform.position);
                 OWJam5ModProject.DebugLog(starPos.ToString());
                 Vector3 toPos = alignParent.TransformPoint(starPos * downScale);
@@ -114,25 +133,40 @@ namespace OWJam5ModProject
 
         public void Update()
         {
-            if (Vector3.Distance(player.position, transform.position) < 17 && !Activated)
+            if (Vector3.Distance(player.position, transform.position) < 30)
             {
-                if (!suit._isWearingSuit)
+                if (!Activated && CanActivate)
                 {
-                    float min = 999;
-                    float max = 0;
-                    foreach (GrandOrb orb in grandOrbs)
+                    if (!suit._isWearingSuit)
                     {
-                        float dist = Vector3.Distance(orb.transform.position, alignParent.position);
-                        if (dist < min) min = dist;
-                        if (dist > max) max = dist;
-                    }
-                    if ((max - min) < 0.15f && min > 0.5f)
-                    {
-                        Activated = true;
-                        StartGrandOrrery();
+                        float min = 999;
+                        float max = 0;
+                        foreach (GrandOrb orb in grandOrbs)
+                        {
+                            float dist = Vector3.Distance(orb.transform.position, alignParent.position);
+                            if (dist < min) min = dist;
+                            if (dist > max) max = dist;
+                        }
+                        if ((max - min) < 0.15f && min > 0.5f)
+                        {
+                            Activated = true;
+                            StartGrandOrrery();
+                        }
                     }
                 }
+                Vector3 ourSystemPosition = Vector3.zero;
+                Vector3 avg = Vector3.zero;
+                foreach (SystemAndBodies b in systems)
+                {
+                    avg += b.centerBody.Object.transform.position;
+                    if (b.modName == "2walker2.OWJam5ModProject") ourSystemPosition = b.centerBody.Object.transform.position;
+                }
+                avg /= systems.Count;
+                ernesto.transform.position = avg;
+                ernesto.SetActive(Vector3.Distance(ernesto.transform.position, ourSystemPosition) < 2500);
+                ernestoRefFrame._referenceFrame._localPosition = ernestoRefFrame._attachedOWRigidbody.transform.InverseTransformPoint(ernesto.transform.position);
             }
+
         }
 
         public void Apply(List<NewHorizonsBody> bodies)
@@ -151,6 +185,7 @@ namespace OWJam5ModProject
                 {
                     var systemAndBodies = new SystemAndBodies();
                     systemAndBodies.centerBody = body;
+                    systemAndBodies.modName = body.Mod.ModHelper.Manifest.UniqueName;
                     systemAndBodies.childBodies = bodies.Where(x => x != body && Vector3.Distance(x.Object.transform.position, body.Object.transform.position) < 2500).ToList();
                     systems.Add(systemAndBodies);
                 }
