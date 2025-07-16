@@ -164,7 +164,8 @@ namespace OWJam5ModProject
                 avg /= systems.Count;
                 ernesto.transform.position = avg;
                 ernesto.SetActive(Vector3.Distance(ernesto.transform.position, ourSystemPosition) < 2500);
-                ernestoRefFrame._referenceFrame._localPosition = ernestoRefFrame._attachedOWRigidbody.transform.InverseTransformPoint(ernesto.transform.position);
+                if (ernesto.activeSelf) ernestoRefFrame._referenceFrame._localPosition = ernestoRefFrame._attachedOWRigidbody.transform.InverseTransformPoint(ernesto.transform.position);
+
             }
 
         }
