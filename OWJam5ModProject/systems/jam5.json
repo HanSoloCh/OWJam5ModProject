@@ -1,21 +1,167 @@
 {
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
   "name": "Jam5",
-  "curiosities": [
-    {
-      "id": "Walker_Jam5_Station_Orrery",
-      "color": {
-        "r": 240,
-        "g": 150,
-        "b": 150,
-        "a": 255
-      },
-      "highlightColor": {
-        "r": 240,
-        "g": 180,
-        "b": 180,
-        "a": 255
-      }
-    }
-  ]
+    "curiosities": [
+        {
+            "id": "Walker_Jam5_Station_Orrery",
+            "color": {
+                "r": 240,
+                "g": 150,
+                "b": 150,
+                "a": 255
+            },
+            "highlightColor": {
+                "r": 240,
+                "g": 180,
+                "b": 180,
+                "a": 255
+            }
+        }
+    ],
+    "entryPositions": [
+        // Curiosity
+        {
+            "id": "Walker_Jam5_Station_Orrery",
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        // Project requirements
+        {
+            "id": "Walker_Jam5_Station_ProjectRequirements_FrozenPlanet",
+            "position": {
+                "x": 137.9,
+                "y": 151.7
+            }
+        },
+        {
+            "id": "Walker_Jam5_Station_ProjectRequirements_Geysers",
+            "position": {
+                "x": 179.9,
+                "y": 0
+            }
+        },
+        {
+            "id": "Walker_Jam5_Station_ProjectRequirements_WarpAlignment",
+            "position": {
+                "x": 137.9,
+                "y": -151.7
+            }
+        },
+        {
+            "id": "Walker_Jam5_Station_ProjectRequirements_DoubleSand",
+            "position": {
+                "x": -137.9,
+                "y": 151.7
+            }
+        },
+        {
+            "id": "Walker_Jam5_Station_ProjectRequirements_OppositeSides",
+            "position": {
+                "x": -179.9,
+                "y": 0
+            }
+        },
+        {
+            "id": "Walker_Jam5_Station_ProjectRequirements_MiddleOrbit",
+            "position": {
+                "x": -137.9,
+                "y": -151.7
+            }
+        },
+        {
+            "id": "Walker_Jam5_Station_ProjectRequirements_FinalLocation",
+            "position": {
+                "x": 0,
+                "y": -218.1
+            }
+        },
+        // Hints
+        {
+            "id": "Walker_Jam5_Planet2_Tower",
+            "position": {
+                "x": 314,
+                "y": 367
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet2_GhostMatter",
+            "position": {
+                "x": 450,
+                "y": 0
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet3_NoDoor",
+            "position": {
+                "x": 314,
+                "y": -349
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet3_Buried",
+            "position": {
+                "x": -314,
+                "y": 367
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet1_Harmonic",
+            "position": {
+                "x": -450,
+                "y": 0
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet1_Quantum",
+            "position": {
+                "x": -314,
+                "y": -349
+            }
+        },
+        // Misc
+        {
+            "id": "Walker_Jam5_Planet1_Warp",
+            "position": {
+                "x": 0,
+                "y": 461
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet4_Core",
+            "position": {
+                "x": 0,
+                "y": -461
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet4_MissingWarp",
+            "position": {
+                "x": 61,
+                "y": -515
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet4_Geysers",
+            "position": {
+                "x": -171,
+                "y": -672
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet4_Warp",
+            "position": {
+                "x": 171,
+                "y": -672
+            }
+        },
+        {
+            "id": "Walker_Jam5_Planet4_Ice",
+            "position": {
+                "x": 0,
+                "y": -901
+            }
+        }
+    ]
 }

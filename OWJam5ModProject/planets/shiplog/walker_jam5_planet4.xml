@@ -3,23 +3,6 @@
     <ID>Walker_Jam5_Planet4</ID>
 
 	<Entry>
-		<ID>Walker_Jam5_Planet4_MissingWarp</ID>
-		<Name>Core Orrery Warp Transmitter</Name>
-		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
-
-		<RumorFact>
-			<ID>Walker_Jam5_Planet4_MissingWarp_Rumor</ID>
-			<RumorName>Missing Orrery Warp Transmitter</RumorName>
-			<Text>The warp transmitter from "Glacial Abyss!" to the orrery station isn't on the north pole.</Text>
-		</RumorFact>
-
-		<ExploreFact>
-			<ID>Walker_Jam5_Planet4_MissingWarp_Fact</ID>
-			<Text>The warp transmitter from "Glacial Abyss!" to the orrery station is in the core of the planet.</Text>
-		</ExploreFact>
-	</Entry>
-
-	<Entry>
 		<ID>Walker_Jam5_Planet4_Ice</ID>
 		<Name>Subsurface Ocean</Name>
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
@@ -38,12 +21,19 @@
 
 	<Entry>
 		<ID>Walker_Jam5_Planet4_Warp</ID>
-		<Name>"Glacial Abyss!" Warp Receiver</Name>
+		<Name>Undersea Warp Receiver</Name>
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
+		<RumorFact>
+			<ID>Walker_Jam5_Planet4_Warp_Rumor</ID>
+			<SourceID>Walker_Jam5_Planet4_Ice</SourceID>
+			<RumorName>Undersea Warp Receiver</RumorName>
+			<Text>There is a warp receiver near the equator of "Glacial Abyss!" on the seabed under the ice.</Text>
+		</RumorFact>
+		
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Warp_Fact</ID>
-			<Text>There is a warp receiver on the equator of "Glacial Abyss!" under the ice.</Text>
+			<Text>There is a warp receiver near the equator of "Glacial Abyss!" on the seabed under the ice.</Text>
 		</ExploreFact>
 	</Entry>
 
@@ -52,15 +42,22 @@
 		<Name>Geysers</Name>
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
+		<RumorFact>
+			<ID>Walker_Jam5_Planet4_Geysers_Rumor</ID>
+			<SourceID>Walker_Jam5_Planet4_Ice</SourceID>
+			<RumorName>Geysers</RumorName>
+			<Text>Nomai noticed geysers beneath the ice on the seabed of "Glacial Abyss!" near the north pole. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
+		</RumorFact>
+
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Geysers_Hint</ID>
-			<Text>Geysers are located beneath the ice on the surface of "Glacial Abyss!" near the north pole. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
+			<Text>There are geysers beneath the ice on the seabed of "Glacial Abyss!" near the north pole. The flow of the geysers prevents entry. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
 		</ExploreFact>
 	</Entry>
 
 	<Entry>
 		<ID>Walker_Jam5_Planet4_Core</ID>
-		<Name>Core Display</Name>
+		<Name>Planetary Core Display</Name>
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
 		<RumorFact>
@@ -84,5 +81,22 @@
 			<ID>Walker_Jam5_Planet4_Core_Door</ID>
 			<Text>The core of "Glacial Abyss!" contains a sealed door. A Nomai computer beside the door states that not all project requirements have been met.</Text>
 		</ExploreFact>
+
+		<Entry>
+			<ID>Walker_Jam5_Planet4_MissingWarp</ID>
+			<Name>Core Orrery Warp Transmitter</Name>
+			<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+			<RumorFact>
+				<ID>Walker_Jam5_Planet4_MissingWarp_Rumor</ID>
+				<RumorName>Missing Orrery Warp Transmitter</RumorName>
+				<Text>The warp transmitter from "Glacial Abyss!" to the orrery station isn't on the north pole.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>Walker_Jam5_Planet4_MissingWarp_Fact</ID>
+				<Text>The warp transmitter from "Glacial Abyss!" to the orrery station is in the core of the planet.</Text>
+			</ExploreFact>
+		</Entry>
 	</Entry>
 </AstroObjectEntry>
