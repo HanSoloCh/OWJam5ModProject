@@ -176,6 +176,7 @@
                 "xmlFile": "planets/text/reqs/final_location_req.xml",
                 "seed": 679276,
                 "location": "a",
+                "position": {"x": 0.6, "y": 0, "z": 0},
                 "arcInfo": [
                     {
                         "mirror": true,
@@ -196,21 +197,21 @@
                         "zRotation": 32.49418
                     },
                     {
+                        "mirror": true,
                         "type": "child",
                         "position": {
-                            "x": -1.463192,
-                            "y": 1.122123
+                            "x": -1.930464,
+                            "y": 1.068487
                         },
-                        "zRotation": 23.13835
+                        "zRotation": 0
                     },
                     {
-                        "mirror": true,
                         "type": "adult",
                         "position": {
-                            "x": -1.45572,
+                            "x": -2.635719,
                             "y": 1.687752
                         },
-                        "zRotation": 10.45963
+                        "zRotation": 350.0235
                     },
                     {
                         "type": "child",
@@ -223,18 +224,18 @@
                     {
                         "type": "child",
                         "position": {
-                            "x": -0.5376687,
-                            "y": 0.7442405
+                            "x": -1.356759,
+                            "y": 1.106058
                         },
                         "zRotation": 15.29361
                     },
                     {
                         "type": "adult",
                         "position": {
-                            "x": -0.05987191,
-                            "y": 1.529644
+                            "x": -0.8925985,
+                            "y": 1.882371
                         },
-                        "zRotation": 336.9289
+                        "zRotation": 326.3106
                     }
                 ]
             },
