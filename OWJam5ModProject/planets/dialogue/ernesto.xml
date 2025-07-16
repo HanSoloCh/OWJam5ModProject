@@ -1,0 +1,12 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ernesto</NameField>
+
+  <!--First time intro-->
+  <DialogueNode>
+    <Name>INTRO</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>I am Ernesto.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

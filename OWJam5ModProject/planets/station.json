@@ -140,5 +140,8 @@
     "ShipLog": {
         "xmlFile": "planets/shiplog/walker_jam5_station.xml",
         "spriteFolder": "planets/shiplog/sprites",
+        "mapMode": {
+            "revealedSprite": "planets/shiplog/sprites/OrreryStation.png"
+        }
     }
 }

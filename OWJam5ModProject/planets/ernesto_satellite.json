@@ -1,0 +1,63 @@
+﻿{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Walker_Jam5_Secret",
+    "starSystem": "Jam5",
+    "Base": {
+        "surfaceSize": 15,
+        "showMinimap": false,
+        "soiOverride": 3
+    },
+    "Orbit": {
+        "primaryBody": "Walker_Jam5_Star",
+        "staticPosition": {
+            "x": -1194,
+            "y": -716,
+            "z": -2013
+        },
+        "isStatic": true
+    },
+    "ReferenceFrame": {
+        "enabled": false,
+        "hideInMap": true,
+        "maxTargetDistance": 15,
+        "bracketRadius": 5
+    },
+    "Props": {
+        "warpReceivers": [
+            {
+                "parentPath": "Sector/ErnestoHint/WarpReceiver",
+                "isRelativeToParent": true,
+                "frequency": "WalkerJam5Ernesto"
+            }
+        ],
+        "translatorText": [
+            {
+                "rename": "ernesto_hint",
+                "parentPath": "Sector/ErnestoHint/ScrollAnchor",
+                "isRelativeToParent": true,
+                "type": "scroll",
+                "xmlFile": "planets/text/misc/ernesto_hint.xml"
+            }
+        ],
+        "details": [
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Structures/ErnestoHint.prefab",
+                "scale": 1.0
+            }
+        ]
+    },
+    "ShipLog": {
+        "mapMode": {
+            "remove": true
+        }
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "rename": "_WalkerJam5Secret",
+                "position": {"x": 10}
+            }
+        ]
+    }
+}
