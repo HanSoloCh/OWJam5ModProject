@@ -11,9 +11,21 @@
     },
     "AmbientLights": [
         {
-            "outerRadius": 230,
-            "innerRadius": 160,
-            "intensity": 0.5
+            "outerRadius": 180,
+            "innerRadius": 157,
+            "isShell": true,
+            "intensity": 0.3,
+            "tint": {
+                "r": 159,
+                "g": 164,
+                "b": 204
+            }
+        },
+        {
+            "outerRadius": 270,
+            "innerRadius": 110,
+            "isShell": false,
+            "intensity": 0.4
         }
     ],
     "Atmosphere": {
@@ -69,6 +81,14 @@
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/Planets/WaterPlanet.prefab",
                 "keepLoaded": true
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Planets/Foliage/Water Foliage.prefab",
+                "keepLoaded": false,
+                "rotation": {
+                    "x": 90
+                }
             }
         ],
         "dialogue": [
