@@ -169,7 +169,7 @@
 
 			<ExploreFact>
 				<ID>Walker_Jam5_Station_ProjectRequirements_MiddleOrbit_Fact</ID>
-				<Text>The sixth and final requirement is that the largest planet in the system may not be in the furthest orbit.</Text>
+				<Text>The sixth requirement is that the largest planet in the system may not be in the furthest orbit.</Text>
 			</ExploreFact>
 		</Entry>
 
