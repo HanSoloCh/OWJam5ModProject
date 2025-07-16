@@ -13,6 +13,8 @@ namespace OWJam5ModProject
         [SerializeField] private Animator animator = null;
         [SerializeField] private OWTriggerVolume primeTrigger = null;
         [SerializeField] private OWTriggerVolume riseTrigger = null;
+        
+        public OWAudioSource oneShotAudio;
 
         private bool primed = false;
         private bool triggered = false;
@@ -44,6 +46,8 @@ namespace OWJam5ModProject
             {
                 triggered = true;
                 animator.SetTrigger("rise");
+                // oneShotAudio.PlayOneShot(AudioType.NomaiHologramActivate);
+                oneShotAudio.PlayOneShot(AudioType.NomaiHologramDeactivate);
             }
         }
 
