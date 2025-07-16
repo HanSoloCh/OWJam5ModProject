@@ -295,6 +295,18 @@
                 "detectionRadius": 300
             }
         ],
+        "entryLocation": [
+            {
+                "id": "Walker_Jam5_Planet2_Tower",
+                "parentPath": "Sector/SupermassivePlanet/SauronsTower",
+                "isRelativeToParent": true
+            },
+            {
+                "id": "Walker_Jam5_Planet2_GhostMatter",
+                "parentPath": "Sector/SupermassivePlanet/GhostMatterCave/Effects_GM_AuroraWisps (2)",
+                "isRelativeToParent": true
+            }
+        ],
         "details": [
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",

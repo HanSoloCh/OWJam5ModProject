@@ -347,6 +347,23 @@
                 "xmlFile": "planets/text/reqs/middle_orbit_req.xml"
             }
         ],
+        "entryLocation": [
+            {
+                "id": "Walker_Jam5_Planet1_Harmonic",
+                "parentPath": "Sector/CrystalPlanet/HarmonicDetector",
+                "isRelativeToParent": true
+            },
+            {
+                "id": "Walker_Jam5_Planet1_Warp",
+                "parentPath": "Sector/CrystalPlanet/Planet/WarpTransmitter",
+                "isRelativeToParent": true
+            },
+            {
+                "id": "Walker_Jam5_Planet1_Quantum",
+                "parentPath": "Sector/CrystalPlanet/QuantumRuins",
+                "isRelativeToParent": true
+            }
+        ],
         "details": [
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",

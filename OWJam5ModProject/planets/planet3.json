@@ -371,6 +371,18 @@
                 ]
             }
         ],
+        "entryLocation": [
+            {
+                "id": "Walker_Jam5_Planet3_Buried",
+                "parentPath": "Sector/SandPlanet/BuriedStructure",
+                "isRelativeToParent": true
+            },
+            {
+                "id": "Walker_Jam5_Planet3_NoDoor",
+                "parentPath": "Sector/SandPlanet/WarpReceiverStructure",
+                "isRelativeToParent": true
+            }
+        ],
         "details": [
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",

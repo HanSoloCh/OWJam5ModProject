@@ -118,6 +118,11 @@
                     }
                 ]
             }
+        ],
+        "entryLocation": [
+            {
+                "id": "Walker_Jam5_Station_Orrery"
+            }
         ]
     },
     "Spawn": {

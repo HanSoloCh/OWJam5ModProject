@@ -431,6 +431,23 @@
                     }
                 ]
             }
+        ],
+        "entryLocation": [
+            {
+                "id": "Walker_Jam5_Planet4_Warp",
+                "parentPath": "Sector/WaterPlanet/WarpReceiverArea/ReceiverAnchor",
+                "isRelativeToParent": true
+            },
+            {
+                "id": "Walker_Jam5_Planet4_Geysers",
+                "position": { "z": -135 }
+            },
+            {
+                "id": "Walker_Jam5_Planet4_Core"
+            },
+            {
+                "id": "Walker_Jam5_Planet4_MissingWarp"
+            }
         ]
     },
     "Volumes": {
