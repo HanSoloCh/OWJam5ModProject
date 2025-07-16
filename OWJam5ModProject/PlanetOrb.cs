@@ -58,8 +58,11 @@ namespace OWJam5ModProject
 
             //North pole : -z
             //To sun : -y
-            planetRB.transform.forward = sun.transform.up * -1;
-            planetRB.transform.up = (planetRB.transform.position - sun.transform.position).normalized;
+            //Don't ask me how exactly this math works, god I hate rotating things
+            planetRB.transform.forward = sun.transform.up;
+            float angle = Vector3.SignedAngle(-planetRB.transform.up, 
+                (sun.transform.position - planetRB.transform.position).normalized, planetRB.transform.forward);
+            planetRB.transform.Rotate(planetRB.transform.forward, angle);
 
             // move ship if landed on planet
             var shipSectorDetector = Locator.GetShipDetector().GetComponent<SectorDetector>();
