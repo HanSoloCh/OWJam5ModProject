@@ -71,6 +71,23 @@
                 "keepLoaded": true
             }
         ],
+        "dialogue": [
+            {
+                "rename": "AdonsoniaDialogue",
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/Structure_NOM_RemoteViewer/AdonsoniaProjection/Nomai_ANIM_SkyWatching_Idle",
+                "isRelativeToParent": true,
+                "xmlFile": "planets/dialogue/adonsonia_outro.xml",
+                "pathToAnimController": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/Final Room Objects/Structure_NOM_RemoteViewer/AdonsoniaProjection/Nomai_ANIM_SkyWatching_Idle",
+                "lookAtRadius": 10,
+                "position": {
+                    "x": 0,
+                    "y": 1.853,
+                    "z": 0.293
+                },
+                "radius": 0.83,
+                "range": 2
+            }
+        ],
         "translatorText": [
             {
                 "rename": "missing_transmitter_text",
