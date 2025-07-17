@@ -9,25 +9,6 @@
     "MapMarker": {
         "enabled": true
     },
-    "AmbientLights": [
-        {
-            "outerRadius": 180,
-            "innerRadius": 157,
-            "isShell": true,
-            "intensity": 0.3,
-            "tint": {
-                "r": 159,
-                "g": 164,
-                "b": 204
-            }
-        },
-        {
-            "outerRadius": 270,
-            "innerRadius": 110,
-            "isShell": false,
-            "intensity": 0.4
-        }
-    ],
     "Atmosphere": {
         "fogDensity": 0.01,
         "fogSize": 0.01,

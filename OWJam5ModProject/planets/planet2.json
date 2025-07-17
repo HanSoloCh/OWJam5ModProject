@@ -28,14 +28,6 @@
             }
         ]
     },
-    "AmbientLights": [
-        {
-            "outerRadius": 320,
-            "innerRadius": 250,
-            "intensity": 1.0,
-            "isShell": true
-        }
-    ],
     "Orbit": {
       "primaryBody": "Walker_Jam5_Star",
       "staticPosition": {
