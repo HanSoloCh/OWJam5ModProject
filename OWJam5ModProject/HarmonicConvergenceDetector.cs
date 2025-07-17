@@ -99,13 +99,13 @@ namespace OWJam5ModProject
         {
             //OWJam5ModProject.Instance.ModHelper.Console.WriteLine(hitObj.ToString() + " entered");
             //OWJam5ModProject.Instance.ModHelper.Console.WriteLine(Locator.GetPlayerDetector().ToString() + " compared");
-            if (hitObj == Locator.GetPlayerDetector())
+            if (hitObj.CompareTag("PlayerDetector"))
                 playerInside = true;
         }
 
         private void PlayerDetector_OnExit(GameObject hitObj)
         {
-            if (hitObj == Locator.GetPlayerDetector())
+            if (hitObj.CompareTag("PlayerDetector"))
             {
                 playerInside = false;
 

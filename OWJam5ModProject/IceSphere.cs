@@ -68,6 +68,10 @@ namespace OWJam5ModProject
          */
         private void FixedUpdate()
         {
+            //Exit if we're too early
+            if (OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star") == null)
+                return;
+
             //If the water seems really low, that means we're bugged and shouldn't do anything with the ice this frame
             if (waterTF.localScale.x < 10)
                 return;

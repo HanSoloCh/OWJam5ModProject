@@ -47,6 +47,10 @@ namespace OWJam5ModProject
          */
         private void FixedUpdate()
         {
+            //Exit if we're too early
+            if (OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star") == null)
+                return;
+
             int hitCount = 0;
 
             //Do one cast for each origin point
