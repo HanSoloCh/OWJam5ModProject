@@ -15,7 +15,7 @@ namespace OWJam5ModProject
 
         public void Update()
         {
-            render.material.SetFloat("_Intensity", (scaleRead.localScale.x - 160f) / 36f);
+            render.material.SetFloat("_Intensity", (scaleRead.localScale.x - defaultLocalScale) / 36f);
         }
     }
 }
