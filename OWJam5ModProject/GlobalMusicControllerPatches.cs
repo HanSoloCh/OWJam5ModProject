@@ -21,6 +21,7 @@ public static class GlobalMusicControllerPatches
     {
         star = OWJam5ModProject.Instance.NewHorizons.GetPlanet("Walker_Jam5_Star");
         wasInOurSystem = false;
+        if (!star) return; // not in jam5 system
 
         var go = new GameObject("custom travel audio");
         go.SetActive(false);
