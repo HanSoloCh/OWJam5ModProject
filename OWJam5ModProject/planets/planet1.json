@@ -58,7 +58,7 @@
                 "isRelativeToParent": true,
                 "frequency": "WalkerJam5",
                 "alignRadial": false,
-                "alignmentWindow": 15
+                "alignmentWindow": 30
             },
             {
                 "parentPath": "Sector/CrystalPlanet/OrreryWarpTransmitter/WarpTransmitter",
