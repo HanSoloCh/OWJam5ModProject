@@ -3,10 +3,27 @@
 
   <!--First time intro-->
   <DialogueNode>
-    <Name>INTRO</Name>
+    <Name>START</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>I am Ernesto.</Page>
+      <Page>Hey it's me Ernesto.</Page>
+      <Page>The stars have gathered around this point, and I have been formed.</Page>
+      <Page>Take witness, and know that I am forever.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>Wait, you're a mathematical construct! You aren't real!</Text>
+            <DialogueTarget>1</DialogueTarget>
+            <ConditionToSet>Walker_Ernesto_Die</ConditionToSet>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+
+  <DialogueNode>
+    <Name>1</Name>
+    <Dialogue>
+      <Page>No, YOU aren't real.</Page>
     </Dialogue>
   </DialogueNode>
 </DialogueTree>

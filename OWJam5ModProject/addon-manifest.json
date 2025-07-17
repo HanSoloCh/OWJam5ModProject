@@ -4,6 +4,9 @@
         "Lezzlebit#Music, Audio, 2D and 3D Art, Design, Alnus",
         "coderCleric#Design, Programming, Writing, Adonsonia",
         "Walker#Design, Programming, Ship Logs, Betula",
-        "JohnCorby#Programming, Music, Optimization, Daucus"
+        "JohnCorby#Programming, Music, Optimization, Design, Daucus"
+    ],
+    "preloadAssetBundles": [
+        "planets/assets/walker_jam5_bundle"
     ]
 }
