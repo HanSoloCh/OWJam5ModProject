@@ -26,9 +26,6 @@ namespace OWJam5ModProject
         private float waterInnerIceOffset = -0.5f;
         private bool iceHeightMet = false;
 
-        private Material waterMaterial;
-        private Color waterTint;
-
         /**
          * Find the water sphere
          */
@@ -38,13 +35,12 @@ namespace OWJam5ModProject
             innerTF = transform.Find("inner_ice");
             outerTF = transform.Find("outer_ice");
 
-            waterMaterial = waterTF.Find("OceanFog").GetComponent<MeshRenderer>().material;
-            waterTint = waterMaterial.color;
-            if (startsFrozen)
-                waterMaterial.color = Color.black;
-
             //This being negative will make the ice always drainable
             iceGrowAmount = Mathf.Max(0, iceGrowAmount);
+            
+            // ice sound
+            foreach (var meshRenderer in GetComponentsInChildren<MeshRenderer>())
+                Locator.GetSurfaceManager()._lookupTable[meshRenderer.sharedMaterial] = SurfaceType.Ice;
         }
 
         /**
@@ -101,14 +97,12 @@ namespace OWJam5ModProject
             if (isCold && isShadowed) 
             {
                 scale = scale + growSpeed * Time.deltaTime;
-                waterMaterial.color = Color.black;
             }
 
             //If hot and unshadowed, ice should shrink
             else if(isHot && !isShadowed)
             {
                 scale = scale - growSpeed * Time.deltaTime;
-                waterMaterial.color = waterTint;
             }
 
             //Make sure that the scale is in bounds 
