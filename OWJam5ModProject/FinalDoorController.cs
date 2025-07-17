@@ -23,8 +23,8 @@ namespace OWJam5ModProject
         public Material defaultMat;
         public MeshRenderer swapMat;
         public UnityEvent onPlay;
-        [SerializeField] Transform computerParent;
-        [SerializeField] RequirementsScreenPrompt screenPromptsVolume;
+        [SerializeField] Transform computerParent = null;
+        [SerializeField] RequirementsScreenPrompt screenPromptsVolume = null;
         private static FinalDoorController instance;
 
         NomaiComputer computer;

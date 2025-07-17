@@ -5,7 +5,7 @@ namespace OWJam5ModProject
 {
     internal class OrreryDecal : MonoBehaviour
     {
-        [SerializeField] Transform orreryCenter;
+        [SerializeField] Transform orreryCenter = null;
 
         void Update()
         {

@@ -18,7 +18,7 @@ namespace OWJam5ModProject
             "Walker_Jam5_Station_ProjectRequirements_FinalLocation_Fact"
         };
 
-        [SerializeField] OWTriggerVolume playerDetectorTrigger;
+        [SerializeField] OWTriggerVolume playerDetectorTrigger = null;
 
         static ScreenPrompt prompt;
 

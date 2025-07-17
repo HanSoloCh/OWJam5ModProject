@@ -39,7 +39,7 @@ namespace OWJam5ModProject
 
         ReferenceFrameVolume ernestoRefFrame;
 
-        new List<GrandOrb> grandOrbs = new();
+        private List<GrandOrb> grandOrbs = new();
 
         public class SystemAndBodies
         {

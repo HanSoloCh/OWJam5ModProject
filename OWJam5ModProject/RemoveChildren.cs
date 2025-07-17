@@ -4,7 +4,7 @@ namespace OWJam5ModProject
 {
     internal class RemoveChildren : MonoBehaviour
     {
-        [SerializeField] string[] children;
+        [SerializeField] string[] children = null;
 
         void Start()
         {

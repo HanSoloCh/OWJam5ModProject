@@ -9,9 +9,9 @@ namespace OWJam5ModProject
     {
         const string SUN_NAME = "Walker_Jam5_Star";
 
-        [SerializeField] string planetName;
-        [SerializeField] Transform center;
-        [SerializeField] float scaleFactor;
+        [SerializeField] string planetName = null;
+        [SerializeField] Transform center = null;
+        [SerializeField] float scaleFactor = 0;
         [SerializeField] float freezeRadius = 100;
 
         GameObject sun;

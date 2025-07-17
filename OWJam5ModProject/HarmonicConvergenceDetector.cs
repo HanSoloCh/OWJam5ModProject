@@ -13,13 +13,13 @@ namespace OWJam5ModProject
         string EMISSION_COLOR_PROPERTY = "_EmissionColor";
         float TORCH_FADE_DURATION = 0.25f;
 
-        [SerializeField] string[] signalNames;
-        [SerializeField] Light[] detectorLights;
-        [SerializeField] MeshRenderer[] detectorLightRenderers;
-        [SerializeField] OWAudioSource[] detectorLightPowerOnAudioSources;
-        [SerializeField] OWAudioSource[] detectorLightPowerOffAudioSources;
-        [SerializeField] GameObject computerParent;
-        [SerializeField] OWTriggerVolume playerDetectorTrigger;
+        [SerializeField] string[] signalNames = null;
+        [SerializeField] Light[] detectorLights = null;
+        [SerializeField] MeshRenderer[] detectorLightRenderers = null;
+        [SerializeField] OWAudioSource[] detectorLightPowerOnAudioSources = null;
+        [SerializeField] OWAudioSource[] detectorLightPowerOffAudioSources = null;
+        [SerializeField] GameObject computerParent = null;
+        [SerializeField] OWTriggerVolume playerDetectorTrigger = null;
 
         AudioSignal[] harmonicSignals;
         NomaiComputer computer;

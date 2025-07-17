@@ -13,7 +13,6 @@ namespace OWJam5ModProject
         [SerializeField] float iceGrowAmount = 0; //configurable grow amount -jamie
         [SerializeField] float minIceHeight = 0;
         [SerializeField] float geyserSwitchHeight = 0;
-        [SerializeField] bool startsFrozen;
         [SerializeField] Transform geyserRoot = null;
         [SerializeField] float requiredIceHeight = 0;
 
@@ -24,7 +23,6 @@ namespace OWJam5ModProject
         private float iceFreezeDistance = 2000;
         private float iceMeltDistance = 1200;
         private float waterInnerIceOffset = -0.5f;
-        private bool iceHeightMet = false;
 
         /**
          * Find the water sphere
