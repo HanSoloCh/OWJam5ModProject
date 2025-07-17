@@ -55,7 +55,7 @@ public class FakeOrbSlot : MonoBehaviour
             if(slot != this)
             {
                 Vector3 hereToThere = slot.transform.position - this.transform.position;
-                float exclusionDist = 1.3f;
+                float exclusionDist = 1.4f;
                 if(hereToThere.magnitude < exclusionDist)
                 {
                     Vector3 toMove = (hereToThere.normalized * exclusionDist) - hereToThere;
