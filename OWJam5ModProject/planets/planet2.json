@@ -332,7 +332,13 @@
     },
     "Water": {
         "size": 228,
-        "buoyancy": 0.8
+        "buoyancy": 0.8,
+        "density": 15,
+        "tint": {
+            "r": 78,
+            "g": 88,
+            "b": 128
+        }
     },
     "Spawn": {
         "playerSpawnPoints": [
