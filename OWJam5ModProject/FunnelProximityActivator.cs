@@ -9,7 +9,7 @@ namespace OWJam5ModProject
 {
     internal class FunnelProximityActivator : MonoBehaviour
     {
-        const float SCALE_UP_DELAY = 5f;
+        const float SCALE_UP_DELAY = 1f;
         const float SCALE_UP_SPEED = 1f;
         const float SCALE_DOWN_SPEED = 10f;
         const float SIZE = 2;

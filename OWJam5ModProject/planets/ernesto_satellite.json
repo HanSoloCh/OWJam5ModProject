@@ -53,13 +53,5 @@
         "mapMode": {
             "remove": true
         }
-    },
-    "Spawn": {
-        "playerSpawnPoints": [
-            {
-                "rename": "_WalkerJam5Secret",
-                "position": {"x": 10}
-            }
-        ]
     }
 }
