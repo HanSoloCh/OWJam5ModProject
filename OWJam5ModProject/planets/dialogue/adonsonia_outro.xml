@@ -55,6 +55,7 @@
       <DialogueOption>
         <Text>I don't have any more questions for now.</Text>
         <DialogueTarget>GOODBYE</DialogueTarget>
+		<ConditionToSet>Walker_Jam5_Complete</ConditionToSet>
       </DialogueOption>
     </DialogueOptionsList>
   </DialogueNode>
