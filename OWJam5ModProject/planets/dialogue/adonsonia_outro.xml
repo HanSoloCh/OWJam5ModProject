@@ -26,7 +26,7 @@
       <Page>Ha! I'm sorry if I frightened you.</Page>
       <Page>I wondered why this old project was claiming to have been submitted again after all these years! I'm Adonsonia, one of the students who worked on this project a long time ago.</Page>
       <Page>You don't look like a Nomai, but you must be quite clever to have gotten this system into the correct configuration after all of the time it has spent drifting.</Page>
-      <Page>Effort like that is certainly worthy of some reward. How about this: I have some free time from all of my teaching duties right now! If you ask me any questions, I'll do my best to answer them.</Page>
+      <Page>Effort like that is certainly worthy of some reward. How about this; I have some free time from all of my teaching duties right now! If you ask me any questions, I'll do my best to answer them.</Page>
     </Dialogue>
     <SetCondition>ADONSONIA_TALKED</SetCondition>
     <DialogueTarget>CHOICE_HUB</DialogueTarget>
