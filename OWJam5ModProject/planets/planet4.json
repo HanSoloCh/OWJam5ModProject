@@ -76,6 +76,13 @@
                 "rotation": {
                     "x": 90
                 }
+            },
+            {
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/CreditsAnchor",
+                "isRelativeToParent": true,
+                "activationCondition": "Walker_Jam5_Complete",
+                "blinkWhenActiveChanged": false,
+                "rename": "CreditsAnchorChild"
             }
         ],
         "dialogue": [
@@ -522,6 +529,17 @@
                 "radius": 29,
                 "revealOn": "enter",
                 "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint", "Walker_Jam5_Planet4_Geysers_Rumor" ]
+            }
+        ],
+        "creditsVolume": [
+            {
+                "parentPath": "Sector/WaterPlanet/Core/Sector_CullCore/Secret Room/Ending Room/Final Room/CreditsAnchor/CreditsAnchorChild",
+                "isRelativeToParent": true,
+                "radius": 15,
+                "gameOver": {
+                    "text": "Heliostudy",
+                    "creditsType": "fast"
+                }
             }
         ]
     },
