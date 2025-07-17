@@ -5,6 +5,19 @@
     "extras": {
         "isPlatform": true
     },
+    "Volumes": {
+        "creditsVolume": [
+            {
+                "parentPath": "Sector/Platform/Root/Ernesto/Root/Credits/CreditsAnchorChild",
+                "isRelativeToParent": true,
+                "radius": 100,
+                "gameOver": {
+                    "text": "You are not real.",
+                    "creditsType": "fast"
+                }
+            }
+        ]
+    },
     "Props": {
         "dialogue": [
             {
@@ -15,6 +28,14 @@
             }
         ],
         "details": [
+            {
+                "parentPath": "Sector/Platform/Root/Ernesto/Root/Credits",
+                "isRelativeToParent": true,
+                "activationCondition": "Walker_Ernesto_Die",
+                "blinkWhenActiveChanged": false,
+                "rename": "CreditsAnchorChild",
+                "keepLoaded": true
+            },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/Platform.prefab",

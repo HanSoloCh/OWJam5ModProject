@@ -6,9 +6,27 @@
     <Name>INTRO</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>Hello there! I wondered why this old project was claiming to have been submitted again after all these years. I'm Adonsonia, one of the students who worked on this project a long time ago.</Page>
+      <Page>Hello there!</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>AAAAHHHH!!!!</Text>
+        <DialogueTarget>INTRO_2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>WHAT!?!?!??</Text>
+        <DialogueTarget>INTRO_2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>INTRO_2</Name>
+    <Dialogue>
+      <Page>Ha! I'm sorry if I frightened you.</Page>
+      <Page>I wondered why this old project was claiming to have been submitted again after all these years! I'm Adonsonia, one of the students who worked on this project a long time ago.</Page>
       <Page>You don't look like a Nomai, but you must be quite clever to have gotten this system into the correct configuration after all of the time it has spent drifting.</Page>
-      <Page>Effort like that is certainly worthy of some reward. How about this, I have some free time from all of my teaching duties right now, if you ask me any questions I'll do my best to answer them.</Page>
+      <Page>Effort like that is certainly worthy of some reward. How about this: I have some free time from all of my teaching duties right now! If you ask me any questions, I'll do my best to answer them.</Page>
     </Dialogue>
     <SetCondition>ADONSONIA_TALKED</SetCondition>
     <DialogueTarget>CHOICE_HUB</DialogueTarget>
@@ -44,7 +62,7 @@
       </DialogueOption>
       <DialogueOption>
         <CancelledCondition>ORRERY_ASKED</CancelledCondition>
-        <Text>What's the deal with that big orrery back on the invitation platform?</Text>
+        <Text>What's the deal with the device back on the invitation platform?</Text>
         <DialogueTarget>BIG_ORRERY_INTRO</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
@@ -64,7 +82,7 @@
   <DialogueNode>
     <Name>TRANSLATOR</Name>
     <Dialogue>
-      <Page>That would be due to the universal translator I have on my person. It's able to quickly discern language patterns, allowing us to understand each other with minimal issues. We have Betula to thank for that, it's actually her invention!</Page>
+      <Page>That would be due to the universal translator I have on my person. It's able to quickly discern language patterns, allowing us to understand each other with minimal issues. We have Betula to thank for that — it's actually her invention!</Page>
     </Dialogue>
     <DialogueTarget>CHOICE_HUB</DialogueTarget>
   </DialogueNode>
@@ -73,7 +91,7 @@
   <DialogueNode>
     <Name>ALNUS</Name>
     <Dialogue>
-      <Page>Ah, that fascicle of nerves. Although his anxiety is still there, he's grown much better at managing it. He's also grown more able to take a joke, much to my relief.</Page>
+      <Page>Ah, that fascicle of nerves. Although his anxiety is still there, he's become much better at managing it. He's also grown more able to take a joke, much to my relief.</Page>
       <Page>As you might imagine, he had a very good academic career after our project. After completing his education he moved on to become one of our clan's head researchers. He's used his knowledge of star systems particularly well, helping our clan identify systems likely to harbor life.</Page>
       <Page>Through his efforts our clan has met friends of many different forms, and had quite the cultural exchange. This was quite useful in the development of the universal translator I'm using to speak to you now.</Page>
       <Page>I believe he's currently using his skills to identify stars that are still stable enough to support our people, as well as others. He's also made himself useful to rescue efforts, identifying star systems simultaneously likely to have life and likely to be annihilated soon.</Page>
@@ -121,7 +139,7 @@
   <DialogueNode>
     <Name>BIG_ORRERY_INTRO</Name>
     <Dialogue>
-      <Page>Big orrery... Oh! That old thing! It's an old prototype for the orrery used in our project. We found it lying around at some point during our work, and decided to see if we could get into some mischief with it.</Page>
+      <Page>Device... Ah, that old thing! That's an old prototype for the orrery used in our project. We found it lying around at some point during our work, and decided to see if we could get into some mischief with it.</Page>
       <Page>Daucus was able to hack it to become responsive if certain conditions were met, so that we could use it without the adults becoming aware of its functional state.</Page>
       <Page>...Unfortunately, it proved to be highly unstable and dangerous. I really shouldn't tell you how to activate it. I have learned some responsibility over the years, after all.</Page>
     </Dialogue>
@@ -133,9 +151,9 @@
   <DialogueNode>
     <Name>BIG_ORRERY_COMBO</Name>
     <Dialogue>
-      <Page>...Oh alright, but don't claim that I didn't warn you. You should exercise extreme caution around that orrery, it's quite possible for it to <![CDATA[<color=red>break things</color>]]> and not function entirely as expected.</Page>
-      <Page>To activate it, all of the orbs need to be placed at roughly the same distance from the center. Additionally, it won't activate unless it is approached by somebody who is not wearing any space gear.</Page>
-      <Page>As for what exactly it does... Well, I suppose I'll leave you to figure that out for yourself! Have fun! And be careful!</Page>
+      <Page>...Oh, alright, but don't claim that I didn't warn you. You should exercise extreme caution around that device — it's quite possible for it to <![CDATA[<color=red>break things</color>]]> and not function entirely as expected.</Page>
+      <Page>To activate it, all of the orbs on the invitation platform need to be placed at roughly the same distance from the center. Additionally, it won't activate unless it is approached by somebody who is not wearing any space gear.</Page>
+      <Page>As for what exactly it does... I suppose I'll leave you to figure that out for yourself! Have fun, And be careful!</Page>
     </Dialogue>
     <DialogueTarget>CHOICE_HUB</DialogueTarget>
   </DialogueNode>
