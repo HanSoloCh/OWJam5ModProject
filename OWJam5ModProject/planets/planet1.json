@@ -17,7 +17,7 @@
             "g": 92,
             "b": 255
         },
-        "fogDensity": 0.5,
+        "fogDensity": 0.2,
         "fogRampPath": "planets/assets/fog/cr_fog.png",
         "fogSize": 200
     },
@@ -25,7 +25,7 @@
         {
             "outerRadius": 200,
             "innerRadius": 100,
-            "intensity": 0.4,
+            "intensity": 0.6,
             "tint": {
                 "r": 50,
                 "g": 10,
