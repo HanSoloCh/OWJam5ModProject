@@ -24,8 +24,7 @@ namespace OWJam5ModProject
 
         void Start()
         {
-            if (prompt == null)
-                InitializePrompt();
+            InitializePrompt();
 
             // Initialize player detector trigger
             playerDetectorTrigger.OnEntry += PlayerDetectorTrigger_OnEntry;
