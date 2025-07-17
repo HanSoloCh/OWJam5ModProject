@@ -497,7 +497,7 @@
                 "position": { "y": -8.5 },
                 "radius": 29,
                 "revealOn": "enter",
-                "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint" ]
+                "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint", "Walker_Jam5_Planet4_Geysers_Rumor" ]
             },
             {
                 "parentPath": "Sector/WaterPlanet/Geysers/Geyser (1)",
@@ -505,7 +505,7 @@
                 "position": { "y": -8.5 },
                 "radius": 29,
                 "revealOn": "enter",
-                "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint" ]
+                "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint", "Walker_Jam5_Planet4_Geysers_Rumor" ]
             },
             {
                 "parentPath": "Sector/WaterPlanet/Geysers/Geyser (2)",
@@ -513,7 +513,7 @@
                 "position": { "y": -8.5 },
                 "radius": 29,
                 "revealOn": "enter",
-                "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint" ]
+                "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint", "Walker_Jam5_Planet4_Geysers_Rumor" ]
             },
             {
                 "parentPath": "Sector/WaterPlanet/Geysers/Geyser (3)",
@@ -521,7 +521,7 @@
                 "position": { "y": -2.4 },
                 "radius": 29,
                 "revealOn": "enter",
-                "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint" ]
+                "reveals": [ "Walker_Jam5_Planet4_Geysers_Hint", "Walker_Jam5_Planet4_Geysers_Rumor" ]
             }
         ]
     },
