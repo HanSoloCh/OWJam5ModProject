@@ -5,9 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
+using HarmonyLib;
 
 namespace OWJam5ModProject
 {
+    [HarmonyPatch]
     public class FinalDoorController : MonoBehaviour
     {
         [Range(0f, 5f)]
@@ -23,6 +25,7 @@ namespace OWJam5ModProject
         public UnityEvent onPlay;
         [SerializeField] Transform computerParent;
         [SerializeField] RequirementsScreenPrompt screenPromptsVolume;
+        private static FinalDoorController instance;
 
         NomaiComputer computer;
 
@@ -34,6 +37,7 @@ namespace OWJam5ModProject
             _triggerVolume = base.gameObject.GetAddComponent<OWTriggerVolume>();
             _triggerVolume.OnEntry += OnEntry;
             computer = computerParent.GetComponentInChildren<NomaiComputer>();
+            instance = this;
         }
 
         public void UpdateOrbs()
@@ -117,6 +121,18 @@ namespace OWJam5ModProject
         {
             t += Time.deltaTime * speed;
             if (t > 5f) Stop();
+        }
+
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(ProbeCamera), nameof(ProbeCamera.TakeSnapshot))]
+        private static void ScoutUpdateReqs()
+        {
+            instance.SetOrbOn(0, FinalRequirementManager.CheckIceReq());
+            instance.SetOrbOn(1, FinalRequirementManager.CheckGeyserReq());
+            instance.SetOrbOn(2, FinalRequirementManager.CheckWarpReq());
+            instance.SetOrbOn(3, FinalRequirementManager.CheckSandReq());
+            instance.SetOrbOn(4, FinalRequirementManager.CheckAngleReq());
+            instance.SetOrbOn(5, FinalRequirementManager.CheckLargePlanetOrbit());
         }
     }
 }
