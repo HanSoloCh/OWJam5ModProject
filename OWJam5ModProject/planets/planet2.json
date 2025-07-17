@@ -12,8 +12,21 @@
         "enabled": true
     },
     "Atmosphere": {
+        "fogSize": 350,
+        "fogDensity": 0.4,
+        "fogRampPath": "planets/assets/fog/sm_fog.png",
         "size": 380,
         "atmosphereTint": {"r": 217, "g": 189, "b": 130}
+    },
+    "Volumes": {
+        "audioVolumes": [
+            {
+                "radius": 350,
+                "audio": "planets/assets/audio/sm_ambient.ogg",
+                "track": "environment",
+                "volume": 0.3
+            }
+        ]
     },
     "AmbientLights": [
         {

@@ -3,7 +3,7 @@
     "name": "Walker_Jam5_Planet1",
     "starSystem": "Jam5",
     "Base": {
-        "surfaceSize": 100,
+        "surfaceSize": 130,
         "surfaceGravity": 10,
         "gravityAlignmentRadiusOverride": 200
     },
@@ -11,14 +11,15 @@
         "enabled": true
     },
     "Atmosphere": {
-        "size": 170,
+        "size": 180,
         "atmosphereTint": {
-            "r": 50,
-            "g": 0,
-            "b": 125
+            "r": 160,
+            "g": 92,
+            "b": 255
         },
-        "fogDensity": 0.01,
-        "fogSize": 170
+        "fogDensity": 0.5,
+        "fogRampPath": "planets/assets/fog/cr_fog.png",
+        "fogSize": 200
     },
     "AmbientLights": [
         {
@@ -32,6 +33,16 @@
             }
         }
     ],
+    "Volumes": {
+        "audioVolumes": [
+            {
+                "radius": 170,
+                "audio": "planets/assets/audio/cr_ambient.ogg",
+                "track": "environment"
+                
+            }
+        ]
+    },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
         "staticPosition": {
