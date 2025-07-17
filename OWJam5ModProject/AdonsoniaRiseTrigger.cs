@@ -15,6 +15,7 @@ namespace OWJam5ModProject
         [SerializeField] private OWTriggerVolume riseTrigger = null;
         
         public OWAudioSource oneShotAudio;
+        private GameObject dialogueTriggerObj;
 
         private bool primed = false;
         private bool triggered = false;
@@ -26,6 +27,10 @@ namespace OWJam5ModProject
         {
             primeTrigger.OnEntry += OnPlayerEnterPrime;
             riseTrigger.OnEntry += OnPlayerEnterRise;
+
+            //Disable the dialogue trigger for the time being
+            dialogueTriggerObj = animator.gameObject.GetComponentInChildren<RemoteDialogueTrigger>().gameObject;
+            dialogueTriggerObj.SetActive(false);
         }
 
         /**
@@ -48,6 +53,7 @@ namespace OWJam5ModProject
                 animator.SetTrigger("rise");
                 // oneShotAudio.PlayOneShot(AudioType.NomaiHologramActivate);
                 oneShotAudio.PlayOneShot(AudioType.NomaiHologramDeactivate);
+                dialogueTriggerObj.SetActive(true);
             }
         }
 

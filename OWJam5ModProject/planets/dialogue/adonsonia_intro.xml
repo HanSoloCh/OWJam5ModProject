@@ -1,0 +1,32 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Adonsonia</NameField>
+
+  <!--First time intro-->
+  <DialogueNode>
+    <Name>INTRO</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hello there!</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>AAAAHHHH!!!!</Text>
+        <DialogueTarget>INTRO_2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>WHAT!?!?!??</Text>
+        <DialogueTarget>INTRO_2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>INTRO_2</Name>
+    <Dialogue>
+      <Page>Ha! I'm sorry if I frightened you.</Page>
+      <Page>I wondered why this old project was claiming to have been submitted again after all these years! I'm Adonsonia, one of the students who worked on this project a long time ago.</Page>
+      <Page>You don't look like a Nomai, but you must be quite clever to have gotten this system into the correct configuration after all of the time it has spent drifting.</Page>
+      <Page>Effort like that is certainly worthy of some reward. How about this; I have some free time from all of my teaching duties right now! If you ask me any questions, I'll do my best to answer them.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>
