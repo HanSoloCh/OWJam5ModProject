@@ -14,16 +14,33 @@
         {
             "outerRadius": 230,
             "innerRadius": 150,
-            "intensity": 1
+            "intensity": 0.3,
+            "tint": {
+                "r": 115,
+                "g": 126,
+                "b": 156
+            }
         }
     ],
     "Atmosphere": {
+        "fogSize": 180,
+        "fogDensity": 1.0,
+        "fogRampPath": "planets/assets/fog/sn_fog.png",
         "size": 228,
         "atmosphereTint": {
             "r": 138,
             "g": 193,
             "b": 209
         }
+    },
+    "Volumes": {
+        "audioVolumes": [
+            {
+                "radius": 228,
+                "audio": "planets/assets/audio/sn_ambient.ogg",
+                "track": "environment"
+            }
+        ]
     },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",

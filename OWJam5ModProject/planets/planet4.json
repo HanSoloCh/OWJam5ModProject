@@ -30,7 +30,13 @@
     ],
     "Atmosphere": {
         "fogDensity": 0.01,
-        "fogSize": 0.01
+        "fogSize": 0.01,
+        "size": 180,
+        "atmosphereTint": {
+            "r": 255,
+            "g": 161,
+            "b": 161
+        }
     },
     "Orbit": {
         "primaryBody": "Walker_Jam5_Star",
