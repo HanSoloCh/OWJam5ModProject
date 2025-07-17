@@ -155,6 +155,9 @@
       <Page>To activate it, all of the orbs on the invitation platform need to be placed at roughly the same distance from the center. Additionally, it won't activate unless it is approached by somebody who is not wearing any space gear.</Page>
       <Page>As for what exactly it does... I suppose I'll leave you to figure that out for yourself! Have fun, And be careful!</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>Walker_Jam5_Platform_Combination</FactID>
+    </RevealFacts>
     <DialogueTarget>CHOICE_HUB</DialogueTarget>
   </DialogueNode>
 

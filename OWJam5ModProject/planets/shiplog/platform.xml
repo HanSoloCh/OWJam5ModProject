@@ -1,0 +1,22 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>Walker_Jam5_Platform</ID>
+
+  <Entry>
+    <ID>Walker_Jam5_Platform</ID>
+    <Name>Heliostudy Invitation Platform</Name>
+    <Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+
+    <ExploreFact>
+      <ID>Walker_Jam5_Platform_Discovery</ID>
+      <Text>I found an inviation platform for some project called the Heliostudy.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>Walker_Jam5_Platform_Combination</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The device on the platform can be activated by putting all of the orbs the same distance from the center. Additionally, the user must not be wearing any space gear.</Text>
+    </ExploreFact>
+  </Entry>
+
+</AstroObjectEntry>

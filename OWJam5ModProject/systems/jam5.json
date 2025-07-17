@@ -124,8 +124,8 @@
         {
             "id": "Walker_Jam5_Planet1_Warp",
             "position": {
-                "x": 0,
-                "y": 461
+                "x": 458,
+                "y": -673
             }
         },
         {
@@ -161,6 +161,13 @@
             "position": {
                 "x": 0,
                 "y": -901
+            }
+        },
+        {
+            "id": "Walker_Jam5_Platform",
+            "position": {
+                "x": 0,
+                "y": 461
             }
         }
     ]

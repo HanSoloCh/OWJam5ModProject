@@ -10,6 +10,7 @@
 
 		<RumorFact>
 			<ID>Walker_Jam5_Station_Orrery_Rumor</ID>
+      <SourceID>Walker_Jam5_Platform</SourceID>
 			<RumorName>Heliostudy</RumorName>
 			<Text>The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.</Text>
 		</RumorFact>
