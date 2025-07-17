@@ -13,7 +13,7 @@ namespace OWJam5ModProject
 
         public void Start()
         {
-            dz._ambientLight = transform.root.Find("Sector/AmbientLight").GetComponent<Light>();
+            // dz._ambientLight = transform.root.Find("Sector/AmbientLight").GetComponent<Light>();
             dz._planetaryFog = transform.root.Find("Sector/FogSphere").GetComponent<PlanetaryFogController>();
             dz.Awake(); //gotta call this again so it gets the right values instead of getting them before NH makes them
         }
