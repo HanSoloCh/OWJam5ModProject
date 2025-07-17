@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
     "credits": [
-        "Lezzlebit#Music and Audio, 2D and 3D Art, Design, Alnus",
+        "Lezzlebit#Music, Audio, 2D and 3D Art, Design, Alnus",
         "coderCleric#Design, Programming, Writing, Adonsonia",
         "Walker#Design, Programming, Ship Logs, Betula",
         "JohnCorby#Programming, Music, Optimization, Daucus"
