@@ -34,7 +34,7 @@ namespace OWJam5ModProject
 
         private void PlayerDetectorTrigger_OnEntry(GameObject hitObj)
         {
-            if (hitObj == Locator.GetPlayerDetector())
+            if (hitObj.CompareTag("PlayerDetector"))
             {
                 if (CheckRequiredShipLogFacts())
                     prompt.SetVisibility(true);
@@ -43,7 +43,7 @@ namespace OWJam5ModProject
 
         private void PlayerDetectorTrigger_OnExit(GameObject hitObj)
         {
-            if (hitObj == Locator.GetPlayerDetector())
+            if (hitObj.CompareTag("PlayerDetector"))
             {
                 prompt.SetVisibility(false);
             }
