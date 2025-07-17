@@ -5,8 +5,5 @@
         "coderCleric#Design, Programming, Writing, Adonsonia",
         "Walker#Design, Programming, Ship Logs, Betula",
         "JohnCorby#Programming, Music, Optimization, Design, Daucus"
-    ],
-    "preloadAssetBundles": [
-        "planets/assets/walker_jam5_bundle"
     ]
 }
