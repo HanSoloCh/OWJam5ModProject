@@ -36,7 +36,9 @@
                 "parentPath": "Sector/ErnestoHint/ScrollAnchor",
                 "isRelativeToParent": true,
                 "type": "scroll",
-                "xmlFile": "planets/text/misc/ernesto_hint.xml"
+                "xmlFile": "planets/text/misc/ernesto_hint.xml",
+                "seed": 100,
+                "arcInfo": [{"type": "adult","position": {"x": 0,"y": 0},"zRotation": 59},{"type": "child","position": {"x": 0.2705092,"y": 1.063082},"zRotation": 279.9658},{"mirror": true,"type": "adult","position": {"x": 0.836886,"y": 0.9498873},"zRotation": 323.1478},{"mirror": true,"type": "adult","position": {"x": 0.2907081,"y": 1.968829},"zRotation": 49.6129},{"type": "child","position": {"x": -1.421048,"y": -0.4016151},"zRotation": 82.79591},{"mirror": true,"type": "adult","position": {"x": 0.9272283,"y": 0.5992393},"zRotation": 244.9811}]
             }
         ],
         "details": [

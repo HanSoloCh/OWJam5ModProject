@@ -4,7 +4,47 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			This is the Ernesto hint.
+			ORZYA: Imagine a point that exists at the average point of all star systems in this cluster.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ADONSONIA: A point? How would I imagine that? I propose that the average point is represented by our current class study specimen.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ORZYA: Imagine this average point to be represented by an anglerfish named Ernesto.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ORZYA: Assume that Ernesto can only appear within the sphere of influence (which has a radius of 2500 meters) around <![CDATA[<Color=orange>]]>Heliocenter<![CDATA[</Color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			ADONSONIA: I never finished this mathematics problem that Orzya assigned to us. I don't like mathematics, so I'm sending it to space. Farewell!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ORZYA: If it means that you'll participate in mathematics for once, then we can make that addition.
 		</Text>
 	</TextBlock>
 
