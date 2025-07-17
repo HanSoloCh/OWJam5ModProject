@@ -49,7 +49,7 @@
       </DialogueOption>
       <DialogueOption>
         <RequiredCondition>ORRERY_ASKED</RequiredCondition>
-        <Text>Can I pretty please know how to activate the other orrery?</Text>
+        <Text>Can I <![CDATA[<color=orange>pretty please</color>]]> know how to activate the other orrery?</Text>
         <DialogueTarget>BIG_ORRERY_COMBO</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
