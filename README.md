@@ -1,5 +1,7 @@
 # Heliostudy
 
+<img width="1920" height="640" alt="Banner" src="https://github.com/user-attachments/assets/cf57bc83-359d-4bca-a7e0-4ceca1011053" />
+
 An Outer Wilds mod for [its fifth mod jam](https://outerwildsmods.com/jam/jul-2025/), created by:
 
 * [coderCleric](https://github.com/coderCleric), who did design, programming, and writing
