@@ -93,14 +93,6 @@
   </DialogueNode>
 
   <DialogueNode>
-    <Name>3</Name>
-    <Dialogue>
-      <Page>It's uh. It's because my wisdom is too powerful. Yeah</Page>
-      <Page>Just like don't worry about it bro</Page>
-    </Dialogue>
-  </DialogueNode>
-
-  <DialogueNode>
     <Name>4</Name>
     <Dialogue>
       <Page>Ah, the inhabitants of the ring world. You would like to know the name of their collective people.</Page>
