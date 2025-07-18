@@ -58,6 +58,10 @@
             <Text>Who was the winner of Outer Wilds Mod Jam 5?</Text>
             <DialogueTarget>6</DialogueTarget>
         </DialogueOption>
+        <DialogueOption>
+            <Text>Why in the world would the Nomai have candy wrappers? That is entirely against their philosophy.</Text>
+            <DialogueTarget>7</DialogueTarget>
+        </DialogueOption>
     </DialogueOptionsList>
   </DialogueNode>
 
@@ -117,6 +121,14 @@
       <Page>The mod boasted a whopping thirty-six thousand hours of content, split up into fifteen chapters.</Page>
       <Page>It took ten minutes for the mod to make two of the three judges begin to sob uncontrollably. The third judge simply left the room and began to reflect on life.</Page>
       <Page>It won because it had a script in it that removed every other jam entry. The judges have not noticed, as they are still playing the mod to this day.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>7</Name>
+    <Dialogue>
+      <Page>Yeah that's a fair question.</Page>
+      <Page>It was funny. Idk</Page>
     </Dialogue>
   </DialogueNode>
 

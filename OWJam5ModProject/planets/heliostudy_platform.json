@@ -11,9 +11,12 @@
                 "parentPath": "Sector/Platform/Root/Ernesto/Root/Credits/CreditsAnchorChild",
                 "isRelativeToParent": true,
                 "radius": 100,
+                "deathType": "crushedByElevator",
                 "gameOver": {
                     "text": "You are not real.",
-                    "creditsType": "fast"
+                    "creditsType": "custom",
+                    "audio": "Death_Crushed",
+                    "audioLooping": true
                 }
             }
         ]
