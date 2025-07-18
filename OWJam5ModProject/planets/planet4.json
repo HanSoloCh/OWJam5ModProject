@@ -569,7 +569,8 @@
                 "radius": 15,
                 "gameOver": {
                     "text": "Heliostudy",
-                    "creditsType": "fast"
+                    "creditsType": "custom",
+                    "audio": "planets/assets/audio/orrerycredits.ogg"
                 }
             }
         ]
