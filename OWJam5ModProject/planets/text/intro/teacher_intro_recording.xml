@@ -67,6 +67,10 @@
 			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
+			<FactID>Walker_Jam5_Station_ProjectRequirements_Count</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
 			<FactID>Walker_Jam5_Station_ProjectRequirements_Count_1</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
