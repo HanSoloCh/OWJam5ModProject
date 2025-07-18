@@ -36,7 +36,7 @@
       </DialogueOption>
       <DialogueOption>
         <RequiredCondition>ORRERY_ASKED</RequiredCondition>
-        <Text>Can I <![CDATA[<color=orange>pretty please</color>]]> know how to activate the other orrery?</Text>
+        <Text>Can I <![CDATA[<color=orange>pretty please</color>]]> know how to activate that device?</Text>
         <DialogueTarget>BIG_ORRERY_COMBO</DialogueTarget>
       </DialogueOption>
       <DialogueOption>

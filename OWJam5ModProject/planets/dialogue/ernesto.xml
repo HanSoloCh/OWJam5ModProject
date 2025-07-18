@@ -8,13 +8,55 @@
     <Dialogue>
       <Page>Hey it's me Ernesto.</Page>
       <Page>The stars have gathered around this point, and I have been formed.</Page>
-      <Page>Take witness, and know that I am forever.</Page>
+      <Page>Take witness, and know that I am forever; and so too is my wisdom.</Page>
+      <Page>I will bestow a gift upon you: you may ask me a single question, and I will answer it.</Page>
     </Dialogue>
-    <DialogueOptionsList>
+	<SetCondition>ERNESTO_ALREADY_SPOKEN</SetCondition>
+    <DialogueTarget>QUESTION</DialogueTarget>
+  </DialogueNode>
+
+
+  <DialogueNode>
+    <Name>SPOKEN</Name>
+    <EntryCondition>ERNESTO_ALREADY_SPOKEN</EntryCondition>
+    <Dialogue>
+      <Page>I am incredibly generous. You may ask another question.</Page>
+    </Dialogue>
+    <DialogueTarget>QUESTION</DialogueTarget>
+  </DialogueNode>
+
+
+
+  <DialogueNode>
+    <Name>QUESTION</Name>
+    <Dialogue>
+      <Page>What question will you be asking?</Page>
+    </Dialogue>
+      <DialogueOptionsList>
         <DialogueOption>
-            <Text>Wait, you're a mathematical construct! You aren't real!</Text>
+            <Text>Wait, aren't you a mathematical construct? You aren't real!</Text>
             <DialogueTarget>1</DialogueTarget>
             <ConditionToSet>Walker_Ernesto_Die</ConditionToSet>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>What is the meaning of the universe?</Text>
+            <DialogueTarget>2</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Why am I very slowly drifting away from you?</Text>
+            <DialogueTarget>3</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>I once found an artificial ring world inhabited by a species whose language I could not translate. What did they call themselves?</Text>
+            <DialogueTarget>4</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>I once saw a slide reel showing an alien resting at a green campfire, before being engulfed in a bright light. What caused this?</Text>
+            <DialogueTarget>5</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Who was the winner of Outer Wilds Mod Jam 5?</Text>
+            <DialogueTarget>6</DialogueTarget>
         </DialogueOption>
     </DialogueOptionsList>
   </DialogueNode>
@@ -26,4 +68,57 @@
       <Page>No, YOU aren't real.</Page>
     </Dialogue>
   </DialogueNode>
+
+  <DialogueNode>
+    <Name>2</Name>
+    <Dialogue>
+      <Page>The meaning of the universe? It's right there in the name.</Page>
+      <Page>E.R.N.E.S.T.O.</Page>
+      <Page>E: Enlightenment, in truth, comes only from Ernesto.</Page>
+      <Page>R: Roast marsh mallow!</Page>
+      <Page>N: NOTHING beats an epic gamer moment!</Page>
+      <Page>E: Eheheheeeeee</Page>
+      <Page>S: Save your mind and body from the sphere of ice; for as long as you live, it will not show mercy.</Page>
+      <Page>T: Text for ernesto universe dialogue goes here</Page>
+      <Page>O: Oh... that's groundsize. That's groundsize of my supermassive planet.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>3</Name>
+    <Dialogue>
+      <Page>It's uh. It's because my wisdom is too powerful. Yeah</Page>
+      <Page>Just like don't worry about it bro</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>4</Name>
+    <Dialogue>
+      <Page>Ah, the inhabitants of the ring world. You would like to know the name of their collective people.</Page>
+      <Page>They called themselves... The "Joemai".</Page>
+      <Page>It's a shame that you couldn't understand their dialect. While much of their informaton was communicated visually, their writing was like nothing I had ever seen.</Page>
+      <Page>If you don't mind, I'd like to share a truly profound piece of the Joemai's poetry. It made a significant mark on my eternal life:</Page>
+      <Page>"I hope your bones shatter into a fine powder"</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>5</Name>
+    <Dialogue>
+      <Page>He farted</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>6</Name>
+    <Dialogue>
+      <Page>Team gloopus won the fifth Outer Wilds mod jam. They made the "one million Ernestos on an otherwise empty new horizons planet config" mod.</Page>
+      <Page>The mod boasted a whopping thirty-six thousand hours of content, split up into fifteen chapters.</Page>
+      <Page>It took ten minutes for the mod to make two of the three judges begin to sob uncontrollably. The third judge simply left the room and began to reflect on life.</Page>
+      <Page>It won because it had a script in it that removed every other jam entry. The judges have not noticed, as they are still playing the mod to this day.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
 </DialogueTree>
