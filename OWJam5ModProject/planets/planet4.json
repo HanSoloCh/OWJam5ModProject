@@ -84,6 +84,11 @@
                 "activationCondition": "Walker_Jam5_Complete",
                 "blinkWhenActiveChanged": false,
                 "rename": "CreditsAnchorChild"
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+                "parentPath": "Sector/WaterPlanet/Barracks/CampfireAnchor",
+                "isRelativeToParent": true
             }
         ],
         "dialogue": [
@@ -460,6 +465,12 @@
                         "zRotation": 316.8361
                     }
                 ]
+            },
+            {
+                "parentPath": "Sector/WaterPlanet/Barracks/RecorderAnchor",
+                "isRelativeToParent": true,
+                "type": "recorder",
+                "xmlFile": "planets/text/misc/house_flavor_recording.xml"
             }
         ],
         "entryLocation": [
