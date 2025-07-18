@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ORZYA: Imagine a point that exists at the average point of all star systems in this cluster.
+			ORYZA: Imagine a point that exists at the average point of all star systems in this cluster.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>4</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ORZYA: Very well. Imagine this average point to be represented by an anglerfish named Ernesto.
+			ORYZA: Very well. Imagine this average point to be represented by an anglerfish named Ernesto.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ORZYA: Assume that Ernesto can only appear within the sphere of influence (which has a radius of 2500 meters) around <![CDATA[<Color=orange>]]>Heliocenter<![CDATA[</Color>]]>.
+			ORYZA: Assume that Ernesto can only appear within the sphere of influence (which has a radius of 2500 meters) around <![CDATA[<Color=orange>]]>Heliocenter<![CDATA[</Color>]]>.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			ADONSONIA: I never finished this mathematics problem that Orzya assigned to us. I don't like math, so I'm sending it to space. Farewell!
+			ADONSONIA: I never finished this mathematics problem that Oryza assigned to us. I don't like math, so I'm sending it to space. Farewell!
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ORZYA: If it means that you'll have more enthusiasm in this lesson, then we can make that addition.
+			ORYZA: If it means that you'll have more enthusiasm in this lesson, then we can make that addition.
 		</Text>
 	</TextBlock>
 

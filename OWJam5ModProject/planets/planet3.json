@@ -394,6 +394,12 @@
                 "path": "Assets/_Bundle/Planets/SandPlanet.prefab",
                 "keepLoaded": true,
                 "scale": 1.0
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/Planets/Foliage/Daucus Foliage.prefab",
+                "keepLoaded": false,
+                "scale": 1.0
             }
         ]
     },

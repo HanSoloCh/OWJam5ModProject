@@ -25,15 +25,18 @@ public class FakeOrbSlot : MonoBehaviour
         _orb._freezeLocalRotation = true; // so the decals dont rotate
     }
 
+    // have to run our code before orb sets its velocity
     [HarmonyPrefix, HarmonyPatch(typeof(NomaiInterfaceOrb), nameof(NomaiInterfaceOrb.FixedUpdate))]
     private static void NomaiInterfaceOrb_FixedUpdate(NomaiInterfaceOrb __instance)
     {
-        var @this = __instance.GetComponent<FakeOrbSlot>();
-        if (@this) @this.PreOrbFixedUpdate();
+        if (__instance.TryGetComponent<FakeOrbSlot>(out var @this))
+            @this.PreOrbFixedUpdate(); 
     }
 
     private void PreOrbFixedUpdate()
     {
+        if (!_orb) return; // start hasnt run yet
+        
         var isBeingDragged = _orb._isBeingDragged;
 
         if (_wasBeingDragged && !isBeingDragged)
