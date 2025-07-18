@@ -18,6 +18,13 @@
 		<Name>Enclosed Structure</Name>
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 
+		<RumorFact>
+			<ID>Walker_Jam5_Planet3_NoDoor_Rumor</ID>
+			<SourceID>Walker_Jam5_Planet1_Warp</SourceID>
+			<RumorName>Enclosed Structure</RumorName>
+			<Text>I was able to access the rest of the structure by arriving via the warp receiver.</Text>
+		</RumorFact>
+		
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet3_NoDoor_Hint</ID>
 			<Text>A structure built around a warp receiver on the equator of Daucus. A Nomai named Adonsonia neglected to include a door.</Text>

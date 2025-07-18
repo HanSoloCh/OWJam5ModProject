@@ -104,10 +104,19 @@
                 "type": "computer",
                 "xmlFile": "planets/text/misc/platform_computer.xml"
             }
+        ],
+        "entryLocation": [
+            {
+                "position": {
+                    "z": 60,
+                    "y": 1.5
+                },
+                "id": "Walker_Jam5_Platform"
+            }
         ]
     },
     "ShipLog": {
-        "xmlFile": "planets/shiplog/platform.xml",
+        "xmlFile": "planets/shiplog/walker_jam5_platform.xml",
         "spriteFolder": "planets/shiplog/sprites",
         "mapMode": {
             "remove": true

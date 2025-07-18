@@ -4,18 +4,19 @@
 
   <Entry>
     <ID>Walker_Jam5_Platform</ID>
-    <Name>Heliostudy Invitation Platform</Name>
+    <Name>Invitation Platform</Name>
     <Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+	<IgnoreMoreToExplore/>
 
     <ExploreFact>
       <ID>Walker_Jam5_Platform_Discovery</ID>
-      <Text>I found an inviation platform for some project called the Heliostudy.</Text>
+      <Text>I found an invitation platform for a Nomai educational project and festival entry called the Heliostudy.</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>Walker_Jam5_Platform_Combination</ID>
       <IgnoreMoreToExplore/>
-      <Text>The device on the platform can be activated by putting all of the orbs the same distance from the center. Additionally, the user must not be wearing any space gear.</Text>
+      <Text>The device on the platform can be activated by placing all of the orbs at approximately the same distance from the center. Additionally, the user must not be wearing any space gear.</Text>
     </ExploreFact>
   </Entry>
 

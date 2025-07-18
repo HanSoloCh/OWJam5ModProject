@@ -70,5 +70,9 @@
 			<FactID>Walker_Jam5_Planet3_NoDoor_Solved</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>Walker_Jam5_Planet3_NoDoor_Rumor</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>
