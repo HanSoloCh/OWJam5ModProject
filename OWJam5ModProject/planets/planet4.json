@@ -30,12 +30,7 @@
     "Water": {
         "size": 160,
         "buoyancy": 0.8,
-        "density": 15,
-        "tint": {
-            "r": 78,
-            "g": 88,
-            "b": 128
-        }
+        "density": 15
     },
     "Funnel": {
         "target": "Walker_Jam5_Planet2",
