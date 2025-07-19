@@ -42,6 +42,7 @@ public static class GlobalMusicControllerPatches
     [HarmonyPrefix, HarmonyPatch(nameof(GlobalMusicController.UpdateTravelMusic))]
     private static bool UpdateTravelMusic(GlobalMusicController __instance)
     {
+        if (!star) return true; // not in jam5 system
         bool inOurSystem = Vector3.Distance(Locator.GetPlayerTransform().position, star.transform.position) < 2500;
 
         bool shouldPlay = PlayerState.AtFlightConsole() && !PlayerState.IsHullBreached() &&
