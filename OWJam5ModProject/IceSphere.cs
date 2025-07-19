@@ -111,7 +111,7 @@ namespace OWJam5ModProject
             innerTF.localScale = new Vector3(innerScale, innerScale, innerScale);
 
             //Hide or show based on vanish height
-            if(scale < geyserSwitchHeight)
+            if(scale <= geyserSwitchHeight)
             {
                 innerTF.gameObject.SetActive(false);
                 outerTF.gameObject.SetActive(false);
