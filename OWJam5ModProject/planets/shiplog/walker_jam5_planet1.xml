@@ -17,6 +17,7 @@
 		<ID>Walker_Jam5_Planet1_Warp</ID>
 		<Name>Warp Transmitter</Name>
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+		<IgnoreMoreToExplore/>
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet1_Warp_Hint</ID>
