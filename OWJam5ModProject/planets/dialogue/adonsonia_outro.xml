@@ -122,7 +122,7 @@
     <Dialogue>
       <Page>...Oh, alright, but don't claim that I didn't warn you. You should exercise extreme caution around that device — it's quite possible for it to <![CDATA[<color=red>break things</color>]]> and not function entirely as expected.</Page>
       <Page>To activate it, all of the orbs on the invitation platform need to be placed at roughly the same distance from the center. Additionally, it won't activate unless it is approached by somebody who is not wearing any space gear.</Page>
-      <Page>As for what exactly it does... I suppose I'll leave you to figure that out for yourself! Have fun, And be careful!</Page>
+      <Page>As for what exactly it does... I suppose I'll leave you to figure that out for yourself! Have fun, and be careful!</Page>
     </Dialogue>
     <RevealFacts>
       <FactID>Walker_Jam5_Platform_Combination</FactID>
