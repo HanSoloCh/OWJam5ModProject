@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1259611476
+CRC: 1005077360
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4ebc5b308a5a26edb6224dbaa8a2bf4e
+    Hash: 3ca2caf988c8ed20cf4581e76a939563
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 22a644ad4395aa594b15653cee097c0f
+    Hash: 7f0baee33a032dd1a47bed08c7ca20f6
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,12 +37,38 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 82
   Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
 - Class: 84
+  Script: {instanceID: 0}
+- Class: 86
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 1229164829, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 1540726890, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 2123534892, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 1946298425, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 412187067, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 2028392025, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c40262156d82f34a77fd77af5176011, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
@@ -56,53 +82,115 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 725636d2cf94ec21363f979e5d251158, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 488c23e225fe2dd4cd52e90bbf92d213, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5d1885e24b4d5412e2a3d963831eaff8, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 500372b3b1087d375c2f72ed03fa5a23, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 31bd9164073070d2ce3b96fff1a310c7, type: 3}
+  Script: {fileID: 11500000, guid: 08a907445969531385ba02ae6b921077, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: ed2c05164c15f8d9c350b78482f30169, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
+- Class: 114
+  Script: {fileID: -1778974029, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: -671394647, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 1194511249, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
-  Script: {fileID: 412187067, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+  Script: {fileID: -227010294, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 1758657149, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: -966809459, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: -2033712575, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 1392665902, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
-  Script: {fileID: 2028392025, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+  Script: {fileID: -300982856, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 99090010, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
+  Script: {fileID: -2098419518, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: -1224461361, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 1402170267, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: -994952075, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 6cd941772c39872be9d9611da76f777c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9944c677956d1b716df5ba9fdbe6fec5, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 53fe1f971c08db1945e16add52db7b68, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8880e8825af4fcbf1dab71021f8c869, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 892a6b987a18588fe03a5937388e4a4d, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 209a5b29282d5c3b60e0ab76be1bcfa8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ed03af49f0a9abc29e61f405ee2bd4ad, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1705947949ad4856b01f494b45a65a9f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 7b80504a0aa9946ddb29be5e95e7256c, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0cfd736a3952486c93e9a5d8f58c79c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 661d9b6a0b8db4cd8cd31f151c87df83, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b881cca0a4f51aa22e82eb3e1338126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: be70791bd5a493208dd35e87c0687e7d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7232097b8a371eed7515bfff6013ce44, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7731bc3d30c8b009ac33fba6df6e72ae, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1da44d7df54f37bdda542e44c2099dd7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 60948f8d385ea5748a516b813d91f332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1effb1bd669ff10873e29e11509c3d77, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 4a9296edc1c8eaf5e86d84bada881789, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7706556f6dc808b8b02646686eaf6aca, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 1ff8988f7de275713f88e3eab04ecc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cb79c7afb5b46bac08a3329e70bd4762, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 134
@@ -111,98 +199,379 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
 - Class: 199
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/_Bundle/Planets/Ice/Ice Desaturated.png
-- Assets/_Bundle/Planets/Supermassive/GradientMap.png
-- Assets/_Bundle/Icons/symbol_crystal.png
-- Assets/_Bundle/Planets/Crystal/CrystalGround.png
+- Assets/_Bundle/Planets/Foliage/Assets/Foliage.blend
+- Assets/Mesh/Effects_GM_WillOWisp.asset
+- Assets/_Bundle/Structures/Final Room.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_L.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Half_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Prop_NOM_Transponder_Collider.asset
+- Assets/Nomai Ruins/Prefabs/PatternedPlatform.prefab
+- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-5084117063481003293-0
+  0 GlobalObjectId_V1-3-1e1c59b2b01ac424d8e0bc3d544e398c-2100000-0.mesh
+- Assets/Mesh/whiteboard_stone.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CeilingLamp_Collider.asset
+- Assets/Mesh/QuantumEntanglementRock.asset
+- Assets/Nomai Ruins/Prefabs/BrokenWall_Half_Corner.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Box_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Geo.asset
+- Assets/_Bundle/Planets/Foliage/Water Foliage.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Container_geo.asset
+- Assets/_Bundle/Structures/QuantumLightBuilding.blend
+- Assets/Blender Files/OrbCollider.blend
+- Assets/_Bundle/Planets/Foliage/Daucus Foliage.prefab
+- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-405597806584761359-0
+  0 GlobalObjectId_V1-3-eded7f7ccc282e5409e79cb2841495af-2100000-0.mesh
 - Assets/_Bundle/Planets/3D/Supermassive.blend
-- Assets/_Bundle/Planets/Supermassive/Rocks.mat
-- Assets/_Bundle/Planets/Sand/GDRocks.tif
-- Assets/_Bundle/Materials/HarmonicConvergencePlatform.mat
+- Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot_2.asset
+- Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_2_Trunk.asset
+- Assets/Nomai Ruins/Prefabs/RubbleWallA.prefab
+- Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Props_NOM_Staff.asset
+- Assets/Nomai Ruins/Prefabs/Treepot.prefab
+- Assets/_Bundle/Planets/Foliage/Prefabs/Flower.prefab
+- Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Gloves.asset
+- Assets/_Bundle/Planets/Ice/Prefabs/Geyser.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Lamp.asset
+- Assets/Mesh/whiteboard_metal.asset
+- Assets/Nomai Ruins/Prefabs/WallTorch.prefab
+- Assets/Mesh/Quad.asset
+- Assets/Nomai Ruins/Prefabs/Floor.prefab
+- Assets/Nomai Ruins/Prefabs/Railing.prefab
+- Assets/Nomai Ruins/Resources/Meshes/pillar_tall.asset
+- Assets/Nomai Ruins/Prefabs/RubbleFloorB.prefab
+- Assets/Nomai Ruins/Prefabs/Wall Spiral Lamp.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_GravityCrystal.asset
+- Assets/Mesh/Props_NOM_Orb.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CeilingLamp_Geo.asset
+- Assets/Nomai Ruins/Prefabs/NOMTree2 Dry.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_E.prefab
+- Assets/Nomai Ruins/Prefabs/RubbleWallB.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Corner_L_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/orb_cage.asset
+- Assets/_Bundle/Structures/Dual Stairs.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CubeBlck_Geo.asset
+- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-8399645116734327614-0
+  0 GlobalObjectId_V1-3-cbd883c40434a8e42a824ad2061c9274-2100000-0.mesh
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_FrameInner_Broken_Geo.asset
 - Assets/_Bundle/OrreryStation/OrreryStation.prefab
-- Assets/_Bundle/FakeShadow/shadow.png
-- Assets/_Bundle/Planets/Sand/Sand.mat
-- Assets/_Bundle/Planets/Crystal/Terrain_BH_RockTop_d.png
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B_Mir.prefab
+- Assets/_Bundle/Structures/WarpReceiverFakeDoor.prefab
+- Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ProbePortal_PlayerCollider.asset
+- Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Pants.asset
+- Assets/_Bundle/Structures/Proxy/ProxyStairs.prefab
+- Assets/Nomai Ruins/Prefabs/Wall Diamond Lamp.prefab
 - Assets/_Bundle/ice_raycast_detector.prefab
-- Assets/_Bundle/Planets/Supermassive/scratchy.png
-- Assets/_Bundle/Planets/Crystal/Terrain_BH_Faceted_n.png
-- Assets/_Bundle/Planets/Supermassive/Terrain_HT_Ash_d.png
+- Assets/Nomai Ruins/Resources/Meshes/light_ball.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_Middle_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/doorway_lamp_Inside_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/COL_NomaiTree_2.asset
+- Assets/Nomai Ruins/Prefabs/Window_Corner_R_Intact.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThin_Collider.asset
+- Assets/_Bundle/Effects_GM_AuroraWisps (2).prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_1_Trunk.asset
+- Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Geo.asset
+- Assets/_Bundle/Planets/Ice/Prefabs/Disabled Geyser FX.prefab
 - Assets/_Bundle/OrreryStation/Orrery Ring.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Mir_Collider.asset
 - Assets/_Bundle/Structures/HarmonicDetector.prefab
 - Assets/_Bundle/Planets/Sand/Sand.blend
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Tablet_Collider.asset
+- Assets/Nomai Ruins/Prefabs/BlockTrim_End.prefab
+- Assets/_Bundle/Planets/3D/IcyCore.blend
 - Assets/_Bundle/Planets/SandPlanet.prefab
+- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-405597806584761359-0
+  0 GlobalObjectId_V1-3-7648f3cbff1ff764aa7d2b55f02ba384-2100000-0.mesh
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Corner_L_Collider.asset
+- Assets/Mesh/Props_NOM_OrbSpecs.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_C_Geo.asset
+- Assets/Nomai Ruins/Prefabs/Docking_Tractor_Beam.prefab
 - Assets/_Bundle/Structures/BuriedStructure.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Floor_B_geo.asset
+- Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Boots.asset
 - Assets/_Bundle/DebugCamera/DebugCamera.prefab
-- Assets/_Bundle/Planets/Supermassive/Terrain_THM_MoonRocks2_d.png
-- Assets/_Bundle/Planets/Supermassive/Terrain_THM_MoonRocks_d.png
-- Assets/_Bundle/Planets/Ice/Terrain_BH_Ice_v2_n.png
-- Assets/_Bundle/Planets/Crystal/Crystal.mat
-- Assets/_Bundle/Icons/symbol_icy.png
-- Assets/_Bundle/DebugCamera/DebugCameraTexture.renderTexture
-- Assets/_Bundle/Planets/Ice/Ice.mat
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Corner_R_Geo.asset
+- Assets/Nomai Ruins/Prefabs/Window_Intact.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThick_Broken_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_C_geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/BrokenWall_Full_B.fbx
+- Assets/Mesh/Collider_QuantumEntanglementRock.asset
+- Assets/Nomai Ruins/Resources/Meshes/BrokenWall_Full_B_Mir.fbx
+- Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Shelf_Geo.asset
+- Assets/Nomai Ruins/Prefabs/BigPedestal2.prefab
+- Assets/Mesh/Whiteboard_ScrollHole.asset
+- Assets/Nomai Ruins/Resources/Meshes/doorway_lamp_Outside_Geo.asset
+- Assets/_Bundle/Planets/Foliage/Prefabs/redweed.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Lamp_Glow_Spiral_Wall.asset
+- Assets/Mesh/Quad_0.asset
+- Assets/Nomai Ruins/Prefabs/Gravity Crystal.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Corner_R_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_D_Collider.asset
 - Assets/_Bundle/OrbitLines.prefab
-- Assets/_Bundle/Icons/NomIcons.blend
-- Assets/_Bundle/FakeShadow/UnlitDynamicDecal.mat
-- Assets/_Bundle/Planets/3D/CheeseGuy.tif
-- Assets/_Bundle/Planets/Crystal/BRDF.mat
-- Assets/_Bundle/Planets/Sand/btwgradient.png
-- Assets/_Bundle/Planets/Supermassive/Ground.mat
+- Assets/_Bundle/Planets/Foliage/Prefabs/dgrass.prefab
+- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-8399645116734327614-0
+  0 GlobalObjectId_V1-3-621d7434735a70e419af9c188edbb92c-2100000-0.mesh
 - Assets/_Bundle/Planets/WaterPlanet.prefab
+- Assets/_Bundle/Icons/NomIcons.blend
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ShortColumn_Square_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingLamp_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SimpleChair_Geo.asset
+- Assets/Nomai Ruins/Prefabs/Props_NOM_Whiteboard.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_B.prefab
+- Assets/_Bundle/PlatformWarpPadRoot.prefab
+- Assets/Blender Files/Sun.blend
+- Assets/Nomai Ruins/Resources/Meshes/Window_Intact_Corner_L.fbx
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Lamp_Glow_Diamond_Wall.asset
+- Assets/Nomai Ruins/Prefabs/BrokenWall_Half_Corner_Mir.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Interior_Corner_Column_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Wall_Corner_L_Geo.asset
+- Assets/_Bundle/Structures/boardwalk.blend
+- Assets/Nomai Ruins/Prefabs/ToyShip.prefab
+- Assets/Nomai Ruins/Resources/Meshes/StargazeMarker_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_B_Geo.asset
+- Assets/Nomai Ruins/Prefabs/NOMTree2.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_ToyShip_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Mir_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bowl_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Brick_B_geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_A_geo.asset
 - Assets/_Bundle/Planets/3D/InvertedSphere.fbx
-- Assets/_Bundle/Planets/Sand/Sand 1.mat
+- Assets/Nomai Ruins/Prefabs/Divider.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_Frame_Geo.asset
+- Assets/Nomai Ruins/Prefabs/Doorway.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_C_Collider.asset
+- Assets/_Bundle/Structures/BeveledCube.fbx
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingLamp_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_E_Collider.asset
+- Assets/Mesh/Structure_NOM_RemoteViewer_Geo.asset
 - Assets/_Bundle/Structures/OrreryWarpTransmitter.prefab
+- Assets/_Bundle/DarkMatter_Submergible.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Corner_BOTH_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ProbePortal_Wall_Geo.asset
+- Assets/Mesh/whiteboard_scrollTrim.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_BOTH_Collider.asset
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_A.prefab
+- Assets/_Bundle/Structures/QuantumRockSurroundings.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_R.prefab
+- Assets/Nomai Ruins/Resources/Meshes/ring_small.asset
+- Assets/Nomai Ruins/Resources/Meshes/COL_NomaITree_3.asset
 - Assets/_Bundle/Planets/Supermassive/Rocks.fbx
-- Assets/_Bundle/Planets/Ice/Terrain_BH_Ice_v2_d.png
-- Assets/_Bundle/OrreryStation/Mats/Orb Track.mat
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_StairWalkway.fbx
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Box_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Railing_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/BlockTrim_End.fbx
+- Assets/Nomai Ruins/Prefabs/Shelf.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Connector.asset
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A.prefab
+- Assets/_Bundle/Structures/OrreryWarp.blend
+- Assets/Nomai Ruins/Prefabs/Floor_Half.prefab
+- Assets/Mesh/pPlane1.asset
+- Assets/_Bundle/Planets/Foliage/Supermassive Foliage.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_C.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Window_Intact_Corner_R.fbx
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Collider.asset
+- Assets/Nomai Ruins/Prefabs/StairsThin_Long_Broken.prefab
+- Assets/Nomai Ruins/Resources/Meshes/COL_NOM_GravityCrystal_Base.asset
+- Assets/_Bundle/Prefab_NOM_Whiteboard.prefab
+- Assets/Blender Files/GravityTower.blend
+- Assets/Nomai Ruins/Prefabs/Doorway_Corner_L.prefab
 - Assets/_Bundle/Structures/GravityTower.prefab
-- Assets/_Bundle/Planets/Ice/Terrain_BH_Ice_v2_s.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Table_Collider.asset
+- Assets/Mesh/Rocks_HCT_stalagmite.asset
+- Assets/Scenes/TimberHearth/Streamingmeshes_structures/Structure_NOM_WarpReceiver_TimberHearth_Rocks.asset
+- Assets/_Bundle/GrandOrb.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_L.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Floor_A_geo.asset
+- Assets/Blender Files/Platform.blend
+- Assets/Nomai Ruins/Resources/Meshes/Tree_BH_Bristle_Hold.asset
+- Assets/Nomai Ruins/Prefabs/NOMTree1.prefab
+- Assets/Nomai Ruins/Prefabs/NOMTree3.prefab
+- Assets/_Bundle/Structures/Structure_NOM_RemoteViewer.prefab
+- Assets/Nomai Ruins/Resources/Meshes/COL_NOM_GravityCrystal.asset
+- Assets/Nomai Ruins/Prefabs/Window_Corner_L_Intact.prefab
+- Assets/Nomai Ruins/Resources/Meshes/BrokenWall_Full_A_Mir.fbx
 - Assets/_Bundle/FakeShadow/FakeShadow.prefab
-- Assets/_Bundle/Planets/Sand/Terrain_GD_RockDetail_n.png
-- Assets/_Bundle/OrreryStation/Mats/Structure_NOM_OrbTrack_v2_n.png
-- Assets/_Bundle/Planets/Supermassive/LezGradient.mat
-- Assets/_Bundle/Planets/3D/NormalGuy.tif
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Trim_C_geo.asset
+- Assets/Nomai Ruins/Prefabs/Window_Broken.prefab
+- Assets/_Bundle/Planets/Ice/Prefabs/AdonsoniaProjection.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Divider_Geo.asset
+- Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Robe.asset
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_Corner_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_B_geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Collider.asset
+- Assets/_Bundle/Planets/Foliage/Prefabs/Bubble.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Interior_Corner_Column_Collider.asset
+- Assets/_Bundle/Planets/Ice/Assets/Detail Pivot.prefab
+- Assets/Nomai Ruins/Prefabs/BeamMount.prefab
 - Assets/_Bundle/Structures/GravityTower.fbx
-- Assets/_Bundle/Planets/Supermassive/Terrain_CO_DirtShale_n.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_F_Collider.asset
+- Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_R.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Prefab_NOM_DockingTractorBeam.fbx
+- Assets/Nomai Ruins/Prefabs/Fancy Door.prefab
 - Assets/_Bundle/Structures/WarpReceiverStructure.prefab
-- Assets/_Bundle/Materials/RealOrbitLines.mat
-- Assets/_Bundle/Planets/Sand/SandRocks2.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bowl_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/outer_case.asset
+- Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_3_Trunk.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Half_Corner_L_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Half_Corner_R_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Top_Geo.asset
+- Assets/_Bundle/Extra/SapTreatWrappers/SapTreatWrappers.blend
+- Assets/Nomai Ruins/Prefabs/Bowl.prefab
+- Assets/Nomai Ruins/Prefabs/BigArch.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_BOTH_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/base_body.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Railing_Collider.asset
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B.prefab
 - Assets/_Bundle/Orbs/Orrery.prefab
+- Assets/Nomai Ruins/Prefabs/Bed.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Toy_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Treepot_collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_L_Geo.asset
+- Assets/_Bundle/Rocks_HCT_stalagmite.prefab
+- Assets/Models/nom_fuel_tank.blend
+- Assets/Nomai Ruins/Prefabs/BrokenWall_Half.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Half_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SimpleChair_Collider.asset
+- Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_L.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Prop_NOM_VaseThin_Geo.asset
+- Assets/_Bundle/Prefab_NOM_InterfaceOrb (4).prefab
+- Assets/Nomai Ruins/Resources/Meshes/Window_Intact.fbx
+- Assets/Nomai Ruins/Prefabs/Fancy Door BOTH.prefab
 - Assets/_Bundle/ice_sphere.prefab
-- Assets/_Bundle/Planets/Supermassive/Terrain_THM_MoonRocks_n.png
-- Assets/_Bundle/OrreryStation/Mats/Glass.mat
+- Assets/Nomai Ruins/Resources/Meshes/BakedVISRenderer_lowerPlatform.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_Broken_Geo.asset
+- Assets/Nomai Ruins/Prefabs/Giant Tree Ring.prefab
 - Assets/_Bundle/Planets/3D/Crystal.blend
-- Assets/_Bundle/Planets/Ice/ice2.tif
-- Assets/_Bundle/Planets/Supermassive/Terrain_CO_DirtShale_d.png
+- Assets/Nomai Ruins/Prefabs/RubbleBrickB.prefab
+- Assets/_Bundle/Audio/Ruins Music.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Lamp.asset
+- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-8399645116734327614-0
+  0 GlobalObjectId_V1-3-95a20ebb1106b57489417d28dbd6c5dc-2100000-0.mesh
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ProbePortal_ProbeCollider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_E_Geo.asset
+- Assets/Nomai Ruins/Prefabs/ShortPillar.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Detail_Trim_Geo_1.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bed_geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Halfll_Corner_R_Geo.asset
+- Assets/Nomai Ruins/Prefabs/CeilingLamp.prefab
+- Assets/Mesh/whiteboard_collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Staff_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_R_Geo.asset
+- Assets/Nomai Ruins/Prefabs/Props_NOM_Transponder.prefab
+- Assets/_Bundle/Planets/Foliage/Prefabs/Weed.prefab
 - Assets/_Bundle/Orbs/OrbCollider.fbx
 - Assets/_Bundle/Planets/CrystalPlanet.prefab
-- Assets/_Bundle/DebugCamera/DebugCameraMaterial.mat
+- Assets/Nomai Ruins/Prefabs/Tablet.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Collider.asset
+- Assets/Nomai Ruins/Prefabs/Container.prefab
+- Assets/_Bundle/Structures/QuantumRockColumn.prefab
+- Assets/Nomai Ruins/Prefabs/StairWalkway.prefab
+- Assets/Nomai Ruins/Prefabs/Cracked Vase.prefab
+- Assets/Nomai Ruins/Prefabs/ToyBlock.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Whiteboard.fbx
+- Assets/Nomai Ruins/Resources/Meshes/StargazeMarker_Collider.asset
 - Assets/_Bundle/nom_fuel_tank.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_D_Geo.asset
+- Assets/Nomai Ruins/Prefabs/Box.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_L_Geo.asset
 - Assets/_Bundle/QuantumEntanglementRock.prefab
+- Assets/Nomai Ruins/Prefabs/NOMTree3 Dry.prefab
+- Assets/Nomai Ruins/Resources/Meshes/BlockTrim_Middle.fbx
 - Assets/_Bundle/Structures/WarpReceiver.fbx
-- Assets/_Bundle/Planets/Supermassive/GrainTest1.png
+- Assets/Nomai Ruins/Resources/Meshes/EscapePodBeaconBeam.asset
 - Assets/_Bundle/Planets/3D/DoubleSidedSphere.fbx
-- Assets/_Bundle/Materials/HarmonicConvergenceLamp.mat
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_F_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Effects_NOM_TractorBeamRing_Large.asset
+- Assets/Nomai Ruins/Prefabs/Wall.prefab
+- Assets/Nomai Ruins/Prefabs/Fancy Door L.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Detail_Square_Geo_1.asset
+- Assets/Nomai Ruins/Prefabs/BigPedestal.prefab
+- Assets/Scenes/GiantsDeep/StreamingDetailPatches/DetailPatch_Props_GM_Clutter (1)
+  1.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_A.fbx
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Geo.asset
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_BOTH.prefab
+- Assets/_Bundle/Structures/Barracks.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_StairsThin_Long_Brk_Geo.asset
 - Assets/_Bundle/Structures/HarmonicDetector.fbx
+- Assets/Mesh/Structure_NOM_RemoteViewer_Collider.asset
 - Assets/_Bundle/Structures/BuriedStructure.fbx
-- Assets/_Bundle/OrreryStation/Mats/Structure_NOM_OrbTrack_v2_d.png
-- Assets/_Bundle/Planets/Crystal/Terrain_HT_Obsidian_n.png
-- Assets/_Bundle/Icons/symbol_desert.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThick_Broken_Geo.asset
+- Assets/_Bundle/RQL On.prefab
+- Assets/_Bundle/Platform.prefab
+- Assets/_Bundle/Planets/Foliage/Prefabs/kelp.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_D.prefab
+- Assets/Nomai Ruins/Prefabs/ShortColumn.prefab
+- Assets/_Bundle/Structures/ErnestoHint.prefab
+- Assets/Nomai Ruins/Prefabs/BlockTrim_Middle.prefab
+- Assets/_Bundle/QuantumRockSocket.prefab
+- Assets/Nomai Ruins/Prefabs/ProbePortal_Wall.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Collider.asset
+- Assets/Nomai Ruins/Prefabs/RubbleTrimC.prefab
 - Assets/_Bundle/Planets/Supermassive/Rock.prefab
-- Assets/_Bundle/Icons/symbol_supermassive.png
+- Assets/Nomai Ruins/Prefabs/Vase.prefab
+- Assets/Nomai Ruins/Prefabs/Interior_Corner_Column.prefab
+- Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Treepot_geo.asset
+- Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Props_NOM_Mask_GearNew_Geo.asset
 - Assets/_Bundle/DebugStation.prefab
-- Assets/_Bundle/FakeShadow/UnlitDynamicDecal.shader
-- Assets/_Bundle/Planets/Ice/Ice.blend
-- Assets/_Bundle/Planets/Sand/SandRocks.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Staff_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Tablet_Geo.asset
+- Assets/_Bundle/Structures/Proxy/ProxyThings.blend
+- Assets/Nomai Ruins/Resources/Meshes/COL_NomaiTree_1.asset
+- Assets/_Bundle/Planets/Foliage/Prefabs/Mushroom.prefab
+- Assets/_Bundle/Planets/Ice/Assets/Ice.blend
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Detail_Rectangle_Geo_1.asset
+- Assets/_Bundle/Props_GM_Clutter (1).prefab
+- Assets/Nomai Ruins/Prefabs/RailingPost.prefab
+- Assets/Nomai Ruins/Prefabs/RubbleFloorA.prefab
+- Assets/Nomai Ruins/Prefabs/Table.prefab
+- Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot_3.asset
+- Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Collider.asset
+- Assets/Nomai Ruins/Prefabs/RubbleWallC.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Wall_Half_Corner_L_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Ball_Geo.asset
+- Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Cowl.asset
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Mir.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Arch_A_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Bot_Geo.asset
+- Assets/Nomai Ruins/Prefabs/ToyBall.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Table_Geo 1.asset
+- Assets/Nomai Ruins/Resources/Meshes/base_metalwork.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_GravityCrystal_Base 1.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Corner_L_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Collider.asset
+- Assets/Nomai Ruins/Prefabs/GravityFlipper.prefab
 - Assets/_Bundle/Planets/SupermassivePlanet.prefab
-- Assets/_Bundle/Planets/Supermassive/Gradient2.png
-- Assets/_Bundle/Planets/Crystal/Terrain_BH_RockTop_n.png
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_L_Collider.asset
+- Assets/Nomai Ruins/Prefabs/Staff.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Collider.asset
+- Assets/Nomai Ruins/Prefabs/Chair.prefab
+- Assets/Nomai Ruins/Resources/Meshes/ring_middle.asset
 - Assets/_Bundle/Structure_NOM_WarpReceiver_TimberHearth_Rocks.prefab
 - Assets/_Bundle/OrreryStation/OrreryStation.blend
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Stairs_Solid_R_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Corner_BOTH_Collider.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Container_coliider.asset
 - Assets/_Bundle/Structures/HarmonicDetectorPillar.prefab
-Dependencies: []
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Geo.asset
+- Assets/Nomai Ruins/Resources/Meshes/GravityFlipper.fbx
+Dependencies:
+- C:/Users/wesca/source/repos/Jam5/Mod/OWJam5ModProject/planets/assets/walker_jam5_assets
+- C:/Users/wesca/source/repos/Jam5/Mod/OWJam5ModProject/planets/assets/walker_jam5_assets2

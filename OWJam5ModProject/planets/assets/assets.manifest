@@ -1,7 +1,17 @@
 ManifestFileVersion: 0
-CRC: 4097436803
+CRC: 3586673107
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: walker_jam5_bundle
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: walker_jam5_assets
+        Dependency_1: walker_jam5_assets2
+    Info_1:
+      Name: walker_jam5_assets
+      Dependencies:
+        Dependency_0: walker_jam5_assets2
+    Info_2:
+      Name: walker_jam5_assets2
+      Dependencies:
+        Dependency_0: walker_jam5_assets

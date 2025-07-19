@@ -1,0 +1,357 @@
+ManifestFileVersion: 0
+CRC: 2083528351
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8b629e5e4279d021228f9992c26c02b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e4c360d21cbcec07e1dfe2c650a062e1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 86
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Texture2D/Props_NOM_Orb_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_d.png
+- Assets/Resources/editor/textures/CylinderShape.png
+- Assets/Shaders/FallingLavaCookie.shader
+- Assets/_Bundle/Planets/Ice/Assets/Ice Desaturated.png
+- Assets/_Bundle/Audio/Volcano_Ambience_Loop_V2.ogg
+- Assets/Nomai Ruins/Resources/Shaders/Standard (BRDF Lookup).asset
+- Assets/Material/Stencil_ShipInterior.mat
+- Assets/_Bundle/Planets/Supermassive/GradientMap.png
+- Assets/_Bundle/Icons/Decal_NOM_Symbols_Supermassive.mat
+- Assets/Texture2D/Terrain_GM_Crystal_n.png
+- Assets/Texture2D/Terrain_GM_RockClutter_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDry_d.png
+- Assets/_Bundle/Planets/Ice/Particle/OW_TH_UnderwaterRushing.ogg
+- Assets/_Bundle/Planets/Ice/Assets/AdonsoniaIdle.controller
+- Assets/Texture2D/Terrain_GM_CrystalClutter_n.png
+- Assets/_Bundle/Icons/Decal_NOM_Symbols_Sand.mat
+- Assets/_Bundle/Planets/Ice/Assets/Terrain_HGT_SandColumn_n.png
+- Assets/Krita/DrawingMuralMask.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_mat.mat
+- Assets/_Bundle/Icons/symbol_crystal.png
+- Assets/_Bundle/Planets/Crystal/CrystalGround.png
+- Assets/_Bundle/Planets/Ice/Particle/Effects_Smoke_d.png
+- Assets/Shader/Legacy Shaders_VertexLit.asset
+- Assets/Shader/Outer Wilds_Environment_Nomai Holo Pool.asset
+- Assets/_Bundle/Materials/LavaLightCookieNew.asset
+- Assets/_Bundle/Planets/Ice/Assets/Core Rock.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_mat.mat
+- Assets/_Bundle/Materials/Grate 1.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmalTractorBeam_mask.png
+- Assets/_Bundle/Planets/Supermassive/Rocks.mat
+- Assets/Texture2D/Effects_GM_AuroraMask_d.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Hourglass Twins_Energy
+  Cable.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_GravityCrystal_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_Red_mat.mat
+- Assets/_Bundle/Materials/JamieMuralGirlThing.png
+- Assets/ShaderForge/Example Assets/Textures/sf_noise_clouds_01.png
+- Assets/Texture2D/Structure_NOM_Whiteboard_mask.png
+- Assets/_Bundle/Audio/coremusic.ogg
+- Assets/Nomai Ruins/Resources/Materials/NoiseRGB_d.png
+- Assets/Resources/editor/textures/BoxShape.png
+- Assets/Texture2D/Structure_NOM_PorcelainBroken_d.png
+- Assets/Material/Effects_NOM_RemotePool_GDConstructionYard_mat.mat
+- Assets/AnimationClip/Solanum_LookAtPlayer_Idle.anim
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_ao.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Foliage.asset
+- Assets/_Bundle/Materials/HarmonicConvergencePlatform.mat
+- Assets/Material/Effects_DarkMatterAura_mat.mat
+- Assets/Krita/DrawingEmissionG.png
+- Assets/Shader/Outer Wilds_Blended_Terrain_Vertex Color 4x.asset
+- Assets/_Bundle/FakeShadow/shadow.png
+- Assets/_Bundle/Materials/JamieMuralGirlThing.mat
+- Assets/_Bundle/Planets/Sand/Sand.mat
+- Assets/Texture2D/Structure_NOM_SandStone_s.png
+- Assets/_Bundle/Planets/Foliage/Assets/Foliage 3.mat
+- Assets/_Bundle/Structures/Proxy/ProxyStairs.mat
+- Assets/Texture2D/NoiseRGB_d.png
+- Assets/_Bundle/Planets/Supermassive/scratchy.png
+- Assets/_Bundle/Planets/Ice/Particle/Effects_Smoke_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_s.png
+- Assets/_Bundle/Planets/Foliage/Assets/Tree_IP_RW_MangroveLeaves_t.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallOutside_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_LargeTractorBeam_mat.mat
+- Assets/Texture2D/Props_NOM_Orb_n.png
+- Assets/Shader/Outer Wilds_Environment_Nomai Hologram.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_Lamp_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_mat.mat
+- Assets/_Bundle/Planets/Ice/Assets/Dunes 1.mat
+- Assets/Texture2D/LOD_Terrain_HCT_Cave_Wall_n.png
+- Assets/Nomai Ruins/PhysicMaterial/Frictionless.physicMaterial
+- Assets/_Bundle/Planets/Crystal/Terrain_BH_Faceted_n.png
+- Assets/Material/Terrain_HCT_Caves_mat.mat
+- Assets/_Bundle/Planets/Ice/Assets/Structure_NOM_SandStone_Cracked_n.png
+- Assets/_Bundle/Materials/Effects_NOM_VolumetricLight 1.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_mask.png
+- Assets/_Bundle/Materials/ErnestoLight.mat
+- Assets/Shader/Outer Wilds_Environment_Hourglass Twins_Energy Cable.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_n.png
+- Assets/_Bundle/Planets/Ice/Assets/Aurora.mat
+- Assets/Material/Effects_DarkMatterImpact_mat.mat
+- Assets/_Bundle/Planets/Ice/Particle/TH_Geyser_Loop_v3.ogg
+- Assets/_Bundle/Planets/Ice/Assets/Dunes.mat
+- Assets/Texture2D/AlphaLinearRadialMask.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_d.png
+- Assets/_Bundle/Planets/Supermassive/Terrain_THM_MoonRocks2_d.png
+- Assets/_Bundle/Planets/Foliage/Assets/Redweed.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Porcelain_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_n.png
+- Assets/Shaders/Aurora.shader
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeamRing_Dithered_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_s.png
+- Assets/Shader/Outer Wilds_Environment_Hourglass Twins_Rocks.asset
+- Assets/_Bundle/Materials/SimplerGrate.png
+- Assets/Texture2D/Decal_NOM_Symbols_01.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_HexagonStar_n.png
+- Assets/_Bundle/Planets/Crystal/Crystal.mat
+- Assets/_Bundle/Planets/Ice/Assets/Structure_NOM_SandStone_Desaturated_d.png
+- Assets/_Bundle/Planets/Foliage/Assets/Foliage 2.mat
+- Assets/Resources/editor/textures/Sector.png
+- Assets/Texture2D/LOD_Terrain_HCT_Cave_Floor_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PorcelainClean_d.png
+- Assets/Material/Structure_NOM_SilverPorcelain_mat.mat
+- Assets/_Bundle/Icons/symbol_icy.png
+- Assets/_Bundle/Planets/Ice/Assets/GravityCrack.png
+- Assets/_Bundle/DebugCamera/DebugCameraTexture.renderTexture
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPatternLines_mat.mat
+- Assets/_Bundle/Planets/Ice/Assets/Ice.mat
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TimeLoopDeviceCable_e.png
+- Assets/_Bundle/Planets/Ice/Assets/AdonsoniaSunk.anim
+- Assets/_Bundle/Planets/Foliage/Assets/Foliage_GD_Island_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_LargeTractorBeam_mask.png
+- Assets/Resources/editor/textures/MeshBatch_Batched.png
+- Assets/_Bundle/Audio/grandorreryenable.ogg
+- Assets/_Bundle/FakeShadow/UnlitDynamicDecal.mat
+- Assets/_Bundle/Planets/3D/CheeseGuy.tif
+- Assets/_Bundle/Extra/SapTreatWrappers/SapTreatWrappers.png
+- Assets/Texture2D/Structure_NOM_TrimPattern_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_n.png
+- Assets/_Bundle/Materials/Black.mat
+- Assets/_Bundle/Planets/Crystal/BRDF.mat
+- Assets/_Bundle/Planets/Sand/btwgradient.png
+- Assets/Material/Structure_NOM_SandStone_mat.mat
+- Assets/Texture2D/Structure_NOM_Whiteboard_n.png
+- Assets/_Bundle/Planets/Supermassive/Ground.mat
+- Assets/_Bundle/Planets/Sand/Sand 1.mat
+- Assets/Nomai Ruins/Resources/Shaders/Standard (Detail Blend).asset
+- Assets/Shader/Outer Wilds_Environment_Dark Matter Crystal.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_HexagonStar_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Glass_Opaque_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDry_m.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_HexagonTile_mat.mat
+- Assets/_Bundle/Materials/Falling Lava Cookie.mat
+- Assets/_Bundle/Materials/Structure_NOM_ProbeWindow_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDetail_n.png
+- Assets/Texture2D/Structure_NOM_TrimPattern_d.png
+- Assets/Shaders/NebulaSun.shader
+- Assets/_Bundle/Materials/Structure_NOM_OrbTrackCircle_n.png
+- Assets/Material/black_mat.mat
+- Assets/_Bundle/Planets/3D/skylight.png
+- Assets/Material/ReqMarbleOn.mat
+- Assets/Texture2D/Terrain_GM_Rock_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_mat Mir.mat
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Blended_Detail_Mask 4x.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_n.png
+- Assets/_Bundle/Planets/Ice/Assets/undergroundrocks.png
+- Assets/_Bundle/Planets/Ice/Assets/Terrain_BH_Ice_v2_d.png
+- Assets/_Bundle/Planets/Ice/Assets/Magma.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_s.png
+- Assets/_Bundle/Audio/door.ogg
+- Assets/Texture2D/Structure_NOM_TrimPattern_s.png
+- Assets/Shaders/FallingLavaCookieNew.shader
+- Assets/_Bundle/OrreryStation/Mats/Orb Track.mat
+- Assets/Texture2D/Structure_NOM_PorcelainBroken_n.png
+- Assets/Shader/Outer Wilds_Effects_Dark Zone Fog Plane.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_BlueGlow_mat.mat
+- Assets/Material/Props_NOM_OrbSpecs_mat.mat
+- Assets/_Bundle/Planets/Foliage/Assets/Foliage_BH_d.png
+- Assets/_Bundle/Extra/SapTreatWrappers/Wrapper.mat
+- Assets/Texture2D/Structure_NOM_SandStone_d.png
+- Assets/_Bundle/Materials/LavaLightCookie.asset
+- Assets/_Bundle/Planets/Foliage/Assets/daucus_foliage.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_mat.mat
+- Assets/Texture2D/LOD_Terrain_HCT_Surface_Wall_v2_d.png
+- Assets/Material/Rock_QM_Shard_mat.mat
+- Assets/Texture2D/Rock_QM_Shard_s.png
+- Assets/_Bundle/Planets/Ambient/daucus.png
+- Assets/Texture2D/Terrain_GM_RockClutter_n.png
+- Assets/_Bundle/Audio/lavarumbles.ogg
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Gravity Crystal.asset
+- Assets/Texture2D/Props_NOM_Orb_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_StarTile_d.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Effects_Volumetric Light.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_StarTile_GlowBright_mat.mat
+- Assets/_Bundle/Audio/ruins.ogg
+- Assets/_Bundle/OrreryStation/Mats/Structure_NOM_OrbTrack_v2_n.png
+- Assets/_Bundle/Planets/Ambient/supermassive.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Porcelain_s.png
+- Assets/_Bundle/Structures/Proxy/ProxyStairs_N.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Blended_Detail_Mask 3x.asset
+- Assets/_Bundle/Planets/Supermassive/LezGradient.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_Green_mat.mat
+- Assets/Shader/Outer Wilds_Effects_Dark Zone Fog Plane.mat
+- Assets/_Bundle/Materials/Final Room Reflections.exr
+- Assets/_Bundle/Planets/Ice/Particle/Effects_SplashParticles_d.png
+- Assets/_Bundle/Planets/Supermassive/Terrain_CO_DirtShale_n.png
+- Assets/_Bundle/Materials/PortraitWhiteboard.mat
+- Assets/Material/Structure_NOM_PorcelainBroken_mat.mat
+- Assets/Texture2D/Structure_NOM_Porcelain_s.png
+- Assets/Material/Effects_DarkMatter_mat.mat
+- Assets/_Bundle/Materials/RealOrbitLines.mat
+- Assets/_Bundle/Planets/Ice/Assets/Refractive.mat
+- Assets/_Bundle/Materials/Refractive Orrery Glass.mat
+- Assets/_Bundle/Planets/Sand/SandRocks2.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_t.png
+- Assets/_Bundle/Materials/Structure_NOM_StarTile_GlowBrightBig_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_HexagonStar_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_d.png
+- Assets/Material/Effects_NOM_MonolithPulseCentral_mat.mat
+- Assets/_Bundle/Materials/Sun.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_HexagonTile_d.png
+- Assets/Material/Terrain_GM_Crystal_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallInside_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_d.png
+- Assets/_Bundle/Planets/Supermassive/Terrain_THM_MoonRocks_n.png
+- Assets/_Bundle/OrreryStation/Mats/Glass.mat
+- Assets/_Bundle/Planets/Ice/Assets/icealpha.png
+- Assets/Shaders/OrreryOrbitLines.shader
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeBarkDEAD_mat.mat
+- Assets/Material/Structure_NOM_CopperOld_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_Nom_GavityCrystal_h.png
+- Assets/Shader/Standard (Decal).asset
+- Assets/_Bundle/Planets/Supermassive/Terrain_CO_DirtShale_d.png
+- Assets/Texture2D/LOD_Terrain_HCT_Surface_Floor_v2_d.png
+- Assets/_Bundle/Planets/Ice/Assets/AdonsoniaRoot.controller
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_Red_mat.mat
+- Assets/_Bundle/Materials/Falling Lava Cookie New.mat
+- Assets/_Bundle/Planets/Ice/Assets/AdonsoniaUp.anim
+- Assets/_Bundle/Planets/Supermassive/LezGradient 1.mat
+- Assets/Texture2D/Effects_DarkMatterAura_d.png
+- Assets/_Bundle/Planets/Ice/Particle/Effects_SplashParticles_n.png
+- Assets/_Bundle/DebugCamera/DebugCameraMaterial.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeLeaves_mat.mat
+- Assets/_Bundle/Planets/Foliage/Assets/Bubble.mat
+- Assets/_Bundle/Planets/Foliage/Assets/Foliage.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_s.png
+- Assets/Nomai Ruins/Resources/Materials/NoiseWarm_d.png
+- Assets/Resources/editor/textures/CompoundShape.png
+- Assets/Nomai Ruins/Resources/Materials/White_d.png
+- Assets/Texture2D/LOD_Terrain_HT_Sand_n.png
+- Assets/Texture2D/Effects_NOM_TimeLoopDeviceCable_e.png
+- Assets/_Bundle/Materials/Grate.mat
+- Assets/BRDF/Standard (BRDF Lookup).asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_mat.mat
+- Assets/Material/Traveller_HEA_PlayerHologram_GDConstructionYard_mat.mat
+- Assets/_Bundle/Planets/Ice/Assets/AuroraMask.png
+- Assets/_Bundle/Materials/Refractive Orrery Glass 1.mat
+- Assets/Resources/textures/White_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallOutside_mat Mir.mat
+- Assets/_Bundle/Materials/Lightray.mat
+- Assets/_Bundle/Icons/Decal_NOM_Symbols_Crystal.mat
+- Assets/_Bundle/Materials/HarmonicConvergenceLamp.mat
+- Assets/_Bundle/Audio/coregravity.ogg
+- Assets/Shader/Outer Wilds_Effects_Dark Matter (DEPRECATED).asset
+- Assets/Shader/Outer Wilds_Utility_Ship Interior Stencil.asset
+- Assets/Shader/Outer Wilds_Effects_Dark Matter.asset
+- Assets/_Bundle/Planets/Foliage/Assets/Foliage 1.mat
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_VolumetricLight.mat
+- Assets/_Bundle/Planets/Foliage/Assets/Foliage_HT_d.png
+- Assets/_Bundle/Materials/Structure_NOM_ProbeWindow_n.png
+- Assets/Texture2D/Structure_NOM_SandStone_n.png
+- Assets/_Bundle/Planets/Ice/Assets/magmagradient.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallInside_mat Mir.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPatternLines_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Ceiling_mat.mat
+- Assets/_Bundle/OrreryStation/Mats/Structure_NOM_OrbTrack_v2_d.png
+- Assets/_Bundle/Materials/Structure_NOM_RedGlow_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmallTractorBeam_mat.mat
+- Assets/_Bundle/Materials/Falling Lava.mat
+- Assets/_Bundle/Icons/symbol_desert.png
+- Assets/Avatar/Nomai_ANIM_SkyWatching_IdleAvatar.asset
+- Assets/_Bundle/Planets/Ice/Assets/Center Lava.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_White_d.png
+- Assets/_Bundle/Icons/symbol_supermassive.png
+- Assets/_Bundle/FakeShadow/UnlitDynamicDecal.shader
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_m.png
+- Assets/_Bundle/Materials/NomaiGlass.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_mat.mat
+- Assets/Shaders/FallingLava.shader
+- Assets/Texture2D/Effects_GM_Aurora2_d.png
+- Assets/_Bundle/Planets/Ice/Assets/outerice.mat
+- Assets/_Bundle/Planets/Foliage/Assets/Tree_IP_RW_MangroveLeaves_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_GravityCrystal_n.png
+- Assets/_Bundle/Materials/Structure_NOM_OrbTrackCircle_d.png
+- Assets/Material/Structure_NOM_TrimPattern_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintWhite_d.png
+- Assets/Shaders/HeightGradientTerrain.shader
+- Assets/_Bundle/Planets/Sand/SandRocks.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeBark_mat.mat
+- Assets/_Bundle/Icons/Decal_NOM_Symbols_Water.mat
+- Assets/_Bundle/Materials/ErnestoLight 1.mat
+- Assets/Material/Structure_NOM_Whiteboard_mat.mat
+- Assets/_Bundle/Planets/Supermassive/Terrain_GD_RockDetail_d.png
+- Assets/Material/Effects_NOM_Hologram_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_mat.mat
+- Assets/Texture2D/Effects_NOM_RemotePool_h.png
+- Assets/Texture2D/Structure_NOM_Whiteboard_d.png
+- Assets/_Bundle/Planets/Ice/Assets/Terrain_VM_RockDetail_d.png
+- Assets/Texture2D/Structure_NOM_Whiteboard_s.png
+- Assets/Texture2D/LOD_Terrain_CT_CliffGradient_d.png
+- Assets/_Bundle/Planets/Supermassive/Gradient2.png
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TimeLoopDeviceCable_mat.mat
+- Assets/_Bundle/Planets/Ice/Assets/AdonsoniaRising.anim
+- Assets/_Bundle/Structures/Proxy/ProxyStairs_D.png
+- Assets/Shader/Standard (Detail Blend).asset
+- Assets/_Bundle/Audio/final room.ogg
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Effects_Tractor Beam (Dithered).asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WhiteBoardTile_mat.mat
+- Assets/_Bundle/Planets/Crystal/Terrain_BH_RockTop_n.png
+- Assets/Material/Props_NOM_Orb_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Floor_mat.mat
+- Assets/_Bundle/Planets/Ice/Particle/Particle.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_n.png
+- Assets/Material/Decal_NOM_Symbols_01_mat.mat
+- Assets/_Bundle/Planets/Ambient/glacial.png
+- Assets/_Bundle/Planets/Ice/Particle/Particle 1.mat
+- Assets/_Bundle/Planets/Ice/Particle/Effects_Bubbles_v2_d.png
+- Assets/Material/Structure_NOM_Silver_mat.mat
+- Assets/Resources/editor/textures/SphereShape.png
+- Assets/Texture2D/LOD_Terrain_HT_SandVariant_d.png
+- Assets/Shader/Standard (Refractive).asset
+Dependencies:
+- C:/Users/wesca/source/repos/Jam5/Mod/OWJam5ModProject/planets/assets/walker_jam5_assets2
