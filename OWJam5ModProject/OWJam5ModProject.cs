@@ -5,6 +5,7 @@ using NewHorizons;
 using NewHorizons.Components.Orbital;
 using NewHorizons.Components.SizeControllers;
 using NewHorizons.Utility;
+using NewHorizons.Utility.OWML;
 using OWML.Common;
 using OWML.ModHelper;
 using UnityEngine;
@@ -68,6 +69,9 @@ namespace OWJam5ModProject
             FinalRequirementManager.Initialize();
 
             FindObjectOfType<ShipBody>().gameObject.AddComponent<ShipContactSensor>();
+            
+            // for some reason station has lights enabled, so force this ourselves
+            NewHorizons.GetPlanet("Walker_Jam5_Station").GetComponentInChildren<SectorLightsCullGroup>().SetShining(false);
         }
 
         /// <summary>
