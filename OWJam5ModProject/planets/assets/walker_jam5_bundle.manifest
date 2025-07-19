@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1005077360
+CRC: 1555601322
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3ca2caf988c8ed20cf4581e76a939563
+    Hash: ebb983ec5480ae55fe7879dce5f6e1e4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 7f0baee33a032dd1a47bed08c7ca20f6
@@ -210,16 +210,13 @@ Assets:
 - Assets/_Bundle/Planets/Foliage/Assets/Foliage.blend
 - Assets/Mesh/Effects_GM_WillOWisp.asset
 - Assets/_Bundle/Structures/Final Room.prefab
-- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_L.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Half_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Prop_NOM_Transponder_Collider.asset
-- Assets/Nomai Ruins/Prefabs/PatternedPlatform.prefab
 - Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-5084117063481003293-0
   0 GlobalObjectId_V1-3-1e1c59b2b01ac424d8e0bc3d544e398c-2100000-0.mesh
 - Assets/Mesh/whiteboard_stone.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CeilingLamp_Collider.asset
 - Assets/Mesh/QuantumEntanglementRock.asset
-- Assets/Nomai Ruins/Prefabs/BrokenWall_Half_Corner.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Box_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Geo.asset
 - Assets/_Bundle/Planets/Foliage/Water Foliage.prefab
@@ -234,7 +231,6 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_2_Trunk.asset
 - Assets/Nomai Ruins/Prefabs/RubbleWallA.prefab
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Props_NOM_Staff.asset
-- Assets/Nomai Ruins/Prefabs/Treepot.prefab
 - Assets/_Bundle/Planets/Foliage/Prefabs/Flower.prefab
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Gloves.asset
 - Assets/_Bundle/Planets/Ice/Prefabs/Geyser.prefab
@@ -246,7 +242,6 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Railing.prefab
 - Assets/Nomai Ruins/Resources/Meshes/pillar_tall.asset
 - Assets/Nomai Ruins/Prefabs/RubbleFloorB.prefab
-- Assets/Nomai Ruins/Prefabs/Wall Spiral Lamp.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_GravityCrystal.asset
 - Assets/Mesh/Props_NOM_Orb.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CeilingLamp_Geo.asset
@@ -261,7 +256,6 @@ Assets:
   0 GlobalObjectId_V1-3-cbd883c40434a8e42a824ad2061c9274-2100000-0.mesh
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_FrameInner_Broken_Geo.asset
 - Assets/_Bundle/OrreryStation/OrreryStation.prefab
-- Assets/Nomai Ruins/Prefabs/BrokenWall_B_Mir.prefab
 - Assets/_Bundle/Structures/WarpReceiverFakeDoor.prefab
 - Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ProbePortal_PlayerCollider.asset
@@ -280,6 +274,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_1_Trunk.asset
 - Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Geo.asset
+- Assets/_Bundle/Planets/3D/finalroomfix.fbx
 - Assets/_Bundle/Planets/Ice/Prefabs/Disabled Geyser FX.prefab
 - Assets/_Bundle/OrreryStation/Orrery Ring.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Mir_Collider.asset
@@ -345,7 +340,6 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Brick_B_geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_A_geo.asset
 - Assets/_Bundle/Planets/3D/InvertedSphere.fbx
-- Assets/Nomai Ruins/Prefabs/Divider.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_Frame_Geo.asset
 - Assets/Nomai Ruins/Prefabs/Doorway.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_C_Collider.asset
@@ -373,13 +367,11 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Connector.asset
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A.prefab
 - Assets/_Bundle/Structures/OrreryWarp.blend
-- Assets/Nomai Ruins/Prefabs/Floor_Half.prefab
 - Assets/Mesh/pPlane1.asset
 - Assets/_Bundle/Planets/Foliage/Supermassive Foliage.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_C.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Window_Intact_Corner_R.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Collider.asset
-- Assets/Nomai Ruins/Prefabs/StairsThin_Long_Broken.prefab
 - Assets/Nomai Ruins/Resources/Meshes/COL_NOM_GravityCrystal_Base.asset
 - Assets/_Bundle/Prefab_NOM_Whiteboard.prefab
 - Assets/Blender Files/GravityTower.blend
@@ -416,7 +408,6 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/BeamMount.prefab
 - Assets/_Bundle/Structures/GravityTower.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_F_Collider.asset
-- Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_R.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Prefab_NOM_DockingTractorBeam.fbx
 - Assets/Nomai Ruins/Prefabs/Fancy Door.prefab
 - Assets/_Bundle/Structures/WarpReceiverStructure.prefab
@@ -427,14 +418,11 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Half_Corner_R_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Top_Geo.asset
 - Assets/_Bundle/Extra/SapTreatWrappers/SapTreatWrappers.blend
-- Assets/Nomai Ruins/Prefabs/Bowl.prefab
 - Assets/Nomai Ruins/Prefabs/BigArch.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_BOTH_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/base_body.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Railing_Collider.asset
-- Assets/Nomai Ruins/Prefabs/BrokenWall_B.prefab
 - Assets/_Bundle/Orbs/Orrery.prefab
-- Assets/Nomai Ruins/Prefabs/Bed.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Toy_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Treepot_collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_L_Geo.asset
@@ -443,7 +431,6 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/BrokenWall_Half.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Half_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SimpleChair_Collider.asset
-- Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_L.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Prop_NOM_VaseThin_Geo.asset
 - Assets/_Bundle/Prefab_NOM_InterfaceOrb (4).prefab
 - Assets/Nomai Ruins/Resources/Meshes/Window_Intact.fbx
@@ -451,7 +438,6 @@ Assets:
 - Assets/_Bundle/ice_sphere.prefab
 - Assets/Nomai Ruins/Resources/Meshes/BakedVISRenderer_lowerPlatform.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_Broken_Geo.asset
-- Assets/Nomai Ruins/Prefabs/Giant Tree Ring.prefab
 - Assets/_Bundle/Planets/3D/Crystal.blend
 - Assets/Nomai Ruins/Prefabs/RubbleBrickB.prefab
 - Assets/_Bundle/Audio/Ruins Music.prefab
@@ -477,7 +463,6 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Container.prefab
 - Assets/_Bundle/Structures/QuantumRockColumn.prefab
 - Assets/Nomai Ruins/Prefabs/StairWalkway.prefab
-- Assets/Nomai Ruins/Prefabs/Cracked Vase.prefab
 - Assets/Nomai Ruins/Prefabs/ToyBlock.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Whiteboard.fbx
 - Assets/Nomai Ruins/Resources/Meshes/StargazeMarker_Collider.asset
@@ -501,7 +486,6 @@ Assets:
   1.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_A.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Geo.asset
-- Assets/Nomai Ruins/Prefabs/Wall_Corner_BOTH.prefab
 - Assets/_Bundle/Structures/Barracks.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_StairsThin_Long_Brk_Geo.asset
 - Assets/_Bundle/Structures/HarmonicDetector.fbx
@@ -514,14 +498,12 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_D.prefab
 - Assets/Nomai Ruins/Prefabs/ShortColumn.prefab
 - Assets/_Bundle/Structures/ErnestoHint.prefab
-- Assets/Nomai Ruins/Prefabs/BlockTrim_Middle.prefab
 - Assets/_Bundle/QuantumRockSocket.prefab
 - Assets/Nomai Ruins/Prefabs/ProbePortal_Wall.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Collider.asset
 - Assets/Nomai Ruins/Prefabs/RubbleTrimC.prefab
 - Assets/_Bundle/Planets/Supermassive/Rock.prefab
-- Assets/Nomai Ruins/Prefabs/Vase.prefab
 - Assets/Nomai Ruins/Prefabs/Interior_Corner_Column.prefab
 - Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Geo.asset
@@ -557,7 +539,6 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Corner_L_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Collider.asset
-- Assets/Nomai Ruins/Prefabs/GravityFlipper.prefab
 - Assets/_Bundle/Planets/SupermassivePlanet.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_L_Collider.asset
 - Assets/Nomai Ruins/Prefabs/Staff.prefab
@@ -573,5 +554,5 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/GravityFlipper.fbx
 Dependencies:
-- C:/Users/wesca/source/repos/Jam5/Mod/OWJam5ModProject/planets/assets/walker_jam5_assets
-- C:/Users/wesca/source/repos/Jam5/Mod/OWJam5ModProject/planets/assets/walker_jam5_assets2
+- D:/Github/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets
+- D:/Github/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets2
