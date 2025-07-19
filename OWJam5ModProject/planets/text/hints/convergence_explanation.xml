@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: It's just a little puzzle that I made in my spare time. It uses those old radios that Oryza gave us for detecting signals. If anyone manages to solve it, the computer over there will activate and display its information.
+			ADONSONIA: This is a small puzzle that I made in my spare time. It uses those old radios that Oryza gave us for detecting signals. If anyone manages to solve it, the computer over there will activate and display its information.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ADONSONIA: Oh, nothing significant, just the condition that I told Oryza would be our fifth project requirement.
+			ADONSONIA: Oh, nothing significant — just the condition that I told Oryza would be our fifth project requirement.
 		</Text>
 	</TextBlock>
 

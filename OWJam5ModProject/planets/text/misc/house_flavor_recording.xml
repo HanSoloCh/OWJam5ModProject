@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ADONSONIA: It's not even that cold, Daucus. Since when were you so sensitive to the cold?
+			ADONSONIA: It isn't that cold, Daucus. Since when were you so sensitive to the cold?
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ALNUS: I'm tempted to agree with Daucus. The station has climate control, could we not just stay there?
+			ALNUS: I'm tempted to agree with Daucus. The orrery station has its own climate control — could we not just stay there?
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			BETULA: We're meant to care for this system. How can we properly care for it if we're unwilling to even sleep in it!
+			BETULA: We're meant to care for this system. How can we properly care for it if we're unwilling to even sleep in it!?
 		</Text>
 	</TextBlock>
 
@@ -92,7 +92,7 @@
 		<ID>12</ID>
 		<ParentID>11</ParentID>
 		<Text>
-			ADONSONIA: Deal! Let's get this fire going everyone!
+			ADONSONIA: Then it's a deal! Let's get the fire started, everyone!
 		</Text>
 	</TextBlock>
 
