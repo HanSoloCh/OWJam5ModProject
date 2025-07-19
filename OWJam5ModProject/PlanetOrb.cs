@@ -19,6 +19,12 @@ namespace OWJam5ModProject
         NomaiInterfaceOrb orb;
         GameObject player;
         
+        static ScreenPrompt cancelDragPrompt;
+        static bool tutorialPrompt = true; // not a persistent condition because people might forget between sessions
+
+        bool wasBeingDragged;
+        float cancelDragTimer = -1;
+
         void Start()
         {
             planetRB = OWJam5ModProject.Instance.NewHorizons.GetPlanet(planetName).GetComponent<OWRigidbody>();
@@ -26,7 +32,24 @@ namespace OWJam5ModProject
             orb = GetComponent<NomaiInterfaceOrb>();
             player = Locator.GetPlayerBody().gameObject;
 
+            // one prompt for all orbs
+            if (cancelDragPrompt == null)
+            {
+                var prompt = OWJam5ModProject.Instance.NewHorizons.GetTranslationForUI("ORB_CANCEL_DRAG_PROMPT");
+                cancelDragPrompt = new ScreenPrompt(InputLibrary.cancel, prompt + "   <CMD>");
+                Locator.GetPromptManager().AddScreenPrompt(cancelDragPrompt, tutorialPrompt ? PromptPosition.Center : PromptPosition.UpperRight);
+            }
+
             UpdateLocation(); // do initial
+        }
+
+        private void OnDestroy()
+        {
+            if (cancelDragPrompt != null)
+            {
+                Locator.GetPromptManager().RemoveScreenPrompt(cancelDragPrompt);
+                cancelDragPrompt = null;
+            }
         }
 
         void FixedUpdate()
@@ -36,6 +59,46 @@ namespace OWJam5ModProject
                 return;
 
             UpdateLocation();
+        }
+
+        private void Update()
+        {
+            if (cancelDragTimer != -1)
+            {
+                if (cancelDragTimer > 0)
+                {
+                    cancelDragTimer -= Time.deltaTime;
+                }
+                else
+                {
+                    cancelDragTimer = -1;
+                    orb.RemoveLock();
+                }
+            }
+
+            if (wasBeingDragged && !orb._isBeingDragged)
+            {
+                cancelDragPrompt.SetVisibility(false);
+            } 
+            else if (!wasBeingDragged && orb._isBeingDragged)
+            {
+                cancelDragPrompt.SetVisibility(true);
+            }
+            wasBeingDragged = orb._isBeingDragged;
+            
+            if (orb._isBeingDragged && OWInput.IsNewlyPressed(InputLibrary.cancel))
+            {
+                orb.CancelDrag();
+                orb.AddLock();
+                cancelDragTimer = .5f;
+
+                if (tutorialPrompt)
+                {
+                    tutorialPrompt = false;
+                    Locator.GetPromptManager().RemoveScreenPrompt(cancelDragPrompt);
+                    Locator.GetPromptManager().AddScreenPrompt(cancelDragPrompt, PromptPosition.UpperRight);
+                }
+            }
         }
 
         private void UpdateLocation()
