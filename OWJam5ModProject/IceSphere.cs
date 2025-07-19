@@ -14,6 +14,7 @@ namespace OWJam5ModProject
         [SerializeField] float minIceHeight = 0;
         [SerializeField] float geyserSwitchHeight = 0;
         [SerializeField] Transform geyserRoot = null;
+        [SerializeField] float iceVanishHeight = 0;
         [SerializeField] float requiredIceHeight = 0;
 
         private float growSpeed = 4;
@@ -111,26 +112,28 @@ namespace OWJam5ModProject
             innerTF.localScale = new Vector3(innerScale, innerScale, innerScale);
 
             //Hide or show based on vanish height
-            if(scale <= geyserSwitchHeight)
+            if(scale <= iceVanishHeight)
             {
                 innerTF.gameObject.SetActive(false);
                 outerTF.gameObject.SetActive(false);
-                if(geyserRoot != null)
-                {
-                    geyserRoot.gameObject.SetActive(true);
-                    FinalRequirementManager.geothermalActivity = true;
-                }
             }
             else
             {
                 innerTF.gameObject.SetActive(true);
                 outerTF.gameObject.SetActive(true);
-                if (geyserRoot != null)
-                {
-                    geyserRoot.gameObject.SetActive(false);
-                    FinalRequirementManager.geothermalActivity = false;
-                }
             } 
+
+            //Toggle geysers based on height
+            if(geyserRoot != null && scale <= geyserSwitchHeight)
+            {
+                geyserRoot.gameObject.SetActive(true);
+                FinalRequirementManager.geothermalActivity = true;
+            }
+            else if(geyserRoot != null)
+            {
+                geyserRoot.gameObject.SetActive(false);
+                FinalRequirementManager.geothermalActivity = false;
+            }
         }
     }
 }
