@@ -132,7 +132,7 @@ namespace OWJam5ModProject
             planetRB.transform.forward = sun.transform.up;
             float angle = Vector3.SignedAngle(-planetRB.transform.up, 
                 (sun.transform.position - planetRB.transform.position).normalized, planetRB.transform.forward);
-            planetRB.transform.Rotate(planetRB.transform.forward, angle);
+            planetRB.transform.Rotate(planetRB.transform.forward, angle, Space.World);
 
             // move ship if landed on planet
             var shipSectorDetector = Locator.GetShipDetector().GetComponent<SectorDetector>();

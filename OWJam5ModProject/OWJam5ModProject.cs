@@ -138,7 +138,7 @@ namespace OWJam5ModProject
 
             var fromDir = starTF.up;
             var toDir = stationTf.position - starTF.position;
-            starTF.Rotate(Vector3.up, Vector3.SignedAngle(fromDir, toDir, Vector3.up));
+            starTF.Rotate(Vector3.up, Vector3.SignedAngle(fromDir.normalized, toDir.normalized, Vector3.up), relativeTo: Space.World);
             
             foreach (NHAstroObject planet in FindObjectsOfType<NHAstroObject>())
             {
