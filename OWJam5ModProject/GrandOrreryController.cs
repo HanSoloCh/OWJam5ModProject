@@ -159,13 +159,17 @@ namespace OWJam5ModProject
                 int otherMods = 0;
                 foreach (SystemAndBodies b in systems)
                 {
-                    avg += b.centerBody.Object.transform.position;
-                    if (b.modName == "2walker2.OWJam5ModProject")
+                    if (b != null && b.centerBody.Object != null)
                     {
-                        ourSystemPosition = b.centerBody.Object.transform.position;
-                    } else
-                    {
-                        otherMods++;
+                        avg += b.centerBody.Object.transform.position;
+                        if (b.modName == "2walker2.OWJam5ModProject")
+                        {
+                            ourSystemPosition = b.centerBody.Object.transform.position;
+                        }
+                        else
+                        {
+                            otherMods++;
+                        }
                     }
                 }
                 avg /= systems.Count;
@@ -194,8 +198,12 @@ namespace OWJam5ModProject
                     var systemAndBodies = new SystemAndBodies();
                     systemAndBodies.centerBody = body;
                     systemAndBodies.modName = body.Mod.ModHelper.Manifest.UniqueName;
-                    systemAndBodies.childBodies = bodies.Where(x => x != body && Vector3.Distance(x.Object.transform.position, body.Object.transform.position) < 2500).ToList();
-                    systems.Add(systemAndBodies);
+                    systemAndBodies.childBodies = bodies.Where(x => x != null && x.Object != null && body.Object != null && x != body && Vector3.Distance(x.Object.transform.position, body.Object.transform.position) < 2500).ToList();
+                    
+                    if (systemAndBodies.centerBody != null && systemAndBodies.modName != null && systemAndBodies.centerBody.Object != null)
+                    {
+                        systems.Add(systemAndBodies);
+                    }
                 }
             }
             
