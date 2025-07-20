@@ -127,12 +127,15 @@ namespace OWJam5ModProject
         [HarmonyPatch(typeof(ProbeCamera), nameof(ProbeCamera.TakeSnapshot))]
         private static void ScoutUpdateReqs()
         {
-            instance.SetOrbOn(0, FinalRequirementManager.CheckIceReq());
-            instance.SetOrbOn(1, FinalRequirementManager.CheckGeyserReq());
-            instance.SetOrbOn(2, FinalRequirementManager.CheckWarpReq());
-            instance.SetOrbOn(3, FinalRequirementManager.CheckSandReq());
-            instance.SetOrbOn(4, FinalRequirementManager.CheckAngleReq());
-            instance.SetOrbOn(5, FinalRequirementManager.CheckLargePlanetOrbit());
+            if (instance != null)
+            {
+                instance.SetOrbOn(0, FinalRequirementManager.CheckIceReq());
+                instance.SetOrbOn(1, FinalRequirementManager.CheckGeyserReq());
+                instance.SetOrbOn(2, FinalRequirementManager.CheckWarpReq());
+                instance.SetOrbOn(3, FinalRequirementManager.CheckSandReq());
+                instance.SetOrbOn(4, FinalRequirementManager.CheckAngleReq());
+                instance.SetOrbOn(5, FinalRequirementManager.CheckLargePlanetOrbit());
+            }
         }
     }
 }
