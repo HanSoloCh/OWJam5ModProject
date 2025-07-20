@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ALNUS: I just put the stone here Adonsonia, how did you already steal it?
+			ALNUS: I had just put the stone here, Adonsonia. How did you already steal it?
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ADONSONIA: That actually was not me. I recall a story with a stone like this, apparently they move when unobserved.
+			ADONSONIA: I wish I could achieve such a feat, but that wasn't me! I recall an old study on this kind of stone, which concluded that they move when unobserved.
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>101</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ALNUS: I would accuse you of lying, if the stone didn't just appear behind me and nearly cause cardiac arrest. Unfortunately, it took a recording of mine with it and doesn't seem to have brought it back.
+			ALNUS: I would accuse you of lying if the stone hadn't appeared behind me moments ago (nearly scaring my lower garments off). Unfortunately, it took a recording of mine with it, and it doesn't seem to have brought it back.
 		</Text>
 	</TextBlock>
 
