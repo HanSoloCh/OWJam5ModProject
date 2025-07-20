@@ -58,7 +58,8 @@ namespace OWJam5ModProject
 
                 for (int i = 0; i < system.childBodies.Count; i++)
                 {
-                    transformOf(system.childBodies[i]).position = transformOf(system.centerBody).TransformPoint(positions[i]);
+                    system.childBodies[i].Object.GetAttachedOWRigidbody()._rigidbody.position = transformOf(system.centerBody).TransformPoint(positions[i]);
+                    //transformOf(system.childBodies[i]).position = transformOf(system.centerBody).TransformPoint(positions[i]);
                 }
             }
         }
