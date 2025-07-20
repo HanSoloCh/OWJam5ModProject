@@ -35,7 +35,7 @@ public static class GlobalMusicControllerPatches
         OWJam5ModProject.DebugLog("custom travel audio made!");
         
         // jam 5 base mod should already do this, but in case it doesnt, do it ourselves
-        AudioUtilities.SetAudioClip(__instance._travelSource, "planets/assets/audio/jam5space.ogg", OWJam5ModProject.Instance);
+        // AudioUtilities.SetAudioClip(__instance._travelSource, "planets/assets/audio/jam5space.ogg", OWJam5ModProject.Instance);
     }
 
 
