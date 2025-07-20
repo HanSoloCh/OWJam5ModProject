@@ -13,6 +13,7 @@ namespace OWJam5ModProject
         [SerializeField] Transform center = null;
         [SerializeField] float scaleFactor = 0;
         [SerializeField] float freezeRadius = 100;
+        [SerializeField] bool isGrandOrb = false;
 
         GameObject sun;
         OWRigidbody planetRB;
@@ -27,8 +28,11 @@ namespace OWJam5ModProject
 
         void Start()
         {
-            planetRB = OWJam5ModProject.Instance.NewHorizons.GetPlanet(planetName).GetComponent<OWRigidbody>();
-            sun = OWJam5ModProject.Instance.NewHorizons.GetPlanet(SUN_NAME);
+            if (!isGrandOrb)
+            {
+                planetRB = OWJam5ModProject.Instance.NewHorizons.GetPlanet(planetName).GetComponent<OWRigidbody>();
+                sun = OWJam5ModProject.Instance.NewHorizons.GetPlanet(SUN_NAME);
+            }
             orb = GetComponent<NomaiInterfaceOrb>();
             player = Locator.GetPlayerBody().gameObject;
 
@@ -40,7 +44,7 @@ namespace OWJam5ModProject
                 Locator.GetPromptManager().AddScreenPrompt(cancelDragPrompt, tutorialPrompt ? PromptPosition.Center : PromptPosition.UpperRight);
             }
 
-            UpdateLocation(); // do initial
+            if (!isGrandOrb) UpdateLocation(); // do initial
         }
 
         private void OnDestroy()
@@ -55,6 +59,8 @@ namespace OWJam5ModProject
         void FixedUpdate()
         {
             // radius check
+            if (isGrandOrb)
+                return;
             if ((player.transform.position - center.transform.position).sqrMagnitude > freezeRadius * freezeRadius)
                 return;
 
@@ -88,6 +94,7 @@ namespace OWJam5ModProject
             
             if (orb._isBeingDragged && OWInput.IsNewlyPressed(InputLibrary.cancel))
             {
+                orb._orbAudio.PlaySlotActivatedClip();
                 orb.CancelDrag();
                 orb.AddLock();
                 cancelDragTimer = .5f;
