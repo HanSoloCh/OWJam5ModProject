@@ -135,8 +135,10 @@ namespace OWJam5ModProject
                     planet.transform.parent = starTF; // parent
                 }
             }
-            
-            starTF.up = stationTf.position - starTF.position; // rotate
+
+            var fromDir = starTF.up;
+            var toDir = stationTf.position - starTF.position;
+            starTF.Rotate(Vector3.up, Vector3.SignedAngle(fromDir, toDir, Vector3.up));
             
             foreach (NHAstroObject planet in FindObjectsOfType<NHAstroObject>())
             {
