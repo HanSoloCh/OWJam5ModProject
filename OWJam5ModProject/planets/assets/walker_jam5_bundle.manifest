@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2909586590
+CRC: 3059939538
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 940d62fbef9dc9ca3ec59295d06a408f
+    Hash: 0fc973f7d892c47007230d37429a909b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0d5de99bffa9685c9b1f0f84114900a2
@@ -560,5 +560,5 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/GravityFlipper.fbx
 Dependencies:
-- E:/Code Stuff/REMOTE/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets
-- E:/Code Stuff/REMOTE/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets2
+- D:/Github/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets
+- D:/Github/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets2
