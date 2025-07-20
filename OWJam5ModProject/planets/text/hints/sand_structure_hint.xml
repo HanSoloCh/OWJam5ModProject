@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			BETULA: I apologize, I believe that may be my fault. I wanted us to have a planet approximating a desert, so I placed a large amount of sand on this one without realizing there was a structure already built.
+			BETULA: I apologize — I believe that may be my fault. I wanted us to have a planet approximating a desert, so I placed a large amount of sand on this one without realizing there was a structure already built.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ADONSONIA: I suppose this is more karma for my own antics than anything else, so apology accepted. I would appreciate help figuring out a way to get rid of the sand though, I wonder if there may be some way to move it somewhere else.
+			ADONSONIA: I suppose this is more karma for my own antics than anything else, so I accept your apology. I would appreciate help figuring out a way to get rid of the sand, though. I wonder if there may be some way to move it somewhere else.
 		</Text>
 	</TextBlock>
 
@@ -38,7 +38,7 @@
 		<ID>101</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ALNUS: Strange, Adonsonia, almost as if people interfering with your work isn't terribly fun.
+			ALNUS: That is so strange, Adonsonia! It's almost as if people interfering with your work isn't terribly fun.
 		</Text>
 	</TextBlock>
 
