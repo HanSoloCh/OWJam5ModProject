@@ -49,7 +49,7 @@
             "x": 700
         },
         "isStatic": true,
-        "isTidallyLocked": true
+        "isTidallyLocked": false
     },
     "Props": {
         "warpTransmitters": [
@@ -380,7 +380,8 @@
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/planets/CrystalPlanet.prefab",
                 "keepLoaded": true,
-                "scale": 1.0
+                "scale": 1.0,
+                "rotation": { "x": 90 }
             }
         ]
     },

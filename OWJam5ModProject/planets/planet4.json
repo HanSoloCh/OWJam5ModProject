@@ -25,7 +25,7 @@
             "x": 2200
         },
         "isStatic": true,
-        "isTidallyLocked": true
+        "isTidallyLocked": false
     },
     "Water": {
         "size": 160,
@@ -68,7 +68,8 @@
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/Planets/WaterPlanet.prefab",
-                "keepLoaded": true
+                "keepLoaded": true,
+                "rotation": {"x": 90}
             },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",

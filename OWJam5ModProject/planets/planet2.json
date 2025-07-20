@@ -34,7 +34,7 @@
         "z": 1450
       },
       "isStatic": true,
-      "isTidallyLocked": true
+      "isTidallyLocked": false
   },
     "Props": {
         "warpTransmitters": [
@@ -317,7 +317,8 @@
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/Planets/SupermassivePlanet.prefab",
                 "keepLoaded": true,
-                "scale": 1
+                "scale": 1,
+                "rotation": { "x": 90 }
             },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",

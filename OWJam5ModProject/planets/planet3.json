@@ -36,7 +36,7 @@
             "z": -1450
         },
         "isStatic": true,
-        "isTidallyLocked": true
+        "isTidallyLocked": false
     },
     "Sand": {
         "size": 153
@@ -393,7 +393,8 @@
                 "assetBundle": "planets/assets/walker_jam5_bundle",
                 "path": "Assets/_Bundle/Planets/SandPlanet.prefab",
                 "keepLoaded": true,
-                "scale": 1.0
+                "scale": 1.0,
+                "rotation": { "x": 90 }
             },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
