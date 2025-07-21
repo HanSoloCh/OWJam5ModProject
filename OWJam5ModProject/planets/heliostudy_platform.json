@@ -10,7 +10,7 @@
             {
                 "parentPath": "Sector/Platform/Root/Ernesto/Root/Credits/CreditsAnchorChild",
                 "isRelativeToParent": true,
-                "radius": 100,
+                "radius": 5,
                 "deathType": "crushedByElevator",
                 "gameOver": {
                     "text": "You are not real.",

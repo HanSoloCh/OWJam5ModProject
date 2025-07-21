@@ -18,6 +18,7 @@ namespace OWJam5ModProject
         public static OWJam5ModProject Instance;
         public INewHorizons NewHorizons;
         private List<GameObject> planetPivots = null;
+        public bool BundlesBroken = false;
 
         public void Awake()
         {
@@ -29,6 +30,7 @@ namespace OWJam5ModProject
 
         public void Start()
         {
+
             // Starting here, you'll have access to OWML's mod helper.
             ModHelper.Console.WriteLine($"My mod {nameof(OWJam5ModProject)} is loaded!", MessageType.Success);
 
@@ -58,6 +60,8 @@ namespace OWJam5ModProject
                 FinalRequirementManager.inJamSystem = false;
                 return;
             }
+
+            BundleBrokenMessage.BeginCheck();
 
             RotateSystem();
             FinalRequirementManager.inJamSystem = true;
@@ -192,6 +196,14 @@ namespace OWJam5ModProject
             }
         }
 
+
+        private void OnGui()
+        {
+            if (BundlesBroken)
+            {
+                GUI.Box(new Rect(10, 10, 400, 45), "Assetbundles not loaded for Heliostudy!\nThis was likely caused by the New Horizons \"Reload Config\" option.");
+            }
+        }
         /**
          * Print a string to the console
          */
