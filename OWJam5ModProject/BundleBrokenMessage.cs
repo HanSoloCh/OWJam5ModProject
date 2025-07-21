@@ -13,7 +13,7 @@ namespace OWJam5ModProject
     public static class BundleBrokenMessage
     {
 
-        static ScreenPrompt prompt;
+        //static ScreenPrompt prompt;
         public static void BeginCheck()
         {
             bool loadedCorrectly = false;
