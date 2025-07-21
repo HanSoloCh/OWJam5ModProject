@@ -389,6 +389,8 @@
         "playerSpawnPoints": [
             {
                 "rename": "_WalkerPlanet1",
+                "parentPath": "Sector/CrystalPlanet",
+                "isRelativeToParent": true,
                 "position": {
                     "y": 100,
                     "x": 25

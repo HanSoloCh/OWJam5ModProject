@@ -411,6 +411,8 @@
                 "position": {
                     "z": 160
                 },
+                "parentPath": "Sector/SandPlanet",
+                "isRelativeToParent": true,
                 "rename": "_WalkerPlanet3"
             }
         ]

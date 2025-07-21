@@ -482,6 +482,8 @@
             },
             {
                 "id": "Walker_Jam5_Planet4_Geysers",
+                "parentPath": "Sector/WaterPlanet",
+                "isRelativeToParent": true,
                 "position": { "z": -135 }
             },
             {
@@ -583,6 +585,8 @@
                     "z": 160,
                     "x": 25
                 },
+                "parentPath": "Sector/WaterPlanet",
+                "isRelativeToParent": true,
                 "rename": "_WalkerPlanet4"
             }
         ]
