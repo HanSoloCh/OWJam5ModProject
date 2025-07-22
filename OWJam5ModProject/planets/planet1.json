@@ -36,10 +36,10 @@
     "Volumes": {
         "audioVolumes": [
             {
-                "radius": 170,
+                "radius": 180,
                 "audio": "planets/assets/audio/cr_ambient.ogg",
-                "track": "environment"
-                
+                "track": "environment",
+                "volume": 0.7
             }
         ]
     },
