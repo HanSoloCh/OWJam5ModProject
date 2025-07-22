@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3059939538
+CRC: 2872853893
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0fc973f7d892c47007230d37429a909b
+    Hash: 911825697e3011ca2af557a876bb4898
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 0d5de99bffa9685c9b1f0f84114900a2
+    Hash: 35da9c30bb4b8447230684e27e9633b5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -56,11 +56,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1229164829, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
-  Script: {fileID: 1540726890, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
-- Class: 114
   Script: {fileID: 2085187901, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
-- Class: 114
-  Script: {fileID: 2123534892, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 1946298425, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
@@ -92,6 +88,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 500372b3b1087d375c2f72ed03fa5a23, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1163abd376bac17c52f957f63c4164c5, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 08a907445969531385ba02ae6b921077, type: 3}
@@ -106,6 +104,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -671394647, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
+  Script: {fileID: 2123534892, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
   Script: {fileID: 1194511249, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: -227010294, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
@@ -115,6 +115,8 @@ ClassTypes:
   Script: {fileID: -966809459, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: -2033712575, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 1540726890, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 1392665902, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
@@ -162,6 +164,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 7272cba977bdf7eec3ebf07ae09efe55, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7b80504a0aa9946ddb29be5e95e7256c, type: 3}
@@ -181,8 +185,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7731bc3d30c8b009ac33fba6df6e72ae, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 1da44d7df54f37bdda542e44c2099dd7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
 - Class: 114
@@ -268,6 +270,7 @@ Assets:
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Pants.asset
 - Assets/_Bundle/Structures/Proxy/ProxyStairs.prefab
 - Assets/Nomai Ruins/Prefabs/Wall Diamond Lamp.prefab
+- Assets/_Bundle/Icons/ice_hate.mat
 - Assets/_Bundle/ice_raycast_detector.prefab
 - Assets/Nomai Ruins/Resources/Meshes/light_ball.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_Middle_Geo.asset
@@ -363,6 +366,7 @@ Assets:
 - Assets/_Bundle/Structures/QuantumRockSurroundings.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_R.prefab
 - Assets/Nomai Ruins/Resources/Meshes/ring_small.asset
+- Assets/_Bundle/Icons/groundsize.mat
 - Assets/Nomai Ruins/Resources/Meshes/COL_NomaITree_3.asset
 - Assets/_Bundle/Planets/Supermassive/Rocks.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_StairWalkway.fbx
@@ -390,6 +394,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_L.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Floor_A_geo.asset
 - Assets/Blender Files/Platform.blend
+- Assets/_Bundle/Icons/sisyphus.mat
 - Assets/Nomai Ruins/Resources/Meshes/Tree_BH_Bristle_Hold.asset
 - Assets/Nomai Ruins/Prefabs/NOMTree1.prefab
 - Assets/Nomai Ruins/Prefabs/NOMTree3.prefab
@@ -416,6 +421,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_F_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Prefab_NOM_DockingTractorBeam.fbx
 - Assets/Nomai Ruins/Prefabs/Fancy Door.prefab
+- Assets/_Bundle/Icons/sisyphus.png
 - Assets/_Bundle/Structures/WarpReceiverStructure.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bowl_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/outer_case.asset
@@ -454,6 +460,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_E_Geo.asset
 - Assets/Nomai Ruins/Prefabs/ShortPillar.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Detail_Trim_Geo_1.asset
+- Assets/_Bundle/Icons/ice_hate.png
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bed_geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Halfll_Corner_R_Geo.asset
 - Assets/Nomai Ruins/Prefabs/CeilingLamp.prefab
@@ -522,6 +529,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/COL_NomaiTree_1.asset
 - Assets/_Bundle/Planets/Foliage/Prefabs/Mushroom.prefab
 - Assets/_Bundle/Planets/Ice/Assets/Ice.blend
+- Assets/_Bundle/Icons/groundsize.png
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Detail_Rectangle_Geo_1.asset
 - Assets/_Bundle/Props_GM_Clutter (1).prefab
