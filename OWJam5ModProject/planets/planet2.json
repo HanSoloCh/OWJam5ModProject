@@ -24,7 +24,7 @@
                 "radius": 350,
                 "audio": "planets/assets/audio/sm_ambient.ogg",
                 "track": "environment",
-                "volume": 0.7
+                "volume": 0.4
             }
         ]
     },
