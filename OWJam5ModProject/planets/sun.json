@@ -39,6 +39,7 @@
         "stellarDeathType": "none",
         "size": 500,
         "solarLuminosity": 0.75,
+        "lightRadius": 10000, // bigger than 2500 cuz outer planets need to be lit for puzzle
         "lightTint": {
             "r": 240,
             "g": 240,
