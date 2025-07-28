@@ -34,11 +34,6 @@
     </Dialogue>
       <DialogueOptionsList>
         <DialogueOption>
-            <Text>Wait, aren't you a mathematical construct? You aren't real!</Text>
-            <DialogueTarget>1</DialogueTarget>
-            <ConditionToSet>Walker_Ernesto_Die</ConditionToSet>
-        </DialogueOption>
-        <DialogueOption>
             <Text>What is the meaning of the universe?</Text>
             <DialogueTarget>2</DialogueTarget>
         </DialogueOption>
@@ -61,6 +56,11 @@
         <DialogueOption>
             <Text>Why in the world would the Nomai have candy wrappers? That is entirely against their philosophy.</Text>
             <DialogueTarget>7</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Wait, aren't you a mathematical construct? You aren't real!</Text>
+            <DialogueTarget>1</DialogueTarget>
+            <ConditionToSet>Walker_Ernesto_Die</ConditionToSet>
         </DialogueOption>
     </DialogueOptionsList>
   </DialogueNode>

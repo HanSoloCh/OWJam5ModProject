@@ -7,5 +7,12 @@
 User is fully responsible for any damage caused by using this device. (You will break things.)
 		</Text>
 	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Space gear may now be re-equipped.
+		</Text>
+	</TextBlock>
 
 </NomaiObject>

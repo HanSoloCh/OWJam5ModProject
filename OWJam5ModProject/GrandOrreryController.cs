@@ -109,7 +109,7 @@ namespace OWJam5ModProject
 
         public void StartGrandOrrery()
         {
-            computer.DisplayEntry(1);
+            computer.DisplayAllEntries();
             onEnable.Invoke();
 
             GameObject centralStation = GameObject.Find("CentralStation_Body");
