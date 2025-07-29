@@ -17,6 +17,8 @@ namespace OWJam5ModProject
         float[] lightsInitialIntensities;
         Color[] lightEmissionInitialColors;
 
+        bool lightsOn;
+
         void Start()
         {
             playerDetectorTrigger.OnEntry += PlayerDetectorTrigger_OnEntry;
@@ -41,7 +43,13 @@ namespace OWJam5ModProject
         private void PlayerDetectorTrigger_OnEntry(GameObject hitObj)
         {
             if (hitObj.CompareTag("PlayerDetector"))
-                StartCoroutine(FadeLights());
+            {
+                if (!lightsOn)
+                {
+                    StartCoroutine(FadeLights());
+                    lightsOn = true;
+                }
+            }
         }
 
         IEnumerator FadeLights()
