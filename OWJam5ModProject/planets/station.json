@@ -15,7 +15,7 @@
     },
     "ReferenceFrame": {
         "hideInMap": true,
-        "maxTargetDistance": 3000,
+        "maxTargetDistance": 3500,
         "bracketRadius": 50
     },
     "Volumes": {
