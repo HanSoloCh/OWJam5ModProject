@@ -46,12 +46,12 @@
 			<ID>Walker_Jam5_Planet4_Geysers_Rumor</ID>
 			<SourceID>Walker_Jam5_Planet4_Ice</SourceID>
 			<RumorName>Geysers</RumorName>
-			<Text>Nomai noticed geysers beneath the ice on the seabed of "Glacial Abyss!" near the north pole. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
+			<Text>Nomai noticed geysers beneath the ice on the seabed of "Glacial Abyss!" near the north pole. The flow of the geysers prevents entry. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
 		</RumorFact>
 
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Geysers_Hint</ID>
-			<Text>There are geysers beneath the ice on the seabed of "Glacial Abyss!" near the north pole. The flow of the geysers prevents entry. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
+			<Text>Nomai noticed geysers beneath the ice on the seabed of "Glacial Abyss!" near the north pole. The flow of the geysers prevents entry. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.</Text>
 		</ExploreFact>
 	</Entry>
 
@@ -69,7 +69,7 @@
 		
 		<ExploreFact>
 			<ID>Walker_Jam5_Planet4_Core_Fact</ID>
-			<Text>"Glacial Abyss!" has a hollow core connected to the geysers near the north pole. I was able to reach the core by descending the geysers while the planet was frozen. It contains a viewing area for safely observing the layers of the planet.</Text>
+			<Text>"Glacial Abyss!" has a hollow core connected to the geysers near the north pole. I was able to reach the core by descending the geysers while the planet was frozen. It contains a viewing area for safely observing the layers of the planet's core.</Text>
 		</ExploreFact>
 
 		<ExploreFact>
