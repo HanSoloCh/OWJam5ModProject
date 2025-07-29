@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2872853893
+CRC: 2686643044
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 911825697e3011ca2af557a876bb4898
+    Hash: 23be4a7c5c4711b6456938d3c808f803
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 35da9c30bb4b8447230684e27e9633b5
+    Hash: 43eb0a15af704e1489dcbb893ab1c90b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -56,7 +56,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1229164829, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
+  Script: {fileID: 1540726890, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
   Script: {fileID: 2085187901, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 2123534892, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 1946298425, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
@@ -104,8 +108,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -671394647, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
-  Script: {fileID: 2123534892, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
-- Class: 114
   Script: {fileID: 1194511249, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: -227010294, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
@@ -115,8 +117,6 @@ ClassTypes:
   Script: {fileID: -966809459, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: -2033712575, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
-- Class: 114
-  Script: {fileID: 1540726890, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 1392665902, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
@@ -232,8 +232,6 @@ Assets:
 - Assets/_Bundle/Structures/QuantumLightBuilding.blend
 - Assets/Blender Files/OrbCollider.blend
 - Assets/_Bundle/Planets/Foliage/Daucus Foliage.prefab
-- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-405597806584761359-0
-  0 GlobalObjectId_V1-3-eded7f7ccc282e5409e79cb2841495af-2100000-0.mesh
 - Assets/_Bundle/Planets/3D/Supermassive.blend
 - Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot_2.asset
 - Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_2_Trunk.asset
@@ -260,8 +258,6 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/orb_cage.asset
 - Assets/_Bundle/Structures/Dual Stairs.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CubeBlck_Geo.asset
-- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-8399645116734327614-0
-  0 GlobalObjectId_V1-3-cbd883c40434a8e42a824ad2061c9274-2100000-0.mesh
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_FrameInner_Broken_Geo.asset
 - Assets/_Bundle/OrreryStation/OrreryStation.prefab
 - Assets/_Bundle/Structures/WarpReceiverFakeDoor.prefab
@@ -293,8 +289,6 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/BlockTrim_End.prefab
 - Assets/_Bundle/Planets/3D/IcyCore.blend
 - Assets/_Bundle/Planets/SandPlanet.prefab
-- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-405597806584761359-0
-  0 GlobalObjectId_V1-3-7648f3cbff1ff764aa7d2b55f02ba384-2100000-0.mesh
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Corner_L_Collider.asset
 - Assets/Mesh/Props_NOM_OrbSpecs.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_C_Geo.asset
@@ -322,8 +316,6 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_D_Collider.asset
 - Assets/_Bundle/OrbitLines.prefab
 - Assets/_Bundle/Planets/Foliage/Prefabs/dgrass.prefab
-- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-8399645116734327614-0
-  0 GlobalObjectId_V1-3-621d7434735a70e419af9c188edbb92c-2100000-0.mesh
 - Assets/_Bundle/Planets/WaterPlanet.prefab
 - Assets/_Bundle/Icons/NomIcons.blend
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ShortColumn_Square_Geo.asset
@@ -454,8 +446,6 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/RubbleBrickB.prefab
 - Assets/_Bundle/Audio/Ruins Music.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Lamp.asset
-- Assets/BatchedRenderers/BatchedRenderer GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-8399645116734327614-0
-  0 GlobalObjectId_V1-3-95a20ebb1106b57489417d28dbd6c5dc-2100000-0.mesh
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ProbePortal_ProbeCollider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_E_Geo.asset
 - Assets/Nomai Ruins/Prefabs/ShortPillar.prefab
@@ -568,5 +558,5 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/GravityFlipper.fbx
 Dependencies:
-- D:/Github/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets
-- D:/Github/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets2
+- C:/Users/dwalk/Outer Wilds Modding/OWJam5Root/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets
+- C:/Users/dwalk/Outer Wilds Modding/OWJam5Root/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets2
