@@ -16,9 +16,9 @@
         "fogRampPath": "planets/assets/fog/sn_fog.png",
         "size": 228,
         "atmosphereTint": {
-            "r": 138,
-            "g": 193,
-            "b": 209
+            "r": 171,
+            "g": 72,
+            "b": 72
         }
     },
     "Volumes": {
@@ -39,7 +39,12 @@
         "isTidallyLocked": false
     },
     "Sand": {
-        "size": 153
+        "size": 153,
+        "tint": {
+            "r": 107,
+            "g": 19,
+            "b": 19
+        }
     },
     "Funnel": {
         "target": "Walker_Jam5_Planet2",
