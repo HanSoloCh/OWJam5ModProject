@@ -14,7 +14,7 @@ namespace OWJam5ModProject
         public enum CommentaryAuthor { Walker, Cleric, Jamie, John}
 
         const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
-        const string SIGNAL_AUDIO = "TH_RadioSignal_LP";
+        const string SIGNAL_AUDIO = "NomaiRecorderAmbient_LP";
         const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
         const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
 
@@ -44,7 +44,7 @@ namespace OWJam5ModProject
 
         void Start()
         {
-            signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, SIGNAL_AUDIO, signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: 3);
+            signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, SIGNAL_AUDIO, signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: 3, onlyAudibleToScope: false);
 
             dialogTree.OnAdvancePage += DialogTree_OnAdvancePage;
             dialogTree.OnEndConversation += DialogTree_OnEndConversation;
