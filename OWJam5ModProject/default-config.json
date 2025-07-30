@@ -1,4 +1,12 @@
 {
-  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
-  "enabled": true
+    "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+    "enabled": true,
+    "settings": {
+        "developerCommentary": {
+            "type": "toggle",
+            "title": "Developer Commentary",
+            "tooltip": "View commentary from the mod's developers. Use the Developer Commentary frequency on your signalscope to locate commentary.",
+            "value": false
+        }
+    }
 }

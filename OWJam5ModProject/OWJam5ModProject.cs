@@ -15,6 +15,9 @@ namespace OWJam5ModProject
 {
     public class OWJam5ModProject : ModBehaviour
     {
+        public delegate void ConfigurationChangedDelegate(IModConfig config);
+        public ConfigurationChangedDelegate OnConfigurationChanged;
+
         public static OWJam5ModProject Instance;
         public INewHorizons NewHorizons;
         private List<GameObject> planetPivots = null;
@@ -51,6 +54,13 @@ namespace OWJam5ModProject
         {
             if (newScene != OWScene.SolarSystem) return;
             ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
+        }
+
+        public override void Configure(IModConfig config)
+        {
+            base.Configure(config);
+
+            OnConfigurationChanged?.Invoke(config);
         }
 
         void OnStarSystemLoaded(string system)
