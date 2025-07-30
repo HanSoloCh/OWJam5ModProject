@@ -16,7 +16,6 @@ namespace OWJam5ModProject
         const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
         const string SIGNAL_AUDIO = "TH_RadioSignal_LP";
         const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
-        const string PERSISTENT_CONDITION_PREFIX = "Walker_Jam5_CommentaryRead_";
         const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
 
         [Header("Global Options")]
@@ -101,14 +100,15 @@ namespace OWJam5ModProject
         private void UpdateCommentaryRead(bool setRead = false)
         {
             bool readPrevious = commentaryRead;
-            if (setRead)
+
+            if (setRead && !readPrevious)
             {
-                PlayerData.SetPersistentCondition(PERSISTENT_CONDITION_PREFIX + signalName, true);
+                signal.IdentifySignal();
                 commentaryRead = true;
             }
             else
             {
-                commentaryRead = PlayerData.PersistentConditionExists(PERSISTENT_CONDITION_PREFIX + signalName) && PlayerData.GetPersistentCondition(PERSISTENT_CONDITION_PREFIX + signalName);
+                commentaryRead = PlayerData.KnowsSignal(signal.GetName());
             }
 
             if (commentaryRead && !readPrevious)
@@ -142,8 +142,6 @@ namespace OWJam5ModProject
         {
             ResetAttentionPoint();
             UpdateCommentaryRead(true);
-            if (!PlayerData.KnowsSignal(signal._name))
-                signal.IdentifySignal();
         }
 
         private void DialogTree_OnAdvancePage(string nodeName, int pageNum)
