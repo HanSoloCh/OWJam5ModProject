@@ -3,6 +3,7 @@ using OWML.Common;
 using OWML.ModHelper;
 using OWML.Utils;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,23 +16,32 @@ namespace OWJam5ModProject
         const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
         const string SIGNAL_AUDIO = "TH_RadioSignal_LP";
         const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
+        const string PERSISTENT_CONDITION_PREFIX = "Walker_Jam5_CommentaryRead_";
+        const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
 
-        [Header("Required References")]
+        [Header("Global Options")]
         [SerializeField] NHCharacterDialogueTree dialogTree;
         [SerializeField] MeshRenderer propRenderer;
         [SerializeField] int propAuthorMaterialIndex = 1;
         [SerializeField] Material[] authorMaterials;
+        [SerializeField] float materialFadeMultiplier = 0.25f;
+        [SerializeField] float materialFadeDuration = 1;
 
         [Header("Settings")]
+        [Tooltip("The XML file for the commentary dialog, automatically copied to conversation tree")]
         [SerializeField] TextAsset dialogXml;
+        [Tooltip("The author of the commentary, automatically sets prop material")]
         [SerializeField] CommentaryAuthor author;
+        [Tooltip("The name of the signal emitted by this commentary. Should be the topic discussed by the commentary. Must be unique")]
         [SerializeField] string signalName = "Commentary Topic";
+        [Tooltip("The range at which the signal is detected. Leave at default unless you have a reason to change it")]
         [SerializeField] float signalDetectionRange = 50;
+        [Tooltip("An array of demonstration components this commentary can activate")]
         [SerializeField] DeveloperCommentaryDemonstration[] demonstrations;
 
-        bool commentaryEnabled;
         AudioSignal signal;
         Vector3 initialAttentionPoint;
+        bool commentaryRead;
 
         void Start()
         {
@@ -42,6 +52,8 @@ namespace OWJam5ModProject
             OWJam5ModProject.Instance.OnConfigurationChanged += OnConfigurationChanged;
 
             initialAttentionPoint = dialogTree._attentionPoint.localPosition;
+
+            UpdateCommentaryRead();
             
             SetCommentaryEnabled(OWJam5ModProject.Instance.ModHelper.Config.GetSettingsValue<bool>(DEVELOPER_COMMENTARY_OPTION));
         }
@@ -86,6 +98,40 @@ namespace OWJam5ModProject
             propRenderer.sharedMaterials = sharedMaterials;
         }
 
+        private void UpdateCommentaryRead(bool setRead = false)
+        {
+            bool readPrevious = commentaryRead;
+            if (setRead)
+            {
+                PlayerData.SetPersistentCondition(PERSISTENT_CONDITION_PREFIX + signalName, true);
+                commentaryRead = true;
+            }
+            else
+            {
+                commentaryRead = PlayerData.PersistentConditionExists(PERSISTENT_CONDITION_PREFIX + signalName) && PlayerData.GetPersistentCondition(PERSISTENT_CONDITION_PREFIX + signalName);
+            }
+
+            if (commentaryRead && !readPrevious)
+                StartCoroutine(FadeMaterial());
+        }
+
+        IEnumerator FadeMaterial()
+        {
+            Color initialColor = propRenderer.materials[propAuthorMaterialIndex].GetColor(EMISSION_COLOR_PARAMETER);
+            Color targetColor = initialColor * materialFadeMultiplier;
+
+            float t = 0;
+            while (t < 1)
+            {
+                propRenderer.materials[propAuthorMaterialIndex].SetColor(EMISSION_COLOR_PARAMETER, Color.Lerp(initialColor, targetColor, t));
+                t += Time.deltaTime / materialFadeDuration;
+
+                yield return new WaitForEndOfFrame();
+            }
+
+            propRenderer.materials[propAuthorMaterialIndex].SetColor(EMISSION_COLOR_PARAMETER, targetColor);
+        }
+
         private void OnConfigurationChanged(IModConfig config)
         {
             bool commentaryEnabled = config.GetSettingsValue<bool>(DEVELOPER_COMMENTARY_OPTION);
@@ -95,8 +141,9 @@ namespace OWJam5ModProject
         private void DialogTree_OnEndConversation()
         {
             ResetAttentionPoint();
-
-            signal.IdentifySignal();
+            UpdateCommentaryRead(true);
+            if (!PlayerData.KnowsSignal(signal._name))
+                signal.IdentifySignal();
         }
 
         private void DialogTree_OnAdvancePage(string nodeName, int pageNum)
