@@ -36,6 +36,7 @@ namespace OWJam5ModProject
 
             blackHoleRoot = SearchUtilities.Find("Walker_Jam5_Platform_Body/Sector/DeveloperCommentaryBlackHole");
             blackHoleController = blackHoleRoot.GetComponentInChildren<SingularityController>();
+            blackHoleRoot.transform.SetParent(Locator.GetPlayerBody().transform);
             whiteHoleRoot = SearchUtilities.Find("Walker_Jam5_Platform_Body/Sector/DeveloperCommentaryWhiteHole");
             whiteHoleController = whiteHoleRoot.GetComponentInChildren<SingularityController>();
 
@@ -94,7 +95,7 @@ namespace OWJam5ModProject
             playerBody.SetVelocity(Vector3.zero);
             //whiteHoleRoot.transform.position = playerCameraTransform.TransformPoint(SINGULARITY_OFFSET);
 
-            blackHoleController.Collapse();
+            blackHoleController.CollapseImmediate();
             whiteHoleController.Collapse();
 
             warping = false;
