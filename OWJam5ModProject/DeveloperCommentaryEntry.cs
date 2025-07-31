@@ -15,7 +15,7 @@ namespace OWJam5ModProject
 
         public const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
         public const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
-        const string SIGNAL_AUDIO = "NomaiRecorderAmbient_LP";
+        const string SIGNAL_AUDIO = "TH_RadioSignal_LP";
         const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
 
         [Header("Global Options")]
@@ -44,11 +44,16 @@ namespace OWJam5ModProject
 
         void Start()
         {
-            signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, SIGNAL_AUDIO, signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: 3, onlyAudibleToScope: false);
+            signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, SIGNAL_AUDIO, signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: 3);
+            signal._signalVolume = 0.5f;
             signal.transform.parent = transform;
 
             dialogTree.OnAdvancePage += DialogTree_OnAdvancePage;
             dialogTree.OnEndConversation += DialogTree_OnEndConversation;
+            dialogTree._isRecording = true;
+            dialogTree.LateInitialize();
+            dialogTree._interactVolume.SetPromptText(UITextType.RecordingPrompt, "HOPEFULLY THIS SHOWS UP");
+
             OWJam5ModProject.Instance.OnConfigurationChanged += OnConfigurationChanged;
 
             initialAttentionPoint = dialogTree._attentionPoint.localPosition;
