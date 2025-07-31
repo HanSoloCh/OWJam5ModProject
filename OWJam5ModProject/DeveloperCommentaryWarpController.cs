@@ -1,5 +1,7 @@
-﻿using OWML.Common;
+﻿using NewHorizons.Utility;
+using OWML.Common;
 using System;
+using System.Collections;
 using UnityEngine;
 
 namespace OWJam5ModProject
@@ -8,12 +10,18 @@ namespace OWJam5ModProject
     {
         const string BUTTON_PROMPT_TEXT = "DEVELOPER_COMMENTARY_WARP_PROMPT";
         const float MIN_SIGNAL_STRENGTH = 0.9f;
-        readonly Vector3 WARP_OFFSET = Vector3.up * 2;
+        readonly Vector3 WARP_ARRIVAL_OFFSET = Vector3.up * 2;
+        readonly Vector3 SINGULARITY_OFFSET = Vector3.forward * 0.5f;
 
         bool commentaryEnabled = false;
+        bool warping = false;
         ScreenPrompt buttonPrompt;
         Signalscope signalscope;
         OWRigidbody playerBody;
+        GameObject blackHoleRoot;
+        SingularityController blackHoleController;
+        GameObject whiteHoleRoot;
+        SingularityController whiteHoleController;
 
         void Start()
         {
@@ -26,6 +34,11 @@ namespace OWJam5ModProject
             Locator.GetPromptManager().AddScreenPrompt(buttonPrompt, PromptPosition.BottomCenter);
 
             playerBody = Locator.GetPlayerBody();
+
+            blackHoleRoot = SearchUtilities.Find("Walker_Jam5_Platform_Body/Sector/DeveloperCommentaryBlackHole");
+            blackHoleController = blackHoleRoot.GetComponentInChildren<SingularityController>();
+            whiteHoleRoot = SearchUtilities.Find("Walker_Jam5_Platform_Body/Sector/DeveloperCommentaryWhiteHole");
+            whiteHoleController = whiteHoleRoot.GetComponentInChildren<SingularityController>();
 
             signalscope = GetComponent<Signalscope>();
         }
@@ -55,11 +68,37 @@ namespace OWJam5ModProject
 
             if (canWarp && OWInput.IsNewlyPressed(InputLibrary.interactSecondary))
             {
-                // TODO: Add singularity effects
-                AudioSignal targetCommentarySignal = signalscope.GetStrongestSignal();
-                playerBody.WarpToPositionRotation(targetCommentarySignal.transform.TransformPoint(WARP_OFFSET), targetCommentarySignal.transform.rotation);
-                playerBody.SetVelocity(Vector3.zero);
+                if (!warping)
+                {
+                    StartCoroutine(Warp());
+                    warping = true;
+                }
             }
+        }
+
+        IEnumerator Warp()
+        {
+            // Can get away with not accounting for planet motion because all our planets are static
+
+            AudioSignal targetCommentarySignal = signalscope.GetStrongestSignal();
+            Vector3 warpDestination = targetCommentarySignal.transform.TransformPoint(WARP_ARRIVAL_OFFSET);
+            Transform playerCameraTransform = Locator.GetPlayerCamera().transform;
+
+            blackHoleRoot.transform.position = playerCameraTransform.TransformPoint(SINGULARITY_OFFSET);
+            whiteHoleRoot.transform.position = warpDestination;
+            blackHoleController.Create();
+            whiteHoleController.Create();
+
+            yield return new WaitUntil(() => { return blackHoleController.GetState() != SingularityController.State.Creating; });
+            
+            playerBody.WarpToPositionRotation(warpDestination, targetCommentarySignal.transform.rotation);
+            playerBody.SetVelocity(Vector3.zero);
+            whiteHoleRoot.transform.position = playerCameraTransform.TransformPoint(SINGULARITY_OFFSET);
+
+            blackHoleController.Collapse();
+            whiteHoleController.Collapse();
+
+            warping = false;
         }
     }
 }
