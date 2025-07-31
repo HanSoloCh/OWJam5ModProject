@@ -15,6 +15,7 @@ namespace OWJam5ModProject
                 if (__instance.transform.parent.GetComponent<DeveloperCommentaryEntry>())
                 {
                     __instance._interactVolume.SetPromptText(UITextType.RecordingPrompt, "\"" + TextTranslation.Translate(__instance._characterName) + "\"");
+                    __instance._isRecording = true;
                 }
             }
         }

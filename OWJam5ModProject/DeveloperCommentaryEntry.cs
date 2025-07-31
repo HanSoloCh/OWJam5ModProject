@@ -50,9 +50,7 @@ namespace OWJam5ModProject
 
             dialogTree.OnAdvancePage += DialogTree_OnAdvancePage;
             dialogTree.OnEndConversation += DialogTree_OnEndConversation;
-            dialogTree._isRecording = true;
-            dialogTree.LateInitialize();
-            dialogTree._interactVolume.SetPromptText(UITextType.RecordingPrompt, "HOPEFULLY THIS SHOWS UP");
+            dialogTree.OnStartConversation += DialogTree_OnStartConversation;
 
             OWJam5ModProject.Instance.OnConfigurationChanged += OnConfigurationChanged;
 
@@ -144,10 +142,16 @@ namespace OWJam5ModProject
             SetCommentaryEnabled(commentaryEnabled);
         }
 
+        private void DialogTree_OnStartConversation()
+        {
+            RequirementsScreenPrompt.CommentaryDialogStarted();
+        }
+
         private void DialogTree_OnEndConversation()
         {
             ResetAttentionPoint();
             UpdateCommentaryRead(true);
+            RequirementsScreenPrompt.CommentaryDialogEnded();
         }
 
         private void DialogTree_OnAdvancePage(string nodeName, int pageNum)

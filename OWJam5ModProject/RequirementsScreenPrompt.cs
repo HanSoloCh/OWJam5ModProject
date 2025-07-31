@@ -21,6 +21,7 @@ namespace OWJam5ModProject
         [SerializeField] OWTriggerVolume playerDetectorTrigger = null;
 
         static ScreenPrompt prompt;
+        static bool dialogCommentaryPromptWasVisible = false;
 
         void Start()
         {
@@ -66,6 +67,18 @@ namespace OWJam5ModProject
             string promptText = OWJam5ModProject.Instance.NewHorizons.GetTranslationForUI(SCREEN_PROMPT_TEXT);
             prompt = new ScreenPrompt(promptText);
             Locator.GetPromptManager().AddScreenPrompt(prompt);
+        }
+
+        // Hides the screen prompt when dialog commentary is being read
+        public static void CommentaryDialogStarted()
+        {
+            dialogCommentaryPromptWasVisible = prompt._isVisible;
+            prompt.SetVisibility(false);
+        }
+
+        public static void CommentaryDialogEnded()
+        {
+            prompt.SetVisibility(dialogCommentaryPromptWasVisible);
         }
     }
 }
