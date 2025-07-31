@@ -21,7 +21,7 @@ namespace OWJam5ModProject
 
         void Start()
         {
-            activationRoot.SetActive(false);
+            activationRoot?.SetActive(false);
         }
 
         public void CheckActivation(DeveloperCommentaryEntry entry, NHCharacterDialogueTree dialogTree)

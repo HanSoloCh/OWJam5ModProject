@@ -62,6 +62,14 @@
                 "rotation": {
                     "x": 270
                 }
+            },
+            {
+                "assetBundle": "planets/assets/walker_jam5_bundle",
+                "path": "Assets/_Bundle/BlackHole.prefab",
+                "position": {
+                    "y": 5,
+                    "z": 40
+                }
             }
         ],
         "warpTransmitters": [

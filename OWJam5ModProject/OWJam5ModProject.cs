@@ -83,6 +83,7 @@ namespace OWJam5ModProject
             FinalRequirementManager.Initialize();
 
             FindObjectOfType<ShipBody>().gameObject.AddComponent<ShipContactSensor>();
+            FindObjectOfType<Signalscope>().gameObject.AddComponent<DeveloperCommentaryWarpController>();
             
             // for some reason station has lights enabled, so force this ourselves
             NewHorizons.GetPlanet("Walker_Jam5_Station").GetComponentInChildren<SectorLightsCullGroup>().SetShining(false);

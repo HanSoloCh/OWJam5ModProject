@@ -13,9 +13,9 @@ namespace OWJam5ModProject
     {
         public enum CommentaryAuthor { Walker, Cleric, Jamie, John}
 
-        const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
+        public const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
+        public const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
         const string SIGNAL_AUDIO = "NomaiRecorderAmbient_LP";
-        const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
         const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
 
         [Header("Global Options")]
