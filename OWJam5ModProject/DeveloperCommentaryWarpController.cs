@@ -29,7 +29,7 @@ namespace OWJam5ModProject
             commentaryEnabled = OWJam5ModProject.Instance.ModHelper.Config.GetSettingsValue<bool>(DeveloperCommentaryEntry.DEVELOPER_COMMENTARY_OPTION);
 
             string promptText = OWJam5ModProject.Instance.NewHorizons.GetTranslationForUI(BUTTON_PROMPT_TEXT);
-            buttonPrompt = new ScreenPrompt(InputLibrary.interactSecondary, promptText);
+            buttonPrompt = new ScreenPrompt(InputLibrary.autopilot, promptText);
             Locator.GetPromptManager().AddScreenPrompt(buttonPrompt, PromptPosition.BottomCenter);
 
             playerBody = Locator.GetPlayerBody();
@@ -66,7 +66,7 @@ namespace OWJam5ModProject
             }
             buttonPrompt.SetVisibility(canWarp);
 
-            if (canWarp && OWInput.IsNewlyPressed(InputLibrary.interactSecondary))
+            if (canWarp && OWInput.IsNewlyPressed(InputLibrary.autopilot))
             {
                 if (!warping)
                 {
