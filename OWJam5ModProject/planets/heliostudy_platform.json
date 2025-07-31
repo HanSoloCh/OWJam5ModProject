@@ -70,7 +70,8 @@
                 "position": {
                     "y": 5,
                     "z": 40
-                }
+                },
+                "keepLoaded": true
             },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
@@ -79,7 +80,8 @@
                 "position": {
                     "y": 5,
                     "z": 40
-                }
+                },
+                "keepLoaded": true
             }
         ],
         "warpTransmitters": [

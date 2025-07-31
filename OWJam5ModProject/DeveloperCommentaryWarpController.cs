@@ -10,7 +10,6 @@ namespace OWJam5ModProject
     {
         const string BUTTON_PROMPT_TEXT = "DEVELOPER_COMMENTARY_WARP_PROMPT";
         const float MIN_SIGNAL_STRENGTH = 0.9f;
-        readonly Vector3 WARP_ARRIVAL_OFFSET = Vector3.up * 2;
         readonly Vector3 SINGULARITY_OFFSET = Vector3.forward * 0.5f;
 
         bool commentaryEnabled = false;
@@ -81,19 +80,19 @@ namespace OWJam5ModProject
             // Can get away with not accounting for planet motion because all our planets are static
 
             AudioSignal targetCommentarySignal = signalscope.GetStrongestSignal();
-            Vector3 warpDestination = targetCommentarySignal.transform.TransformPoint(WARP_ARRIVAL_OFFSET);
+            Transform warpArrivalMarker = targetCommentarySignal.transform.parent.Find("WarpArrivalMarker");
             Transform playerCameraTransform = Locator.GetPlayerCamera().transform;
 
             blackHoleRoot.transform.position = playerCameraTransform.TransformPoint(SINGULARITY_OFFSET);
-            whiteHoleRoot.transform.position = warpDestination;
+            whiteHoleRoot.transform.position = targetCommentarySignal.transform.position;
             blackHoleController.Create();
             whiteHoleController.Create();
 
             yield return new WaitUntil(() => { return blackHoleController.GetState() != SingularityController.State.Creating; });
             
-            playerBody.WarpToPositionRotation(warpDestination, targetCommentarySignal.transform.rotation);
+            playerBody.WarpToPositionRotation(warpArrivalMarker.position, warpArrivalMarker.transform.rotation);
             playerBody.SetVelocity(Vector3.zero);
-            whiteHoleRoot.transform.position = playerCameraTransform.TransformPoint(SINGULARITY_OFFSET);
+            //whiteHoleRoot.transform.position = playerCameraTransform.TransformPoint(SINGULARITY_OFFSET);
 
             blackHoleController.Collapse();
             whiteHoleController.Collapse();

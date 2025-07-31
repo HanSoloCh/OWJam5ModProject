@@ -45,6 +45,7 @@ namespace OWJam5ModProject
         void Start()
         {
             signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, SIGNAL_AUDIO, signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: 3, onlyAudibleToScope: false);
+            signal.transform.parent = transform;
 
             dialogTree.OnAdvancePage += DialogTree_OnAdvancePage;
             dialogTree.OnEndConversation += DialogTree_OnEndConversation;
