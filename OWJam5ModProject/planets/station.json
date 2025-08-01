@@ -18,17 +18,6 @@
         "maxTargetDistance": 3500,
         "bracketRadius": 50
     },
-    "Volumes": {
-        "audioVolumes": [
-            {
-                "audio": "planets/assets/audio/orrerystation.ogg",
-                "radius": 100,
-                "track": "music",
-                "fadeSeconds": 5,
-                "loop": true
-            }
-        ]
-    },
     "Props": {
         "warpReceivers": [
             {

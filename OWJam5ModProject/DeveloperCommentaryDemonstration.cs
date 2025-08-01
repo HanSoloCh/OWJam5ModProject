@@ -18,6 +18,16 @@ namespace OWJam5ModProject
         [SerializeField] Transform attentionPoint;
         [Tooltip("The objects to activate while the demonstration is active")]
         [SerializeField] GameObject activationRoot;
+        [Tooltip("The OWAudioSource to play while the demonstration is active")]
+        [SerializeField] OWAudioSource demoAudioSource;
+        [Tooltip("The OWAudioSource (if any) to fade out while the demonstration is active")]
+        [SerializeField] OWAudioSource fadeOutAudioSource;
+        [Tooltip("The fade duration on the demo OWAudioSource")]
+        [SerializeField] float audioFadeDuration = 3;
+        [Tooltip("The volume of the demo OWAudioSource")]
+        [SerializeField] float audioVolume = 1;
+
+        float fadedOutAudioVolume;
 
         void Start()
         {
@@ -36,6 +46,15 @@ namespace OWJam5ModProject
                 
                 if (activationRoot != null)
                     activationRoot.SetActive(true);
+
+                if (demoAudioSource != null)
+                    demoAudioSource.FadeIn(audioFadeDuration, targetVolume: audioVolume);
+
+                if (fadeOutAudioSource != null)
+                {
+                    fadedOutAudioVolume = fadeOutAudioSource.volume;
+                    fadeOutAudioSource.FadeOut(audioFadeDuration);
+                }
             }
         }
 
@@ -51,6 +70,12 @@ namespace OWJam5ModProject
 
                 if (activationRoot != null)
                     activationRoot.SetActive(false);
+
+                if (demoAudioSource != null)
+                    demoAudioSource.FadeOut(audioFadeDuration);
+
+                if (fadeOutAudioSource != null)
+                    fadeOutAudioSource.FadeIn(audioFadeDuration, targetVolume: fadedOutAudioVolume);
             }
         }
 

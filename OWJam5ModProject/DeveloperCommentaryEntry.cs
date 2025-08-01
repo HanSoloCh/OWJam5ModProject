@@ -40,6 +40,7 @@ namespace OWJam5ModProject
         [Tooltip("An array of demonstration components this commentary can activate")]
         [SerializeField] DeveloperCommentaryDemonstration[] demonstrations;
 
+        Signalscope signalscope;
         AudioSignal signal;
         Vector3 initialAttentionPoint;
         bool commentaryRead;
@@ -61,6 +62,8 @@ namespace OWJam5ModProject
             initialAttentionPoint = dialogTree._attentionPoint.localPosition;
 
             UpdateCommentaryRead();
+
+            signalscope = FindObjectOfType<Signalscope>();
             
             OnConfigurationChanged(OWJam5ModProject.Instance.ModHelper.Config);
         }
@@ -154,7 +157,10 @@ namespace OWJam5ModProject
                 if (anyEnabled)
                     signal.IdentifyFrequency();
                 else
+                {
                     PlayerData.ForgetFrequency(signal._frequency);
+                    signalscope.SelectFrequency(SignalFrequency.Traveler);
+                }
             }
         }
 
