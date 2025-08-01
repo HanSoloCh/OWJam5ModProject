@@ -17,6 +17,7 @@
 
 		"REQUIREMENTS_SCREEN_PROMPT": "1. A planet in the system has solid ice.\n2. A planet has exposed geothermal activity.\n3. At least one warp receiver is aligned.\n4. More than one planet has sand.\n5. Any planets in the same orbit are on opposite sides of the sun.\n6. The largest planet is not in the furthest orbit.",
 		"ORB_CANCEL_DRAG_PROMPT": "Release Orb",
-		"DEVELOPER_COMMENTARY_WARP_PROMPT": "Warp To Commentary"
+		"DEVELOPER_COMMENTARY_WARP_PROMPT": "Warp To Commentary",
+		"DEVELOPER_COMMENTARY_WARP_UNREAD_PROMPT": "Warp To Unread Commentary"
 	}
 }

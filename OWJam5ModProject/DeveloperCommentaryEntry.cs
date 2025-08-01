@@ -47,7 +47,7 @@ namespace OWJam5ModProject
 
         void Start()
         {
-            signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, "", signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: 3);
+            signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, "", signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: -1);
             signal._signalVolume = 0.5f;
             signal.transform.parent = transform;
             signal._owAudioSource.clip = NewHorizons.Utility.Files.AssetBundleUtilities.Load<AudioClip>("planets/assets/walker_jam5_bundle", "Assets/_Bundle/Audio/devCommentary.ogg", OWJam5ModProject.Instance);
