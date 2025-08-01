@@ -15,8 +15,8 @@ namespace OWJam5ModProject
 
         public const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
         public const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
-        const string SIGNAL_AUDIO = "TH_RadioSignal_LP";
         const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
+        const float SIGNAL_VOLUME = 0.05f;
 
         [Header("Global Options")]
         [SerializeField] NHCharacterDialogueTree dialogTree;
@@ -44,9 +44,11 @@ namespace OWJam5ModProject
 
         void Start()
         {
-            signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, SIGNAL_AUDIO, signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: 3);
+            signal = OWJam5ModProject.Instance.NewHorizons.SpawnSignal(OWJam5ModProject.Instance, gameObject, "", signalName, SIGNAL_FREQUENCY_NAME, detectionRadius:signalDetectionRange, identificationRadius: 3);
             signal._signalVolume = 0.5f;
             signal.transform.parent = transform;
+            signal._owAudioSource.clip = NewHorizons.Utility.Files.AssetBundleUtilities.Load<AudioClip>("planets/assets/walker_jam5_bundle", "Assets/_Bundle/Audio/devCommentary.ogg", OWJam5ModProject.Instance);
+            signal._owAudioSource.SetMaxVolume(SIGNAL_VOLUME);
 
             dialogTree.OnAdvancePage += DialogTree_OnAdvancePage;
             dialogTree.OnEndConversation += DialogTree_OnEndConversation;
