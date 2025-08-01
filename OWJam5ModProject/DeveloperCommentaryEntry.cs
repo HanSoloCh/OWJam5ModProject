@@ -141,7 +141,7 @@ namespace OWJam5ModProject
             //Determine if this one should be active
             string configStr = config.GetSettingsValue<string>(DEVELOPER_COMMENTARY_OPTION).ToLower();
             string authorStr = author.ToString().ToLower();
-            bool commentaryEnabled = configStr.Equals("all") || configStr.Contains(authorStr) || author == CommentaryAuthor.Tutorial;
+            bool commentaryEnabled = configStr.Equals("all") || configStr.Contains(authorStr) || (author == CommentaryAuthor.Tutorial && configStr != "none");
 
             //Set this one up
             SetCommentaryEnabled(commentaryEnabled);
