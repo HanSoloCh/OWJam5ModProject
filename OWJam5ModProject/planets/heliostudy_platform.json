@@ -65,7 +65,7 @@
             },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/BlackHole.prefab",
+                "path": "Assets/_Bundle/DeveloperCommentaryBlackHole.prefab",
                 "rename": "DeveloperCommentaryBlackHole",
                 "position": {
                     "y": 5,
@@ -75,7 +75,7 @@
             },
             {
                 "assetBundle": "planets/assets/walker_jam5_bundle",
-                "path": "Assets/_Bundle/WhiteHole.prefab",
+                "path": "Assets/_Bundle/DeveloperCommentaryWhiteHole.prefab",
                 "rename": "DeveloperCommentaryWhiteHole",
                 "position": {
                     "y": 5,
