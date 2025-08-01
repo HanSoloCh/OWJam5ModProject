@@ -12,7 +12,7 @@ namespace OWJam5ModProject
 {
     internal class DeveloperCommentaryEntry : MonoBehaviour
     {
-        public enum CommentaryAuthor { Walker, Cleric, Jamie, John}
+        public enum CommentaryAuthor { Walker, Cleric, Jamie, John, Tutorial}
 
         public const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
         public const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
@@ -141,7 +141,7 @@ namespace OWJam5ModProject
             //Determine if this one should be active
             string configStr = config.GetSettingsValue<string>(DEVELOPER_COMMENTARY_OPTION).ToLower();
             string authorStr = author.ToString().ToLower();
-            bool commentaryEnabled = configStr.Equals("all") || configStr.Contains(authorStr);
+            bool commentaryEnabled = configStr.Equals("all") || configStr.Contains(authorStr) || author == CommentaryAuthor.Tutorial;
 
             //Set this one up
             SetCommentaryEnabled(commentaryEnabled);
