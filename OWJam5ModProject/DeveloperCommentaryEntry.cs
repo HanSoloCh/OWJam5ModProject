@@ -16,9 +16,14 @@ namespace OWJam5ModProject
 
         public const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
         public const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
-        private bool anyEnabled = false;
+        const string COMMENTARY_READ_NOTIFICATION = "DEVELOPER_COMMENTARY_READ_NOTIFICATION";
         const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
         const float SIGNAL_VOLUME = 0.05f;
+
+        static int[] entryCounts = new int[4];
+        static int[] readEntries = new int[4];
+        static int totalEntries;
+        static int totalReadEntries;
 
         [Header("Global Options")]
         [SerializeField] NHCharacterDialogueTree dialogTree;
@@ -44,6 +49,8 @@ namespace OWJam5ModProject
         AudioSignal signal;
         Vector3 initialAttentionPoint;
         bool commentaryRead;
+        bool anyEnabled = false;
+        bool allEnabled = false;
 
         void Start()
         {
@@ -64,7 +71,19 @@ namespace OWJam5ModProject
             UpdateCommentaryRead();
 
             signalscope = FindObjectOfType<Signalscope>();
-            
+
+            if (author != CommentaryAuthor.Tutorial)
+            {
+                entryCounts[(int)author]++;
+                totalEntries++;
+                if (commentaryRead)
+                {
+                    readEntries[(int)author]++;
+                    totalReadEntries++;
+                }
+
+            }
+
             OnConfigurationChanged(OWJam5ModProject.Instance.ModHelper.Config);
         }
 
@@ -79,6 +98,17 @@ namespace OWJam5ModProject
 
             if (dialogXml != null)
                 dialogTree._xmlCharacterDialogueAsset = dialogXml;
+        }
+
+        public static void ResetEntryCounts()
+        {
+            for (int i = 0; i < entryCounts.Length; i++)
+            {
+                entryCounts[i] = 0;
+                readEntries[i] = 0;
+            }
+            totalEntries = 0;
+            totalReadEntries = 0;
         }
 
         public void MoveAttentionPoint(Transform target)
@@ -110,6 +140,18 @@ namespace OWJam5ModProject
 
             if (setRead && !readPrevious)
             {
+                if (author != CommentaryAuthor.Tutorial)
+                {
+                    readEntries[(int)author]++;
+                    totalReadEntries++;
+
+                    int notificationReadEntries = allEnabled ? totalReadEntries : readEntries[(int)author];
+                    int notificationTotalEntries = allEnabled ? totalEntries : entryCounts[(int)author];
+                    string notificationString = notificationReadEntries.ToString() + "/" + notificationTotalEntries.ToString() + " " + OWJam5ModProject.Instance.NewHorizons.GetTranslationForUI(COMMENTARY_READ_NOTIFICATION);
+                    NotificationData notification = new NotificationData(NotificationTarget.Player, notificationString, 10f);
+                    NotificationManager.SharedInstance.PostNotification(notification);
+                }
+
                 signal.IdentifySignal();
                 commentaryRead = true;
             }
@@ -162,6 +204,8 @@ namespace OWJam5ModProject
                     signalscope.SelectFrequency(SignalFrequency.Traveler);
                 }
             }
+
+            allEnabled = configStr.Equals("all");
         }
 
         private void DialogTree_OnStartConversation()

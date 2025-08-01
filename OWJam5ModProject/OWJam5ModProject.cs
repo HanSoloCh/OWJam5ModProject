@@ -52,6 +52,8 @@ namespace OWJam5ModProject
 
         public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
         {
+            DeveloperCommentaryEntry.ResetEntryCounts();
+
             if (newScene != OWScene.SolarSystem) return;
             ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
         }
