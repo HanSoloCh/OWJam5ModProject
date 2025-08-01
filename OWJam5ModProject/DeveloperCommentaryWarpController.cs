@@ -26,7 +26,7 @@ namespace OWJam5ModProject
         {
             OWJam5ModProject.Instance.OnConfigurationChanged += OnConfigurationChanged;
 
-            commentaryEnabled = OWJam5ModProject.Instance.ModHelper.Config.GetSettingsValue<bool>(DeveloperCommentaryEntry.DEVELOPER_COMMENTARY_OPTION);
+            OnConfigurationChanged(OWJam5ModProject.Instance.ModHelper.Config);
 
             string promptText = OWJam5ModProject.Instance.NewHorizons.GetTranslationForUI(BUTTON_PROMPT_TEXT);
             buttonPrompt = new ScreenPrompt(InputLibrary.autopilot, promptText);
@@ -50,7 +50,7 @@ namespace OWJam5ModProject
 
         void OnConfigurationChanged(IModConfig config)
         {
-            commentaryEnabled = config.GetSettingsValue<bool>(DeveloperCommentaryEntry.DEVELOPER_COMMENTARY_OPTION);
+            commentaryEnabled = !config.GetSettingsValue<string>(DeveloperCommentaryEntry.DEVELOPER_COMMENTARY_OPTION).Equals("None");
         }
 
         void Update()

@@ -3,10 +3,11 @@
     "enabled": true,
     "settings": {
         "developerCommentary": {
-            "type": "toggle",
-            "title": "Developer Commentary",
-            "tooltip": "View commentary from the mod's developers. Use the Developer Commentary frequency on your signalscope to locate commentary. It is recommended that you finish the mod before enabling this option.",
-            "value": false
+            "type": "selector",
+            "value": "None",
+            "options": [
+                "None", "All", "2walker2", "Lezzlebit (Jamie)", "JohnCorby", "coderCleric"
+            ]
         }
     }
 }

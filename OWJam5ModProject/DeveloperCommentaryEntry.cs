@@ -1,4 +1,5 @@
 ﻿using NewHorizons.Components.Props;
+using Newtonsoft.Json.Linq;
 using OWML.Common;
 using OWML.ModHelper;
 using OWML.Utils;
@@ -15,6 +16,7 @@ namespace OWJam5ModProject
 
         public const string SIGNAL_FREQUENCY_NAME = "Developer Commentary";
         public const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
+        private bool anyEnabled = false;
         const string SIGNAL_AUDIO = "TH_RadioSignal_LP";
         const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
 
@@ -58,7 +60,7 @@ namespace OWJam5ModProject
 
             UpdateCommentaryRead();
             
-            SetCommentaryEnabled(OWJam5ModProject.Instance.ModHelper.Config.GetSettingsValue<bool>(DEVELOPER_COMMENTARY_OPTION));
+            OnConfigurationChanged(OWJam5ModProject.Instance.ModHelper.Config);
         }
 
         void OnDestroy()
@@ -87,11 +89,7 @@ namespace OWJam5ModProject
         private void SetCommentaryEnabled(bool value)
         {
             gameObject.SetActive(value);
-
-            if (value)
-                signal.IdentifyFrequency();
-            else
-                PlayerData.ForgetFrequency(signal._frequency);
+            signal.SetSignalActivation(value, 0);
         }
 
         private void UpdateAuthorMaterial()
@@ -138,8 +136,24 @@ namespace OWJam5ModProject
 
         private void OnConfigurationChanged(IModConfig config)
         {
-            bool commentaryEnabled = config.GetSettingsValue<bool>(DEVELOPER_COMMENTARY_OPTION);
+            //Determine if this one should be active
+            string configStr = config.GetSettingsValue<string>(DEVELOPER_COMMENTARY_OPTION).ToLower();
+            string authorStr = author.ToString().ToLower();
+            bool commentaryEnabled = configStr.Equals("all") || configStr.Contains(authorStr);
+
+            //Set this one up
             SetCommentaryEnabled(commentaryEnabled);
+
+            //See if we need to alter the frequency
+            bool anyEnabledBefore = anyEnabled;
+            anyEnabled = !configStr.Equals("none");
+            if (anyEnabledBefore != anyEnabled)
+            {
+                if (anyEnabled)
+                    signal.IdentifyFrequency();
+                else
+                    PlayerData.ForgetFrequency(signal._frequency);
+            }
         }
 
         private void DialogTree_OnStartConversation()
