@@ -3,17 +3,20 @@
     "credits": [
         "Lezzlebit#Music, Audio, 2D and 3D Art, Design, Alnus",
         "coderCleric#Design, Programming, Writing, Adonsonia",
-        "Walker#Design, Programming, Ship Logs, Betula",
+        "Walker#Design, Programming, Ship Logs, Developer Commentary, Betula",
         "JohnCorby#Programming, Music, Optimization, Design, Daucus",
         " # ",
         "IcyViaton#Playtesting",
         "vodlink#Playtesting",
         "pikpik_carrot#Playtesting",
-        "Anonymous#Playtesting"
+        "Anonymous#Playtesting",
+        " # ",
+        "Enable developer commentary from the options menu!"
     ],
     "preloadAssetBundles": [
         "planets/assets/walker_jam5_bundle",
         "planets/assets/walker_jam5_assets",
         "planets/assets/walker_jam5_assets2"
-    ]
+    ],
+    "popupMessage": "Heliostudy contains developer commentary that can be enabled from the options menu.\n\nIt is highly recommended to complete the mod before enabling commentary."
 }
