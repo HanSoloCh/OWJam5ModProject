@@ -18,6 +18,7 @@ namespace OWJam5ModProject
         public const string DEVELOPER_COMMENTARY_OPTION = "developerCommentary";
         const string COMMENTARY_READ_NOTIFICATION = "DEVELOPER_COMMENTARY_READ_NOTIFICATION";
         const string EMISSION_COLOR_PARAMETER = "_EmissionColor";
+        const string ALL_COMMENTARY_READ_CONDITION = "Walker_Jam5_AllCommentaryRead";
         const float SIGNAL_VOLUME = 0.05f;
 
         static int[] entryCounts = new int[4];
@@ -144,6 +145,9 @@ namespace OWJam5ModProject
                 {
                     readEntries[(int)author]++;
                     totalReadEntries++;
+
+                    if (totalReadEntries == totalEntries)
+                        PlayerData.SetPersistentCondition(ALL_COMMENTARY_READ_CONDITION, true);
 
                     int notificationReadEntries = allEnabled ? totalReadEntries : readEntries[(int)author];
                     int notificationTotalEntries = allEnabled ? totalEntries : entryCounts[(int)author];

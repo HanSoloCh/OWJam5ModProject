@@ -1,8 +1,7 @@
 ﻿using HarmonyLib;
 using NewHorizons;
-using System;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 namespace OWJam5ModProject
 {
@@ -12,6 +11,8 @@ namespace OWJam5ModProject
         float HARMONIC_THRESHOLD = 0.85f;
         string EMISSION_COLOR_PROPERTY = "_EmissionColor";
         float TORCH_FADE_DURATION = 0.25f;
+        Color convergenceSolvedColor = new Color(73, 67, 191) / 128;
+        Color convergenceSolvedLightColor = new Color(175, 135, 255) / 255;
 
         [SerializeField] string[] signalNames = null;
         [SerializeField] Light[] detectorLights = null;
@@ -29,11 +30,12 @@ namespace OWJam5ModProject
         float[] torchFadeValues;
         float torchBrightness;
         Color torchColor;
+        Color lightColor;
 
         void Start()
         {
             // Get signals
-            List<AudioSignal> audioSignals = Locator.GetAudioSignals();
+            System.Collections.Generic.List<AudioSignal> audioSignals = Locator.GetAudioSignals();
             harmonicSignals = new AudioSignal[signalNames.Length];
             foreach (AudioSignal signal in audioSignals)
             {
@@ -67,6 +69,7 @@ namespace OWJam5ModProject
 
             torchBrightness = detectorLights[0].intensity;
             torchColor = detectorLightRenderers[0].material.GetColor(EMISSION_COLOR_PROPERTY);
+            lightColor = detectorLights[0].color;
         }
 
         void InitializeComputer()
@@ -77,16 +80,20 @@ namespace OWJam5ModProject
 
         void Update()
         {
-            if (playerInside && !convergenceSolved)
+            if (!convergenceSolved)
             {
-                if (CheckConvergence())
+                if (playerInside)
                 {
-                    convergenceSolved = true;
-                    computer.DisplayAllEntries();
+                    if (CheckConvergence())
+                    {
+                        convergenceSolved = true;
+                        computer.DisplayAllEntries();
+                        StartCoroutine(SolvedTorchFade());
+                    }
                 }
-            }
 
-            UpdateTorches();
+                UpdateTorches();
+            }
         }
 
         void OnDestroy()
@@ -154,6 +161,26 @@ namespace OWJam5ModProject
                     detectorLightRenderers[i].material.SetColor(EMISSION_COLOR_PROPERTY, Color.Lerp(Color.black, torchColor, torchFadeValues[i]));
                     detectorLights[i].intensity = Mathf.Lerp(0, torchBrightness, torchFadeValues[i]);
                 }
+            }
+        }
+
+        IEnumerator SolvedTorchFade()
+        {
+            float t = 0;
+            while (t < 1)
+            {
+                Color currentTorchColor = Color.Lerp(torchColor, convergenceSolvedColor, t);
+                Color currentLightColor = Color.Lerp(lightColor, convergenceSolvedLightColor, t);
+
+                for (int i=0; i<detectorLightRenderers.Length; i++)
+                {
+                    detectorLightRenderers[i].material.SetColor(EMISSION_COLOR_PROPERTY, currentTorchColor);
+                    detectorLights[i].color = currentLightColor;
+                    detectorLights[i].intensity = torchBrightness;
+                }
+
+                t += Time.deltaTime / TORCH_FADE_DURATION;
+                yield return new WaitForEndOfFrame();
             }
         }
     }
