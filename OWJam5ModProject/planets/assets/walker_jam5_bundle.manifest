@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1214278407
+CRC: 308265432
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9b5f0fdf133862ee1bd1fc4c203c7c6e
+    Hash: 45fbde92967c40107b0e0f539ed91021
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9f6ec6996e6eece52549cda38a4777eb
+    Hash: e5386719bdb3e7abdf8afdb298d720c8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,6 +26,8 @@ ClassTypes:
 - Class: 43
   Script: {instanceID: 0}
 - Class: 48
+  Script: {instanceID: 0}
+- Class: 49
   Script: {instanceID: 0}
 - Class: 54
   Script: {instanceID: 0}
@@ -56,13 +58,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1229164829, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
-  Script: {fileID: 1540726890, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+  Script: {fileID: 1336033313, guid: 1be4e9e006979c44b8724693aec6f72d, type: 3}
 - Class: 114
   Script: {fileID: 2085187901, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
-- Class: 114
-  Script: {fileID: 2123534892, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
-- Class: 114
-  Script: {fileID: 1946298425, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 412187067, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
@@ -108,6 +106,12 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -671394647, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
+  Script: {fileID: 2123534892, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: -1907145606, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: -436101141, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
   Script: {fileID: 1194511249, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: -227010294, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
@@ -118,6 +122,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -2033712575, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
+  Script: {fileID: 1540726890, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
   Script: {fileID: 1392665902, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: -300982856, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
@@ -127,6 +133,10 @@ ClassTypes:
   Script: {fileID: -2098419518, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: -1224461361, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: 1946298425, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+- Class: 114
+  Script: {fileID: -726186874, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
   Script: {fileID: 1402170267, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
 - Class: 114
@@ -141,6 +151,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 9944c677956d1b716df5ba9fdbe6fec5, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 53fe1f971c08db1945e16add52db7b68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
 - Class: 114
@@ -198,9 +210,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 1ff8988f7de275713f88e3eab04ecc18, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: cb79c7afb5b46bac08a3329e70bd4762, type: 3}
+  Script: {fileID: 11500000, guid: 8be1049f863d9d3c48975ef4f4e82059, type: 3}
 - Class: 114
-  Script: {fileID: -726186874, guid: f807cad6d69d4ba409fb857dcdba9ef0, type: 3}
+  Script: {fileID: 11500000, guid: cb79c7afb5b46bac08a3329e70bd4762, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 134
@@ -217,7 +229,12 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Writing/Writing.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/FunnyDaucusMoment.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/Daucus/BuriedStructureScrollPlacement.xml
+- Assets/_Bundle/Audio/devCommentary.ogg
 - Assets/_Bundle/Planets/Foliage/Assets/Foliage.blend
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/ColoredLightCookie.xml
 - Assets/Mesh/Effects_GM_WillOWisp.asset
 - Assets/_Bundle/Structures/Final Room.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Half_Geo.asset
@@ -226,7 +243,9 @@ Assets:
   0 GlobalObjectId_V1-3-1e1c59b2b01ac424d8e0bc3d544e398c-2100000-0.mesh
 - Assets/Mesh/whiteboard_stone.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CeilingLamp_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/OrreryStation/OrreryWarpTransmitters.xml
 - Assets/Mesh/QuantumEntanglementRock.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/GeysersEvolution.xml
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Box_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Geo.asset
 - Assets/_Bundle/Planets/Foliage/Water Foliage.prefab
@@ -238,14 +257,17 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot_2.asset
 - Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_2_Trunk.asset
 - Assets/Nomai Ruins/Prefabs/RubbleWallA.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Programming/IceSphere.xml
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Props_NOM_Staff.asset
 - Assets/_Bundle/Planets/Foliage/Prefabs/Flower.prefab
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Gloves.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/Platform/FinalEntry.xml
 - Assets/_Bundle/Planets/Ice/Prefabs/Geyser.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Lamp.asset
 - Assets/Mesh/whiteboard_metal.asset
 - Assets/Nomai Ruins/Prefabs/WallTorch.prefab
 - Assets/Mesh/Quad.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/OrreryOrbs.xml
 - Assets/Nomai Ruins/Prefabs/Floor.prefab
 - Assets/Nomai Ruins/Prefabs/Railing.prefab
 - Assets/Nomai Ruins/Resources/Meshes/pillar_tall.asset
@@ -255,29 +277,39 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CeilingLamp_Geo.asset
 - Assets/Nomai Ruins/Prefabs/NOMTree2 Dry.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_E.prefab
+- Assets/_Bundle/DeveloperCommentary/LampJohn.mat
 - Assets/Nomai Ruins/Prefabs/RubbleWallB.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Corner_L_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/orb_cage.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/TheBigOne/PhysicsInteractions.xml
 - Assets/_Bundle/Structures/Dual Stairs.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_CubeBlck_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_FrameInner_Broken_Geo.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Programming/FinalRequirements.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/ShatteredGeode/StructurePlacement.xml
 - Assets/_Bundle/OrreryStation/OrreryStation.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/SpaceMusic.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/FinalMusic.xml
 - Assets/_Bundle/Structures/WarpReceiverFakeDoor.prefab
 - Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ProbePortal_PlayerCollider.asset
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Pants.asset
 - Assets/_Bundle/Structures/Proxy/ProxyStairs.prefab
 - Assets/Nomai Ruins/Prefabs/Wall Diamond Lamp.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/IceClipping.xml
 - Assets/_Bundle/Icons/ice_hate.mat
 - Assets/_Bundle/ice_raycast_detector.prefab
 - Assets/Nomai Ruins/Resources/Meshes/light_ball.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Jamie/Portraits.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_Middle_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/doorway_lamp_Inside_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/COL_NomaiTree_2.asset
 - Assets/Nomai Ruins/Prefabs/Window_Corner_R_Intact.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThin_Collider.asset
 - Assets/_Bundle/Effects_GM_AuroraWisps (2).prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/CoreWarpPad.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Test/testAuthor.xml
 - Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_1_Trunk.asset
 - Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Geo.asset
@@ -299,23 +331,33 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Floor_B_geo.asset
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Boots.asset
 - Assets/_Bundle/DebugCamera/DebugCamera.prefab
+- Assets/_Bundle/DeveloperCommentary/LampJamie.mat
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Corner_R_Geo.asset
 - Assets/Nomai Ruins/Prefabs/Window_Intact.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThick_Broken_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_C_geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/BrokenWall_Full_B.fbx
 - Assets/Mesh/Collider_QuantumEntanglementRock.asset
+- Assets/_Bundle/DeveloperCommentary/LampTutorial.mat
 - Assets/Nomai Ruins/Resources/Meshes/BrokenWall_Full_B_Mir.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Shelf_Geo.asset
 - Assets/Nomai Ruins/Prefabs/BigPedestal2.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/TheBigOne/GravityTower.xml
 - Assets/Mesh/Whiteboard_ScrollHole.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Writing/TransmitterHint.xml
 - Assets/Nomai Ruins/Resources/Meshes/doorway_lamp_Outside_Geo.asset
 - Assets/_Bundle/Planets/Foliage/Prefabs/redweed.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Lamp_Glow_Spiral_Wall.asset
+- Assets/_Bundle/DeveloperCommentary/DeveloperCommentary.prefab
 - Assets/Mesh/Quad_0.asset
 - Assets/Nomai Ruins/Prefabs/Gravity Crystal.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/TheBigOne/GhostMatterCave.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Corner_R_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/UnityTooling.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Writing/StudentIntro.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_D_Collider.asset
+- Assets/_Bundle/Audio/orrerystation.ogg
+- Assets/_Bundle/DeveloperCommentary/Dialog/Jamie/StairLods.xml
 - Assets/_Bundle/OrbitLines.prefab
 - Assets/_Bundle/Planets/Foliage/Prefabs/dgrass.prefab
 - Assets/_Bundle/Planets/WaterPlanet.prefab
@@ -326,10 +368,13 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Props_NOM_Whiteboard.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_B.prefab
 - Assets/_Bundle/PlatformWarpPadRoot.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/Platform/WalkerIntro.xml
 - Assets/Blender Files/Sun.blend
 - Assets/Nomai Ruins/Resources/Meshes/Window_Intact_Corner_L.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Lamp_Glow_Diamond_Wall.asset
 - Assets/Nomai Ruins/Prefabs/BrokenWall_Half_Corner_Mir.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/JohnIntro.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/OrreryStation/OrreryMerged.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Interior_Corner_Column_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Wall_Corner_L_Geo.asset
 - Assets/_Bundle/Structures/boardwalk.blend
@@ -343,6 +388,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Brick_B_geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_A_geo.asset
 - Assets/_Bundle/Planets/3D/InvertedSphere.fbx
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/ClericIntro.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_Frame_Geo.asset
 - Assets/Nomai Ruins/Prefabs/Doorway.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_C_Collider.asset
@@ -355,6 +401,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Corner_BOTH_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ProbePortal_Wall_Geo.asset
 - Assets/Mesh/whiteboard_scrollTrim.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Jamie/CoreAudio.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_BOTH_Collider.asset
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_A.prefab
 - Assets/_Bundle/Structures/QuantumRockSurroundings.prefab
@@ -364,10 +411,13 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/COL_NomaITree_3.asset
 - Assets/_Bundle/Planets/Supermassive/Rocks.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_StairWalkway.fbx
+- Assets/_Bundle/DeveloperCommentary/Dialog/Jamie/SpiralWires.xml
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Box_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Railing_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/BlockTrim_End.fbx
+- Assets/_Bundle/DeveloperCommentaryWhiteHole.prefab
 - Assets/Nomai Ruins/Prefabs/Shelf.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/FinalPuzzleFrustration.xml
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_WallTorch_Connector.asset
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A.prefab
 - Assets/_Bundle/Structures/OrreryWarp.blend
@@ -376,12 +426,14 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_C.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Window_Intact_Corner_R.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/Barracks.xml
 - Assets/Nomai Ruins/Resources/Meshes/COL_NOM_GravityCrystal_Base.asset
 - Assets/_Bundle/Prefab_NOM_Whiteboard.prefab
 - Assets/Blender Files/GravityTower.blend
 - Assets/Nomai Ruins/Prefabs/Doorway_Corner_L.prefab
 - Assets/_Bundle/Structures/GravityTower.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Table_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Writing/Students.xml
 - Assets/Mesh/Rocks_HCT_stalagmite.asset
 - Assets/Scenes/TimberHearth/Streamingmeshes_structures/Structure_NOM_WarpReceiver_TimberHearth_Rocks.asset
 - Assets/_Bundle/GrandOrb.prefab
@@ -389,6 +441,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Floor_A_geo.asset
 - Assets/Blender Files/Platform.blend
 - Assets/_Bundle/Icons/sisyphus.mat
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/OrreryStation/OrreryStationPlacement.xml
 - Assets/Nomai Ruins/Resources/Meshes/Tree_BH_Bristle_Hold.asset
 - Assets/Nomai Ruins/Prefabs/NOMTree1.prefab
 - Assets/Nomai Ruins/Prefabs/NOMTree3.prefab
@@ -401,12 +454,19 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Window_Broken.prefab
 - Assets/_Bundle/Planets/Ice/Prefabs/AdonsoniaProjection.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Geo.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/Platform/GrandOrrery.xml
 - Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Divider_Geo.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/ShatteredGeode/HarmonicConvergencePillars.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/Test/test.xml
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Robe.asset
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Window_Corner_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/OrreryStation/DevelopmentProcess.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/ShatteredGeode/QuantumPuzzle.xml
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Rubble_Wall_B_geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_A_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/Daucus/FluidTransfer.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/Daucus/WarpReceiverDesign.xml
 - Assets/_Bundle/Planets/Foliage/Prefabs/Bubble.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Interior_Corner_Column_Collider.asset
 - Assets/_Bundle/Planets/Ice/Assets/Detail Pivot.prefab
@@ -420,6 +480,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bowl_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/outer_case.asset
 - Assets/Nomai Ruins/Resources/Meshes/GEO_NomaiTree_3_Trunk.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/ShatteredGeode/HarmonicConvergence.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Half_Corner_L_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Half_Corner_R_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Top_Geo.asset
@@ -437,9 +498,11 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/BrokenWall_Half.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Half_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SimpleChair_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/Platform/CommentaryIntro.xml
 - Assets/Nomai Ruins/Resources/Meshes/Prop_NOM_VaseThin_Geo.asset
 - Assets/_Bundle/Prefab_NOM_InterfaceOrb (4).prefab
 - Assets/Nomai Ruins/Resources/Meshes/Window_Intact.fbx
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/FinalStairs.xml
 - Assets/Nomai Ruins/Prefabs/Fancy Door BOTH.prefab
 - Assets/_Bundle/ice_sphere.prefab
 - Assets/Nomai Ruins/Resources/Meshes/BakedVISRenderer_lowerPlatform.asset
@@ -453,6 +516,8 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/ShortPillar.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Detail_Trim_Geo_1.asset
 - Assets/_Bundle/Icons/ice_hate.png
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Writing/ConvergenceHint.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/WarpPadCode.xml
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Bed_geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Halfll_Corner_R_Geo.asset
 - Assets/Nomai Ruins/Prefabs/CeilingLamp.prefab
@@ -460,11 +525,13 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Staff_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_HCT_Stairs_Solid_R_Geo.asset
 - Assets/Nomai Ruins/Prefabs/Props_NOM_Transponder.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/CutPuzzleConcepts.xml
 - Assets/_Bundle/Planets/Foliage/Prefabs/Weed.prefab
 - Assets/_Bundle/Orbs/OrbCollider.fbx
 - Assets/_Bundle/Planets/CrystalPlanet.prefab
 - Assets/Nomai Ruins/Prefabs/Tablet.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/OrreryMoveShip.xml
 - Assets/Nomai Ruins/Prefabs/Container.prefab
 - Assets/_Bundle/Structures/QuantumRockColumn.prefab
 - Assets/Nomai Ruins/Prefabs/StairWalkway.prefab
@@ -472,6 +539,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Whiteboard.fbx
 - Assets/Nomai Ruins/Resources/Meshes/StargazeMarker_Collider.asset
 - Assets/_Bundle/nom_fuel_tank.prefab
+- Assets/_Bundle/DeveloperCommentaryBlackHole.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_D_Geo.asset
 - Assets/Nomai Ruins/Prefabs/Box.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_L_Geo.asset
@@ -485,10 +553,13 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Effects_NOM_TractorBeamRing_Large.asset
 - Assets/Nomai Ruins/Prefabs/Wall.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door L.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/Aurora.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Detail_Square_Geo_1.asset
 - Assets/Nomai Ruins/Prefabs/BigPedestal.prefab
+- Assets/_Bundle/DeveloperCommentary/LampWalker.mat
 - Assets/Scenes/GiantsDeep/StreamingDetailPatches/DetailPatch_Props_GM_Clutter (1)
   1.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Programming/TidalLocking.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Broken_A.fbx
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Geo.asset
 - Assets/_Bundle/Structures/Barracks.prefab
@@ -506,8 +577,11 @@ Assets:
 - Assets/_Bundle/QuantumRockSocket.prefab
 - Assets/Nomai Ruins/Prefabs/ProbePortal_Wall.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Geo.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Programming/ScoutPatch.xml
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/OuterWildsDesign.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Collider.asset
 - Assets/Nomai Ruins/Prefabs/RubbleTrimC.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/OrreryStation/ModStructure.xml
 - Assets/_Bundle/Planets/Supermassive/Rock.prefab
 - Assets/Nomai Ruins/Prefabs/Interior_Corner_Column.prefab
 - Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot.asset
@@ -515,6 +589,7 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Treepot_geo.asset
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Props_NOM_Mask_GearNew_Geo.asset
 - Assets/_Bundle/DebugStation.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/OrreryStation/OrreryScrollReadingOrder.xml
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Staff_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Tablet_Geo.asset
 - Assets/_Bundle/Structures/Proxy/ProxyThings.blend
@@ -530,24 +605,31 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Table.prefab
 - Assets/Nomai Ruins/Resources/Meshes/GEO_Treepot_3.asset
 - Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
+- Assets/_Bundle/DeveloperCommentary/Dialog/Jamie/JamieIntro.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Collider.asset
 - Assets/Nomai Ruins/Prefabs/RubbleWallC.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Wall_Half_Corner_L_Geo.asset
+- Assets/_Bundle/DeveloperCommentary/LampCleric.mat
+- Assets/_Bundle/DeveloperCommentary/Dialog/Walker/GlacialAbyss!/CoreDesign.xml
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Ball_Geo.asset
 - Assets/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Cowl.asset
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Mir.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Arch_A_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_TornadoPlat_Bot_Geo.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Writing/SandHint.xml
 - Assets/Nomai Ruins/Prefabs/ToyBall.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Table_Geo 1.asset
 - Assets/Nomai Ruins/Resources/Meshes/base_metalwork.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_GravityCrystal_Base 1.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Writing/Adonsonia.xml
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Corner_L_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Geo.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_BrokenWall_B_Corner_Collider.asset
 - Assets/_Bundle/Planets/SupermassivePlanet.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Fancy_Corner_L_Collider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/Cleric/Writing/SealedHint.xml
 - Assets/Nomai Ruins/Prefabs/Staff.prefab
+- Assets/_Bundle/Audio/space.ogg
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Doorway_Collider.asset
 - Assets/Nomai Ruins/Prefabs/Chair.prefab
 - Assets/Nomai Ruins/Resources/Meshes/ring_middle.asset
@@ -556,8 +638,10 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Stairs_Solid_R_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Corner_BOTH_Collider.asset
 - Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Container_coliider.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/RenderingIssues.xml
 - Assets/_Bundle/Structures/HarmonicDetectorPillar.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Geo.asset
+- Assets/_Bundle/DeveloperCommentary/Dialog/John/RuinsMusic.xml
 - Assets/Nomai Ruins/Resources/Meshes/GravityFlipper.fbx
 Dependencies:
 - C:/Users/dwalk/Outer Wilds Modding/OWJam5Root/OWJam5ModProject/OWJam5ModProject/planets/assets/walker_jam5_assets
