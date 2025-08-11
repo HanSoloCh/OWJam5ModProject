@@ -443,109 +443,94 @@
     "贝秋拉：我一开始有些怀疑，但你的论述确实令人信服。我提议我们把这作为一个条件。"
   },
 
-  "ShipLogDictionary": {
-    //walker_jam5_planet1
-    "Signal Detector": "信号检测器",
-    "A Nomai named Adonsonia created a puzzle involving detecting signals. She locked the fifth requirement for a project behind solving it.": 
-    "一位名叫阿冬索尼娅的挪麦人制作了一个谜题，与信号检测有关。她将解开谜题作为得知项目第五个条件的要求。",
-    "Warp Transmitter": "跃迁发射点",
-    "A warp transmitter on the equator of Shattered Geode. A Nomai named Daucus modified it to link with both receivers on the other planets in the system.": 
-    "一个跃迁发射点，位于碎晶星的赤道上。一位名叫道科斯的挪麦人改造了它，用于连接星系内其他星球上的两个接收点。",
-    "Quantum Rock": "量子石块",
-    "A quantum rock located in a structure facing the sun on Shattered Geode. There is a large skylight in the ceiling. A Nomai named Betula theorized about where the stone might go when it disappears. The stone took a recorder with it when it disappeared.": 
-    "一个量子石块，位于碎晶星向阳面的一座建筑内。天花板上有一扇巨大的天窗。一位名叫贝秋拉的挪麦人对石头消失时去了哪里提出了猜想。石头消失时带走了一份录音。",
+    "ShipLogDictionary": {
+        //walker_jam5_planet1
+        "Signal Detector": "信号检测器",
+        "A Nomai named Adonsonia created a puzzle involving detecting signals. She locked the fifth requirement for a project behind solving it.": "一位名叫阿冬索尼娅的挪麦人制作了一个谜题，与信号检测有关。她将解开谜题作为得知项目第五个条件的要求。",
+        "Warp Transmitter": "跃迁发射点",
+        "A warp transmitter on the equator of Shattered Geode. A Nomai named Daucus modified it to link with both receivers on the other planets in the system.": "一个跃迁发射点，位于碎晶星的赤道上。一位名叫道科斯的挪麦人改造了它，用于连接星系内其他星球上的两个接收点。",
+        "Quantum Rock": "量子石块",
+        "A quantum rock located in a structure facing the sun on Shattered Geode. There is a large skylight in the ceiling. A Nomai named Betula theorized about where the stone might go when it disappears. The stone took a recorder with it when it disappeared.": "一个量子石块，位于碎晶星向阳面的一座建筑内。天花板上有一扇巨大的天窗。一位名叫贝秋拉的挪麦人对石头消失时去了哪里提出了猜想。石头消失时带走了一份录音。",
 
-    //walker_jam5_planet2
-    "Tall Tower": "高塔",
-    "A tall tower on the surface of The Big One. The planet's gravity is far too strong to reach the top.": "一座高塔，位于大块头的表面。这个星球的重力太强了，让人无法抵达塔顶。",
-    "Ghost Matter Cave": "幽灵物质山洞",
-    "A cave on the south pole of The Big One. The cave mouth is filled with ghost matter. A Nomai named Alnus noted that ghost matter can be neutralized with water.": 
-    "大块头南极的一个洞穴。洞口充满了幽灵物质。一位名叫奥努斯的挪麦人指出幽灵物质可以被水中和。",
+        //walker_jam5_planet2
+        "Tall Tower": "高塔",
+        "A tall tower on the surface of The Big One. The planet's gravity is far too strong to reach the top.": "一座高塔，位于大块头的表面。这个星球的重力太强了，让人无法抵达塔顶。",
+        "Ghost Matter Cave": "幽灵物质山洞",
+        "A cave on the south pole of The Big One. The cave mouth is filled with ghost matter. A Nomai named Alnus noted that ghost matter can be neutralized with water.": "大块头南极的一个洞穴。洞口充满了幽灵物质。一位名叫奥努斯的挪麦人指出幽灵物质可以被水中和。",
 
-    //walker_jam5_planet3
-    "Buried Structure": "被掩埋的建筑",
-    "A mostly buried structure on the south pole of Daucus. A Nomai named Adonsonia theorized about whether the sand could be moved elsewhere.": 
-    "一座大部分被掩埋了的建筑，位于道库斯的南极。一位名叫阿冬索尼娅的挪麦人对能否将沙子移到别处提出了猜想。",
-    "Enclosed Structure": "封闭的建筑",
-    "I was able to access the rest of the structure by arriving via the warp receiver.": "通过使用跃迁接收点，我成功进入了建筑的剩余部分。",
-    "A structure built around a warp receiver on the equator of Daucus. The structure does not include a door.": "一个围绕跃迁接收点建造的建筑，位于道库斯的赤道上。这座建筑没有门。",
+        //walker_jam5_planet3
+        "Buried Structure": "被掩埋的建筑",
+        "A mostly buried structure on the south pole of Daucus. A Nomai named Adonsonia theorized about whether the sand could be moved elsewhere.": "一座大部分被掩埋了的建筑，位于道库斯的南极。一位名叫阿冬索尼娅的挪麦人对能否将沙子移到别处提出了猜想。",
+        "Enclosed Structure": "封闭的建筑",
+        "I was able to access the rest of the structure by arriving via the warp receiver.": "通过使用跃迁接收点，我成功进入了建筑的剩余部分。",
+        "A structure built around a warp receiver on the equator of Daucus. The structure does not include a door.": "一个围绕跃迁接收点建造的建筑，位于道库斯的赤道上。这座建筑没有门。",
 
-    //walker_jam5_planet4
-    "Subsurface Ocean": "地下海洋",
-    "The ice on \"Glacial Abyss!\" is hollow and there is a subsurface ocean below it.": "“冰渊星！”上的冰层内部是空心的，其下是一片地下海洋。",
-    "The ice on \"Glacial Abyss!\" is hollow and I was able to reach the subsurface ocean below it.": "“冰渊星！”上的冰层内部是空心的，我成功抵达了其下的地下海洋。",
-    "Undersea Warp Receiver": "海底跃迁接收点",
-    "There is a warp receiver near the equator of \"Glacial Abyss!\" on the seabed under the ice.": "“冰渊星！”赤道附近冰层之下的海底有一个跃迁接收点。",
-    "Geysers": "喷泉",
-    "Nomai noticed geysers beneath the ice on the seabed of \"Glacial Abyss!\" near the north pole. The flow of the geysers prevents entry. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.": 
-    "挪麦人注意到“冰渊星！”北极附近冰层之下的海底有一些喷泉。一位名叫奥努斯的挪麦人提到，让冰层消融提升了星球的地热活动水平。",
-    "Planetary Core Display": "行星核心展示区",
-    "Abyssal Core": "深渊核心",
-    "\"Glacial Abyss!\" has a hollow core connected to the geysers near the north pole. A Nomai teacher wanted her students to see something in the core.": 
-    "“冰渊星！”有一个内部挖空的核心，与北极附近的喷泉相连接。一位挪麦老师想让她的学生来核心查看某样东西。",
-    "\"Glacial Abyss!\" has a hollow core connected to the geysers near the north pole. I was able to reach the core by descending the geysers while the planet was frozen. It contains a viewing area for safely observing the layers of the planet's core.": 
-    "“冰渊星！”有一个内部挖空的核心，与北极附近的喷泉相连接。我在星球冻结时通过喷泉成功下降至核心。它的内部建有一个观景区域，用于安全地观察星球核心的各层结构。",
-    "Core Orrery Warp Transmitter":"核心天体仪跃迁发射点",
-    "Missing Orrery Warp Transmitter":"缺失的天体仪跃迁发射点",
-    "The warp transmitter from \"Glacial Abyss!\" to the orrery station isn't on the north pole.":"“冰渊星！上与天体仪空间站相连接的跃迁发射点并不位于星球北极。",
-    "The warp transmitter from \"Glacial Abyss!\" to the orrery station is in the core of the planet.": "“冰渊星！上与天体仪空间站相连接的跃迁发射点位于星球的核心内。",
-    "The core of \"Glacial Abyss!\" contains a sealed door. A Nomai computer beside the door states that not all project requirements have been met.": 
-    "“冰渊星！”的核心内有一扇封闭的大门。大门上的挪麦电脑显示，所有项目条件未被全部满足。",
+        //walker_jam5_planet4
+        "Subsurface Ocean": "地下海洋",
+        "The ice on \"Glacial Abyss!\" is hollow and there is a subsurface ocean below it.": "“冰渊星！”上的冰层内部是空心的，其下是一片地下海洋。",
+        "The ice on \"Glacial Abyss!\" is hollow and I was able to reach the subsurface ocean below it.": "“冰渊星！”上的冰层内部是空心的，我成功抵达了其下的地下海洋。",
+        "Undersea Warp Receiver": "海底跃迁接收点",
+        "There is a warp receiver near the equator of \"Glacial Abyss!\" on the seabed under the ice.": "“冰渊星！”赤道附近冰层之下的海底有一个跃迁接收点。",
+        "Geysers": "喷泉",
+        "Nomai noticed geysers beneath the ice on the seabed of \"Glacial Abyss!\" near the north pole. The flow of the geysers prevents entry. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.": "挪麦人注意到“冰渊星！”北极附近冰层之下的海底有一些喷泉。一位名叫奥努斯的挪麦人提到，让冰层消融提升了星球的地热活动水平。",
+        "Planetary Core Display": "行星核心展示区",
+        "Abyssal Core": "深渊核心",
+        "\"Glacial Abyss!\" has a hollow core connected to the geysers near the north pole. A Nomai teacher wanted her students to see something in the core.": "“冰渊星！”有一个内部挖空的核心，与北极附近的喷泉相连接。一位挪麦老师想让她的学生来核心查看某样东西。",
+        "\"Glacial Abyss!\" has a hollow core connected to the geysers near the north pole. I was able to reach the core by descending the geysers while the planet was frozen. It contains a viewing area for safely observing the layers of the planet's core.": "“冰渊星！”有一个内部挖空的核心，与北极附近的喷泉相连接。我在星球冻结时通过喷泉成功下降至核心。它的内部建有一个观景区域，用于安全地观察星球核心的各层结构。",
+        "Core Orrery Warp Transmitter": "核心天体仪跃迁发射点",
+        "Missing Orrery Warp Transmitter": "缺失的天体仪跃迁发射点",
+        "The warp transmitter from \"Glacial Abyss!\" to the orrery station isn't on the north pole.": "“冰渊星！上与天体仪空间站相连接的跃迁发射点并不位于星球北极。",
+        "The warp transmitter from \"Glacial Abyss!\" to the orrery station is in the core of the planet.": "“冰渊星！上与天体仪空间站相连接的跃迁发射点位于星球的核心内。",
+        "The core of \"Glacial Abyss!\" contains a sealed door. A Nomai computer attached to the door states that not all project requirements have been met.": "“冰渊星！”的核心内有一扇封闭的大门。大门上的挪麦电脑显示，所有项目条件未被全部满足。",
 
-    //walker_jam5_platform
-    "Invitation Platform": "邀请平台",
-    "I found an invitation platform for a Nomai educational project and festival entry called the Heliostudy.": "我发现了一个邀请平台，是为一个挪麦教学项目兼发现节参展项目准备的，项目名为辉日研究。",
-    "The device on the platform can be activated by placing all of the orbs at approximately the same distance from the center. Additionally, the user must not be wearing any space gear. I was warned that the device is highly experimental and likely to break things.": 
-    "通过将球体放置在与中心距离大约相同的位置，可以激活邀请平台上的装置。除此之外，使用者不得穿着任何太空装备。我被警告这个项目具有高度的实验性，很可能造成破坏。",
+        //walker_jam5_platform
+        "Invitation Platform": "邀请平台",
+        "I found an invitation platform for a Nomai educational project and festival entry called the Heliostudy.": "我发现了一个邀请平台，是为一个挪麦教学项目兼发现节参展项目准备的，项目名为辉日研究。",
+        "The device on the platform can be activated by placing all of the orbs at approximately the same distance from the center. Additionally, the user must not be wearing any space gear. I was warned that the device is highly experimental and likely to break things.": "通过将球体放置在与中心距离大约相同的位置，可以激活邀请平台上的装置。除此之外，使用者不得穿着任何太空装备。我被警告这个项目具有高度的实验性，很可能造成破坏。",
 
-    //walker_jam5_station
-    "Orrery Station": "天体仪空间站",
-    "Heliostudy": "辉日研究",
-    "The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.": 
-    "这个拥有紫色轮廓和浅蓝色恒星的星系是一个教学项目和挪麦发现节参展项目，名为辉日研究。",
-    "The station contains an orrery of the system. A Nomai named Oryza claims the system is a scaled-up representation of the orrery.": 
-    "太空站内设有一座本星系的天体仪。一位名为欧瑞扎的挪麦人声称这个星系是天体仪的放大版。",
-    "There are warp transmitters connected to the station on the north pole of most planets in the system.": "星系中的大部分星球在北极都有一个与空间站相连接的跃迁发射点。",
-    "A group of Nomai students were assigned a project to prepare this star system to be their clan's entry in a festival. They had to propose 7 requirements that the system would fulfill in order to demonstrate their understanding of the mechanisms of natural star systems.": 
-    "一群挪麦学生被布置了一项任务，要求他们改造这个星系，并将其作为家族的发现节参展项目。他们必须提出七个该星系可以满足的条件，以体现自己对自然界恒星系运行机制的理解。",
+        //walker_jam5_station
+        "Orrery Station": "天体仪空间站",
+        "Heliostudy": "辉日研究",
+        "The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.": "这个拥有紫色轮廓和浅蓝色恒星的星系是一个教学项目和挪麦发现节参展项目，名为辉日研究。",
+        "The station contains an orrery of the system. A Nomai named Oryza claims the system is a scaled-up representation of the orrery.": "太空站内设有一座本星系的天体仪。一位名为欧瑞扎的挪麦人声称这个星系是天体仪的放大版。",
+        "There are warp transmitters connected to the station on the north pole of most planets in the system.": "星系中的大部分星球在北极都有一个与空间站相连接的跃迁发射点。",
+        "A group of Nomai students were assigned a project to prepare this star system to be their clan's entry in a festival. They had to propose 7 requirements that the system would fulfill in order to demonstrate their understanding of the mechanisms of natural star systems.": "一群挪麦学生被布置了一项任务，要求他们改造这个星系，并将其作为家族的发现节参展项目。他们必须提出七个该星系可以满足的条件，以体现自己对自然界恒星系运行机制的理解。",
 
-    "Frozen Planet":" 冰封星球",
-    "First Requirement":"第一个条件",
-    "The first of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第一个。",
-    "By using another astral body's gravity to help me, I was able to reach the top of the tower.":"通过利用另一个天体的重力场，我成功抵达了塔顶。",
-    "The first requirement is that solid ice must be present on a planet in the system. The system's star is too hot to allow ice to re-freeze even in the furthest orbit. A Nomai named Adonsonia wondered if there may be a way to reduce the heat a planet is exposed to while at the furthest orbit.":
-    "第一个条件是星系中的一颗星球上必须存在冻结的坚冰。这个星系的恒星太过炽热，即使在最远的轨道上也无法允许水重新冻结。一位名为阿冬索尼娅的挪麦人想知道，是否有办法让星球在位于最外侧轨道的同时，减少其接收的热量。",
-    "Geothermal Activity":"地热活动",
-    "Second Requirement":"第二个条件",
-    "The second of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第二个。",
-    "By flooding the planet, I was able to safely enter the cave.":"通过让星球充满水，我成功安全进入了洞穴。",
-    "The second requirement is that a planet must have exposed geothermal activity.":"第二个条件是一颗星球上必须有暴露在外的地热活动。",
-    "Warp Alignment":"跃迁配对",
-    "Third Requirement":"第三个条件",
-    "The third of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第三个。",
-    "The third requirement is for the warp transmitter that does not lead to the orrery station to be aligned with at least one receiver.":"第三个条件是让未与天体仪空间站相连的那个跃迁发射点与至少一个接收点对齐配对。",
-    "Sand Distribution":"沙子分布",
-    "Fourth Requirement":"第四个条件",
-    "The fourth of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第四个。",
-    "By siphoning the sand off the planet using the largest planet in the system, I was able to access the rest of the structure.":"通过让星球上的沙子被星系中的另一颗星球吸走，我成功进入了建筑的剩余部分。",
-    "The fourth requirement is that multiple planets in the system must have sand.":"第四个条件是星系中的多个星球上有沙子。",
-    "Orbit Sharing":"轨道共用",
-    "Fifth Requirement":"第五个条件",
-    "The fifth of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第五个。",
-    "Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.":"同时扫描所有天体的信号后，附近的一台挪麦电脑被启动。",
-    "The fifth requirement is that any two planets that share an orbit must be on opposite sides of the sun.":"第五个条件是共用同一轨道的两颗星球必须位于太阳的对立面。",
-    "Mass Distribution":"质量分布",
-    "Sixth Requirement":"第六个条件",
-    "The sixth of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第六个。",
-    "By blocking the light from the sun, I was able to quantum entangle with the rock to reach a cave below the surface.":"通过遮挡阳光，我成功与石块产生量子纠缠，抵达了一个地下洞穴。",
-    "The sixth requirement is that the largest planet in the system may not be in the furthest orbit.":"第六个条件是星系中最大的星球不能位于最外侧的轨道。",
-    "Final Location":"最终地点",
-    "Seventh Requirement":"第七个条件",
-    "The last of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中最后一个",
-    "Once all six requirements are met, the project must be submitted in the core of \"Glacial Abyss!\". A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.":
-    "满足全部六个条件后，项目必须在“冰渊星！”的核心处进行提交。一位名为奥努斯的挪麦人指出，其他项目条件被满足后，从喷泉进入核心将不再可能。"
-  
-  },
+        "Frozen Planet": " 冰封星球",
+        "First Requirement": "第一个条件",
+        "The first of 7 requirements that a Nomai project must meet.": "一项诺麦项目需要满足的7个条件中第一个。",
+        "By using another astral body's gravity to help me, I was able to reach the top of the tower.": "通过利用另一个天体的重力场，我成功抵达了塔顶。",
+        "The first requirement is that solid ice must be present on a planet in the system. The system's star is too hot to allow ice to re-freeze, even in the furthest orbit. A Nomai named Adonsonia wondered if there may be a way to further reduce the heat reaching the planet while it is in the furthest orbit.": "第一个条件是星系中的一颗星球上必须存在冻结的坚冰。这个星系的恒星太过炽热，即使在最远的轨道上也无法允许水重新冻结。一位名为阿冬索尼娅的挪麦人想知道，是否有办法让星球在位于最外侧轨道的同时，减少其接收的热量。",
+        "Geothermal Activity": "地热活动",
+        "Second Requirement": "第二个条件",
+        "The second of 7 requirements that a Nomai project must meet.": "一项诺麦项目需要满足的7个条件中第二个。",
+        "By flooding the planet, I was able to safely enter the cave.": "通过让星球充满水，我成功安全进入了洞穴。",
+        "The second requirement is that a planet must have exposed geothermal activity.": "第二个条件是一颗星球上必须有暴露在外的地热活动。",
+        "Warp Alignment": "跃迁配对",
+        "Third Requirement": "第三个条件",
+        "The third of 7 requirements that a Nomai project must meet.": "一项诺麦项目需要满足的7个条件中第三个。",
+        "The third requirement is for the warp transmitter that does not lead to the orrery station to be aligned with at least one receiver.": "第三个条件是让未与天体仪空间站相连的那个跃迁发射点与至少一个接收点对齐配对。",
+        "Sand Distribution": "沙子分布",
+        "Fourth Requirement": "第四个条件",
+        "The fourth of 7 requirements that a Nomai project must meet.": "一项诺麦项目需要满足的7个条件中第四个。",
+        "By siphoning the sand off the planet using the largest planet in the system, I was able to access the rest of the structure.": "通过让星球上的沙子被星系中的另一颗星球吸走，我成功进入了建筑的剩余部分。",
+        "The fourth requirement is that multiple planets in the system must have sand.": "第四个条件是星系中的多个星球上有沙子。",
+        "Orbit Sharing": "轨道共用",
+        "Fifth Requirement": "第五个条件",
+        "The fifth of 7 requirements that a Nomai project must meet.": "一项诺麦项目需要满足的7个条件中第五个。",
+        "Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.": "同时扫描所有天体的信号后，附近的一台挪麦电脑被启动。",
+        "The fifth requirement is that any two planets that share an orbit must be on opposite sides of the sun.": "第五个条件是共用同一轨道的两颗星球必须位于太阳的对立面。",
+        "Mass Distribution": "质量分布",
+        "Sixth Requirement": "第六个条件",
+        "The sixth of 7 requirements that a Nomai project must meet.": "一项诺麦项目需要满足的7个条件中第六个。",
+        "By blocking the light from the sun, I was able to quantum entangle with the rock to reach a cave below the surface.": "通过遮挡阳光，我成功与石块产生量子纠缠，抵达了一个地下洞穴。",
+        "The sixth requirement is that the largest planet in the system may not be in the furthest orbit.": "第六个条件是星系中最大的星球不能位于最外侧的轨道。",
+        "Final Location": "最终地点",
+        "Seventh Requirement": "第七个条件",
+        "The last of 7 requirements that a Nomai project must meet.": "一项诺麦项目需要满足的7个条件中最后一个",
+        "Once all six requirements are met, the project must be submitted in the core of \"Glacial Abyss!\". A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.": "满足全部六个条件后，项目必须在“冰渊星！”的核心处进行提交。一位名为奥努斯的挪麦人指出，其他项目条件被满足后，从喷泉进入核心将不再可能。"
+
+    },
 
   "UIDictionary": {
     "Walker_Jam5_Star": "辉日研究",
