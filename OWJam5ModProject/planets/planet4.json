@@ -4,7 +4,8 @@
     "starSystem": "Jam5",
     "Base": {
         "surfaceSize": 150,
-        "surfaceGravity": 18
+        "surfaceGravity": 18,
+        "hasFluidDetector": false
     },
     "MapMarker": {
         "enabled": true

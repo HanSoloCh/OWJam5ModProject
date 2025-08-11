@@ -6,7 +6,8 @@
         "surfaceSize": 250,
         "surfaceGravity": 25,
         "groundSize": 1,
-        "soiOverride": 500
+        "soiOverride": 500,
+        "hasFluidDetector": false
     },
     "MapMarker": {
         "enabled": true

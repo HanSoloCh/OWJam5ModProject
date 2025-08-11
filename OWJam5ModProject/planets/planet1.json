@@ -5,7 +5,8 @@
     "Base": {
         "surfaceSize": 130,
         "surfaceGravity": 10,
-        "gravityAlignmentRadiusOverride": 200
+        "gravityAlignmentRadiusOverride": 200,
+        "hasFluidDetector": false
     },
     "MapMarker": {
         "enabled": true

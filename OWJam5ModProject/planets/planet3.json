@@ -5,7 +5,8 @@
     "Base": {
         "surfaceSize": 150,
         "surfaceGravity": 12,
-        "groundSize": 0
+        "groundSize": 0,
+        "hasFluidDetector": false
     },
     "MapMarker": {
         "enabled": true
