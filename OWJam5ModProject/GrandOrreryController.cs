@@ -147,7 +147,7 @@ namespace OWJam5ModProject
                             if (dist < min) min = dist;
                             if (dist > max) max = dist;
                         }
-                        if ((max - min) < 0.15f && min > 0.5f)
+                        if ((max - min) < 0.25f && min > 0.5f)
                         {
                             Activated = true;
                             StartGrandOrrery();
