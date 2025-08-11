@@ -1,0 +1,590 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+  "DialogueDictionary": {
+    //adonsonia_intro
+    "Hello there!": "你好啊！",
+    "AAAAHHHH!!!!": "啊啊啊啊啊啊啊！！！！",
+    "WHAT!?!?!??": "什么？！？！？！",
+    "Ha! I'm sorry if I frightened you.": "哈！不好意思吓到你了。",
+    "I wondered why this old project was claiming to have been submitted again after all these years! I'm Adonsonia, one of the students who worked on this project a long time ago.": 
+    "我还在想这个老旧的项目为什么这么多年后又显示已被提交！我是阿冬索尼娅，很久以前参与这个项目的学生之一。",
+    "You don't look like a Nomai, but you must be quite clever to have gotten this system into the correct configuration after all of the time it has spent drifting.": 
+    "你看上去不像挪麦人，但你一定很聪明，能将这个漂泊许久的星系再一次设定为正确的状态。",
+    "Effort like that is certainly worthy of some reward. How about this; I have some free time from all of my teaching duties right now! If you ask me any questions, I'll do my best to answer them.": 
+    "这种努力当然值得回报。这样如何：我现在有些空闲时间，不必忙于教学任务！你可以问我任何问题，我会尽我所能给你答复。",
+
+    //adonsonia_outro
+    "So, was there anything you wanted to ask me about?": "那么，你有什么想要问我吗？",
+    "How are we able to understand each other?": "我们为什么能听懂对方说话？",
+    "What happened to Alnus after the project?": "项目结束后，奥努斯怎么样了？",
+    "What happened to Betula after the project?": "项目结束后，贝秋拉怎么样了？",
+    "What happened to Daucus after the project?": "项目结束后，道库斯怎么样了？",
+    "What happened to you after the project?": "项目结束后，你怎么样了？",
+    "What's the deal with the device back on the invitation platform?": "邀请平台上的装置是怎么回事？",
+    "Can I <![CDATA[<color=orange>pretty please</color>]]> know how to activate that device?": "可以<![CDATA[<color=orange>拜托</color>]]>告诉我如何激活那个装置吗？",
+    "I don't have any more questions for now.": "我目前没有其他问题了。",
+    "That would be due to the universal translator I have on my person. It's able to quickly discern language patterns, allowing us to understand each other with minimal issues. We have Betula to thank for that — it's actually her invention!": 
+    "这归功于我随身携带的通用翻译器。它能迅速识别语言模式，使我们以极少的障碍相互理解。我们应该感谢贝秋拉——这其实是她的发明！",
+    "Ah, that fascicle of nerves. Although his anxiety is still there, he's become much better at managing it. He's also grown more able to take a joke, much to my relief.": 
+    "啊，那个总是紧张兮兮的人。尽管他的焦虑还在，但他已经善于应对它了。他也变得更开得起玩笑了，这让我松了口气。",
+    "As you might imagine, he had a very good academic career after our project. After completing his education he moved on to become one of our clan's head researchers. He's used his knowledge of star systems particularly well, helping our clan identify systems likely to harbor life.": 
+    "想必你也料到，他在我们的项目结束后科研事业节节攀升。完成学业后，他成为了我们家族最顶尖的研究员之一。他尤其擅长利用自己对于恒星系的充分认识，帮助我们家族识别可能存在生命的星系。",
+    "Through his efforts our clan has met friends of many different forms, and had quite the cultural exchange. This was quite useful in the development of the universal translator I'm using to speak to you now.": 
+    "通过他的努力，我们家族结识了许多不同形态的朋友，进行了丰富多彩的文化交流。这极大地推动了我正在用于与你对话的通用翻译器的开发进程。",
+    "I believe he's currently using his skills to identify stars that are still stable enough to support our people, as well as others. He's also made himself useful to rescue efforts, identifying star systems simultaneously likely to have life and likely to be annihilated soon.": 
+    "他目前应该正在利用自己的专业技能，识别那些足够稳定的恒星，用于支持我们的族人以及其他物种。他还在救援工作中发挥作用，识别那些可能存在生命且可能很快湮灭的星系。",
+    "Betula actually went on to study alien cultures and languages. She was always more interested in social affairs than strictly academic ones, so it was a type of work that uniquely suited her.": 
+    "贝秋拉后来去研究外星文化和语言了。相比纯粹的学术研究，她总是更喜欢参与社会事务，因此这类工作简直为她量身定制。",
+    "She has been the first Nomai to contact a number of different alien species, and used the knowledge gained to develop the universal translator that allows us to communicate now.": 
+    "她是第一个与许多外星物种建立联系的挪麦人，利用获取的知识开发了这款我们正在用于交流的通用翻译器。",
+    "She's even caused some members of other species to join Nomai clans. Due to her efforts, approximately half of our clan is actually composed of non-Nomai species. Their insights have led to some remarkable technological breakthroughs.": 
+    "她甚至还让一些其他物种的成员加入了挪麦家族。由于她的努力，我们家族大约有一半的成员是由非挪麦物种构成的。他们的知识为我们带来了一些令人瞩目的科技突破。",
+    "Nowadays she uses her social skills to help people of varying cultures cooperate, which is especially important given the dwindling resources of our universe. It's a bit of a shame, I imagine she would have been quite thrilled to speak with you if she were here.": 
+    "如今她正在利用自己的社交技能帮助不同文化的人们相互协作，考虑到我们的宇宙中所剩无几的资源，这项工作尤其重要。真是遗憾，我想假如她在这里，一定会非常高兴与你对话。",
+    "Ha! Daucus always says he was never able to beat that lazy streak of his, although I'm honestly not convinced that he ever tried. The only thing he was ever willing to put real effort into was hacking systems.": 
+    "哈！道库斯总说自己没法克服懒散的毛病，但我实在没法相信他努力过。他唯一愿意真正投入精力的事情就是破解系统。",
+    "Fortunately, he was able to use that to find his place refurbishing and repurposing old technology. He's been able to revive a number of machines that, by all accounts, never should have been able to work again.": 
+    "幸运的是，他利用这点找到了自己的定位，专门从事老旧科技设备的翻新和再利用。他成功修复了许多按理来说再也无法运行的机器。",
+    "He's actually expanded the number of ships available to our people quite substantially. This has allowed our clan to contact many more species than would otherwise be possible. I believe that other clans even bring him derelict vessels from time to time in the hopes that he can repair them.": 
+    "事实上，他极大程度地增加了我们族人能使用的飞船数量。这让我们家族能够与更多的物种取得联系，这原本是非常难以实现的。其他家族甚至时不时为他带来废弃的飞船，希望他能进行修理。",
+    "I'm unsure how he feels about it, but he's recently been put in charge of a substantially sized team. With the current state of the universe, it's more important than ever to keep equipment operational for as long as possible. He's actually become quite an important member of our clan.": 
+    "我不确定他对此作何感想，但他最近被任命领导一个规模相当可观的团队。在当前的宇宙状态下，让仪器设备尽可能长时间维持运转具有前所未有的重要性。他实际上已经成为了我们家族非常重要的一员。",
+    "As you may have guessed, I never took my studies particularly seriously as a child. In school, I was much more concerned with playing pranks on Alnus and socializing with Betula.": 
+    "想必你也猜到了，我小时候从未认真对待过自己的学业。在学校里，我更热衷于捉弄奥努斯，或与贝秋拉闲聊。",
+    "It was actually the influence of our old teacher, Oryza, that led to me becoming a teacher. She was able to convince me to put more effort into my studies, something that I am now very thankful for whenever a student comes to me with questions.": 
+    "事实上，是我们以前的老师欧瑞扎激励我成为了一名教师。她成功说服了我更加努力学习，现在每当有学生来向我请教问题时，我都对此十分感激。",
+    "Outside of standard teaching duties, I've also been aiding in communications between us Nomai and other species. Some other teachers and I have even created an inter-species teacher association to aid in the spread of different people's knowledge.": 
+    "在常规的教学任务之外，我也一直致力于促进挪麦人与其他物种的沟通交流。我和其他一些老师甚至创建了一个跨物种教师协会，从而促进不同种族知识的传播。",
+    "Lately things have been a bit more difficult, what with the universe coming to an end and all. The students are actually doing fairly well emotionally speaking, but you would not believe the number of them who try to make existential arguments for missing assignments!": 
+    "近期事情变得有些棘手，毕竟宇宙即将走向终结了。学生们的情绪都还稳定，但你不会想到有多少学生对缺交作业进行存在主义的辩解！",
+    "Device... Ah, that old thing! That's an old prototype for the orrery used in our project. We found it lying around at some point during our work, and decided to see if we could get into some mischief with it.": 
+    "设备……啊，那个旧东西！那是我们项目中天体仪的原型机。我们在工作时发现它被闲置在某个地方，于是决定试着用它玩点小把戏。",
+    "Daucus was able to hack it to become responsive if certain conditions were met, so that we could use it without the adults becoming aware of its functional state.": 
+    "道库斯成功破解了它，使它在特定条件满足时响应，这样我们就可以暗中使用它，而不让大人们察觉它还能正常运转。",
+    "...Unfortunately, it proved to be highly unstable and dangerous. I really shouldn't tell you how to activate it. I have learned some responsibility over the years, after all.": 
+    "……不幸的是，它被证明非常不稳定和危险。我真的不能告诉你如何激活它。毕竟这么多年，我也学会了一些责任感。",
+    "...Oh, alright, but don't claim that I didn't warn you. You should exercise extreme caution around that device — it's quite possible for it to <![CDATA[<color=red>break things</color>]]> and not function entirely as expected.": 
+    "……噢，好吧，但别声称我没警告过你。在装置周围必须采取极端防护措施——它很可能<![CDATA[<color=red>造成破坏</color>]]>，无法完全按照预期运行。",
+    "To activate it, all of the orbs on the invitation platform need to be placed at roughly the same distance from the center. Additionally, it won't activate unless it is approached by somebody who is not wearing any space gear.": 
+    "激活邀请平台需要将它上面的所有圆球放置在与中心距离大致相同的位置。除此之外，未穿着任何太空装备的人靠近后，它才会被启动。",
+    "As for what exactly it does... I suppose I'll leave you to figure that out for yourself! Have fun, and be careful!": 
+    "至于它具体是做什么的……我想我就留给你自己去发现吧！玩得开心，注意安全！",
+    "Understood. I'll be here for some time, so feel free to come back if you change your mind.": "好的。我还会在这里待一段时间，如果你改变想法，欢迎随时过来。",
+
+    //ernesto
+    "Hey it's me Ernesto.": "嘿是我埃内斯托。",
+    "The stars have gathered around this point, and I have been formed.": "群星被召集此处，而我由此显形。",
+    "Take witness, and know that I am forever; and so too is my wisdom.": "见证吧，要知道我亘古长存，我的智慧亦是如此。",
+    "I will bestow a gift upon you: you may ask me a single question, and I will answer it.": "我将赐你一份礼物：你可以问我一个问题，而我将给你答复。",
+    "I am incredibly generous. You may ask another question.": "我十分慷慨。你可以再问一个问题。",
+    "What question will you be asking?": "你想提出什么问题？",
+    "What is the meaning of the universe?": "宇宙的意义是什么？",
+    "Why am I very slowly drifting away from you?": "为什么我正在缓慢漂离你？",
+    "I once found an artificial ring world inhabited by a species whose language I could not translate. What did they call themselves?": 
+    "我曾经发现了一个人造的环形世界，其中居住着一个种族，他们的语言我无法翻译。他们如何称呼自己？",
+    "I once saw a slide reel showing an alien resting at a green campfire, before being engulfed in a bright light. What caused this?": 
+    "我曾经发现一卷幻灯片，其中展示了一个外星人在绿色篝火边休息，接着被亮光吞噬。这是由什么导致的？",
+    "Who was the winner of Outer Wilds Mod Jam 5?": "第五届星际拓荒mod大赛的获奖者是谁？",
+    "Why in the world would the Nomai have candy wrappers? That is entirely against their philosophy.": "挪麦人到底为什么会有糖果包装袋？这完全违背了他们的理念。",
+    "Wait, aren't you a mathematical construct? You aren't real!": "等等，你不是个数学构建物吗？你并不真实存在！",
+    "No, YOU aren't real.": "不，<![CDATA[<i>你</i>]]>并不真实存在。",
+    "The meaning of the universe? It's right there in the name.": "宇宙的意义？就在我的名字之中。",
+    "E.R.N.E.S.T.O.": "E.R.N.E.S.T.O.",
+    "E: Enlightenment, in truth, comes only from Ernesto.": "E：启迪（Enlightenment），事实上，只能来自埃内斯托。",
+    "R: Roast marsh mallow!": "R：烤（Roast）棉花糖！",
+    "N: NOTHING beats an epic gamer moment!": "N：没有什么（Nothing）比得上一个史诗级的游戏瞬间！",
+    "E: Eheheheeeeee": "E：噫嘻嘻嘻嘻嘻嘻嘻",
+    "S: Save your mind and body from the sphere of ice; for as long as you live, it will not show mercy.": "S：拯救（Save）你的身心，远离冰封之地——只要你尚在人世，它绝不手下留情。",
+    "T: Text for ernesto universe dialogue goes here": "T：埃内斯托宇宙对话文本（Text）在此显示",
+    "O: Oh... that's groundsize. That's groundsize of my supermassive planet.": "O：哦……那是行星尺寸。那是我的超级巨大行星的尺寸。",
+    "It's uh. It's because my wisdom is too powerful. Yeah": "是因为，呃，因为我的智慧太强大了。嗯",
+    "Just like don't worry about it bro": "反正就别管了兄弟",
+    "Ah, the inhabitants of the ring world. You would like to know the name of their collective people.": "啊，环形世界里的居民们。你想知道他们对自己所有族人的称呼。",
+    "They called themselves... The \"Joemai\".": "他们称呼自己为……“乔麦人”。",
+    "It's a shame that you couldn't understand their dialect. While much of their informaton was communicated visually, their writing was like nothing I had ever seen.": 
+    "很遗憾你无法理解他们的方言。尽管有关他们的信息大多通过画面呈现，但他们的文字却是我前所未见的。",
+    "If you don't mind, I'd like to share a truly profound piece of the Joemai's poetry. It made a significant mark on my eternal life:": 
+    "如果你不介意，我想与你分享一首极为深邃的乔麦诗歌。它在我的永恒生命中留下了深刻的烙印。",
+    "\"I hope your bones shatter into a fine powder\"": "“我希望你的骨头碎成细粉”",
+    "He farted": "他放了个屁",
+    "Team gloopus won the fifth Outer Wilds mod jam. They made the \"one million Ernestos on an otherwise empty new horizons planet config\" mod.": 
+    "gloopus队赢得了第五届星际拓荒mod大赛。他们制作了“在空荡荡的New Horizon星球上放置一百万个埃内斯托”mod。",
+    "The mod boasted a whopping thirty-six thousand hours of content, split up into fifteen chapters.": "该mod拥有令人惊叹的36000小时内容，共分为十五个章节。",
+    "It took ten minutes for the mod to make two of the three judges begin to sob uncontrollably. The third judge simply left the room and began to reflect on life.": 
+    "该mod花了十分钟时间，让三位评委中的两位开始无法控制地啜泣。第三位评委则直接离开了房间，开始重新审视自己的人生。",
+    "It won because it had a script in it that removed every other jam entry. The judges have not noticed, as they are still playing the mod to this day.": 
+    "它获奖的原因是它内含一个脚本，可以移除其他所有的参赛作品。评委们都没能发现，因为时至今日他们仍在游玩这个mod。",
+    "Yeah that's a fair question.": "这确实是个问题。",
+    "It was funny. Idk": "好玩吧大概。不知道",
+
+    //convergence_explanation
+    "BETULA: This structure is <![CDATA[<i>very</i>]]> impressive, although I don't recall us ever discussing it or its construction.": 
+    "贝秋拉：这个装置令人印象<![CDATA[<i>非常</i>]]>深刻，不过我不记得我们曾经讨论过它或它的建造事宜。",
+    "ADONSONIA: This is just a small puzzle that I made in my spare time. It uses those old radios that Oryza gave us for detecting signals. If anyone manages to solve it, the computer over there will activate and display its information.": 
+    "阿冬索尼娅：这只是我利用空闲时间做的一个小谜题。它使用欧瑞扎给我们的老旧收音机来探测信号。如果有人成功解出，那里的电脑就会启动并显示信息。",
+    "ALNUS: I fear I won't like the answer, but I need to ask anyway. What's on the computer?": "奥努斯：我恐怕不会喜欢这个问题的答案，但我必须要问。电脑上有什么？",
+    "ADONSONIA: Oh, nothing significant — just the condition that I told Oryza would be our fifth project requirement.": 
+    "阿冬索尼娅：哦，没什么要紧的——只是我告诉欧瑞扎的我们项目的第五个条件而已。",
+    "ALNUS: Adonsonia, we don't have time for games like this. Please just tell us the solution so that we can know the new requirement.": 
+    "奥努斯：阿冬索尼娅，我们没有时间玩这种游戏。拜托直接告诉我们解法让我们知道新的条件是什么。",
+    "ADONSONIA: Sorry. I would respond, but I'm really quite busy with a project on <![CDATA[<color=orange>Daucus</color>]]>. I'm sure that you understand!": 
+    "阿冬索尼娅：不好意思。我会回复的，但我正忙着做<![CDATA[<color=orange>道库斯</color>]]>上的一个新项目。你一定会理解的！",
+    "ALNUS: YOU HAD TO COME HERE TO WRITE THAT!": "奥努斯：<![CDATA[<size=75>你明明回来写了这句话！</size>]]>",
+    "DAUCUS: If you committed us to some very difficult requirement, you aren't going to live to see this system presented at the festival.": 
+    "道库斯：如果你让我们面对一个非常难以实现的条件，那你恐怕活不到这个星系在发现节上展出的那一天了。",
+
+    //geyser_hint
+    "BETULA: With access to the planet's true surface, I noticed some interesting looking geysers located near the north pole.": 
+    "贝秋拉：抵达星球真正的表面后，我在北极附近发现了一些奇特的喷泉。",
+    "ALNUS: Our teacher had mentioned those. Apparently, the geysers lead all the way to the hollow core of this planet. She says that there's something down there that she wants us to see.": 
+    "贝秋拉：我们老师提到过它们。据说这些喷泉一直通往星球内部的空洞核心。她说那底下有什么东西，想让我们去看看。",
+    "ADONSONIA: I've already tried jumping into one, but the flow of the geyser forced me back to the surface.": "阿冬索尼娅：我试了直接跳进去，但喷泉的水流把我推回了外面。",
+    "ALNUS: Thawing the planet seems to have dramatically increased its level of geothermal activity. We won't be able to explore the geysers until we find a way to subdue it again.": 
+    "奥努斯：让星球冰层消融似乎极大提升了它的地热活动水平。我们得想办法重新抑制地热活动，才能探索喷泉。",
+    "ADONSONIA: Once we do that, we'll be free to go down the geysers and explore the core!": "阿冬索尼娅：抑制地热活动之后，我们就可以从喷泉口自由向下，探索星球核心了！",
+    "BETULA: That sounds quite dangerous! Did you sustain any injuries?": "贝秋拉：这听上去很危险！你受伤了吗？",
+    "ADONSONIA: Not to worry, Betula, I... wait... OH NO! THE FLESH PARASITES FROM THE CORE! THEY'RE TAKING CONTROL!": "阿冬索尼娅：不必担心，贝秋拉，我……等等……<![CDATA[<size=75>哦不！来自核心的肉体寄生虫！它们在控制我！</size>",
+    "BETULA: Good to hear that you're alright.": "贝秋拉：很高兴知道你没事。",
+
+    //ghost_matter_hint
+    "ALNUS: I wanted to warn everyone that, according to our teacher, a highly hazardous and invisible substance has been spilled in this cave. Please avoid it!": 
+    "奥努斯：我想警告大家，据我们老师所说，这个山洞里充斥着一种高度危险的隐形物质。请注意规避！",
+    "ALNUS: Fortunately, it seems that the substance can be temporarily neutralized with water. If anyone accidentally touches it, we can use that to our advantage.": 
+    "奥努斯：所幸的是，这种物质似乎可以暂时被水中和。假如有人不小心接触到了它，我们可以利用这点。",
+    "ADONSONIA: What an interesting property! I'm tempted to touch it to see how it feels.": "阿冬索尼娅：真是一种有趣的特性！我真想接触一下试试是什么感受。",
+    "BETULA: I don't believe that to be advisable, Adonsonia. Someone could be seriously hurt trying to do that.": "贝秋拉：我认为这不可取，阿冬索尼娅。这么做可能会造成严重的人身伤害。",
+    "BETULA: With this substance and this planet's gravity, <![CDATA[<color=orange>The Big One</color>]]> may be the most dangerous planet in this system!": 
+    "贝秋拉：有这种物质和这样的重力，<![CDATA[<color=orange>大块头</color>]]>可能是这个星系中最危险的行星了！",
+
+    //missing_transmitter_hint
+    "BETULA: Oryza said that each planet would have a warp transmitter on its north pole that leads to the orrery station, but I don't see one here.": 
+    "贝秋拉：欧瑞扎说每个星球的北极都有一个通往天体仪空间站的跃迁发射点，但我在这里没看到。",
+    "ALNUS: I suppose she only said that <![CDATA[<i>most</i>]]> of the transmitters would be on the north pole. Perhaps this one is somewhere else.": 
+    "奥努斯：我想她只说了<![CDATA[<i>大部分</i>]]>发射点位于北极。也许这个发射点在其他位置。",
+    "DAUCUS: That's irritating. Lack of access to this planet's transmitter will make travel much more difficult.": "道库斯：真是麻烦。无法使用这颗星球的发射点会让交通变得非常困难。",
+
+    //multi_receiver_hint
+    "ADONSONIA: I'm really sorry everyone, but I may have accidentally dropped the materials for the other transmitter into the star during transport.": 
+    "阿冬索尼娅：非常抱歉大家，我可能不小心在运输过程中将建造另一个发射点的材料掉进了恒星里。",
+    "ALNUS: Adonsonia! That was our last warp core! I don't know why you feel the need to constantly sabotage us! Do you just dislike us all?": 
+    "奥努斯：阿冬索尼娅！那是我们最后的跃迁核心了！我不知道你为什么总要搞破坏！你就这么讨厌我们吗？",
+    "ADONSONIA: I didn't mean to drop it, it just happened! I know I do more pranks than you would like, but I'd never purposefully cause actual harm to the project!": 
+    "阿冬索尼娅：我不是故意弄丢材料的，只是不小心的！我知道我做了太多恶作剧，但我从未故意对项目造成破坏！",
+    "ALNUS: Even if we choose to believe you, that doesn't change the fact that we're now out of warp cores. Without another one we can't make any more transmitters, which means we can only use one of the receivers.": 
+    "奥努斯：即使我们选择相信你，也不能改变我们用尽了跃迁核心的事实。没有核心就无法制造更多发射点，我们就只能使用其中一个接收点。",
+    "DAUCUS: Don't worry about that. I've gone ahead and hacked the transmitter to work with either receiver, depending on which one lines up. That way, we won't need a second transmitter.": 
+    "道库斯：这个不用担心。我已经提前破解了发射点，让它能与任意对齐的接收点配对。这样我们就不需要第二个发射点了。",
+    "ADONSONIA: Thank you, Daucus! I am really sorry about incinerating those components, but I'm glad you were able to clean up my mess a bit.": 
+    "阿冬索尼娅：谢谢你，道库斯！我真的很抱歉焚毁了那些部件，但还好你能帮我收拾一些残局。",
+    "BETULA: We know, Adonsonia. Alnus is just upset. Everyone makes mistakes.": "贝秋拉：我们明白，阿冬索尼娅。奥努斯只是不太高兴。每个人都会犯错。",
+    "ALNUS: Really? That's very helpful, Daucus! We were really relying on those warp pads, so it's good to have them all usable.": 
+    "奥努斯：真的吗？这帮上大忙了，道库斯！我们真的很依赖这些跃迁点，能将它们全部投入使用是件好事。",
+
+    //quantum_hint
+    "ALNUS: I found this interesting looking stone on this planet, so I decided to place it in this building.": 
+    "奥努斯：我在这个星球上发现一块看上去很奇特的石头，因此决定将它放置在这个建筑中。",
+    "ALNUS: I had just put the stone here, Adonsonia. How did you already steal it?": "奥努斯：我才刚把石头放在这里，阿冬索尼娅。你怎么已经把它偷走了？",
+    "ADONSONIA: I wish I could achieve such a feat, but that wasn't me! I recall an old study on this kind of stone, which concluded that they move when unobserved.": 
+    "阿冬索尼娅：但愿我能实现这样的壮举，但这不是我干的！我记得很久以前有一项关于这种石头的研究，结论是它们不被观察时会自行移动。",
+    "BETULA: That is quite an interesting trait! Do you have any idea where it may go when it's not here?": "贝秋拉：这真是个奇妙的特点！你知道它不在这里时会去哪里吗？",
+    "ADONSONIA: I'm not sure, to be honest. I don't believe I've seen it anywhere besides here.": "阿冬索尼娅：实话实说，我也不确定。除了这里之外，我没有在其他地方见过它。",
+    "ALNUS: I would accuse you of lying if the stone hadn't appeared behind me moments ago (nearly scaring my lower garments off). Unfortunately, it took a recording of mine with it, and it doesn't seem to have brought it back.": 
+    "奥努斯：要不是刚才石头在我背后出现了（差点把我下半身的衣物吓掉），我会指责你在说谎。不幸的是，它之前带走了一份我的录音，但似乎没有将它带回来。",
+
+    //sand_structure_hint
+    "DAUCUS: I must say, Adonsonia, it is impressively lazy that you spent all this time at this structure and have only built this little platform.": 
+    "道库斯：我必须得说，阿冬索尼娅，你花了这么长时间在这个建筑上，竟然只建起了这个小平台，真是懒得令人佩服。",
+    "ADONSONIA: There would be more here, but it seems that somebody has covered the building I've labored for hours on almost entirely in sand!": 
+    "阿冬索尼娅：这里本来应该还有别的东西，但看上去有人把我花费好几小时幸苦建造的建筑整个埋在了沙子里！",
+    "BETULA: I apologize — I believe that may be my fault. I wanted us to have a planet approximating a desert, so I placed a large amount of sand on this one without realizing there was a structure already built.": 
+    "贝秋拉：我向你道歉——我认为这应该是我的错。我想让我们有一颗类似沙漠的星球，因此在这颗星球上放了大量的沙子，却不知道这里有一座已经造好的建筑。",
+    "ADONSONIA: I suppose this is more karma for my own antics than anything else, so I accept your apology. I would appreciate help figuring out a way to get rid of the sand, though. I wonder if there may be some way to move it somewhere else.": 
+    "阿冬索尼娅：我想这不如说是我自己胡闹的报应，所以我接受你的道歉。不过如果有人能帮我想办法摆脱这些沙子，我将不胜感激。不知道有没有办法把沙子移到其他地方。",
+    "ALNUS: That is so strange, Adonsonia! It's almost as if people interfering with your work isn't terribly fun.": "奥努斯：这真是奇怪，阿冬索尼娅！就好像有人干扰你的工作并不有趣一样。",
+
+    //teleporter_nodoor_hint
+    "ALNUS: Who constructed this building around the warp receiver? I know we wanted one, but I can't seem to locate the door.": 
+    "奥努斯：谁在跃迁接收器周围建造了这个建筑？我知道我们计划造一座建筑，但我似乎找不到门。",
+    "ADONSONIA: Would you look at that? It seems that I <![CDATA[<i>unintentionally forgot</i>]]> to put a door on the building. <![CDATA[<i>100% accidental</i>]]>, I can assure you.": 
+    "阿冬索尼娅：这可真是！看来我似乎<![CDATA[<i>不小心忘记了</i>]]>给这座建筑造一扇门。<![CDATA[<i>百分之百的意外</i>]]>，我向你保证。",
+    "ALNUS: Adonsonia, this is no time for your pranks! I left important materials and documents near the warp pad that I can no longer access! How do I get in?!": 
+    "奥努斯：阿冬索尼娅，这不是搞恶作剧的时候！我把重要的材料和文件留在了跃迁点附近，但我现在进不去了！怎样才能进去？！",
+    "ADONSONIA: Who can say? Maybe there's no way into the building at all. I suppose you'll just need to figure it out.": 
+    "阿冬索尼娅：谁知道呢？也许根本没有进入建筑的方法。我想你只好自己想办法了。",
+    "ALNUS: Do you really expect me to believe that you don't know any way in when I can see your salt-treat wrappers inside? (And might I remind you just how rude it is to leave non-disposable waste on the floor!!)": 
+    "奥努斯：你真的指望我相信你不知道进入的方法吗？我能在里面看见你的盐块零食包装袋！（而且请允许我提醒你，在地上留下不可降解垃圾非常不礼貌！！）",
+    "BETULA: Alnus, I'm sure that there's some way to get into the building, don't worry.": "贝秋拉：奥努斯，我相信一定有办法进入建筑内的，别太担心。",
+
+    //tower_ascension_hint
+    "ALNUS: I thought that the size of this planet deserved a monument of fitting stature, so I constructed this tower here!": 
+    "奥努斯：我觉得这个星球的规模值得一座与之相称的纪念碑，于是我建造了这座高塔！",
+    "BETULA: This is lovely, Alnus! I look forward to seeing the top chamber of the tower once you install a tractor beam to get up there!": 
+    "贝秋拉：这座塔真不错，奥努斯！我很期待等你安装完牵引光束后去上面看看塔顶的房间！",
+    "ALNUS: A tractor beam? We don't have any means by which to make a tractor beam. We weren't given the right materials.": 
+    "奥努斯：牵引光束？我们没有办法制作牵引光束。我们没有所需的材料。",
+    "BETULA: Then how do you intend for us to get up there? The gravity of this planet is far too strong for a thrustpack to give the necessary height.": 
+    "贝秋拉：那你计划我们如何到上面去？这个星球的重力太强了，喷气背包无法让我们抵达所需的高度。",
+    "ALNUS: ...I left my lunch up there...": "奥努斯：……我把午饭留在了上面……",
+    "DAUCUS: Hopefully we can find a way to get up there. Redesigning this whole structure would be torment.": 
+    "道库斯：希望我们能找到上去的办法。重新设计整个建筑会是一种折磨。",
+    "DAUCUS: I'll admit that this is pretty impressive, especially considering how strong the gravity of this planet is.": 
+    "道库斯：我承认这非常了不起，特别是考虑到这个星球的重力有多强。",
+    "ADONSONIA: Ha! Intentional or not, that's a good prank. I don't know if I could have done better myself!": 
+    "阿冬索尼娅：哈！无论是否有意，这都是个不错的恶作剧。我都不一定能做得比他更好！",
+
+    //under_ice_hint
+    "ADONSONIA: I'm disappointed that this planet is so unremarkable. We can't even make it more interesting ourselves, since the ice is simply too unstable to build on.": 
+    "阿冬索尼娅：这颗星球平平无奇，真让我失望。我们甚至没法自己让它变得有趣些，因为这些冰块对建造来说太不稳定了。",
+    "BETULA: I must agree. There really isn't much on this planet that we can work with.": "贝秋拉：的确如此。这颗星球上确实没什么可做的。",
+    "ALNUS: Subsurface scans indicate that the ice is hollow and that the planet possesses an ocean below it. If we could gain access to the area below the ice, we may be able to create structures.": 
+    "奥努斯：地下扫描显示这里的冰层内部是空心的，在这颗星球的冰面下存在一片海洋。如果我们能进入冰下的空间，也许就能建造一些建筑。",
+    "ADONSONIA: That would be ideal, because this plain planet is currently my least favorite.": "阿冬索尼娅：那再好不过了，因为这颗单调的星球目前是我最不喜欢的。",
+
+    //platform_invitation
+    "The star system in front of you was the subject of an educational project (and festival entry) known as the <![CDATA[<Color=orange>]]>Heliostudy<![CDATA[</Color>]]>.": 
+    "你前方的恒星系是一个教学项目（及发现节参展项目），名为<![CDATA[<Color=orange>]]>辉日研究<![CDATA[</Color>]]>。",
+    "This system is identifiable by its purple lines and pale blue sun. We invite you to fly over and explore it!": 
+    "这个星系的特点是它的紫色轮廓和浅蓝色恒星。我们邀请你飞往那里进行探索！",
+
+    //students_intro
+    "BETULA: This project sounds pretty fun! Being the architects of a mock star system is a very cool opportunity, especially considering that we get to show it at the next festival!": 
+    "贝秋拉：这个项目听上去很有趣！成为模拟恒星系的设计师是个很酷的机会，尤其是我们还能在下次发现节上展示它！",
+    "ALNUS: Fun? Betula, our next school project is going to be shown at a <![CDATA[<i>festival</i>]]>. If we mess it up even slightly, we could turn our entire clan into the posterior of every joke for the next century!": 
+    "奥努斯：有趣？贝秋拉，我们的下一个学校项目会展示在<![CDATA[<i>发现节</i>]]>上。稍有不慎，都会让我们的整个家族在接下来的一个世纪沦为笑柄！",
+    "ADONSONIA: Alnus, I doubt that our project being imperfect will affect the reputation of our clan. Everyone understands that we're still students, after all.": 
+    "阿冬索尼娅：奥努斯，我不认为我们家族的声誉会因为我们的项目不完美而受影响。大家都能理解我们终究还是学生。",
+    "ALNUS: A festival entry is no small matter. We need to make sure that we do this right.": "奥努斯：发现节的项目非同小可。我们必须确保万无一失。",
+    "BETULA: Well, regardless of what stakes may or may not exist, we won't be able to do anything until we get down onto the planets and survey them, so I think that should be our next course of action.": 
+    "贝秋拉：好啦，无论这些风险是否存在，在去到星球上进行勘测之前我们什么也做不了，因此我认为这应该是我们下一步的行动。",
+    "DAUCUS: Ah, I see that it's going to be that kind of project. In that case, just let me know what you need me to do, and I'll (maybe) do it.": 
+    "道库斯：啊，明白了，原来是这种项目。既然如此，需要我做什么就告诉我，我（可能）会去做。",
+
+    //teacher_intro_recording
+    "ORYZA: Hello, students! As I mentioned in class the other day, our clan is hoping for you all to take part in our entry for the upcoming festival. Welcome to our entry!": 
+    "欧瑞扎：同学们好！正如我那天课上所说，发现节就要到了，我们家族希望你们都能参与到我们的参展项目中。欢迎来到我们的项目！",
+    "ORYZA: We've decided to focus on education for this festival, which is where you all are going to come in! This entire star system is actually an educational device made to help students like yourselves understand how such a system works.": 
+    "欧瑞扎：我们已经决定将本次参展的重心放在教育上，也就是你们将要参与的部分！这一整个恒星系都是一个教学用具，用来帮助像你们这样的学生理解这类星系是如何运转的。",
+    "ORYZA: As you can see below you, a number of different planets have been prepared for you to work with. You are free to build on and reshape these planets as you see fit, in order to create a system that demonstrates your understanding. Think of yourself as... architects!": 
+    "欧瑞扎：正如你们所见，在你们下方有一些形态各异的星球，它们都是为你们准备的。你们可以随心所欲地建设或改造这些星球，目的是打造一个能够体现你们理解的星系。你们可以把自己当作……设计师！",
+    "ORYZA: At the center of this platform is the orrery, a vital tool in your shaping of this system. While an orrery is normally a <![CDATA[<Color=orange>]]>miniature<![CDATA[</Color>]]> representation of a star system, it is more accurate in this case to say that the star system is a scaled-up representation of the orrery!": 
+    "欧瑞扎：在这个平台的中央有一座天体仪，这是你们改造星系的重要工具。虽然一般来说，天体仪是一个<![CDATA[<Color=orange>]]>微缩<![CDATA[</Color>]]>版的恒星系，但这次，准确来说，恒星系是一个放大版的天体仪！",
+    "ORYZA: That may be a bit confusing, but I'll leave it to you all to discover what I mean by that! To make navigation easier in this system, we've placed warp transmitters on each planet (mostly on the north pole) that will bring you to and from this station.": 
+    "欧瑞扎：这可能有点绕，但我留给你们自己去体会我是什么意思！为了让星系内的交通更加便利，我们在每个星球都放置了跃迁发射点（大多在北极），可以让你们出入这个空间站。",
+    "ORYZA: You will have finite resources for this project, so make sure to use them with care. Other than that, have fun! You will all be given approximately two weeks to complete your project before it is submitted to the festival, so just make sure to have everything done by then.": 
+    "欧瑞扎：这个项目提供给你们的资源有限，所以记得谨慎使用。除此之外，祝你们玩得开心！在将项目提交至发现节之前，你们有大约两个星期的时间来完成它，记得在截止之前准备就绪。",
+    "ORYZA: Oh, and one last thing. Since this is meant to demonstrate your understanding of star systems, I'll need you to tell me seven different requirements that your system will fulfill to be similar to a real star system. This is a <![CDATA[<i>graded</i>]]> project after all. Have fun, little ones!": 
+    "欧瑞扎：哦，还有一件事。因为这个项目是为了体现你们对星系的理解，所以我需要你们告诉我你们的星系能满足的七个条件，让它与真实的恒星系相类似。毕竟这个项目是要<![CDATA[<i>评分</i>]]>的。玩得开心，孩子们！",
+
+    //big_planet_name
+    "ADONSONIA: This massive sphere shall be known as... <![CDATA[<color=orange>The Big One</color>]]>!": "阿冬索尼娅：这个巨大的球体应该命名为……<![CDATA[<color=orange>大块头</color>]]>！",
+    "ALNUS: Is that all you could come up with?": "奥努斯：你只能想出这种名字吗？",
+    "ADONSONIA: Alnus, aren't you always telling me to be more practical? This is just my (totally, <![CDATA[<i>entirely</i>]]> earnest) attempt to appease you.": 
+    "阿冬索尼娅：奥努斯，你不是总告诉我要务实吗？我只是（绝对、<![CDATA[<i>完全</i>]]>认真地）想让你满意。",
+    "DAUCUS: That should be easy to remember, I suppose.": "道库斯：这个名字应该比较好记。",
+
+    //crystal_planet_name
+    "ALNUS: I have decided that the name of this planet shall be... <![CDATA[<color=orange>Shattered Geode</color>]]>!": 
+    "奥努斯：我决定了，这个星球的名字就叫……<![CDATA[<color=orange>碎晶星</color>]]>！",
+    "BETULA: That's an impressive name, Alnus!": "贝秋拉：真是个令人印象深刻的名字，奥努斯！",
+    "ALNUS: This crystalline body is quite majestic. It only makes sense that it would receive a name of equal beauty!": 
+    "奥努斯：这个结晶天体真是宏伟壮丽。只有给它起一个同样优美动人的名字才说得过去！",
+    "ADONSONIA: Truly, you possess <![CDATA[<i>incredible</i>]]> humility. It is such a relief that you are in <![CDATA[<i>no way</i>]]> being strange about the name of this planet.": 
+    "阿冬索尼娅：的确如此，你<![CDATA[<i>实在是</i>]]>谦虚了。知道你<![CDATA[<i>绝对</i>]]>没在对这个星球的名字阴阳怪气真是让人松一口气。",
+
+    //ernesto_hint
+    "ORYZA: Imagine a point that exists at the average point of all star systems in this cluster.": "欧瑞扎：想象有一个点，存在于这个星团中所有星系的均值点上。",
+    "ADONSONIA: A point? How would I imagine that? I propose that the average point is represented by our current class study specimen.": 
+    "阿冬索尼娅：一个点？这要我怎么想象？我提议这个均值点用我们当前课堂的研究样本表示。",
+    "ORYZA: Very well. Imagine this average point to be represented by an anglerfish named Ernesto.": 
+    "欧瑞扎：那好。想象这个均值点用一条名为埃内斯托的安康鱼表示。",
+    "ORYZA: Assume that Ernesto can only appear within the sphere of influence (which has a radius of 2500 meters) around <![CDATA[<Color=orange>]]>Heliocenter<![CDATA[</Color>]]>.": 
+    "欧瑞扎：假设埃内斯托只能出现在<![CDATA[<Color=orange>]]>辉日中心<![CDATA[</Color>]]>的影响范围（半径2500米）之内。",
+    "ADONSONIA: I never finished this mathematics problem that Oryza assigned to us. I don't like math, so I'm sending it to space. Farewell!": 
+    "阿冬索尼娅：欧瑞扎布置的这个数学问题我一直没有完成。我不喜欢数学，所以我要把它送进太空。再也不见！",
+    "ORYZA: If it means that you'll have more enthusiasm in this lesson, then we can make that addition.": 
+    "欧瑞扎：如果这能让你对这节课更感兴趣，那我们可以加上这个条件。",
+
+    //final_door_computer
+    "Project status: Requirements not met.": "项目状态：未满足条件。",
+
+    //house_flavor_recording
+    "DAUCUS: Why are we keeping our beds here of all places? It's quite cold and not terribly comfortable.": "道库斯：有这么多地方，为什么偏偏要把我们的床安置在这里？这里这么冷，也不是很舒适。",
+    "ADONSONIA: It isn't that cold, Daucus. Since when were you so sensitive to the cold?": "阿冬索尼娅：没那么冷，道库斯。你什么时候这么怕冷了？",
+    "ALNUS: I'm tempted to agree with Daucus. The orrery station has its own climate control — could we not just stay there?": 
+    "奥努斯：我有点想同意道库斯。天体仪空间站有自己的气候控制系统——我们不能就住在那里吗？",
+    "BETULA: We're meant to care for this system. How can we properly care for it if we're unwilling to even sleep in it!?": 
+    "贝秋拉：我们的职责是打理这个星系。如果我们连在里面过夜都不愿意，又怎么能打理好它呢！？",
+    "BETULA: Additionally, look above you! The view of the stars through the aurora is breathtaking!": "贝秋拉：还有，抬头看看！极光下的星空美得令人陶醉！",
+    "ALNUS: I suppose that much at least is true.": "奥努斯：这倒确实没错。",
+    "...": "……",
+    "ADONSONIA: We should build a campfire.": "阿冬索尼娅：我们应该生一堆篝火。",
+    "BETULA: That's a wonderful idea! It would warm us, and we would maintain our view of the night sky.": "贝秋拉：好主意！它能让我们取暖，也不会影响我们欣赏夜空。",
+    "ALNUS: That... doesn't sound unpleasant, if I'm being honest.": "奥努斯：这……听上去不坏，说实话。",
+    "DAUCUS: I have some food we can roast if you all are willing to build the actual fire.": "道库斯：我有一些可以烤的食物，只要你们愿意把火生起来。",
+    "ADONSONIA: Then it's a deal! Let's get the fire started, everyone!": "阿冬索尼娅：那就说定了！我们把火升起来吧，各位！",
+
+    //platform_computer
+    "<![CDATA[<color=red>]]>WARNING:<![CDATA[</color>]]> THIS EXPERIMENTAL ORRERY IS NOW ACTIVE.\r\nUser is fully responsible for any damage caused by using this device. (You will break things.)": 
+    "<![CDATA[<color=red>]]>警告：<![CDATA[</color>]]>试验天体仪已启用。\r\n使用装置造成的一切损失由使用者承担。（你会弄坏东西的。）",
+    "Space gear can now be re-equipped.": "现在可以重新穿着太空装备。",
+
+    //sand_planet_name
+    "BETULA: Daucus, have you decided on a name for this planet yet?": "贝秋拉：道库斯，你想好这个星球的名字了吗？",
+    "DAUCUS: <![CDATA[<color=orange>Daucus</color>]]>.": "道库斯：<![CDATA[<color=orange>道库斯</color>]]>。",
+    "ADONSONIA: I know you like easy solutions, but won't it be a <![CDATA[<i>bit</i>]]> easy to mix up you and the planet?": 
+    "阿冬索尼娅：我知道你喜欢简单粗暴的解决办法，但你的名字和这个星球会不会<![CDATA[<i>有点</i>]]>容易被混淆？",
+    "DAUCUS: Yes.": "道库斯：是的。",
+    "ALNUS: ...I suppose that calling the planet <![CDATA[<color=orange>Daucus</color>]]> works as well as anything.": "奥努斯：……我想，把这个星球叫做<![CDATA[<color=orange>道库斯</color>]]>和叫做其他名字也没什么区别。",
+
+    //water_planet_name
+    "BETULA: I've decided to name this planet <![CDATA[<color=orange>Glacial Abyss!</color>]]>!": "贝秋拉：我决定把这个星球叫做<![CDATA[<color=orange>冰渊星！</color>]]>！",
+    "ADONSONIA: I like it! Clearly you do as well, if your enthusiasm is anything to go by.": "阿冬索尼娅：我喜欢这个名字！显然你也喜欢，从你的热情就能看出来。",
+    "BETULA: I should clarify. The first exclamation is actually part of the name, <![CDATA[<color=orange>Glacial Abyss!</color>]]>.": 
+    "贝秋拉：我应该说明一下。第一个感叹号其实也是名字的一部分，<![CDATA[<color=orange>冰渊星！</color>]]>。",
+    "ALNUS: All things considered, that is not the worst planet name that has been chosen for this project.": 
+    "奥努斯：总体来看，这不是这个项目中最糟糕的星球名字。",
+
+    //student_names
+    "Heliostudy team members": "辉日研究小组成员",
+    "Alnus": "奥努斯",
+    "Betula": "贝秋拉",
+    "Daucus": "道库斯",
+    "Adonsonia": "阿冬索尼娅",
+
+    //teacher_outro_recording
+    "ORYZA: If you're hearing this, that must mean that you all successfully completed the requirements you set out for yourselves. Congratulations!": 
+    "欧瑞扎：如果你们在听这段录音，说明你们一定已经成功满足了自己设定的条件。恭喜！",
+    "ORYZA: The task you were given was not an easy one. To complete it, you had to work very hard and work together. You've made your clan proud, and your project will demonstrate to all the other clans just how clever our little ones are.": 
+    "欧瑞扎：这项交给你们的任务并不容易。要完成它，你们必须齐心协力，攻克难关。你们让你们的家族感到骄傲，你们的项目也将向其他所有挪麦家族展示我们的孩子们有多么聪明。",
+    "ORYZA: Speaking of, there is one last thing you all must do before this system is ready to be presented at the festival.": 
+    "欧瑞扎：说起这个，在星系准备好在发现节展出前，你们还有最后一件要做的事。",
+    "ORYZA: Seeing as this entry is as much about all of you as it is about this educational tool, it's only fitting that you all leave a personal mark on it. Towards that end, I request that you all make self portraits and display them in this room!": 
+    "欧瑞扎：这个项目不仅关乎这个教学工具，更关乎你们四人，让你们都在此留下自己的印记再合适不过。为此，我需要你们在这个房间里留下自己的自画像！",
+    "ORYZA: We are all so proud of what you little ones have accomplished. We can't wait to see where your lives will take you in the future. For now though, it is about time that your journey led you all back to your homes and your warm beds!": 
+    "欧瑞扎：我们都为你们这些孩子们取得的成果感到骄傲。我们对你们未来的发展翘首以盼。不过现在，是时候让你们的旅程带领你们回到家中温暖的床上了！",
+
+    //double_sand_req
+    "BETULA: Unburying this structure has me thinking; isn't it strange for only one planet in this system to have sand?": 
+    "贝秋拉：让这座建筑显露的过程让我想到：只有一个星球上有沙子，是不是很奇怪？",
+    "ALNUS: I suppose so, but why are you mentioning this?": "奥努斯：好像是的，不过你为什么提起这个？",
+    "BETULA: I think it may be a good fourth requirement that multiple planets have sand.": "贝秋拉：我觉得把多个星球拥有沙子作为第四个条件也许不错。",
+    "DAUCUS: That sounds pretty easy to me.": "道库斯：这听上去很简单。",
+    "ALNUS: Agreed. We'll notify our teacher of that being our fourth requirement, then.": "奥努斯：我同意。那么我们会通知老师这是我们的第四个条件。",
+    "ADONSONIA: If it keeps sand off of this planet and away from my pyramid, I'm all for it.": "阿冬索尼娅：如果这能让沙子离开这个星球、远离我的金字塔，我将全力支持。",
+    "BETULA: I'm still very sorry about that.": "贝秋拉：我仍然对此非常抱歉。",
+
+    //dried_seabed_req_recorder
+    "ALNUS: I maintain that the discussion of your idea did not require us to come <![CDATA[<i>here</i>]]>.": "奥努斯：我仍然坚持，讨论你的想法并不需要我们专门来到<![CDATA[<i>这里</i>]]>。",
+    "ADONSONIA: Don't worry. As long as there's water, we're fine. That brings me to what I actually wanted to discuss; I think our second requirement should be to have a planet with visible geothermal activity.": 
+    "阿冬索尼娅：别担心。只要这里有水，我们就不会有事。这就引出了我真正想讨论的想法，我认为我们的第二个条件应该是：让一个星球有可见的地热活动。",
+    "BETULA: It is true that many star systems have planets with geothermal activity. What made you think of it?": "贝秋拉：的确，许多星系都有进行地热运动的星球。你是怎么想到这一点的？",
+    "ADONSONIA: When I drained the water from <![CDATA[<color=orange>Glacial Abyss!</color>]]> to flood this cave, I saw how interesting all of the geysers looked when freed from the ice.": 
+    "阿冬索尼娅：我将<![CDATA[<color=orange>冰渊星！</color>]]>上的水抽到这里灌满这个山洞时，发现从冰冻中释放的喷泉们看上去很有意思。",
+    "DAUCUS: That sounds easy enough. Should we go ahead and send that requirement to Oryza?": "道库斯：这听上去很容易。我们要把这个条件发给欧瑞扎吗？",
+    "ALNUS: If it will get us out of this cave faster, then yes, certainly.": "奥努斯：如果这能让我们早点从洞穴出去的话，那么是的，当然。",
+
+    //final_location_req
+    "ORYZA: I thought that you little ones would be interested to see this: directly above you lies a safe way to view the layers of the planet's core!": 
+    "欧瑞扎：我想你们这些孩子们会想要看看这个：在你们的正上方可以安全地观察到这个星球核心的各层结构！",
+    "ORYZA: Additionally, that door (at the end of the path behind you) is the final location that you will need to visit in order to submit your assignment. Think of it as your seventh requirement.": 
+    "欧瑞扎：除此之外，那扇门（在你们背后走道的尽头）是你们提交作业需要抵达的最终地点。把这个当作你们的第七个条件。",
+    "ALNUS: I do have a concern with this. I'm fairly certain that other requirements of ours will make it impossible for us to use the geysers and gain access to the core once we are ready to submit.": 
+    "奥努斯：我对此有一项顾虑。我很确定在满足其他条件、准备好提交时，利用喷泉进入核心是不可能的。",
+    "ORYZA: That is an interesting situation. Unfortunately, I simply cannot allow you to change your requirements at this stage of the project, and you will need to be here to submit it. You all are very clever though, so I'm sure that you'll think of something!": 
+    "欧瑞扎：这的确有些棘手。遗憾的是，我不能允许你们在项目的这个阶段修改条件，而你们需要来这里进行提交。不过你们都很聪明，我相信你们一定能想出办法！",
+    "BETULA: It's quite interesting! I've never been to the core of a planet before!": "贝秋拉：这真有意思！我之前从未到过一颗星球的核心！",
+    "DAUCUS: Does that mean that we only need six other requirements in total?": "道库斯：这意味着我们一共只需要其他六个条件是吗？",
+    "ORYZA: I suppose that it would, yes.": "欧瑞扎：我想是的，没错。",
+
+    //frozen_planet_req
+    "ADONSONIA: An interesting idea for our first requirement could be that one of the planets must have a large amount of solid ice on it.": 
+    "阿冬索尼娅：关于我们的第一个条件，我有一个有意思的想法：其中一颗星球上必须有大量冻结的坚冰。",
+    "BETULA: That could be a good one! Star systems do tend to have a wide range of climates, so an icy body would demonstrate that.": 
+    "贝秋拉：这个想法不错！恒星系确实通常有许多不同的气候类型，一个冰冻天体能体现这一点",
+    "ADONSONIA: Alright! I've gone ahead and let Oryza know that our first requirement will be to include a planet with ice.": 
+    "阿冬索尼娅：好的！我已经告诉了欧瑞扎我们的第一个条件是有一颗覆盖坚冰的星球。",
+    "ALNUS: Wait, don't send that message yet! I was experimenting earlier, and there doesn't seem to be a way to re-freeze water in this system! Our star is too hot to allow water to re-freeze, even in the furthest orbit.": 
+    "奥努斯：等等，先别发消息！我之前做了尝试，我们好像没法在这个星系里让水重新冻结！我们的恒星太热了，没法让水重新冻结，即使在最远的轨道也不行。",
+    "ADONSONIA: That's inconvenient — I've already sent the message with the requirement. Is there some way that we can further reduce the heat reaching the planet?":
+    "阿冬索尼娅：这有点不妙——我已经把带有这个要求的消息发出去了。有什么办法进一步减少星球接收到的热量吗？",
+    "DAUCUS: Would it not be wise to wait for more people to give input before sending that message?": "道库斯：发送消息前先让更多人给出意见，岂不是更加明智的做法？",
+
+
+    //middle_orbit_req
+    "DAUCUS: Has anyone had any ideas for our last requirement? We are approaching the deadline, so we should keep it simple.": 
+    "道库斯：有人有想法作为我们的最后一个条件吗？截止日期快到了，因此我们需要让它简单些。",
+    "ADONSONIA: We haven't put any orbital restrictions on specific planets yet. Perhaps we could do something along those lines.": 
+    "阿冬索尼娅：我们还没对任何星球提出轨道方面的限制。也许我们可以按照这个思路做些什么。",
+    "ALNUS: It seems sensible to say that mass would gather towards the center of a naturally-occurring star system. Based on that, we could avoid leaving the largest planet in the farthest orbit.": 
+    "奥努斯：一种似乎合理的说法是，在自然形成的星系中，物质会聚集在星系的中心。根据这个，我们可以避免将最大的星球留在最外侧的轨道。",
+    "BETULA: That is a fair idea! I'll inform Oryza of that being our final requirement.": "贝秋拉：这个想法很合理！我会告诉欧瑞扎这就是我们最后的条件。",
+
+    //opposite_sides_req_computer
+    "ADONSONIA: If you're reading this, then you've bested my little convergence puzzle. Nicely done! Bravo! (I'm being earnest, I did not make this puzzle to be easy).": 
+    "阿冬索尼娅：如果你正在阅读这段文字，那你已经破解了我的汇聚谜题。做得很好！真棒！（我是真心的，这个谜题有一定的难度。）",
+    "ADONSONIA: If you're wondering about the fifth requirement that I sent to Oryza, don't worry, it's not <![CDATA[<i>terribly</i>]]> bad. I figured that it didn't make sense for planets in the same orbit to be particularly close, so I said that any planets in the same orbit would be on opposite sides of the sun.": 
+    "阿冬索尼娅：如果你想知道我发给欧瑞扎的第五个条件是什么，别担心，它没有<![CDATA[<i>那么</i>]]>糟糕。我觉得同一轨道的星球离得太近不太合理，所以我提出在同一轨道上的不同星球将位于太阳的对立面。",
+    "ADONSONIA: Also, for the record, Daucus took part in my little prank too. Turns out that hacking all of the planet signals to make a harmony only costs a few salt-treats!": 
+    "阿冬索尼娅：还有，特此声明，道科斯也参与了我的小小恶作剧。原来破解所有星球的信号构成一个和弦只需要几袋盐块零食！",
+
+    //warp_alignment_req
+    "DAUCUS: A fairly simple requirement would be to have our transmitter line up with one of our receivers.": 
+    "道库斯：有一个较为简单的条件是：让我们的发射点和其中一个接收点对齐。",
+    "ALNUS: I'm not clear on how that demonstrates an understanding of star systems.": "奥努斯：我不太清楚这如何能体现对恒星系的理解。",
+    "DAUCUS: We've placed a number of different buildings on these planets, so it's already not a representation of a fully natural system. Given that, lining up the warp pads would demonstrate that we're considering how transport would work in the system.": 
+    "道科斯：我们已经在这些星球上放置了许多不同的建筑，所以这已经不能代表一个完全自然的星系了。既然如此，让跃迁点对齐可以体现我们我们对于星系内交通方式的思考。",
+    "DAUCUS: Given that we only have the one transmitter, I think we can get away with lining up with whichever warp pad is most convenient.": 
+    "道库斯：鉴于我们只有一个发射点，我认为我们可以选择最方便的跃迁点进行对齐。",
+    "ALNUS: That is a fair justification. I'll let our teacher know that our third requirement will be an aligned transmitter-receiver pair.": 
+    "奥努斯：这个理由很合理。我会告诉老师我们的第三个条件是一对配对的发射点和接收点。",
+    "ADONSONIA: That's not a terribly natural requirement, Daucus. I'm surprised to hear that you're going against the grain like that. I like it!": 
+    "阿冬索尼娅：这不是个特别自然的条件，道库斯。我没想到你会这样剑走偏锋。我喜欢！",
+    "BETULA: I was skeptical at first, but I do like your reasoning. I vote that we make this a requirement.": 
+    "贝秋拉：我一开始有些怀疑，但你的论述确实令人信服。我提议我们把这作为一个条件。"
+  },
+
+  "ShipLogDictionary": {
+    //walker_jam5_planet1
+    "Signal Detector": "信号检测器",
+    "A Nomai named Adonsonia created a puzzle involving detecting signals. She locked the fifth requirement for a project behind solving it.": 
+    "一位名叫阿冬索尼娅的挪麦人制作了一个谜题，与信号检测有关。她将解开谜题作为得知项目第五个条件的要求。",
+    "Warp Transmitter": "跃迁发射点",
+    "A warp transmitter on the equator of Shattered Geode. A Nomai named Daucus modified it to link with both receivers on the other planets in the system.": 
+    "一个跃迁发射点，位于碎晶星的赤道上。一位名叫道科斯的挪麦人改造了它，用于连接星系内其他星球上的两个接收点。",
+    "Quantum Rock": "量子石块",
+    "A quantum rock located in a structure facing the sun on Shattered Geode. There is a large skylight in the ceiling. A Nomai named Betula theorized about where the stone might go when it disappears. The stone took a recorder with it when it disappeared.": 
+    "一个量子石块，位于碎晶星向阳面的一座建筑内。天花板上有一扇巨大的天窗。一位名叫贝秋拉的挪麦人对石头消失时去了哪里提出了猜想。石头消失时带走了一份录音。",
+
+    //walker_jam5_planet2
+    "Tall Tower": "高塔",
+    "A tall tower on the surface of The Big One. The planet's gravity is far too strong to reach the top.": "一座高塔，位于大块头的表面。这个星球的重力太强了，让人无法抵达塔顶。",
+    "Ghost Matter Cave": "幽灵物质山洞",
+    "A cave on the south pole of The Big One. The cave mouth is filled with ghost matter. A Nomai named Alnus noted that ghost matter can be neutralized with water.": 
+    "大块头南极的一个洞穴。洞口充满了幽灵物质。一位名叫奥努斯的挪麦人指出幽灵物质可以被水中和。",
+
+    //walker_jam5_planet3
+    "Buried Structure": "被掩埋的建筑",
+    "A mostly buried structure on the south pole of Daucus. A Nomai named Adonsonia theorized about whether the sand could be moved elsewhere.": 
+    "一座大部分被掩埋了的建筑，位于道库斯的南极。一位名叫阿冬索尼娅的挪麦人对能否将沙子移到别处提出了猜想。",
+    "Enclosed Structure": "封闭的建筑",
+    "I was able to access the rest of the structure by arriving via the warp receiver.": "通过使用跃迁接收点，我成功进入了建筑的剩余部分。",
+    "A structure built around a warp receiver on the equator of Daucus. The structure does not include a door.": "一个围绕跃迁接收点建造的建筑，位于道库斯的赤道上。这座建筑没有门。",
+
+    //walker_jam5_planet4
+    "Subsurface Ocean": "地下海洋",
+    "The ice on \"Glacial Abyss!\" is hollow and there is a subsurface ocean below it.": "“冰渊星！”上的冰层内部是空心的，其下是一片地下海洋。",
+    "The ice on \"Glacial Abyss!\" is hollow and I was able to reach the subsurface ocean below it.": "“冰渊星！”上的冰层内部是空心的，我成功抵达了其下的地下海洋。",
+    "Undersea Warp Receiver": "海底跃迁接收点",
+    "There is a warp receiver near the equator of \"Glacial Abyss!\" on the seabed under the ice.": "“冰渊星！”赤道附近冰层之下的海底有一个跃迁接收点。",
+    "Geysers": "喷泉",
+    "Nomai noticed geysers beneath the ice on the seabed of \"Glacial Abyss!\" near the north pole. The flow of the geysers prevents entry. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.": 
+    "挪麦人注意到“冰渊星！”北极附近冰层之下的海底有一些喷泉。一位名叫奥努斯的挪麦人提到，让冰层消融提升了星球的地热活动水平。",
+    "Planetary Core Display": "行星核心展示区",
+    "Abyssal Core": "深渊核心",
+    "\"Glacial Abyss!\" has a hollow core connected to the geysers near the north pole. A Nomai teacher wanted her students to see something in the core.": 
+    "“冰渊星！”有一个内部挖空的核心，与北极附近的喷泉相连接。一位挪麦老师想让她的学生来核心查看某样东西。",
+    "\"Glacial Abyss!\" has a hollow core connected to the geysers near the north pole. I was able to reach the core by descending the geysers while the planet was frozen. It contains a viewing area for safely observing the layers of the planet's core.": 
+    "“冰渊星！”有一个内部挖空的核心，与北极附近的喷泉相连接。我在星球冻结时通过喷泉成功下降至核心。它的内部建有一个观景区域，用于安全地观察星球核心的各层结构。",
+    "Core Orrery Warp Transmitter":"核心天体仪跃迁发射点",
+    "Missing Orrery Warp Transmitter":"缺失的天体仪跃迁发射点",
+    "The warp transmitter from \"Glacial Abyss!\" to the orrery station isn't on the north pole.":"“冰渊星！上与天体仪空间站相连接的跃迁发射点并不位于星球北极。",
+    "The warp transmitter from \"Glacial Abyss!\" to the orrery station is in the core of the planet.": "“冰渊星！上与天体仪空间站相连接的跃迁发射点位于星球的核心内。",
+    "The core of \"Glacial Abyss!\" contains a sealed door. A Nomai computer beside the door states that not all project requirements have been met.": 
+    "“冰渊星！”的核心内有一扇封闭的大门。大门上的挪麦电脑显示，所有项目条件未被全部满足。",
+
+    //walker_jam5_platform
+    "Invitation Platform": "邀请平台",
+    "I found an invitation platform for a Nomai educational project and festival entry called the Heliostudy.": "我发现了一个邀请平台，是为一个挪麦教学项目兼发现节参展项目准备的，项目名为辉日研究。",
+    "The device on the platform can be activated by placing all of the orbs at approximately the same distance from the center. Additionally, the user must not be wearing any space gear. I was warned that the device is highly experimental and likely to break things.": 
+    "通过将球体放置在与中心距离大约相同的位置，可以激活邀请平台上的装置。除此之外，使用者不得穿着任何太空装备。我被警告这个项目具有高度的实验性，很可能造成破坏。",
+
+    //walker_jam5_station
+    "Orrery Station": "天体仪空间站",
+    "Heliostudy": "辉日研究",
+    "The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.": 
+    "这个拥有紫色轮廓和浅蓝色恒星的星系是一个教学项目和挪麦发现节参展项目，名为辉日研究。",
+    "The station contains an orrery of the system. A Nomai named Oryza claims the system is a scaled-up representation of the orrery.": 
+    "太空站内设有一座本星系的天体仪。一位名为欧瑞扎的挪麦人声称这个星系是天体仪的放大版。",
+    "There are warp transmitters connected to the station on the north pole of most planets in the system.": "星系中的大部分星球在北极都有一个与空间站相连接的跃迁发射点。",
+    "A group of Nomai students were assigned a project to prepare this star system to be their clan's entry in a festival. They had to propose 7 requirements that the system would fulfill in order to demonstrate their understanding of the mechanisms of natural star systems.": 
+    "一群挪麦学生被布置了一项任务，要求他们改造这个星系，并将其作为家族的发现节参展项目。他们必须提出七个该星系可以满足的条件，以体现自己对自然界恒星系运行机制的理解。",
+
+    "Frozen Planet":" 冰封星球",
+    "First Requirement":"第一个条件",
+    "The first of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第一个。",
+    "By using another astral body's gravity to help me, I was able to reach the top of the tower.":"通过利用另一个天体的重力场，我成功抵达了塔顶。",
+    "The first requirement is that solid ice must be present on a planet in the system. The system's star is too hot to allow ice to re-freeze even in the furthest orbit. A Nomai named Adonsonia wondered if there may be a way to reduce the heat a planet is exposed to while at the furthest orbit.":
+    "第一个条件是星系中的一颗星球上必须存在冻结的坚冰。这个星系的恒星太过炽热，即使在最远的轨道上也无法允许水重新冻结。一位名为阿冬索尼娅的挪麦人想知道，是否有办法让星球在位于最外侧轨道的同时，减少其接收的热量。",
+    "Geothermal Activity":"地热活动",
+    "Second Requirement":"第二个条件",
+    "The second of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第二个。",
+    "By flooding the planet, I was able to safely enter the cave.":"通过让星球充满水，我成功安全进入了洞穴。",
+    "The second requirement is that a planet must have exposed geothermal activity.":"第二个条件是一颗星球上必须有暴露在外的地热活动。",
+    "Warp Alignment":"跃迁配对",
+    "Third Requirement":"第三个条件",
+    "The third of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第三个。",
+    "The third requirement is for the warp transmitter that does not lead to the orrery station to be aligned with at least one receiver.":"第三个条件是让未与天体仪空间站相连的那个跃迁发射点与至少一个接收点对齐配对。",
+    "Sand Distribution":"沙子分布",
+    "Fourth Requirement":"第四个条件",
+    "The fourth of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第四个。",
+    "By siphoning the sand off the planet using the largest planet in the system, I was able to access the rest of the structure.":"通过让星球上的沙子被星系中的另一颗星球吸走，我成功进入了建筑的剩余部分。",
+    "The fourth requirement is that multiple planets in the system must have sand.":"第四个条件是星系中的多个星球上有沙子。",
+    "Orbit Sharing":"轨道共用",
+    "Fifth Requirement":"第五个条件",
+    "The fifth of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第五个。",
+    "Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.":"同时扫描所有天体的信号后，附近的一台挪麦电脑被启动。",
+    "The fifth requirement is that any two planets that share an orbit must be on opposite sides of the sun.":"第五个条件是共用同一轨道的两颗星球必须位于太阳的对立面。",
+    "Mass Distribution":"质量分布",
+    "Sixth Requirement":"第六个条件",
+    "The sixth of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中第六个。",
+    "By blocking the light from the sun, I was able to quantum entangle with the rock to reach a cave below the surface.":"通过遮挡阳光，我成功与石块产生量子纠缠，抵达了一个地下洞穴。",
+    "The sixth requirement is that the largest planet in the system may not be in the furthest orbit.":"第六个条件是星系中最大的星球不能位于最外侧的轨道。",
+    "Final Location":"最终地点",
+    "Seventh Requirement":"第七个条件",
+    "The last of 7 requirements that a Nomai project must meet.":"一项诺麦项目需要满足的7个条件中最后一个",
+    "Once all six requirements are met, the project must be submitted in the core of \"Glacial Abyss!\". A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.":
+    "满足全部六个条件后，项目必须在“冰渊星！”的核心处进行提交。一位名为奥努斯的挪麦人指出，其他项目条件被满足后，从喷泉进入核心将不再可能。"
+  
+  },
+
+  "UIDictionary": {
+    "Walker_Jam5_Star": "辉日研究",
+    "Walker_Jam5_Planet1": "碎晶星",
+    "Walker_Jam5_Planet2": "大块头",
+    "Walker_Jam5_Planet3": "道库斯",
+    "Walker_Jam5_Planet4": "冰渊星！",
+    "Walker_Jam5_Station": "天体仪空间站",
+
+    "Walker_Jam5_Harmonic": "辉日和弦",
+    "Walker_Jam5_Star_Signal": "辉日中心",
+    "Walker_Jam5_Planet1_Signal": "碎晶星",
+    "Walker_Jam5_Planet2_Signal": "大块头",
+    "Walker_Jam5_Planet3_Signal": "道库斯",
+    "Walker_Jam5_Planet4_Signal": "冰渊星！",
+
+    "REQUIREMENTS_SCREEN_PROMPT": "1. 星系中的一颗星球有冻结的坚冰。\n2. 一颗星球有暴露在外的地热活动。\n3. 至少有一个跃迁接受点已对齐配对。\n4. 不止一颗星球上有沙子。\n5. 同一轨道上的不同星球位于太阳的对立面。\n6. 最大的星球不能位于最外侧的轨道。",
+    "ORB_CANCEL_DRAG_PROMPT": "解除控制",
+    "DEVELOPER_COMMENTARY_WARP_PROMPT": "跃迁至解说",
+    "DEVELOPER_COMMENTARY_WARP_UNREAD_PROMPT": "跃迁至未读解说",
+    "DEVELOPER_COMMENTARY_READ_NOTIFICATION": "解说条目已读",
+
+    "Heliostudy contains developer commentary that can be enabled from the options menu.\n\nIt is highly recommended to complete the mod before enabling commentary.":
+    "《辉日研究》内含开发者解说（未汉化），可以在选项菜单中启用。\n\n强烈建议通关mod后再开启解说。",
+    "Enable developer commentary from the options menu!":"在选项菜单中启用开发者解说！",
+
+    "Developer Commentary":"开发者解说",
+    "None":"无",
+    "All":"全部",
+    "View commentary from the mod's developers. Use the Developer Commentary frequency on your signalscope to locate and warp to commentary. It is recommended that you finish the mod before enabling this option.":
+    "查看mod开发者解说。使用信号镜的开发者解说频道定位及跃迁至解说地点。\n建议通关mod后再开启此选项。",
+
+    "You are not real.":"你并不真实存在。",
+    "Heliostudy":"Heliostudy（辉日计划）",
+    "Ernesto":"埃内斯托"
+
+  },
+
+  "AchievementTranslations": {
+  
+  }
+}
