@@ -24,7 +24,6 @@ namespace OWJam5ModProject
         static bool tutorialPrompt = true; // not a persistent condition because people might forget between sessions
 
         bool wasBeingDragged;
-        float cancelDragTimer = -1;
 
         void Start()
         {
@@ -69,19 +68,7 @@ namespace OWJam5ModProject
 
         private void Update()
         {
-            if (cancelDragTimer != -1)
-            {
-                if (cancelDragTimer > 0)
-                {
-                    cancelDragTimer -= Time.deltaTime;
-                }
-                else
-                {
-                    cancelDragTimer = -1;
-                    orb.RemoveLock();
-                }
-            }
-
+            // Update release prompt visibility
             if (wasBeingDragged && !orb._isBeingDragged)
             {
                 cancelDragPrompt.SetVisibility(false);
@@ -92,12 +79,12 @@ namespace OWJam5ModProject
             }
             wasBeingDragged = orb._isBeingDragged;
             
+            // Check release button pressed
             if (orb._isBeingDragged && OWInput.IsNewlyPressed(InputLibrary.cancel))
             {
                 orb._orbAudio.PlaySlotActivatedClip();
                 orb.CancelDrag();
-                orb.AddLock();
-                cancelDragTimer = .5f;
+                orb._loseFocusToStartDrag = true;
 
                 if (tutorialPrompt)
                 {
