@@ -33,6 +33,17 @@ public class FakeOrbSlot : MonoBehaviour
             @this.PreOrbFixedUpdate(); 
     }
 
+    [HarmonyPrefix, HarmonyPatch(typeof(NomaiInterfaceOrb), nameof(NomaiInterfaceOrb.RecentlyEnteredSlot))]
+    private static bool NomaiInterfaceOrb_RecentlyEnteredSlot(NomaiInterfaceOrb __instance, ref bool __result)
+    {
+        if (__instance.TryGetComponent<FakeOrbSlot>(out var @this))
+        {
+            __result = Time.time - __instance._enterSlotTime < 0.25f;
+            return false;
+        }
+        return true;
+    }
+
     private void PreOrbFixedUpdate()
     {
         if (!_orb) return; // start hasnt run yet

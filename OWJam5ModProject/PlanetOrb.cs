@@ -84,7 +84,8 @@ namespace OWJam5ModProject
             {
                 orb._orbAudio.PlaySlotActivatedClip();
                 orb.CancelDrag();
-                orb._loseFocusToStartDrag = true;
+
+                orb._enterSlotTime = Time.time;
 
                 if (tutorialPrompt)
                 {
