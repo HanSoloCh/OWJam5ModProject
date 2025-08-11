@@ -70,5 +70,21 @@
                 "scale": 350.0
             }
         ]
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 2500,
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [
+                    "Walker_Jam5_Star_Heliostudy_Fact"
+                ]
+            }
+        ]
+    },
+    "ShipLog": {
+        "xmlFile": "planets/shiplog/walker_jam5_sun.xml",
+        "spriteFolder": "planets/shiplog/sprites"
     }
 }

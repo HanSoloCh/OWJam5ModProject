@@ -7,13 +7,6 @@
 		<Name>Orrery Station</Name>
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 		<IsCuriosity/>
-
-		<RumorFact>
-			<ID>Walker_Jam5_Station_Orrery_Rumor</ID>
-      <SourceID>Walker_Jam5_Platform</SourceID>
-			<RumorName>Heliostudy</RumorName>
-			<Text>The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.</Text>
-		</RumorFact>
 		
 		<ExploreFact>
 			<ID>Walker_Jam5_Station_Orrery_Fact</ID>
@@ -29,7 +22,7 @@
 			<ID>Walker_Jam5_Station_ProjectRequirements_Count</ID>
 			<Text>A group of Nomai students were assigned a project to prepare this star system to be their clan's entry in a festival. They had to propose 7 requirements that the system would fulfill in order to demonstrate their understanding of the mechanisms of natural star systems.</Text>
 		</ExploreFact>
-
+		
 		<Entry>
 			<ID>Walker_Jam5_Station_ProjectRequirements_FrozenPlanet</ID>
 			<Name>Frozen Planet</Name>

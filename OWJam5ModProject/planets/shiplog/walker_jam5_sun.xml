@@ -1,0 +1,21 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>Walker_Jam5_Sun</ID>
+
+	<Entry>
+		<ID>Walker_Jam5_Star_Heliostudy</ID>
+		<Name>Heliostudy</Name>
+		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
+		<RumorFact>
+			<ID>Walker_Jam5_Star_Heliostudy_Rumor</ID>
+			<SourceID>Walker_Jam5_Platform</SourceID>
+			<Text>The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Star_Heliostudy_Fact</ID>
+			<Text>The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.</Text>
+		</ExploreFact>
+	</Entry>
+
+</AstroObjectEntry>

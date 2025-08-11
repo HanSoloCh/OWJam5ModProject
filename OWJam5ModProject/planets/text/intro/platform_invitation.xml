@@ -19,7 +19,7 @@
 	<!--Ship log reveals go here-->
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Walker_Jam5_Station_Orrery_Rumor</FactID>
+			<FactID>Walker_Jam5_Star_Heliostudy_Rumor</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 	</ShipLogConditions>
