@@ -1,0 +1,575 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+  "DialogueDictionary": {
+    //adonsonia_intro
+    "Hello there!": "Ну привет!",
+    "AAAAHHHH!!!!": "АААААА!!!!",
+    "WHAT!?!?!??": "ЧТО?!?!?!",
+    "Ha! I'm sorry if I frightened you.": "Хах! Извини, если напугала тебя.",
+    "I wondered why this old project was claiming to have been submitted again after all these years! I'm Adonsonia, one of the students who worked on this project a long time ago.": 
+    "Интересно, почему этот старый проект снова активирован спустя столько лет! Меня зовут Адонсония, я одна из тех студентов, которые работали над этим проектом давным-давно.",
+    "You don't look like a Nomai, but you must be quite clever to have gotten this system into the correct configuration after all of the time it has spent drifting.": 
+    "Ты не похож на Номаи, но, должно быть, достаточно умёен, чтобы привести эту систему в правильную конфигурацию после того, как она столько времени дрейфовала.",
+    "Effort like that is certainly worthy of some reward. How about this; I have some free time from all of my teaching duties right now! If you ask me any questions, I'll do my best to answer them.": 
+    "Такие усилия, безусловно, достойны награды. Как насчет этого: у меня сейчас есть немного свободного времени от всех моих преподавательских обязанностей! Если хочешь что-то спросить у меня, я сделаю всё возможное, чтобы ответить тебе.",
+
+    //adonsonia_outro
+    "So, was there anything you wanted to ask me about?": "Итак, есть ли что-то, о чём ты хотел бы меня спросить?",
+    "How are we able to understand each other?": "Как мы можем понимать друг друга?",
+    "What happened to Alnus after the project?": "Что случилось с Алнусом после проекта?",
+    "What happened to Betula after the project?": "Что случилось с Бетулой после проекта?",
+    "What happened to Daucus after the project?": "Что случилось с Даукусом после проекта?",
+    "What happened to you after the project?": "Что случилось с тобой после проекта?",
+    "What's the deal with the device back on the invitation platform?": "Что это за устройство, находящееся на пригласительной платформе?",
+    "Can I <![CDATA[<color=orange>pretty please</color>]]> know how to activate that device?": "Могу ли я, <![CDATA[<color=orange>пожалуйста</color>]]>, узнать, как активировать это устройство?",
+    "I don't have any more questions for now.": "У меня больше нет вопросов.",
+    "That would be due to the universal translator I have on my person. It's able to quickly discern language patterns, allowing us to understand each other with minimal issues. We have Betula to thank for that — it's actually her invention!": 
+    "Это благодаря моему универсальному переводчику. Он способен быстро распознавать языковые паттерны, позволяя нам понимать друг друга с минимальными трудностями. За это мы должны поблагодарить Бетулу — это, на самом деле, её изобретение!",
+    "Ah, that fascicle of nerves. Although his anxiety is still there, he's become much better at managing it. He's also grown more able to take a joke, much to my relief.": 
+    "Ох, этот вечный переживающий Номаи. Хотя его беспокойство никуда не делось, он стал гораздо лучше с ним справляться. Он также стал лучше воспринимать шутки, к моему большому облегчению.",
+    "As you might imagine, he had a very good academic career after our project. After completing his education he moved on to become one of our clan's head researchers. He's used his knowledge of star systems particularly well, helping our clan identify systems likely to harbor life.": 
+    "Как вы могли уже догадаться, после нашего проекта у него сложилась отличная академическая карьера. Завершив обучение, он стал одним из ведущих исследователей нашего клана. Он особенно эффективно использовал свои знания о звёздных системах, помогая нашему клану выявлять системы, потенциально пригодные для жизни.",
+    "Through his efforts our clan has met friends of many different forms, and had quite the cultural exchange. This was quite useful in the development of the universal translator I'm using to speak to you now.": 
+    "Благодаря его усилиям наш клан обрёл друзей из самых разных систем и провёл богатый культурный обмен. Это оказалось весьма полезным при разработке универсального переводчика, с помощью которого я сейчас с вами общаюсь.",
+    "I believe he's currently using his skills to identify stars that are still stable enough to support our people, as well as others. He's also made himself useful to rescue efforts, identifying star systems simultaneously likely to have life and likely to be annihilated soon.": 
+    "Я полагаю, что сейчас он использует свои навыки для определения звёзд, которые всё ещё достаточно стабильны, чтобы поддерживать как наш народ, так и кого бы то ни было ещё. Он также помог спасателям, выявляя звёздные системы, где, с одной стороны, вероятно наличие жизни, а с другой — существует высокая вероятность скорого уничтожения.",
+    "Betula actually went on to study alien cultures and languages. She was always more interested in social affairs than strictly academic ones, so it was a type of work that uniquely suited her.": 
+    "Бетула продолжила изучать инопланетные культуры и языки. Социальные вопросы всегда интересовали её больше, чем академические, поэтому эта работа идеально ей подходила.",
+    "She has been the first Nomai to contact a number of different alien species, and used the knowledge gained to develop the universal translator that allows us to communicate now.": 
+    "Она была первой Номаи, кто вступил в контакт с представителями различных инопланетных видов, и использовала полученные знания для создания универсального переводчика, который и позволяет нам общаться сейчас.",
+    "She's even caused some members of other species to join Nomai clans. Due to her efforts, approximately half of our clan is actually composed of non-Nomai species. Their insights have led to some remarkable technological breakthroughs.": 
+    "Она даже убедила некоторых представителей других видов присоединиться к кланам Номаи. Благодаря её усилиям, примерно половина нашего клана состоит из представителей других видов. Их идеи привели к выдающимся технологическим прорывам.",
+    "Nowadays she uses her social skills to help people of varying cultures cooperate, which is especially important given the dwindling resources of our universe. It's a bit of a shame, I imagine she would have been quite thrilled to speak with you if she were here.": 
+    "Сейчас она использует свои навыки, чтобы помогать разным народам сотрудничать, что особенно важно, учитывая истощающиеся ресурсы нашей вселенной. Немного жаль, думаю, она была бы очень рада поговорить с тобой, если бы была здесь.",
+    "Ha! Daucus always says he was never able to beat that lazy streak of his, although I'm honestly not convinced that he ever tried. The only thing he was ever willing to put real effort into was hacking systems.": 
+    "Ха! Даукус всегда говорит, что так и не смог побороть свою лень, хотя я, честно говоря, не уверена, что он когда-либо пытался. Единственное, к чему он был готов приложить реальные усилия, — это взлом всякой всячины.",
+    "Fortunately, he was able to use that to find his place refurbishing and repurposing old technology. He's been able to revive a number of machines that, by all accounts, never should have been able to work again.": 
+    "К счастью, он смог использовать это для того, чтобы заниматься восстановлением и переоснащением старой техники. Ему удалось реанимировать ряд устройств, которые, как многие думали, уже никогда не будут работать.",
+    "He's actually expanded the number of ships available to our people quite substantially. This has allowed our clan to contact many more species than would otherwise be possible. I believe that other clans even bring him derelict vessels from time to time in the hopes that he can repair them.": 
+    "На самом деле, он значительно увеличил число наших кораблей. Это позволило моему клану общаться с гораздо большим количеством видов, чем было бы возможно без него. Думаю, другие кланы даже время от времени приносят ему заброшенные корабли в надежде, что он сможет их починить.",
+    "I'm unsure how he feels about it, but he's recently been put in charge of a substantially sized team. With the current state of the universe, it's more important than ever to keep equipment operational for as long as possible. He's actually become quite an important member of our clan.": 
+    "Не знаю, как он к этому относится, но недавно его назначили руководителем большой команды. При нынешнем состоянии вселенной как никогда важно поддерживать оборудование в рабочем состоянии как можно дольше. Он стал весьма важным членом нашего клана.",
+    "As you may have guessed, I never took my studies particularly seriously as a child. In school, I was much more concerned with playing pranks on Alnus and socializing with Betula.": 
+    "Как вы, наверное, догадались, в детстве я никогда не относилась к учёбе особенно серьезно. В школе меня гораздо больше интересовали шалости с Алнусом и общение с Бетулой.",
+    "It was actually the influence of our old teacher, Oryza, that led to me becoming a teacher. She was able to convince me to put more effort into my studies, something that I am now very thankful for whenever a student comes to me with questions.": 
+    "На самом деле, именно влияние нашей старой учительницы, Оризы, привело меня к тому, что я стала учителем. Она смогла убедить меня приложить больше усилий к учёбе, и теперь я очень благодарна ей за это, когда ученики обращаются ко мне с вопросами.",
+    "Outside of standard teaching duties, I've also been aiding in communications between us Nomai and other species. Some other teachers and I have even created an inter-species teacher association to aid in the spread of different people's knowledge.": 
+    "Помимо стандартных обязанностей преподавателя, я также помогала налаживать связи между Номаи и другими видами. Мы с несколькими другими учителями даже создали межвидовую ассоциацию учителей, чтобы способствовать распространению знаний разных народов.",
+    "Lately things have been a bit more difficult, what with the universe coming to an end and all. The students are actually doing fairly well emotionally speaking, but you would not believe the number of them who try to make existential arguments for missing assignments!": 
+    "В последнее время всё стало немного сложнее, учитывая приближающийся конец вселенной и всё такое. В эмоциональном плане студенты чувствуют себя довольно хорошо, но вы не поверите, сколько из них пытаются приводить экзистенциальные аргументы в оправдание пропущенных заданий!",
+    "Device... Ah, that old thing! That's an old prototype for the orrery used in our project. We found it lying around at some point during our work, and decided to see if we could get into some mischief with it.": 
+    "Устройство... Ах, эта старая штука! Это старый прототип планетария, который мы использовали в нашем проекте. Мы нашли его где-то в процессе работы и решили попробовать что-нибудь с ним сделать.",
+    "Daucus was able to hack it to become responsive if certain conditions were met, so that we could use it without the adults becoming aware of its functional state.": 
+    "Даукус настроил его так, чтобы он реагировал на соблюдение определенных условий, так что мы могли использовать его так, чтобы взрослые не узнали о его функционале.",
+    "...Unfortunately, it proved to be highly unstable and dangerous. I really shouldn't tell you how to activate it. I have learned some responsibility over the years, after all.": 
+    "...К сожалению, он оказался крайне нестабильным и опасным. Мне действительно не стоит рассказывать вам, как его активировать. В конце концов, за эти годы я научилась ответственности.",
+    "...Oh, alright, but don't claim that I didn't warn you. You should exercise extreme caution around that device — it's quite possible for it to <![CDATA[<color=red>break things</color>]]> and not function entirely as expected.": 
+    "...О, хорошо, но не говорите, что я вас не предупреждала. Вам следует проявлять крайнюю осторожность при обращении с этим устройством — вполне возможно, что оно <![CDATA[<color=red> что-то сломает</color>]]> и будет работать не совсем так, как ожидалось.",
+    "To activate it, all of the orbs on the invitation platform need to be placed at roughly the same distance from the center. Additionally, it won't activate unless it is approached by somebody who is not wearing any space gear.": 
+    "Чтобы активировать его, все сферы на пригласительной платформе должны быть расположены примерно на одинаковом расстоянии от центра. Более того, оно не сработает, если к нему приблизится кто-то в скафандре.",
+    "As for what exactly it does... I suppose I'll leave you to figure that out for yourself! Have fun, and be careful!": 
+    "Что же касается того, что именно оно делает... пожалуй, предоставлю вам самим разобраться! Развлекайтесь и будьте осторожны!",
+    "Understood. I'll be here for some time, so feel free to come back if you change your mind.": "Поняла. Я буду здесь ещё какое-то время, если передумаете.",
+
+    //ernesto
+    "Hey it's me Ernesto.": "Привет, это я, Эрнесто.",
+    "The stars have gathered around this point, and I have been formed.": "Звёзды собрались вокруг этой точки, и я обрёл форму.",
+    "Take witness, and know that I am forever; and so too is my wisdom.": "Стань свидетелем и знай: я вечен и моя мудрость тоже.",
+    "I will bestow a gift upon you: you may ask me a single question, and I will answer it.": "Вот мой тебе подарок: ты можешь задать мне один вопрос, и я дам на него ответ.",
+    "I am incredibly generous. You may ask another question.": "Я невероятно щедр. Ты можешь задать ещё один вопрос.",
+    "What question will you be asking?": "Какой вопрос ты хочешь задать?",
+    "What is the meaning of the universe?": "В чем смысл вселенной?",
+    "Why am I very slowly drifting away from you?": "Почему я медленно отдаляюсь от тебя?",
+    "I once found an artificial ring world inhabited by a species whose language I could not translate. What did they call themselves?": 
+    "Я нашёл кольцевую станцию, населённую существами, язык которых я не смог перевести. Как они себя называли?",
+    "I once saw a slide reel showing an alien resting at a green campfire, before being engulfed in a bright light. What caused this?": 
+    "Я видел слай-шоу, где инопланетянин отдыхал у зелёного костра, а потом его поглотил яркий свет. Почему это произошло?",
+    "Who was the winner of Outer Wilds Mod Jam 5?": "Кто стал победителем пятого мод-джема Outer Wilds?",
+    "Why in the world would the Nomai have candy wrappers? That is entirely against their philosophy.": "Зачем, чёрт возьми, Номаи исползуют фантики? Это полностью противоречит их философии.",
+    "Wait, aren't you a mathematical construct? You aren't real!": "Подожди, разве ты не математическая конструкция? Ты ненастоящий!",
+    "No, YOU aren't real.": "Нет, ТЫ ненастоящий.",
+    "The meaning of the universe? It's right there in the name.": "В чём смысл вселенной? Это прямо указано в названии.",
+    "E.R.N.E.S.T.O.": "Э.Р.Н.Э.С.Т.О.",
+    "E: Enlightenment, in truth, comes only from Ernesto.": "Э：Энциклопедическое просветление приходит только от Эрнесто.",
+    "R: Roast marsh mallow!": "Р：Растопим маршмеллоу!",
+    "N: NOTHING beats an epic gamer moment!": "Н：Ничто не сравнится с эпическим геймерским моментом!",
+    "E: Eheheheeeeee": "Э：Эхехехе",
+    "S: Save your mind and body from the sphere of ice; for as long as you live, it will not show mercy.": "С：Спаси разум и тело от ледяной сферы; пока ты жив, она не проявит милосердия.",
+    "T: Text for ernesto universe dialogue goes here": "Т：Текст диалога Эрнесто здесь",
+    "O: Oh... that's groundsize. That's groundsize of my supermassive planet.": "О：Ого... какой размах. Это размер моей сверхмассивной планеты.",
+    "It's uh. It's because my wisdom is too powerful. Yeah": "Это... э-э... Это потому, что моя мудрость слишком сильна. Да",
+    "Just like don't worry about it bro": "Короче, не парься, братан",
+    "Ah, the inhabitants of the ring world. You would like to know the name of their collective people.": "А, обитатели кольцевой станции. Хотите узнать, как называется их народ.",
+    "They called themselves... The \"Joemai\".": "Они называли себя... \"Джемаи\".",
+    "It's a shame that you couldn't understand their dialect. While much of their informaton was communicated visually, their writing was like nothing I had ever seen.": 
+    "Жаль, что вы не можете понять их диалект. Хотя большая часть их информации передавалась визуально, их письменность не была похожа ни на что, что я когда-либо видел.",
+    "If you don't mind, I'd like to share a truly profound piece of the Joemai's poetry. It made a significant mark on my eternal life:": 
+    "Если вы не возражаете, я хотел бы поделиться с вами по-настоящему глубоким стихотворением Джемаи. Оно оставило значительный след в моей вечной жизни.",
+    "\"I hope your bones shatter into a fine powder\"": "\"Я надеюсь, что твои кости рассыплются в мелкий порошок\"",
+    "He farted": "Он пукнул",
+    "Team gloopus won the fifth Outer Wilds mod jam. They made the \"one million Ernestos on an otherwise empty new horizons planet config\" mod.": 
+    "Команда gloopus выиграла пятый мод-джем. Они создали мод \"один миллион Эрнестов на полностью пустой планете\".",
+    "The mod boasted a whopping thirty-six thousand hours of content, split up into fifteen chapters.": "Мод мог похвастаться колоссальными тридцатью шестью тысячами часов контента, разбитого на пятнадцать глав.",
+    "It took ten minutes for the mod to make two of the three judges begin to sob uncontrollably. The third judge simply left the room and began to reflect on life.": 
+    "Моду мотребовалось десять минут, чтобы заставить двух из трёх судей разрыдаться. Третий судья просто вышел из комнаты и начал размышлять о смысле жизни.",
+    "It won because it had a script in it that removed every other jam entry. The judges have not noticed, as they are still playing the mod to this day.": 
+    "Он победил, потому что в нём был скрипт, который удалял все остальные записи. Судьи этого не заметили, так как до сих пор играют в него.",
+    "Yeah that's a fair question.": "Да, это справедливый вопрос.",
+    "It was funny. Idk": "Это забавно. Не знаю",
+
+    //convergence_explanation
+    "BETULA: This structure is <![CDATA[<i>very</i>]]> impressive, although I don't recall us ever discussing it or its construction.": 
+    "БЕТУЛА: Это сооружение <![CDATA[<i>очень</i>]]> впечатляет, хотя я не помню, чтобы мы когда-либо обсуждали его.",
+    "ADONSONIA: This is just a small puzzle that I made in my spare time. It uses those old radios that Oryza gave us for detecting signals. If anyone manages to solve it, the computer over there will activate and display its information.": 
+    "АДОНСОНИЯ: Это всего лишь небольшая головоломка, которую я собрала в свободное время. Она использует те старые радиоприёмники, которые нам дала Ориза для обнаружения сигналов. Если кто-то её решит, компьютер включится и покажет кое-что.",
+    "ALNUS: I fear I won't like the answer, but I need to ask anyway. What's on the computer?": "АЛНУС: Боюсь, мне не понравится ответ, но всё же. Что на компьютере?",
+    "ADONSONIA: Oh, nothing significant — just the condition that I told Oryza would be our fifth project requirement.": 
+    "АДОНСОНИЯ: О, ничего существенного — просто наше пятое требование к проекту, которое я отправила Оризе.",
+    "ALNUS: Adonsonia, we don't have time for games like this. Please just tell us the solution so that we can know the new requirement.": 
+    "АЛНУС: Адонсония, у нас нет времени на такие игры. Пожалуйста, просто скажи нам решение, чтобы мы знали новые требования.",
+    "ADONSONIA: Sorry. I would respond, but I'm really quite busy with a project on <![CDATA[<color=orange>Daucus</color>]]>. I'm sure that you understand!": 
+    "АДОНСОНИЯ: Извините. Я бы ответила, но я очень занята проектом на <![CDATA[<color=orange>Даукусе</color>]]>. Уверена, вы поймете!",
+    "ALNUS: YOU HAD TO COME HERE TO WRITE THAT!": "АЛНУС: ТЫ ДОЛЖНА БЫЛА ПРИЙТИ СЮДА, ЧТОБЫ НАПИСАТЬ ЭТО!",
+    "DAUCUS: If you committed us to some very difficult requirement, you aren't going to live to see this system presented at the festival.": 
+    "ДАУКУС: Если ты назвала очень сложное требование, ты не доживешь до представления этой системы на фестивале.",
+
+    //geyser_hint
+    "BETULA: With access to the planet's true surface, I noticed some interesting looking geysers located near the north pole.": 
+    "БЕТУЛА: Имея доступ к истинной поверхности планеты, я заметила несколько интересных гейзеров, расположенных недалеко от северного полюса.",
+    "ALNUS: Our teacher had mentioned those. Apparently, the geysers lead all the way to the hollow core of this planet. She says that there's something down there that she wants us to see.": 
+    "АЛНУС: Наша учительница упоминала о них. По-видимому, гейзеры ведут прямо к ядру этой планеты. Она говорит, что там, внизу, есть что-то, что она хочет нам показать.",
+    "ADONSONIA: I've already tried jumping into one, but the flow of the geyser forced me back to the surface.": "АДОНСОНИЯ: Я уже пыталась прыгнуть в один из них, но поток гейзера вернул меня обратно.",
+    "ALNUS: Thawing the planet seems to have dramatically increased its level of geothermal activity. We won't be able to explore the geysers until we find a way to subdue it again.": 
+    "АЛНУС: Похоже, что таяние планеты резко повысило уровень её геотермальной активности. Мы не сможем исследовать гейзеры, пока не найдем способ снова обуздать их.",
+    "ADONSONIA: Once we do that, we'll be free to go down the geysers and explore the core!": "АДОНСОНИЯ: Как только мы это сделаем, мы сможем спуститься и исследовать ядро!",
+    "BETULA: That sounds quite dangerous! Did you sustain any injuries?": "БЕТУЛА: Это звучит довольно опасно! Ты не поранилась?",
+    "ADONSONIA: Not to worry, Betula, I... wait... OH NO! THE FLESH PARASITES FROM THE CORE! THEY'RE TAKING CONTROL!": "АДОНСОНИЯ: Не волнуйся, Бетула, я... погоди... о, нет! ПЛОТОЯДНЫЕ ПАРАЗИТЫ! ОНИ ВЕЗДЕ!",
+    "BETULA: Good to hear that you're alright.": "БЕТУЛА: Рада слышать, что с тобой все в порядке.",
+
+    //ghost_matter_hint
+    "ALNUS: I wanted to warn everyone that, according to our teacher, a highly hazardous and invisible substance has been spilled in this cave. Please avoid it!": 
+    "АЛНУС: Я хотел предупредить всех, что, по словам нашей учительницы, в этой пещере очень опасное и невидимое вещество. Пожалуйста, избегайте его!",
+    "ALNUS: Fortunately, it seems that the substance can be temporarily neutralized with water. If anyone accidentally touches it, we can use that to our advantage.": 
+    "АЛНУС: К счастью, похоже, что это вещество можно временно нейтрализовать водой. Если кто-нибудь случайно прикоснется к нему, мы сможем использовать это.",
+    "ADONSONIA: What an interesting property! I'm tempted to touch it to see how it feels.": "АДОНСОНИЯ: Какое интересное свойство! Меня так и подмывает потрогать его, чтобы узнать, какое оно на ощупь.",
+    "BETULA: I don't believe that to be advisable, Adonsonia. Someone could be seriously hurt trying to do that.": "БЕТУЛА: Я не думаю, что это целесообразно, Адонсония. Кто-то может серьезно пострадать.",
+    "BETULA: With this substance and this planet's gravity, <![CDATA[<color=orange>The Big One</color>]]> may be the most dangerous planet in this system!": 
+    "БЕТУЛА: Учитывая это вещество и гравитацию этой планеты, <![CDATA[<color=orange>Здоровяк</color>]]> должно быть самая опасная планета в этой системе!",
+
+    //missing_transmitter_hint
+    "BETULA: Oryza said that each planet would have a warp transmitter on its north pole that leads to the orrery station, but I don't see one here.": 
+    "БЕТУЛА: Ориза сказала, что у каждой планеты на северном полюсе должен быть гиперпередатчик, ведущий к планетарной станции, но я не вижу его здесь.",
+    "ALNUS: I suppose she only said that <![CDATA[<i>most</i>]]> of the transmitters would be on the north pole. Perhaps this one is somewhere else.": 
+    "АЛНУС: Я полагаю, она сказала, что <![CDATA[<i>большинство</i>]]> передатчиков будет находиться на северном полюсе. Возможно, этот находится где-то в другом месте.",
+    "DAUCUS: That's irritating. Lack of access to this planet's transmitter will make travel much more difficult.": "ДОКУС: Это печально. Отсутствие доступа к передатчику на этой планете значительно затруднит путешествия.",
+
+    //multi_receiver_hint
+    "ADONSONIA: I'm really sorry everyone, but I may have accidentally dropped the materials for the other transmitter into the star during transport.": 
+    "АДОНСОНИЯ: Мне очень жаль, но, возможно, я случайно уронила материалы для другого передатчика на поверхность звезды во время транспортировки.",
+    "ALNUS: Adonsonia! That was our last warp core! I don't know why you feel the need to constantly sabotage us! Do you just dislike us all?": 
+    "АЛНУС: Адонсония! Это было наше последнее гиперядро! Я не понимаю, почему ты вечно вставляешь нам палки в колёса! Скажи честно, ты нас ненавидишь?",
+    "ADONSONIA: I didn't mean to drop it, it just happened! I know I do more pranks than you would like, but I'd never purposefully cause actual harm to the project!": 
+    "АДОНСОНИЯ: Я не нарочно. Просто так получилось! Я знаю, я разыгрываю вас чаще, чем вам хотелось бы, но я бы никогда намеренно не причинила реального вреда проекту!",
+    "ALNUS: Even if we choose to believe you, that doesn't change the fact that we're now out of warp cores. Without another one we can't make any more transmitters, which means we can only use one of the receivers.": 
+    "АЛНУС: Даже если мы поверим тебе, это не отменяет того факта, что у нас закончились гиперядра. Теперь мы сможем использовать только один приёмник.",
+    "DAUCUS: Don't worry about that. I've gone ahead and hacked the transmitter to work with either receiver, depending on which one lines up. That way, we won't need a second transmitter.": 
+    "ДАУКУС: Не беспокойтесь. Я уже взломал передатчик, чтобы он работал с любым приёмником, в зависимости от того, какой из них окажется в центре. Таким образом, нам не понадобится второй передатчик.",
+    "ADONSONIA: Thank you, Daucus! I am really sorry about incinerating those components, but I'm glad you were able to clean up my mess a bit.": 
+    "АДОНСОНИЯ: Спасибо, Даукус! Мне очень жаль, что так произошло, но я рада, что ты смог найти решение.",
+    "BETULA: We know, Adonsonia. Alnus is just upset. Everyone makes mistakes.": "БЕТУЛА: Мы знаем, Адонсония. Алнус просто расстроен. Все ошибаются.",
+    "ALNUS: Really? That's very helpful, Daucus! We were really relying on those warp pads, so it's good to have them all usable.": 
+    "АЛЬНУС: Правда? Это очень хорошо, Даукус! Мы очень рассчитывали на эти гиперплощадки, так что хорошо, что они все готовы к использованию.",
+
+    //quantum_hint
+    "ALNUS: I found this interesting looking stone on this planet, so I decided to place it in this building.": 
+    "АЛНУС: Я нашёл этот интересный камень на этой планете, поэтому решил разместить его в этом здании.",
+    "ALNUS: I had just put the stone here, Adonsonia. How did you already steal it?": "АЛНУС: Я только что положил сюда его, Адонсония. Как ты успела его украсть?",
+    "ADONSONIA: I wish I could achieve such a feat, but that wasn't me! I recall an old study on this kind of stone, which concluded that they move when unobserved.": 
+    "АДОНСОНИЯ: Мне бы очень хотелось сказать, что это была я, но это не так! Я помню старое исследование подобных камней, которое выяснило, что они двигаются, когда на них никто не смотрит.",
+    "BETULA: That is quite an interesting trait! Do you have any idea where it may go when it's not here?": "БЕТУЛА: Это интересное наблюдение! Не знаете, куда он может перемещаться?",
+    "ADONSONIA: I'm not sure, to be honest. I don't believe I've seen it anywhere besides here.": "АДОНСОНИЯ: Честно говоря, я не уверена. Кажется, я его больше нигде не видела.",
+    "ALNUS: I would accuse you of lying if the stone hadn't appeared behind me moments ago (nearly scaring my lower garments off). Unfortunately, it took a recording of mine with it, and it doesn't seem to have brought it back.": 
+    "АЛНУС: Я бы обвинил тебя во лжи, если бы камень не появился у меня за спиной несколько мгновений назад (напугав меня до чёртиков). К сожалению, он забрал с собой мои записи, и, похоже, не вернул их обратно.",
+
+    //sand_structure_hint
+    "DAUCUS: I must say, Adonsonia, it is impressively lazy that you spent all this time at this structure and have only built this little platform.": 
+    "ДАУКУС: Удивительно, Адонсония, настолько ты ленива, что потратив столько времени на это сооружение, ты построила только эту маленькую платформу.",
+    "ADONSONIA: There would be more here, but it seems that somebody has covered the building I've labored for hours on almost entirely in sand!": 
+    "АДОНСОНИЯ: Оно было больше, но кто-то почти полностью засыпал песком здание, над которым я трудилась часами!",
+    "BETULA: I apologize — I believe that may be my fault. I wanted us to have a planet approximating a desert, so I placed a large amount of sand on this one without realizing there was a structure already built.": 
+    "БЕТУЛА: Приношу извинения — я полагаю, что это, возможно, моя вина. Я хотела, чтобы у нас была планета, похожая на пустыню, поэтому я насыпала на неё большое количество песка, не осознавая, что на ней уже было что-то построено.",
+    "ADONSONIA: I suppose this is more karma for my own antics than anything else, so I accept your apology. I would appreciate help figuring out a way to get rid of the sand, though. I wonder if there may be some way to move it somewhere else.": 
+    "АДОНСОНИЯ: Полагаю, это карма за мои выходки, поэтому извинения принимаются. Я была бы признательна, если бы вы помогли найти способ избавиться от песка. Интересно, можно ли его как-то переместить.",
+    "ALNUS: That is so strange, Adonsonia! It's almost as if people interfering with your work isn't terribly fun.": "АЛНУС: Это так странно, Адонсония! Тебе вовсе не весело, когда кто-то вмешивается в твою собственную работу.",
+
+    //teleporter_nodoor_hint
+    "ALNUS: Who constructed this building around the warp receiver? I know we wanted one, but I can't seem to locate the door.": 
+    "АЛНУС: Кто построил это здание вокруг гиперприёмника? Я знаю, что мы хотели что-то построить здесь, но, похоже, я не могу найти вход.",
+    "ADONSONIA: Would you look at that? It seems that I <![CDATA[<i>unintentionally forgot</i>]]> to put a door on the building. <![CDATA[<i>100% accidental</i>]]>, I can assure you.": 
+    "АДОНСОНИЯ: Вы только посмотрите на это! Кажется, я <![CDATA[<i>абсолютно случайно</i>]]> забыла про вход. Это <![CDATA[<i>100% нечаянно</i>]]>, уверяю вас.",
+    "ALNUS: Adonsonia, this is no time for your pranks! I left important materials and documents near the warp pad that I can no longer access! How do I get in?!": 
+    "ЛНУС: Адонсония, сейчас не время для твоих шуток! Я оставил важные материалы и документы возле панели управления, к которым больше нет доступа! Как мне попасть внутрь?!",
+    "ADONSONIA: Who can say? Maybe there's no way into the building at all. I suppose you'll just need to figure it out.": 
+    "АДОНСОНИЯ: Кто знает? Может быть, в здание вообще нет входа. Я полагаю, вам просто нужно поразмыслить над этим.",
+    "ALNUS: Do you really expect me to believe that you don't know any way in when I can see your salt-treat wrappers inside? (And might I remind you just how rude it is to leave non-disposable waste on the floor!!)": 
+    "АЛНУС: Ты действительно думаешь, что я поверю, что ты не знаешь, как попасть внутрь, когда я вижу внутри фантики от твоих солёных крекеров? (И я хочу напомнить тебе, как невежливо оставлять отходы на полу!!)",
+    "BETULA: Alnus, I'm sure that there's some way to get into the building, don't worry.": "БЕТУЛА: Алнус, я уверена, что есть какой-нибудь способ проникнуть в здание, не волнуйся.",
+
+    //tower_ascension_hint
+    "ALNUS: I thought that the size of this planet deserved a monument of fitting stature, so I constructed this tower here!": 
+    "АЛНУС: Я подумал, что такая гигантская планета заслуживает соответствующего памятника, поэтому я построил здесь эту башню!",
+    "BETULA: This is lovely, Alnus! I look forward to seeing the top chamber of the tower once you install a tractor beam to get up there!": 
+    "БЕТУЛА: Это чудесно, Алнус! С нетерпением жду возможности увидеть верхний этаж башни, как только ты установишь притягивающий луч, чтобы туда попасть!",
+    "ALNUS: A tractor beam? We don't have any means by which to make a tractor beam. We weren't given the right materials.": 
+    "АЛНУС: Притягивающий луч? У нас нет средств для его создания. Нам не дали нужных материалов.",
+    "BETULA: Then how do you intend for us to get up there? The gravity of this planet is far too strong for a thrustpack to give the necessary height.": 
+    "БЕТУЛА: Тогда как же ты собираешься попасть туда? Гравитация этой планеты слишком сильна, чтобы реактивные ранцы смогли поднять нас туда.",
+    "ALNUS: ...I left my lunch up there...": "АЛНУС: ...Я оставил там свой обед...",
+    "DAUCUS: Hopefully we can find a way to get up there. Redesigning this whole structure would be torment.": 
+    "ДАУКУС: Надеюсь, мы найдём способ туда попасть. Переделывать всю эту конструкцию было бы мучением.",
+    "DAUCUS: I'll admit that this is pretty impressive, especially considering how strong the gravity of this planet is.": 
+    "ДАУКУС: Я признаю, что это довольно впечатляет, особенно учитывая, насколько сильна гравитация этой планеты.",
+    "ADONSONIA: Ha! Intentional or not, that's a good prank. I don't know if I could have done better myself!": 
+    "АДОНСОНИЯ: Ха! Намеренно или нет, но это хорошая шутка. Не знаю, смогла бы я сама подшутить лучше!",
+
+    //under_ice_hint
+    "ADONSONIA: I'm disappointed that this planet is so unremarkable. We can't even make it more interesting ourselves, since the ice is simply too unstable to build on.": 
+    "АДОНСОНИЯ: Я разочарована тем, что эта планета такая непримечательная. Мы даже сами не можем сделать её интереснее, потому что лёд слишком нестабилен, чтобы на нём строить.",
+    "BETULA: I must agree. There really isn't much on this planet that we can work with.": "БЕТУЛА: Согласен. На этой планете действительно мало что можно сделать.",
+    "ALNUS: Subsurface scans indicate that the ice is hollow and that the planet possesses an ocean below it. If we could gain access to the area below the ice, we may be able to create structures.": 
+    "АЛНУС: Подземное сканирование показывает, что лёд полый, а под ним находится океан. Если бы нам удалось получить доступ к области подо льдом, мы могли бы что-то создать там.",
+    "ADONSONIA: That would be ideal, because this plain planet is currently my least favorite.": "АДОНСОНИЯ: Это было бы идеально, потому что сейчас эта плнета нравится мне меньше всего.",
+
+    //platform_invitation
+    "The star system in front of you was the subject of an educational project (and festival entry) known as the <![CDATA[<Color=orange>]]>Heliostudy<![CDATA[</Color>]]>.": 
+    "Звёздная система перед вами стала предметом образовательного проекта (и заявки на фестиваль), известного как <![CDATA[<Color=orange>]]>Гелиоисследование<![CDATA[</Color>]]>.",
+    "This system is identifiable by its purple lines and pale blue sun. We invite you to fly over and explore it!": 
+    "Эту систему легко узнать по фиолетовым линиям и бледно-голубой звезде. Приглашаем вас исследовать её!",
+
+    //students_intro
+    "BETULA: This project sounds pretty fun! Being the architects of a mock star system is a very cool opportunity, especially considering that we get to show it at the next festival!": 
+    "БЕТУЛА: Этот проект звучит довольно забавно! Стать архитекторами прототипа звёздной системы — очень крутая возможность, особенно учитывая, что мы сможем показать его на следующем фестивале!",
+    "ALNUS: Fun? Betula, our next school project is going to be shown at a <![CDATA[<i>festival</i>]]>. If we mess it up even slightly, we could turn our entire clan into the posterior of every joke for the next century!": 
+    "АЛНУС: Забавно? Бетула, наш следующий школьный проект будет показан на <![CDATA[<i>фестивале</i>]]>. Если мы хоть немного напортачим, то сделаем весь наш клан в посмешище на целое столетие!",
+    "ADONSONIA: Alnus, I doubt that our project being imperfect will affect the reputation of our clan. Everyone understands that we're still students, after all.": 
+    "АДОНСОНИЯ: Алнус, я сомневаюсь, что несовершенство этого проекта может повлиять на репутацию нашего клана. Все понимают, что мы всё ещё студенты.",
+    "ALNUS: A festival entry is no small matter. We need to make sure that we do this right.": "АЛНУС: Участие в фестивале — дело серьёзное. Нам нужно убедиться, что мы сделаем всё правильно.",
+    "BETULA: Well, regardless of what stakes may or may not exist, we won't be able to do anything until we get down onto the planets and survey them, so I think that should be our next course of action.": 
+    "БЕТУЛА: Ну, тем не менее, мы не сможем ничего сделать, пока не спустимся на планеты и не исследуем их. Поэтому я думаю, что это должно быть нашим следующим действием.",
+    "DAUCUS: Ah, I see that it's going to be that kind of project. In that case, just let me know what you need me to do, and I'll (maybe) do it.": 
+    "ДАУКУС: Теперь я понимаю, каккого рода будет этот проект. В таком случае, просто скажите, если вам что-то понадобится, и я (возможно) это сделаю.",
+
+    //teacher_intro_recording
+    "ORYZA: Hello, students! As I mentioned in class the other day, our clan is hoping for you all to take part in our entry for the upcoming festival. Welcome to our entry!": 
+    "ОРИЗА: Привет, ученики! Как я уже говорила на занятиях, наш клан рассчитывает, что вы все примете участие на предстоящем фестивале. Добро пожаловать!",
+    "ORYZA: We've decided to focus on education for this festival, which is where you all are going to come in! This entire star system is actually an educational device made to help students like yourselves understand how such a system works.": 
+    "ОРИЗА: Темой этого фестиваля будет образование, и именно в этом вы все примете участие! Вся эта звёздная система — на самом деле образовательный инструмент, созданный, чтобы помочь таким же ученикам, как вы, понять, как работают подобные системы.",
+    "ORYZA: As you can see below you, a number of different planets have been prepared for you to work with. You are free to build on and reshape these planets as you see fit, in order to create a system that demonstrates your understanding. Think of yourself as... architects!": 
+    "ОРИЗА: Как вы видите ниже, для вас подготовлено несколько различных планет. Вы можете перестраивать эти планеты по своему усмотрению, чтобы создать систему, похожую на настоящую. Представьте себя... архитекторами!",
+    "ORYZA: At the center of this platform is the orrery, a vital tool in your shaping of this system. While an orrery is normally a <![CDATA[<Color=orange>]]>miniature<![CDATA[</Color>]]> representation of a star system, it is more accurate in this case to say that the star system is a scaled-up representation of the orrery!": 
+    "ОРИЗА: В центре этой платформы находится механическая модель — важнейший инструмент для формирования этой системы. Хотя модели — это обычно <![CDATA[<Color=orange>]]>миниатюрные<![CDATA[</Color>]]> представления систем, в данном случае точнее будет сказать, что звёздная система — это увеличенный вариант модели!",
+    "ORYZA: That may be a bit confusing, but I'll leave it to you all to discover what I mean by that! To make navigation easier in this system, we've placed warp transmitters on each planet (mostly on the north pole) that will bring you to and from this station.": 
+    "ОРИЗА: Возможно, это немного сбивает с толку, но я предоставляю вам самим разобраться, что я имею в виду! Чтобы упростить навигацию в этой системе, мы разместили на каждой планете (в основном на северном полюсе) гиперпередатчики, которые доставят вас на станцию и обратно.",
+    "ORYZA: You will have finite resources for this project, so make sure to use them with care. Other than that, have fun! You will all be given approximately two weeks to complete your project before it is submitted to the festival, so just make sure to have everything done by then.": 
+    "ОРИЗА: У вас будут ограниченные ресурсы для этого проекта, поэтому постарайтесь использовать их с осторожностью. В остальном, развлекайтесь! У вас будет примерно две недели на завершение вашего проекта, прежде чем он будет представлен на фестивале, поэтому просто убедитесь, что к этому времени все будет готово.",
+    "ORYZA: Oh, and one last thing. Since this is meant to demonstrate your understanding of star systems, I'll need you to tell me seven different requirements that your system will fulfill to be similar to a real star system. This is a <![CDATA[<i>graded</i>]]> project after all. Have fun, little ones!": 
+    "ОРИЗА: О, и последнее. Поскольку это должно продемонстрировать ваше понимание звёздных систем, мне нужно, чтобы вы назвали мне семь различных требований, которым должна соответствовать ваша система, чтобы быть похожей на реальную звёздную систему. В конце концов, это <![CDATA[<i>зачётный</i>]]> проект. Веселитесь, малыши!",
+
+    //big_planet_name
+    "ADONSONIA: This massive sphere shall be known as... <![CDATA[<color=orange>The Big One</color>]]>!": "АДОНСОНИЯ: Эта огромная планета будет именоваться... <![CDATA[<color=orange>Здоровяк</color>]]>!",
+    "ALNUS: Is that all you could come up with?": "АЛНУС: Это все, что ты смогла придумать?",
+    "ADONSONIA: Alnus, aren't you always telling me to be more practical? This is just my (totally, <![CDATA[<i>entirely</i>]]> earnest) attempt to appease you.": 
+    "АДОНСОНИЯ：Алнус, разве ты не всегда советуешь мне быть практичнее? Это всего лишь моя (совершенно, <![CDATA[<i>совершенно</i>]]> искренняя）попытка тебя уважить.",
+    "DAUCUS: That should be easy to remember, I suppose.": "ДАУКУС: Думаю, это будет легко запомнить.",
+
+    //crystal_planet_name
+    "ALNUS: I have decided that the name of this planet shall be... <![CDATA[<color=orange>Shattered Geode</color>]]>!": 
+    "АЛНУС: Я решил, что эта планета будет называться... <![CDATA[<color=orange>Расколотая Жеода</color>]]>!",
+    "BETULA: That's an impressive name, Alnus!": "БЕТУЛА: Это впечатляющее название, Алнус!",
+    "ALNUS: This crystalline body is quite majestic. It only makes sense that it would receive a name of equal beauty!": 
+    "АЛНУС: Это кристаллическое тело поистине величественно. Вполне логично, что оно получило имя, столь же прекрасное!",
+    "ADONSONIA: Truly, you possess <![CDATA[<i>incredible</i>]]> humility. It is such a relief that you are in <![CDATA[<i>no way</i>]]> being strange about the name of this planet.": 
+    "АДОНСОНИЯ: Воистину, ты обладаешь <![CDATA[<i>невероятным</i>]]> смирением. Какое облегчение, что ты <![CDATA[<i>доволен</i>]]> этим названием.",
+
+    //ernesto_hint
+    "ORYZA: Imagine a point that exists at the average point of all star systems in this cluster.": "ОРИЗА: Представьте себе точку, которая находится в середине всех звёздных систем этого скопления.",
+    "ADONSONIA: A point? How would I imagine that? I propose that the average point is represented by our current class study specimen.": 
+    "АДОНСОНИЯ: Точку? Как я должна это представить? Я предлагаю, что средняя точка будет нашим текущим проектом.",
+    "ORYZA: Very well. Imagine this average point to be represented by an anglerfish named Ernesto.": 
+    "ОРИЗА: Хорошо. Представьте, что эту среднюю точку олицетворяет удильщик по имени Эрнесто.",
+    "ORYZA: Assume that Ernesto can only appear within the sphere of influence (which has a radius of 2500 meters) around <![CDATA[<Color=orange>]]>Heliocenter<![CDATA[</Color>]]>.": 
+    "ОРИЗА: Предположим, что Эрнесто может появляться только внутри сферы влияния (радиусом 2500 метров) вокруг <![CDATA[<Color=orange>]]>Гелиоцентра<![CDATA[</Color>]]>.",
+    "ADONSONIA: I never finished this mathematics problem that Oryza assigned to us. I don't like math, so I'm sending it to space. Farewell!": 
+    "АДОНСОНИЯ: Я так и не решила эту математическую задачу, которую нам задала Ориза. Я не люблю математику, так что отправляю её в космос в знак протеста. Прощайте!",
+    "ORYZA: If it means that you'll have more enthusiasm in this lesson, then we can make that addition.": 
+    "ОРИЗА: Если это повысит твой интерес к уроку, тогда мы можем ввести такое условие.",
+
+    //final_door_computer
+    "Project status: Requirements not met.": "Статус проекта: Требования не выполнены.",
+
+    //house_flavor_recording
+    "DAUCUS: Why are we keeping our beds here of all places? It's quite cold and not terribly comfortable.": "ДАУКУС: Почему мы держим кровати именно здесь? Здесь довольно холодно и не очень удобно.",
+    "ADONSONIA: It isn't that cold, Daucus. Since when were you so sensitive to the cold?": "АДОНСОНИЯ: Не так уж и холодно, Даукус. С каких это пор ты стал таким чувствительным к холоду?",
+    "ALNUS: I'm tempted to agree with Daucus. The orrery station has its own climate control — could we not just stay there?": 
+    "АЛНУС: Соглашусь с Даукусом. На планетарной станции есть собственный климат-контроль — не могли бы мы просто остаться там?",
+    "BETULA: We're meant to care for this system. How can we properly care for it if we're unwilling to even sleep in it!?": 
+    "БЕТУЛА: Мы должны заботиться об этой системе. Как мы можем заботиться о ней должным образом, если мы не хотим даже спать в ней!?",
+    "BETULA: Additionally, look above you! The view of the stars through the aurora is breathtaking!": "БЕТУЛА: И посмотрите наверх! Вид на звёзды через полярное сияние захватывает дух!",
+    "ALNUS: I suppose that much at least is true.": "АЛНУС: Хочу заметить, что хотя бы это верно.",
+    "...": "...",
+    "ADONSONIA: We should build a campfire.": "АДОНСОНИЯ: Нам нужно развести костёр.",
+    "BETULA: That's a wonderful idea! It would warm us, and we would maintain our view of the night sky.": "БЕТУЛА: Это замечательная идея! Он согреет нас, и мы сможем наблюдать ночное небо.",
+    "ALNUS: That... doesn't sound unpleasant, if I'm being honest.": "АЛНУС: Это... звучит не так уж плохо, если честно.",
+    "DAUCUS: I have some food we can roast if you all are willing to build the actual fire.": "ДАУКУС: У меня есть немного еды, которую мы можем поджарить, если вы готовы развести настоящий костер.",
+    "ADONSONIA: Then it's a deal! Let's get the fire started, everyone!": "АДОНСОНИЯ: Отлично! Давайте разожжём огонь, ребята!",
+
+    //platform_computer
+    "<![CDATA[<color=red>]]>WARNING:<![CDATA[</color>]]> THIS EXPERIMENTAL ORRERY IS NOW ACTIVE.\r\nUser is fully responsible for any damage caused by using this device. (You will break things.)": 
+    "<![CDATA[<color=red>]]>ВНИМАНИЕ:<![CDATA[</color>]]> ЭКСПЕРИМЕНТАЛЬНАЯ МОДЕЛЬ СИСТЕМЫ АКТИВИРОВАНА.\r\nПользователь несёт полную ответственность за любой ущерб, причинённый использованием этого устройства. (Вы можете что-то сломать.)",
+    "Space gear can now be re-equipped.": "Космическое снаряжение теперь можно снова надеть.",
+
+    //sand_planet_name
+    "BETULA: Daucus, have you decided on a name for this planet yet?": "БЕТУЛА: Даукус, ты уже выбрал название для этой планеты?",
+    "DAUCUS: <![CDATA[<color=orange>Daucus</color>]]>.": "ДАУКУС：<![CDATA[<color=orange>Даукус</color>]]>.",
+    "ADONSONIA: I know you like easy solutions, but won't it be a <![CDATA[<i>bit</i>]]> easy to mix up you and the planet?": 
+    "АДОНСОНИЯ: Я знаю, что ты любишь простые решения, но разве не будет <![CDATA[<i>довольно просто</i>]]> перепутать тебя и планету?",
+    "DAUCUS: Yes.": "ДАУКУС：Да.",
+    "ALNUS: ...I suppose that calling the planet <![CDATA[<color=orange>Daucus</color>]]> works as well as anything.": "АЛНУС: ...Полагаю, что назвать планету <![CDATA[<color=orange>Даукус</color>]]> не так уж плохо.",
+
+    //water_planet_name
+    "BETULA: I've decided to name this planet <![CDATA[<color=orange>Glacial Abyss!</color>]]>!": "БЕТУЛА: Я решила назвать эту планету <![CDATA[<color=orange>Ледяная Бездна!</color>]]>!",
+    "ADONSONIA: I like it! Clearly you do as well, if your enthusiasm is anything to go by.": "АДОНСОНИЯ: Мне нравится! Судя по твоему энтузиазму, тебе тоже.",
+    "BETULA: I should clarify. The first exclamation is actually part of the name, <![CDATA[<color=orange>Glacial Abyss!</color>]]>.": 
+    "БЕТУЛА: Хочу уточнить. Восклицательный знак — это часть названия: <![CDATA[<color=orange>Ледяная бездна!</color>]]>.",
+    "ALNUS: All things considered, that is not the worst planet name that has been chosen for this project.": 
+    "АЛНУС: Учитывая все обстоятельства, это не самое худшее название планеты, выбранное для этого проекта.",
+
+    //student_names
+    "Heliostudy team members": "Гелиоисследователи",
+    "Alnus": "Алнус",
+    "Betula": "Бетула",
+    "Daucus": "Даукус",
+    "Adonsonia": "Адонсония",
+
+    //teacher_outro_recording
+    "ORYZA: If you're hearing this, that must mean that you all successfully completed the requirements you set out for yourselves. Congratulations!": 
+    "ОРИЗА: Если вы слышите это, должно быть, вы все успешно выполнили требования, которые поставили перед собой. Поздравляю!",
+    "ORYZA: The task you were given was not an easy one. To complete it, you had to work very hard and work together. You've made your clan proud, and your project will demonstrate to all the other clans just how clever our little ones are.": 
+    "ОРИЗА: Задание, которое вам дали, было непростым. Чтобы выполнить его, вам пришлось приложить немало усилий и действовать сообща. Ваш клан гордится вами, и ваш проект продемонстрирует всем остальным кланам, насколько умны наши малыши.",
+    "ORYZA: Speaking of, there is one last thing you all must do before this system is ready to be presented at the festival.": 
+    "ОРИЗА: Кстати, есть ещё одна последняя вещь, которую вы все должны сделать, прежде чем эта система будет готова к презентации на фестивале.",
+    "ORYZA: Seeing as this entry is as much about all of you as it is about this educational tool, it's only fitting that you all leave a personal mark on it. Towards that end, I request that you all make self portraits and display them in this room!": 
+    "ОРИЗА: Поскольку эта запись касается не только учебного пособия, но и всех вас, вполне уместно, чтобы вы оставили в ней свой личный след. С этой целью я прошу вас всех сделать автопортреты и разместить их в этом зале!",
+    "ORYZA: We are all so proud of what you little ones have accomplished. We can't wait to see where your lives will take you in the future. For now though, it is about time that your journey led you all back to your homes and your warm beds!": 
+    "ОРИЗА: Мы все так гордимся тем, чего вы, малыши, достигли. Нам не терпится узнать, к чему приведет вас ваша жизнь. Но сейчас самое время вернуться в свои дома и теплые постели!",
+
+    //double_sand_req
+    "BETULA: Unburying this structure has me thinking; isn't it strange for only one planet in this system to have sand?": 
+    "БЕТУЛА: Раскопки этого сооружения заставили меня задуматься: не странно ли, что только на одной планете в этой системе есть песок?",
+    "ALNUS: I suppose so, but why are you mentioning this?": "АЛНУС: Возможно. Но что в этом такого?",
+    "BETULA: I think it may be a good fourth requirement that multiple planets have sand.": "БЕТУЛА: Я думаю, это может быть хорошим четвертым требованием, чтобы песок был не только на одной планете.",
+    "DAUCUS: That sounds pretty easy to me.": "ДАУКУС: По-моему, это звучит довольно просто.",
+    "ALNUS: Agreed. We'll notify our teacher of that being our fourth requirement, then.": "АЛНУС: Согласен. Мы сообщим нашей преподавательнице, что это наше четвертое требование.",
+    "ADONSONIA: If it keeps sand off of this planet and away from my pyramid, I'm all for it.": "АДОНСОНИЯ: Если это уберет песок с этой планеты и с моей пирамиды в частности, я только за.",
+    "BETULA: I'm still very sorry about that.": "БЕТУЛА: Я все еще очень сожалею об этом.",
+
+    //dried_seabed_req_recorder
+    "ALNUS: I maintain that the discussion of your idea did not require us to come <![CDATA[<i>here</i>]]>.": "АЛНУС: Хочу заметить, что обсуждение вашей идеи не требовало нашего присутствия <![CDATA[<i>здесь</i>]]>.",
+    "ADONSONIA: Don't worry. As long as there's water, we're fine. That brings me to what I actually wanted to discuss; I think our second requirement should be to have a planet with visible geothermal activity.": 
+    "АДОНСОНИЯ: Не волнуйтесь. Пока есть вода, всё в порядке. Это подводит меня к тому, что я, собственно, и хотела обсудить. Думаю, нашим вторым требованием должно быть наличие планеты с видимой геотермальной активностью.",
+    "BETULA: It is true that many star systems have planets with geothermal activity. What made you think of it?": "БЕТУЛА: Действительно, во многих звёздных системах есть планеты с геотермальной активностью. Что именно навело тебя на эту мысль?",
+    "ADONSONIA: When I drained the water from <![CDATA[<color=orange>Glacial Abyss!</color>]]> to flood this cave, I saw how interesting all of the geysers looked when freed from the ice.": 
+    "АДОНСОНИЯ: Когда я слила воду с <![CDATA[<color=orange>Ледяной бездны!</color>]]>, чтобы затопить эту пещеру, я увидела, как великолепно выглядят все гейзеры, освободившись ото льда.",
+    "DAUCUS: That sounds easy enough. Should we go ahead and send that requirement to Oryza?": "ДАУКУС: Звучит достаточно просто. Стоит ли нам отправить это требование Оризе?",
+    "ALNUS: If it will get us out of this cave faster, then yes, certainly.": "АЛНУС: Если это поможет нам быстрее выбраться из этой пещеры, то да, конечно.",
+
+    //final_location_req
+    "ORYZA: I thought that you little ones would be interested to see this: directly above you lies a safe way to view the layers of the planet's core!": 
+    "ОРИЗА: Я подумала, что вам, малышам, будет интересно это увидеть: прямо над вами находится безопасный способ увидеть слои ядра планеты!",
+    "ORYZA: Additionally, that door (at the end of the path behind you) is the final location that you will need to visit in order to submit your assignment. Think of it as your seventh requirement.": 
+    "ОРИЗА: Кроме того, эта дверь (в конце тропинки позади вас) — последнее место, которое вам нужно посетить, чтобы сдать своё задание. Считайте, что это ваше седьмое требование.",
+    "ALNUS: I do have a concern with this. I'm fairly certain that other requirements of ours will make it impossible for us to use the geysers and gain access to the core once we are ready to submit.": 
+    "АЛНУС: Я очень обеспокоен этим. Я почти уверен, что другие требования не позволят нам воспользоваться гейзерами и попасть к ядру.",
+    "ORYZA: That is an interesting situation. Unfortunately, I simply cannot allow you to change your requirements at this stage of the project, and you will need to be here to submit it. You all are very clever though, so I'm sure that you'll think of something!": 
+    "ОРИЗА: Это занимательная ситуация. К сожалению, я просто не могу позволить вам изменить ваши требования на данном этапе проекта, а также вам нужно будет присутствовать здесь, чтобы представить его. Вы все очень умны, поэтому я уверена, вы что-нибудь придумаете!",
+    "BETULA: It's quite interesting! I've never been to the core of a planet before!": "БЕТУЛА: Это  интересно! Я никогда раньше не была в центре планеты!",
+    "DAUCUS: Does that mean that we only need six other requirements in total?": "ДАУКУС: Означает ли это, что нам нужно всего шесть требований помимо этого?",
+    "ORYZA: I suppose that it would, yes.": "ОРИЗА: Полагаю, что да.",
+
+    //frozen_planet_req
+    "ADONSONIA: An interesting idea for our first requirement could be that one of the planets must have a large amount of solid ice on it.": 
+    "АДОНСОНИЯ: Интересной идеей для нашего первого требования могло бы стать то, что на одной из планет должно быть большое количество льда.",
+    "BETULA: That could be a good one! Star systems do tend to have a wide range of climates, so an icy body would demonstrate that.": 
+    "БЕТУЛА: Это было бы неплохо! Звёздные системы, как правило, имеют широкий диапазон климатических условий, поэтому ледяное тело было бы уместно.",
+    "ADONSONIA: Alright! I've gone ahead and let Oryza know that our first requirement will be to include a planet with ice.": 
+    "АДОНСОНИЯ: Хорошо! Я сообщу Оризе, что нашим первым требованием будет включить планету со льдом.",
+    "ALNUS: Wait, don't send that message yet! I was experimenting earlier, and there doesn't seem to be a way to re-freeze water in this system! Our star is too hot to allow water to re-freeze, even in the furthest orbit.": 
+    "АЛНУС: Подождите, пока не отправляйте это сообщение! Я экспериментировал ранее, и, похоже, нет способа повторно заморозить воду в этой системе! Наша звезда слишком горячая, чтобы вода могла повторно замёрзнуть, даже на самой отдалённой орбите.",
+    "ADONSONIA: That's inconvenient — I've already sent the message with the requirement. Is there some way that we can further reduce the heat reaching the planet?":
+    "АДОНСОНИЯ: Отстой — я уже отправила сообщение с требованием. Есть ли какой-нибудь способ еще ещё больше снизить количества тепла, достигающее планеты?",
+    "DAUCUS: Would it not be wise to wait for more people to give input before sending that message?": "ДАУКУС: Было бы разумнее подождать, пока остальные дадут ответ, прежде чем отправлять это сообщение.",
+
+
+    //middle_orbit_req
+    "DAUCUS: Has anyone had any ideas for our last requirement? We are approaching the deadline, so we should keep it simple.": 
+    "ДАУКУС: У кого-нибудь есть какие-нибудь идеи по нашему последнему требованию? У нас не так много времени, поэтому нам стоит сделать его попроще.",
+    "ADONSONIA: We haven't put any orbital restrictions on specific planets yet. Perhaps we could do something along those lines.": 
+    "АДОНСОНИЯ: Мы пока не вводили никаких ограничений по орбите для конкретных планет. Возможно, мы могли бы сделать что-то в этом роде.",
+    "ALNUS: It seems sensible to say that mass would gather towards the center of a naturally-occurring star system. Based on that, we could avoid leaving the largest planet in the farthest orbit.": 
+    "АЛНУС: Кажется разумным предположить, что в естественной звёздной системе масса будет собираться в центре. Исходя из этого, мы могли бы не размещать самую большую планету на самой отдалённой орбите.",
+    "BETULA: That is a fair idea! I'll inform Oryza of that being our final requirement.": "БЕТУЛА: Это прекрасная идея! Я сообщу Оризе, что это наше последнее требование.",
+
+    //opposite_sides_req_computer
+    "ADONSONIA: If you're reading this, then you've bested my little convergence puzzle. Nicely done! Bravo! (I'm being earnest, I did not make this puzzle to be easy).": 
+    "АДОНСОНИЯ: Если ты читаешь это, значит, ты разгадал мою маленькую головоломку. Отличная работа! Браво! (Без шуток, я серьезно старалась над этой головоломкой).",
+    "ADONSONIA: If you're wondering about the fifth requirement that I sent to Oryza, don't worry, it's not <![CDATA[<i>terribly</i>]]> bad. I figured that it didn't make sense for planets in the same orbit to be particularly close, so I said that any planets in the same orbit would be on opposite sides of the sun.": 
+    "АДОНСОНИЯ: Если тебя интересует пятое требование, которое я отправила Оризе, не волнуйся, оно не <![CDATA[<i>ужасно</i>]]> плохое. Я решила, что планетам, находящимся на одной орбите, не имеет смысла находиться слишком близко, поэтому я указала, что любые планеты, находящиеся на одной орбите, должны находиться по разные стороны от звезды.",
+    "ADONSONIA: Also, for the record, Daucus took part in my little prank too. Turns out that hacking all of the planet signals to make a harmony only costs a few salt-treats!": 
+    "АДОНСОНИЯ: К твоему сведению, Даукус тоже принял участие в моём маленьком розыгрыше. Оказалось, что взломать сигналы планет, чтобы они сложились в созвучие, стоит всего лишь несколько солёных крекеров!",
+
+    //warp_alignment_req
+    "DAUCUS: A fairly simple requirement would be to have our transmitter line up with one of our receivers.": 
+    "ДАУКУС: Довольно простым требованием было бы подключить наш передатчик к одному из наших приемников.",
+    "ALNUS: I'm not clear on how that demonstrates an understanding of star systems.": "АЛНУС: Мне не совсем ясно, как это демонстрирует наше понимание естественных звёздных систем.",
+    "DAUCUS: We've placed a number of different buildings on these planets, so it's already not a representation of a fully natural system. Given that, lining up the warp pads would demonstrate that we're considering how transport would work in the system.": 
+    "ДАУКУС: Мы разместили на этих планетах несколько зданий, так что это уже не соответствует естественной системе. Учитывая это, правильное расположение гиперплощадок показало бы, что мы понимаем, как будет работать транспорт в системе.",
+    "DAUCUS: Given that we only have the one transmitter, I think we can get away with lining up with whichever warp pad is most convenient.": 
+    "ДАУКУС: Учитывая, что у нас только один передатчик, я думаю, мы можем обойтись тем, что настроим его на наиболее удобный для нас приёмник.",
+    "ALNUS: That is a fair justification. I'll let our teacher know that our third requirement will be an aligned transmitter-receiver pair.": 
+    "АЛНУС: Это справедливое замечание. Я сообщу Оризе, что нашим третьим требованием будет согласованная пара передатчик-приёмник.",
+    "ADONSONIA: That's not a terribly natural requirement, Daucus. I'm surprised to hear that you're going against the grain like that. I like it!": 
+    "АДОНСОНИЯ: Это не совсем естественное требование, Даукус. Я удивлена, что ты вот так идёшь против правил. Мне это нравится!",
+    "BETULA: I was skeptical at first, but I do like your reasoning. I vote that we make this a requirement.": 
+    "БЕТУЛА: Сначала я отнеслась к этому скептически, но мне нравятся ваши рассуждения. Я голосую за то, чтобы мы сделали это обязательным требованием."
+  },
+
+    "ShipLogDictionary": {
+        //walker_jam5_planet1
+        "Signal Detector": "Детектор сигналов",
+        "A Nomai named Adonsonia created a puzzle involving detecting signals. She locked the fifth requirement for a project behind solving it.": "Номаи по имени Адонсония создала головоломку, связанную с обнаружением сигналов. Чтобы узнать пятое уловие проекта, необходимо решеть эту задачу.",
+        "Warp Transmitter": "Гиперпередатчик",
+        "A warp transmitter on the equator of Shattered Geode. A Nomai named Daucus modified it to link with both receivers on the other planets in the system.": "Гиперпередатчик на экваторе Расколотой Жеоды. Номаи по имени Даукус модифицировал его для связи с обоими приёмниками на других планетах системы.",
+        "Quantum Rock": "Квантовый осколок",
+        "A quantum rock located in a structure facing the sun on Shattered Geode. There is a large skylight in the ceiling. A Nomai named Betula theorized about where the stone might go when it disappears. The stone took a recorder with it when it disappeared.": "Квантовый осколок, расположенный в строении, обращённом к солнцу на Расколотой Жеоде. В потолке есть большое световое окно. Номаи по имени Бетула задалась вопросом: куда может деваться камень, когда он пропадает. Когда камень исчез, он забрал с собой записывающее устройство.",
+
+        //walker_jam5_planet2
+        "Tall Tower": "Высокая башня",
+        "A tall tower on the surface of The Big One. The planet's gravity is far too strong to reach the top.": "Высокая башня на поверхности Здоровяка. Гравитация планеты слишком сильна, чтобы добраться до вершины.",
+        "Ghost Matter Cave": "Пещера призрачной материи",
+        "A cave on the south pole of The Big One. The cave mouth is filled with ghost matter. A Nomai named Alnus noted that ghost matter can be neutralized with water.": "Пещера на южном полюсе Здоровяка. Вход в пещеру заполнен призрачной материей. Номаи по имени Алнус заметил, что призрачную материю можно нейтрализовать водой.",
+
+        //walker_jam5_planet3
+        "Buried Structure": "Закопанное сооружение",
+        "A mostly buried structure on the south pole of Daucus. A Nomai named Adonsonia theorized about whether the sand could be moved elsewhere.": "Почти полностью закопанное сооружение на южном полюсе Даукуса. Номаи по имени Адонсония задумалась о том, можно ли переместить песок в другое место.",
+        "Enclosed Structure": "Закрытое сооружение",
+        "I was able to access the rest of the structure by arriving via the warp receiver.": "Я смог получить доступ к остальной части конструкции, прибыв через гиперприёмник.",
+        "A structure built around a warp receiver on the equator of Daucus. The structure does not include a door.": "Сооружение, построенное вокруг гиперприёмника на экваторе Даукуса. В этом сооружении нет двери.",
+
+        //walker_jam5_planet4
+        "Subsurface Ocean": "Подземный океан",
+        "The ice on \"Glacial Abyss!\" is hollow and there is a subsurface ocean below it.": "Лёд на \"Ледяной бездне!\" полый, а под ним находится океан.",
+        "The ice on \"Glacial Abyss!\" is hollow and I was able to reach the subsurface ocean below it.": "Лёд на \"Ледяной бездне!\" полый, и я смог добраться до океана под ним.",
+        "Undersea Warp Receiver": "Подводный гиперприёмник",
+        "There is a warp receiver near the equator of \"Glacial Abyss!\" on the seabed under the ice.": "На морском дне подо льдом, в районе экватора «Ледяной бездны» находится гиперприёмник.",
+        "Geysers": "Гейзеры",
+        "Nomai noticed geysers beneath the ice on the seabed of \"Glacial Abyss!\" near the north pole. The flow of the geysers prevents entry. A Nomai named Alnus mentioned that thawing the planet had increased its geothermal activity.": "Номаи заметили гейзеры подо льдом на морском дне \"Ледяной бездны!\" недалеко от северного полюса. Поток гейзеров препятствует проникновению внутрь. Номаи по имени Алнус упомянул, что таяние планеты увеличило её геотермальную активность.",
+        "Planetary Core Display": "Дисплей планетарного ядра",
+        "Abyssal Core": "Ядро бездны",
+        "\"Glacial Abyss!\" has a hollow core connected to the geysers near the north pole. A Nomai teacher wanted her students to see something in the core.": "\"Ледяная бездна!\" имеет полую сердцевину, соединённую с гейзерами вблизи северного полюса. Учительница Номаи хотела, чтобы её подопечные увидели что-то в этой сердцевине.",
+        "\"Glacial Abyss!\" has a hollow core connected to the geysers near the north pole. I was able to reach the core by descending the geysers while the planet was frozen. It contains a viewing area for safely observing the layers of the planet's core.": "\"Ледяная бездна!\" имеет полую сердцевину, соединённую с гейзерами вблизи северного полюса. Я смог добраться до ядра, спустившись по гейзерам, когда планета была заморожена. Здесь есть смотровая площадка для безопасного наблюдения за слоями ядра планеты.",
+        "Core Orrery Warp Transmitter": "Главный гипер-передатчик планетария",
+        "Missing Orrery Warp Transmitter": "Пропавший гипер-передатчик планетария",
+        "The warp transmitter from \"Glacial Abyss!\" to the orrery station isn't on the north pole.": "Гиперпередатчик от \"Ледяной бездны!\" до планетарной станции находится не на северном полюсе.",
+        "The warp transmitter from \"Glacial Abyss!\" to the orrery station is in the core of the planet.": "Гиперпередатчик от \"Ледяной бездны!\" до планетарной станции находится в центре планеты.",
+        "The core of \"Glacial Abyss!\" contains a sealed door. A Nomai computer beside the door states that not all project requirements have been met.": "Ядро \"Ледяной бездны!\" содержит запечатанную дверь. Компьютер Номаи, подключенный к двери, сообщает, что не все требования проекта были выполнены",
+
+        //walker_jam5_platform
+        "Invitation Platform": "Пригласительная платформа",
+        "I found an invitation platform for a Nomai educational project and festival entry called the Heliostudy.": "Я нашёл пригласительную платформу к образовательному проекту Номаи для участия в фестивале под названием «Гелиоисследование».",
+        "The device on the platform can be activated by placing all of the orbs at approximately the same distance from the center. Additionally, the user must not be wearing any space gear. I was warned that the device is highly experimental and likely to break things.": "Устройство на платформе можно активировать, расположив все шары примерно на одинаковом расстоянии от центра. Кроме того, пользователь не должен быть одет в какое-либо космическое снаряжение. Меня предупредили, что устройство является экспериментальным и может что-нибудь сломать.",
+
+        //walker_jam5_station
+        "Orrery Station": "Планетарий",
+        "Heliostudy": "Гелиоисследование",
+        "The system with purple lines and a pale blue star was the subject of an educational project and Nomai festival entry known as the Heliostudy.": "Система с фиолетовыми линиями и бледно-голубой звездой стала предметом образовательного проекта и была представлена на фестивале Номаи под названием «Гелиоисследование».",
+        "The station contains an orrery of the system. A Nomai named Oryza claims the system is a scaled-up representation of the orrery.": "Станция содержит механическую модель системы. Номаи по имени Ориза утверждает, что модель является уменьшенным представлением системы.",
+        "There are warp transmitters connected to the station on the north pole of most planets in the system.": "На северном полюсе большинства планет имеются гиперпередатчики, подключённые к станции.",
+        "A group of Nomai students were assigned a project to prepare this star system to be their clan's entry in a festival. They had to propose 7 requirements that the system would fulfill in order to demonstrate their understanding of the mechanisms of natural star systems.": "Группе студентов Номаи было поручено подготовить эту звездную систему к участию их клана в фестивале. Они должны были предложить 7 требований, которым должна соответствовать система, чтобы продемонстрировать своё понимание работы естественных звёздных систем.",
+
+        "Frozen Planet": "Замёрзшая планета",
+        "First Requirement": "Первое требование",
+        "The first of 7 requirements that a Nomai project must meet.": "Первое из 7 требований, которым должен соответствовать проект Номаи.",
+        "By using another astral body's gravity to help me, I was able to reach the top of the tower.": "Используя гравитацию другого небесного тела, я смог добраться до вершины башни.",
+        "The first requirement is that solid ice must be present on a planet in the system. The system's star is too hot to allow ice to re-freeze even in the furthest orbit. A Nomai named Adonsonia wondered if there may be a way to reduce the heat a planet is exposed to while at the furthest orbit.": "Первое требование — на одной из планет системы должен быть лёд. Звезда системы слишком горячая, чтобы вода могла повторно замёрзнуть даже на самой дальней орбите. Номаи по имени Адонсония задалась вопросом, может ли быть способ ещё больше уменьшить тепло, достигающее планеты, пока она находится на самой дальней орбите.",
+        "Geothermal Activity": "Геотермальная активность",
+        "Second Requirement": "Второе требование",
+        "The second of 7 requirements that a Nomai project must meet.": "Второе из 7 требований, которым должен соответствовать проект Номаи.",
+        "By flooding the planet, I was able to safely enter the cave.": "Затопив планету, я смог безопасно проникнуть в пещеру.",
+        "The second requirement is that a planet must have exposed geothermal activity.": "Второе требование — одна из планет должна иметь геотермальную активность.",
+        "Warp Alignment": "Выравнивание гиперприёмников",
+        "Third Requirement": "Третье требование",
+        "The third of 7 requirements that a Nomai project must meet.": "Третье из 7 требований, которым должен соответствовать проект Номаи.",
+        "The third requirement is for the warp transmitter that does not lead to the orrery station to be aligned with at least one receiver.": "Третье требование — гиперпередатчик, который не ведёт к космической станции, должен быть выровнен по крайней мере с одним гиперприёмником.",
+        "Sand Distribution": "Распределение песка",
+        "Fourth Requirement": "Четвертое требование",
+        "The fourth of 7 requirements that a Nomai project must meet.": "Четвертое из 7 требований, которым должен соответствовать проект Номаи.",
+        "By siphoning the sand off the planet using the largest planet in the system, I was able to access the rest of the structure.": "Выкачав песок с планеты, используя самую большую планету в системе, я смог получить доступ к остальной части структуры.",
+        "The fourth requirement is that multiple planets in the system must have sand.": "Четвертое требование — на нескольких планетах в системе должен быть песок.",
+        "Orbit Sharing": "Совместное использование орбиты",
+        "Fifth Requirement": "Пятое требование",
+        "The fifth of 7 requirements that a Nomai project must meet.": "Пятое из 7 требований, которым должен соответствовать проект Номаи.",
+        "Simultaneously scanning all the astral bodies' signals activated a nearby Nomai computer.": "Одновременное сканирование сигналов всех астральных тел активировало находящийся поблизости компьютер Номаи.",
+        "The fifth requirement is that any two planets that share an orbit must be on opposite sides of the sun.": "Пятое требование — любые две планеты, находящиеся на одной орбите, должны находиться по разные стороны от звезды.",
+        "Mass Distribution": "Распределение массы",
+        "Sixth Requirement": "Шестое требование",
+        "The sixth of 7 requirements that a Nomai project must meet.": "Шестое из 7 требований, которым должен соответствовать проект Номаи.",
+        "By blocking the light from the sun, I was able to quantum entangle with the rock to reach a cave below the surface.": "Закрывшись от солнечного света, с помощью квантового осколка я смог добраться до пещеры под поверхностью.",
+        "The sixth requirement is that the largest planet in the system may not be in the furthest orbit.": "Шестое требование — самая большая планета в системе не может находиться на самой дальней орбите.",
+        "Final Location": "Конечное местоположение",
+        "Seventh Requirement": "Седьмое требование",
+        "The last of 7 requirements that a Nomai project must meet.": "Последнее из 7 требований, которым должен соответствовать проект Номаи.",
+        "Once all six requirements are met, the project must be submitted in the core of \"Glacial Abyss!\". A Nomai named Alnus pointed out that it is impossible to reach the core via the geysers while all the other project requirements are met.": "Как только будут выполнены все шесть требований, проект должен быть представлен в центре \"Ледяной бездны!\". Номаи по имени Алнус отметил, что выполнение всех требований проекта не позволяет добраться до центра через гейзеры."
+
+    },
+
+  "UIDictionary": {
+    "Walker_Jam5_Star": "Гелиоцентр",
+    "Walker_Jam5_Planet1": "Расколотая жеода",
+    "Walker_Jam5_Planet2": "Здоровяк",
+    "Walker_Jam5_Planet3": "Даукус",
+    "Walker_Jam5_Planet4": "Ледяная бездна!",
+    "Walker_Jam5_Station": "Планетарная станция",
+
+    "Walker_Jam5_Harmonic": "Гелиозвучие",
+    "Walker_Jam5_Star_Signal": "Гелиоцентр",
+    "Walker_Jam5_Planet1_Signal": "Расколотая жеода",
+    "Walker_Jam5_Planet2_Signal": "Здоровяк",
+    "Walker_Jam5_Planet3_Signal": "Даукус",
+    "Walker_Jam5_Planet4_Signal": "Ледяная бездна!",
+
+    "REQUIREMENTS_SCREEN_PROMPT": "1. Планета в системе имеет лёд.\n2. Планета имеет геотермальную активность.\n3. По крайней мере один гиперприёмник выровнен.\n4. Песок есть не только на одной планете.\n5. Любые планеты на одной орбите находятся по разные стороны от звезды.\n6. Самая большая планета не расположена на самой дальней орбите.",
+    "ORB_CANCEL_DRAG_PROMPT": "Отпустить сферу",
+    "DEVELOPER_COMMENTARY_WARP_PROMPT": "Перейти к комментарию",
+    "DEVELOPER_COMMENTARY_WARP_UNREAD_PROMPT": "Перейти к непрочитанному комментарию",
+    "DEVELOPER_COMMENTARY_READ_NOTIFICATION": "КОММЕНТАРИИ РАЗРАБОТЧИКОВ",
+
+    "Heliostudy contains developer commentary that can be enabled from the options menu.\n\nIt is highly recommended to complete the mod before enabling commentary.":
+    "Heliostudy содержит комментарии разработчиков, которые можно включить в меню настроек.\n\nНастоятельно рекомендуется завершить прохождение мода, прежде чем включать комментарии.",
+    "Enable developer commentary from the options menu!":"Включите комментарии разработчиков в меню настроек!",
+
+    "Developer Commentary":"Комментарии\nразработчиков",
+    "None":"Ничего",
+    "All":"Все",
+    "View commentary from the mod's developers. Use the Developer Commentary frequency on your signalscope to locate and warp to commentary. It is recommended that you finish the mod before enabling this option.":
+    "Просматривайте комментарии разработчиков мода. Сигналоскоп позволяет находить комментарии и перемещаться к ним. Рекомендуется завершить прохождение мода перед включением этой опции.",
+
+    "You are not real.":"Ты ненастоящий.",
+    "Heliostudy":"Гелиоисследование (Heliostudy)",
+    "Ernesto":"Эрнесто"
+
+  },
+
+  "AchievementTranslations": {
+  
+  }
+}
