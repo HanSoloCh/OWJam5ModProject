@@ -114,6 +114,16 @@
             }
         ]
     },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 100,
+                "reveals": [
+                    "Walker_Jam5_Station_Fact"
+                ]
+            }
+        ]
+    },
     "Spawn": {
         "playerSpawnPoints": [
           {

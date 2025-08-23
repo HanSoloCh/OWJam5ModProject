@@ -7,6 +7,11 @@
 		<Name>Orrery Station</Name>
 		<Curiosity>Walker_Jam5_Station_Orrery</Curiosity>
 		<IsCuriosity/>
+
+		<ExploreFact>
+			<ID>Walker_Jam5_Station_Fact</ID>
+			<Text>A Nomai space station overlooking the star system.</Text>
+		</ExploreFact>
 		
 		<ExploreFact>
 			<ID>Walker_Jam5_Station_Orrery_Fact</ID>
